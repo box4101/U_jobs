@@ -1,0 +1,33 @@
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+    $(function () {
+        $("#meta").load("/inc/meta.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
+        $("#header_info").load("/inc/header.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
+        $("#footer_info").load("/inc/footer.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
+    });
+</script>
+<div id="meta"></div>
+
+<body>
+    <div id="header_info"></div>
+
+    <section id="se01">
+        <div class="inner">
+            <div class="se01">1313</div>
+        </div>
+    </section>
+    <section id="se02">
+        <div class="inenr">
+            <div class="se02"></div>
+        </div>
+    </section>
+    <section id="se03">
+        <div class="inenr">
+            <div class="se03"></div>
+        </div>
+    </section>
+
+    <div id="footer_info"></div>
+</body>
+
+</html>

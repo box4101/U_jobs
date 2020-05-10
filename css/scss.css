@@ -1,0 +1,17 @@
+div#header_info { display: block; }
+
+section#se01 { display: block; }
+section#se01 div.inner { display: block; }
+section#se01 div.inner div.se01 { display: block; font-size: 33px; }
+
+section#se02 { display: block; }
+section#se02 div.inenr { display: block; }
+section#se02 div.inenr div.se02 { display: block; }
+
+section#se03 { display: block; }
+section#se03 div.inenr { display: block; }
+section#se03 div.inenr div.se03 { display: block; }
+
+div#footer_info { display: block; }
+
+/*# sourceMappingURL=scss.css.map */
