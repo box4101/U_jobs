@@ -1,9 +1,10 @@
 
 html {
 	font-family:'Noto Sans KR', NanumGothic, 'Malgun Gothic', sans-serif;
-	color: #555;
+	color: #333;
 	line-height: 1.2;
-	word-wrap: break-word;
+	font-weight: 500;
+	word-wrap: keep-all!important;
 }
 body {
 	background: #fff;
@@ -47,6 +48,7 @@ img {
 }
 a {
 	display: inline-block;
+	text-decoration: none;
 }
 button {
 	border: 0;

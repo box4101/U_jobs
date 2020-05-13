@@ -1,33 +1,347 @@
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script>
     $(function () {
         $("#meta").load("/inc/meta.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
         $("#header_info").load("/inc/header.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
         $("#footer_info").load("/inc/footer.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
     });
-</script>
-<div id="meta"></div>
+</script> -->
+
+
+<div id="meta">
+    <!DOCTYPE html>
+    <html lang="ko">
+    <!--  권장되는 방식 -->
+
+    <head style="overflow-y:hidden;">
+        <title>U잡스</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta property="og:title" content="U잡스">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="/img/logo.png">
+        <meta property="og:image:type" content="/image/png">
+        <meta property="og:image:width" content="173">
+        <meta property="og:image:height" content="65">
+        <meta property="og:description" content="">
+
+        <link rel="stylesheet" href="/css/@default.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+
+        <script src="https://kit.fontawesome.com/334d6efb93.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.easing.min.js"></script>
+        <script type="text/javascript" src="/js/slick.min.js"></script>
+        <script type="text/javascript" src="/js/swiper.min.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
+    </head>
+</div>
 
 <body>
-    <div id="header_info"></div>
+    <div id="header_info">
+        <div id="header">
+            <div class="inner">
+                <div class="header_top flex">
+                    <a href="#" class="top_search">프리랜서 찾기</a>
+                    <a href="#" class="top_search_right">기업고객이신가요? ⇢</a>
+                </div>
+                <ul class="util clear">
+                    <li>
+                        <a href="#" class="on">프로젝트 등록</a>
+                    </li>
+                    <li>
+                        <a href="#">로그인</a>
+                    </li>
+                    <li>
+                        <a href="#">회원가입</a>
+                    </li>
+                </ul>
+                <div class="main_txt">
+                    <img src="/img/bg_main_txt.png" alt="">
+                </div>
+                <div class="seach_wrap">
+                    <input type="text" placeholder="프로젝트 검색">
 
-    <section id="se01">
+                    <div class="search_btn">
+                        <a href="#">
+                            <img src="/img/search_btn.png" alt="프로젝트 맞춤 서비스">
+                        </a>
+                    </div>
+                </div>
+                <div class="header_bot">
+                    <h2>다양한 카테고리의 전문가를 만나보세요.</h2>
+                    <span class="sel">
+                        <em>
+                            <input type="radio" id="a1" name="chk"><label for="a1">프로젝트</label>
+                        </em>
+                        <em>
+                            <input type="radio" id="a2" name="chk"><label for="a2">프리랜서</label>
+                        </em>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sta">
         <div class="inner">
-            <div class="se01">1313</div>
+            <div class="wrap">
+                <article>
+                    <div class="pic">
+                        <img src="/img/sta01.png" alt="">
+                        <h2>
+                            애플리케이션
+                            개발
+                        </h2>
+                    </div>
+                </article>
+                <article>
+                    <div class="pic">
+                        <img src="/img/sta02.png" alt="">
+                        <h2>
+                            웹 개발
+                        </h2>
+                    </div>
+                </article>
+                <article>
+                    <div class="pic">
+                        <img src="/img/sta03.png" alt="">
+                        <h2>
+                            일반
+                            소프트웨어 개발
+                        </h2>
+                    </div>
+                </article>
+                <article>
+                    <div class="pic">
+                        <img src="/img/sta04.png" alt="">
+                        <h2>
+                            웹 디자인
+                        </h2>
+                    </div>
+                </article>
+                <article>
+                    <div class="pic">
+                        <img src="/img/sta05.png" alt="">
+                        <h2>
+                            커머스, 쇼핑몰
+                        </h2>
+                    </div>
+                </article>
+                <article>
+                    <div class="pic">
+                        <img src="/img/sta06.png" alt="">
+                        <h2>
+                            애플리케이션
+                            디자인
+                        </h2>
+                    </div>
+                </article>
+                <article>
+                    <div class="pic">
+                        <img src="/img/sta07.png" alt="">
+                        <h2>
+                            퍼블리싱
+                        </h2>
+                    </div>
+                </article>
+                <article>
+                    <div class="pic">
+                        <img src="/img/sta08.png" alt="">
+                        <h2>
+                            기타 개발
+                        </h2>
+                    </div>
+                </article>
+            </div>
         </div>
-    </section>
-    <section id="se02">
-        <div class="inenr">
-            <div class="se02"></div>
-        </div>
-    </section>
-    <section id="se03">
-        <div class="inenr">
-            <div class="se03"></div>
-        </div>
-    </section>
+    </div>
 
-    <div id="footer_info"></div>
+    <div id="spot">
+        <div class="inner">
+            <div class="top_tab_wrap">
+                <ul class="tab">
+                    <li><a href="#tab" class="on">진행 중 프로젝트</a></li>
+                    <li><a href="#tab">프리랜서 정보</a></li>
+                </ul>
+                <div class="use">
+                    <label><input id="check" type="checkbox"><i></i></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ad">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="no_flex">
+                        <div class="icon">
+                            <img src="/img/ad_icon01.png" alt="">
+                        </div>
+                        <h2>내년작업도 it잡스에서 할래요!</h2>
+                        <h3>
+                            꼼꼼하게 체크해서 수정해 주셨어요!
+                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                        </h3>
+                        <span class="date">2019.01.20</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="no_flex">
+                        <div class="icon">
+                            <img src="/img/ad_icon02.png" alt="">
+                        </div>
+                        <h2>인생샷 득템이요~</h2>
+                        <h3>
+                            꼼꼼하게 체크해서 수정해 주셨어요!
+                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                        </h3>
+                        <span class="date">2019.01.20</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="no_flex">
+                        <div class="icon">
+                            <img src="/img/ad_icon03.png" alt="">
+                        </div>
+                        <h2>정말 뜻깊은 작업이었습니다!</h2>
+                        <h3>
+                            꼼꼼하게 체크해서 수정해 주셨어요!
+                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                        </h3>
+                        <span class="date">2019.01.20</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="no_flex">
+                        <div class="icon">
+                            <img src="/img/ad_icon01.png" alt="">
+                        </div>
+                        <h2>정말 뜻깊은 작업이었습니다!</h2>
+                        <h3>
+                            꼼꼼하게 체크해서 수정해 주셨어요!
+                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                        </h3>
+                        <span class="date">2019.01.20</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="no_flex">
+                        <div class="icon">
+                            <img src="/img/ad_icon02.png" alt="">
+                        </div>
+                        <h2>정말 뜻깊은 작업이었습니다!</h2>
+                        <h3>
+                            꼼꼼하게 체크해서 수정해 주셨어요!
+                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                        </h3>
+                        <span class="date">2019.01.20</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="no_flex">
+                        <div class="icon">
+                            <img src="/img/ad_icon03.png" alt="">
+                        </div>
+                        <h2>정말 뜻깊은 작업이었습니다!</h2>
+                        <h3>
+                            꼼꼼하게 체크해서 수정해 주셨어요!
+                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                        </h3>
+                        <span class="date">2019.01.20</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="no_flex">
+                        <div class="icon">
+                            <img src="/img/ad_icon01.png" alt="">
+                        </div>
+                        <h2>정말 뜻깊은 작업이었습니다!</h2>
+                        <h3>
+                            꼼꼼하게 체크해서 수정해 주셨어요!
+                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                        </h3>
+                        <span class="date">2019.01.20</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="no_flex">
+                        <div class="icon">
+                            <img src="/img/ad_icon01.png" alt="">
+                        </div>
+                        <h2>정말 뜻깊은 작업이었습니다!</h2>
+                        <h3>
+                            꼼꼼하게 체크해서 수정해 주셨어요!
+                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                        </h3>
+                        <span class="date">2019.01.20</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="no_flex">
+                        <div class="icon">
+                            <img src="/img/ad_icon02.png" alt="">
+                        </div>
+                        <h2>내년작업도 it잡스에서 할래요!</h2>
+                        <h3>
+                            꼼꼼하게 체크해서 수정해 주셨어요!
+                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                        </h3>
+                        <span class="date">2019.01.20</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="no_flex">
+                        <div class="icon">
+                            <img src="/img/ad_icon03.png" alt="">
+                        </div>
+                        <h2>정말 뜻깊은 작업이었습니다!</h2>
+                        <h3>
+                            꼼꼼하게 체크해서 수정해 주셨어요!
+                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                        </h3>
+                        <span class="date">2019.01.20</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Scrollbar -->
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+
+        </div>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                scrollbar: '.swiper-scrollbar',
+                scrollbarHide: true,
+                slidesPerView: 'auto',
+                autospeed: 800,
+                speed: 2000,
+                centeredSlides: true,
+                spaceBetween: 30,
+                grabCursor: true,
+                autoplay: true,
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        </script>
+    </div>
+
+    <div id="ad_two">
+        
+    </div>
+    
+
+    <div id="footer_info">
+
+    </div>
+
 </body>
 
 </html>
