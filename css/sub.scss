@@ -1,0 +1,124 @@
+$yel : #f8a03c;
+
+@mixin text_hidden {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@mixin poa_left {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@mixin poa_top {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@mixin inner {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+div#sub_header {
+    border-bottom: 1px solid #dbdbdb;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
+
+    div.inner {
+        @include inner;
+        position: relative;
+        height: 70px;
+
+        h1.logo2 {
+            @include poa_top;
+            left: 0;
+
+            img {
+                opacity: 1;
+
+            }
+        }
+
+        ul#gnb {
+            position: absolute;
+            left: 210px;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+
+            li {
+                opacity: 1;
+                padding: 0 30px;
+                height: 100%;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    display: inline-block;
+                    font-size: 16px;
+                    color: #333333;
+                    opacity: 1;
+
+                }
+            }
+        }
+
+        ul.sub_login_menu {
+            opacity: 1;
+            position: absolute;
+            right: 65px;
+            @include poa_top;
+            display: flex;
+            align-items: center;
+            li {
+                opacity: 1;
+
+                a {
+                    opacity: 1;
+                    // display: inline-block;
+                    font-size: 14px;
+                    color: #333333;
+
+                    img {
+                        opacity: 1;
+                        vertical-align: text-top;
+
+                    }
+                }
+
+                &:nth-of-type(1){
+                    // margin-right: 10px;
+                    position: relative;
+                    top:3px;
+                }
+                &:nth-of-type(2){
+                    display: inline-block;
+                    padding: 0 15px;
+                    border-right: 1px solid #c5c5c5;
+
+                }
+                &:nth-of-type(3){
+                    display: inline-block;
+                    padding: 0 15px;
+
+                }
+            }
+        }
+
+        div.all_menu {
+            @include poa_top;
+            right: 0;
+            top:54%;
+            img {
+                opacity: 1;
+
+            }
+        }
+    }
+}
