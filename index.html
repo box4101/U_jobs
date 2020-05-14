@@ -41,7 +41,74 @@
 </head>
 
 <body>
+
     <div id="header_info">
+        <nav id="navi">
+            <div class="project">
+                <ul>
+                    <h2>최근 본 프로젝트</h2>
+                    <li>
+                        <a href="#" class="on">비상주 오프라인 매장</a>
+                    </li>
+                    <li>
+                        <a href="#">안드로이드 프론트</a>
+                    </li>
+                    <li>
+                        <a href="#">비상주 오프라인 매장</a>
+                    </li>
+                    <li>
+                        <a href="#">인천국제공항</a>
+                    </li>
+                </ul>
+                <ul>
+                    <h2>최근 본 프리랜서</h2>
+                    <li>
+                        <a href="#" class="on">김철수</a>
+                    </li>
+                    <li>
+                        <a href="#">홍길동</a>
+                    </li>
+                    <li>
+                        <a href="#">비상주</a>
+                    </li>
+                    <li>
+                        <a href="#">김길동</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="top_btn">
+                <a href="#">
+                    TOP
+                </a>
+            </div>
+        </nav>
+
+        <script>
+            $(function () {
+
+                $(window).scroll(function () {
+                    var scroll = $(this).scrollTop();
+                    var navi_top = $("#navi").offset().top;
+
+                    console.log(scroll);
+                    console.log(navi_top);
+
+                    if (scroll > 627) {
+                        $("#navi").css({
+                            "position": "fixed",
+                            "top": "20px"
+                        })
+                    } else {
+                        $("#navi").css({
+                            "position": "absolute",
+                            "top": "auto"
+                        })
+                    }
+                })
+
+            })
+        </script>
+
         <div id="header">
             <div class="inner">
                 <div class="header_top flex">
@@ -176,7 +243,6 @@
             </div>
         </div>
     </div>
-
 
     <div id="profile_wrap">
         <div class="inner">
