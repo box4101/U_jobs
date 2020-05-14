@@ -1,5 +1,9 @@
-body {
-  min-height: 4000px;
+$yel : #f8a03c;
+
+@mixin text_hidden {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 @mixin poa_left {
@@ -22,6 +26,13 @@ div#header_info {
       position: relative;
       @include inner;
       height: 612px;
+
+      h1.logo {
+        position: absolute;
+        top: 66px;
+
+        img {}
+      }
 
       div.header_top.flex {
         height: 50px;
@@ -110,7 +121,7 @@ div#header_info {
       div.seach_wrap {
         @include poa_left;
         top: 315px;
-        width: 650px;
+        width: 660px;
 
         input {
           position: relative;
@@ -124,6 +135,7 @@ div#header_info {
           line-height: 1;
           color: #222;
           opacity: 0.53;
+          box-sizing: border-box;
           letter-spacing: -2px;
 
         }
@@ -177,7 +189,7 @@ div#header_info {
           em {
             opacity: 1;
             display: inline-block;
-            margin-right: 10px;
+            margin-right: 17px;
 
             input {
               opacity: 1;
@@ -187,12 +199,13 @@ div#header_info {
                 width: 27px;
                 height: 37px;
                 vertical-align: middle;
-                padding-left: 27px;
+                padding-left: 32px;
                 font-size: 16px;
                 font-style: initial;
                 font-weight: 700;
                 background: url(/img/input_check_on.png) no-repeat center/contain;
                 background-position: left;
+                color: #333333;
               }
             }
 
@@ -202,11 +215,12 @@ div#header_info {
               height: 37px;
               vertical-align: middle;
               background: url(/img/input_check_off.png) no-repeat center/contain;
-              padding-left: 27px;
+              padding-left: 32px;
               background-position: left;
               font-size: 16px;
               font-style: initial;
               font-weight: 700;
+              color: #999999;
             }
 
           }
@@ -224,11 +238,13 @@ div#profile_wrap {
     opacity: 1;
     opacity: 1;
     padding: 35px 0;
+    padding-bottom: 0;
 
     h1 {
       opacity: 1;
       opacity: 1;
       font-size: 21px;
+      font-weight: 400;
     }
 
     div.wrap {
@@ -256,10 +272,11 @@ div#profile_wrap {
           box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
         }
 
-        article:nth-of-type(n){
+        article:nth-of-type(n) {
           margin-right: 2%;
         }
-        article:nth-of-type(2n){
+
+        article:nth-of-type(2n) {
           margin-right: 0;
           width: 50%;
         }
@@ -330,6 +347,7 @@ div#profile_wrap {
 
             span.date {
               font-size: 13px;
+              color: #666666;
             }
           }
         }
@@ -349,9 +367,12 @@ div#profile_wrap {
               margin-bottom: 5px;
 
               a {
-                color: #555555;
+                color: #707070;
                 font-size: 15px;
-                letter-spacing: -0.1px;
+                letter-spacing: -0.5px;
+                font-weight: 400;
+                width: 343px;
+                @include text_hidden;
               }
             }
           }
@@ -364,7 +385,7 @@ div#profile_wrap {
           top: 95px;
 
           li {
-            width: 140px;
+            width: 160px;
             height: 40px;
             border: 1px solid #ddd;
             border-radius: 7px;
@@ -373,7 +394,19 @@ div#profile_wrap {
             box-sizing: border-box;
             padding: 5px 15px;
 
+            &:hover {
+              background: $yel;
+              color: #ffffff;
 
+              a,
+              span {
+                color: #ffffff;
+
+                &::after {
+                  color: #ffffff;
+                }
+              }
+            }
 
             a {
               float: left;
@@ -382,15 +415,16 @@ div#profile_wrap {
               color: #303030;
               font-weight: bold;
 
+
               span {
                 float: right;
                 position: absolute;
                 right: 12px;
-                color:#f8a03c;
+                color: #f8a03c;
 
                 &::after {
                   content: "건";
-                  color:#999999;
+                  color: #999999;
                 }
 
               }
@@ -407,7 +441,7 @@ div#profile_wrap {
 
         .area {
           display: inline-block;
-          margin-top: 13px;
+          margin-top: 22px;
 
           .area1 {
             border: 1px solid;
@@ -422,12 +456,12 @@ div#profile_wrap {
 
           span.area2 {
             font-size: 14px;
-
+            color: #666666;
           }
         }
 
         div.skill {
-          margin-top: 22px;
+          margin-top: 26px;
 
           div {
             float: left;
@@ -437,13 +471,19 @@ div#profile_wrap {
             padding: 8px 20px;
             border-radius: 5px;
             font-size: 12px;
-
+            color: #666666;
+            margin-bottom: 15px;
           }
 
           &::after {
+            width: 23px;
+            height: 10px;
+            position: relative;
+            top: 5px;
             content: "";
-            display: block;
+            display: inline-block;
             clear: both;
+            background: url(/img/card_more.png)no-repeat;
           }
         }
       }
@@ -477,6 +517,12 @@ div#sta {
         box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
         border-radius: 4px;
         flex: 1;
+        transition: all 0.2s;
+
+        &:hover {
+          border: 1px solid $yel;
+          box-sizing: border-box;
+        }
 
         div.pic {
           opacity: 1;
@@ -492,6 +538,7 @@ div#sta {
             margin-top: 22px;
             color: #666666;
             line-height: 1.4;
+            font-weight: 400;
           }
         }
       }
@@ -527,7 +574,6 @@ div#spot {
             text-align: center;
             background: #fff;
             font-size: 16px;
-            font-weight: 700;
             border: 1px solid #dfdfdf;
             border-radius: 5px;
           }
@@ -542,6 +588,8 @@ div#spot {
 
       div.use {
         opacity: 1;
+        position: relative;
+        top: 9px;
 
         label {
           opacity: 1;
@@ -598,7 +646,7 @@ div#spot {
 }
 
 #ad {
-  margin: 105px 0;
+  margin: 75px 0;
   height: 340px;
   background: url(/img/bg_ad.png)no-repeat center/cover;
 
@@ -607,7 +655,7 @@ div#spot {
     height: 300px;
     margin: 20px auto;
     position: relative;
-    transform: translateY(230px);
+    transform: translateY(242px);
 
     div.swiper-slide {
       opacity: 1;
@@ -619,8 +667,8 @@ div#spot {
 
         div.icon {
           position: relative;
-          top: -16px;
-          left: -120px;
+          top: -7px;
+          left: -121px;
           opacity: 1;
 
           img {
@@ -630,15 +678,17 @@ div#spot {
 
         h2 {
           opacity: 1;
-          font-size: 19px;
-          margin-bottom: 15px;
+          font-size: 18px;
+          margin-bottom: 16px;
+          color: #363636;
         }
 
         h3 {
-          font-size: 14px;
+          font-size: 15px;
           line-height: 1.5;
           color: #363636;
           opacity: 0.6;
+          letter-spacing: -1px;
           word-break: keep-all;
         }
 
@@ -677,10 +727,16 @@ div#spot {
     opacity: 1;
   }
 
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+
+  }
+
   .swiper-container-horizontal>.swiper-pagination-bullets,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
-    bottom: 67px;
+    bottom: 40px;
   }
 
   .swiper-pagination-bullet-active {
@@ -725,17 +781,17 @@ div#notice_wrap {
           a {
             opacity: 1;
             display: inline-block;
-            color: #333333;
+            color: #404342;
             max-width: 270px;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
+            @include text_hidden;
+            font-weight: 400;
           }
 
           h2 {
             opacity: 1;
-            font-size: 18px;
+            font-size: 19px;
             margin-bottom: 23px;
+            font-weight: bold;
           }
 
           ul {
@@ -762,7 +818,6 @@ div#notice_wrap {
 div#banner {
   border-top: 1px solid #dbdbdb;
   border-bottom: 1px solid #dbdbdb;
-  height: 80px;
   padding: 25px 0;
   box-sizing: border-box;
   background: #f8f9fa;
@@ -779,6 +834,10 @@ div#banner {
       overflow: hidden;
 
       div.swiper-wrapper {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
         div.swiper-slide {
           display: flex;
           align-items: center;
@@ -814,9 +873,7 @@ div.footer_top {
         a {
           opacity: 1;
           font-size: 14px;
-          font-size: 15px;
           color: #333333;
-          font-weight: bold;
           padding: 0 24px;
           border-right: 1px solid #aaa;
         }
@@ -825,6 +882,106 @@ div.footer_top {
           border: none;
         }
       }
+    }
+  }
+}
+
+div.footer_inner {
+  opacity: 1;
+
+  div.inner {
+    @include inner;
+    opacity: 1;
+    padding: 80px 0;
+
+    div.wrap {
+      opacity: 1;
+      display: flex;
+      justify-content: space-between;
+
+      article {
+        opacity: 1;
+
+        div.f_logo {
+          opacity: 1;
+          img {
+            opacity: 1;
+
+          }
+        }
+
+        address {
+          opacity: 1;
+          margin-top: 20px;
+          color: #999999;
+          font-style: normal;
+          line-height: 1.4;
+          font-size: 15px;
+        }
+      }
+
+      article.right {
+        opacity: 1;
+        padding-left: 60px;
+        border-left: 1px solid #dbdbdb;
+    
+        h2 {
+          font-size: 18px;
+          font-weight: bold;
+          margin-bottom: 20px;
+          letter-spacing: -1px;
+        }
+      
+        ul.sns {
+          opacity: 1;
+          display: flex;
+          margin-bottom: 26px;
+          li {
+
+            &:nth-of-type(1){
+              padding-left: 0;
+            }
+            opacity: 1;
+            padding: 0 6px;
+            a {
+              opacity: 1;
+              img {
+                opacity: 1;
+      
+              }
+            }
+          }
+        }
+      
+        div.phone {
+          opacity: 1;
+          display: flex;
+          align-items: center;
+          img {
+            display: inline-block;
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+div.footer_bottom {
+  padding: 27px 0;
+  background: #f8f9fa;
+  div.inner {
+    p {
+      margin-bottom: 20px;
+      color: #999999;
+      text-align:center;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    p.copy {
+      font-size: 14px;
+      color: #dcdcdc;
     }
   }
 }
