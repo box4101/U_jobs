@@ -322,6 +322,21 @@ div#profile_wrap {
             opacity: 1;
             margin-left: 17px;
 
+            .psb{
+              display: inline-block;
+              font-size: 12px;
+              height: 20px;
+              color: #d62d2d;
+              font-weight: 500;
+              padding: 8px 6px;
+              border: 1px solid #d62d2d;
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+              letter-spacing: -0.4px;
+              margin-bottom: 5px;
+            }
+
             h2 {
               opacity: 1;
               font-size: 22px;
@@ -348,17 +363,57 @@ div#profile_wrap {
               opacity: 1;
               margin-top: 7px;
               display: inline-block;
-              padding: 3px 8px;
-              background: #6876b5;
+              /* padding: 3px 8px; */
+              /* background: #6876b5; */
               color: #fff;
               font-size: 14.5px;
+              color: #f8a03c;
               border-radius: 5px;
 
             }
 
             span.date {
-              font-size: 13px;
+              position: relative;
+              font-size: 14px;
               color: #666666;
+              position: relative;
+              margin-left: 6px;
+              top: -0.5px;
+
+              &::after{
+                position: absolute;
+                display: inline-block;
+                content: '';
+                width: 1px;
+                height: 10px;
+                background: #dddddd;
+                top: 52%;
+                transform: translateY(-50%);
+                left: -5px;
+              }
+              &::before{
+                position: absolute;
+                display: inline-block;
+                content: '';
+                width: 1px;
+                height: 10px;
+                background: #dddddd;
+                top: 52%;
+                transform: translateY(-50%);
+                right: -5px;
+              }
+            }
+
+            span.dif{
+              display: inline-block;
+              position: relative;
+              top: 5px;
+              margin-left: 12px;
+              img{
+                opacity: 1;
+                display: inline-block;
+                margin: 0 1px
+              }
             }
           }
         }
@@ -588,6 +643,13 @@ div#spot {
         li {
           opacity: 1;
 
+          &:first-of-type a{
+             border-radius: 7px 0 0 7px;
+          }
+          &:last-of-type a{
+            border-radius: 0 7px 7px 0;
+          }
+
           a {
             opacity: 1;
             display: inline-block;
@@ -597,7 +659,7 @@ div#spot {
             background: #fff;
             font-size: 16px;
             border: 1px solid #dfdfdf;
-            border-radius: 5px;
+            padding: 15px 38px;
           }
 
           a.on {
@@ -1017,10 +1079,29 @@ div.footer_bottom {
 
 nav#navi {
   position: absolute;
-  bottom: -483px;
+  top:628px;
   z-index: 999;
   left: 50%;
   transform: translateX(619px);
+
+  .banner{
+      opacity: 1;
+      width: 100%;
+      margin: 15px 0;
+    
+      opacity: 1;
+      li{
+        opacity: 1;
+        a{
+          width: 100%;
+          display: inline-block;
+          img{
+            opacity: 1;
+            width: 100%;
+          }
+        }
+      }
+  }
 
   div.project {
     opacity: 1;
