@@ -17,6 +17,12 @@ $yel : #f8a03c;
   margin: 0 auto;
 }
 
+@mixin text_line {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 div#header_info {
   position: relative;
 
@@ -261,6 +267,7 @@ div#profile_wrap {
         position: relative;
         width: 48%;
         padding: 27px 36px;
+        padding-bottom: 10px;
         // height: 425px;
         border: 1px solid #dbdbdb;
         border-radius: 13px;
@@ -291,7 +298,8 @@ div#profile_wrap {
           padding-bottom: 18px;
           border-bottom: 1px solid #dbdbdb;
           margin-bottom: 19px;
-
+          font-weight: bold;
+          @include text_line;
         }
 
         div.profile {
@@ -319,6 +327,7 @@ div#profile_wrap {
               font-size: 22px;
               font-weight: 500;
               letter-spacing: -1.1px;
+              cursor: pointer;
 
               span {
                 opacity: 1;
@@ -360,6 +369,7 @@ div#profile_wrap {
           h2 {
             font-size: 17px;
             margin-bottom: 4px;
+            font-weight: 500;
           }
 
           .mwList {
@@ -415,7 +425,7 @@ div#profile_wrap {
               line-height: 30px;
               font-size: 14px;
               color: #303030;
-              font-weight: bold;
+              font-weight: 400;
 
 
               span {
@@ -423,10 +433,12 @@ div#profile_wrap {
                 position: absolute;
                 right: 12px;
                 color: #f8a03c;
+                font-weight: bold;
 
                 &::after {
                   content: "건";
                   color: #999999;
+                  font-weight: 400;
                 }
 
               }
@@ -443,7 +455,7 @@ div#profile_wrap {
 
         .area {
           display: inline-block;
-          margin-top: 22px;
+          margin-top: 14px;
 
           .area1 {
             border: 1px solid;
@@ -463,29 +475,37 @@ div#profile_wrap {
         }
 
         div.skill {
-          margin-top: 26px;
+          margin-top: 21px;
+          overflow: hidden;
+          height: 78px;
+
+
+          .more {
+            background: #ffffff;
+          }
 
           div {
             float: left;
             display: block;
             margin-right: 9px;
             background: #eee;
-            padding: 8px 20px;
+            padding: 7px 17px;
             border-radius: 5px;
             font-size: 12px;
             color: #666666;
-            margin-bottom: 15px;
+            margin-bottom: 11px;
+            font-weight: bold;
           }
 
           &::after {
-            width: 23px;
-            height: 10px;
-            position: relative;
-            top: 5px;
-            content: "";
-            display: inline-block;
-            clear: both;
-            background: url(/img/card_more.png)no-repeat;
+            // width: 23px;
+            // height: 10px;
+            // position: relative;
+            // top: 5px;
+            // content: "";
+            // display: inline-block;
+            // clear: both;
+            // background: url(/img/card_more.png)no-repeat;
           }
         }
       }
@@ -998,8 +1018,9 @@ div.footer_bottom {
 nav#navi {
   position: absolute;
   bottom: -483px;
-  right: 140px;
   z-index: 999;
+  left: 50%;
+  transform: translateX(619px);
 
   div.project {
     opacity: 1;

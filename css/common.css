@@ -2409,3 +2409,7 @@ button {
 	display: inline-block;
 	margin-left: 4px;
 }
+
+.hidden{
+	display: none;
+}
