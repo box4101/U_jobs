@@ -2413,3 +2413,25 @@ button {
 .hidden{
 	display: none;
 }
+
+/* 상세검색 - 직접입력 타입(경력,나이,연봉) */
+.ttpInptTyp {padding:0 10px; margin-bottom:10px;}
+.ttpInptTyp fieldset {padding:11px 5px 0 5px; border-top:1px solid #e0e2e6;}
+.ttpInptTyp .inptBx {float:left; width:43px; height:32px; padding:7px 7px 6px 7px; line-height:13px; border:1px solid #ddd; box-sizing:border-box; text-align:center; vertical-align:middle;}
+.ttpInptTyp .inptBx input[type="text"] {width:15px; margin-top:1px;}
+.ttpInptTyp .inptBx .tailLb {display:inline-block; font-size:13px; line-height:1; color:#666; letter-spacing: -1px;}
+.ttpInptTyp input[type="text"] {float:left; width:32px; color:#333; font-size:12px; vertical-align:top; box-sizing:border-box;}
+.ttpInptTyp input[type="text"].inptBx {padding:9px 0 8px 0;}
+.ttpInptTyp .unit{float:left; width:19px; padding-top:9px; vertical-align:middle; font-size:13px; line-height:1; color:#333; text-align:center;}
+.ttpInptTyp button {float:left; width:30px; height:32px; margin-left:4px; border:1px solid #e5e5e5; background:#f5f7fa;}
+.ttpInptTyp button:before {display:inline-block; content:""; width:17px; height:17px; background:url("/content/images/ver_1/jobs/icon_ttp.png?v=20190610") no-repeat 0 -33px; vertical-align:middle;}
+.ttpInptTyp.ttpAgeTyp {margin-bottom:8px;}
+.ttpInptTyp.ttpAgeTyp fieldset {padding:0 0 17px 5px; border-top:0; border-bottom:1px solid #e0e2e6;}
+.ttpInptTyp.ttpPayTyp {padding:0;}
+.ttpInptTyp.ttpPayTyp fieldset {margin:20px 10px 0 5px; padding:15px 0 0 4px;} 
+.ttpInptTyp.ttpPayTyp .unit {width:25px;}
+.ttpInptTyp.ttpPayTyp .inptBx {position:relative; width:183px; height:auto; padding:7px 12px 6px 12px;}
+.ttpInptTyp.ttpPayTyp .inptBx input[type="text"] {width:125px; margin-top:0; padding:3px 0 4px 0; font-size:13px;}
+.ttpInptTyp.ttpPayTyp .inptBx label {position:absolute; top:12px; left:12px; font-size:13px; color:#999;}
+.ttpInptTyp.ttpPayTyp .inptBx .tailLb {padding-top:5px;}
+.ttpInptTyp.ttpPayTyp button {width:40px; height:39px;}

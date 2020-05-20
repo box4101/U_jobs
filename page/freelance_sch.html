@@ -79,7 +79,7 @@
         </div>
     </div>
 
-    <nav id="navi">
+    <nav id="navi" style="top:186px">
         <div class="project">
             <ul>
                 <h2>최근 본 프로젝트</h2>
@@ -112,12 +112,51 @@
                 </li>
             </ul>
         </div>
+        <ul class="banner">
+            <li>
+                <a href="#">
+                    <img src="/img/navi_banner01.png" alt="네비배너1">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/img/navi_banner02.png" alt="네비배너2">
+                </a>
+            </li>
+        </ul>
         <div class="top_btn">
             <a href="#">
                 TOP
             </a>
         </div>
+
     </nav>
+
+    <script>
+        $(function () {
+
+            $(window).scroll(function () {
+                var scroll = $(this).scrollTop();
+                var navi_top = $("#navi").offset().top;
+
+                console.log(scroll);
+                console.log(navi_top);
+
+                if (scroll > 186) {
+                    $("#navi").css({
+                        "position": "fixed",
+                        "top": "20px"
+                    })
+                } else {
+                    $("#navi").css({
+                        "position": "absolute",
+                        "top": "186px"
+                    })
+                }
+            })
+
+        })
+    </script>
 
     <div id="sub_contents">
         <div class="sub_tit">
@@ -131,7 +170,7 @@
                 <div class="left_menu">
                     <ul>
                         <li>
-                            <a href="#">프리랜서 검색</a>
+                            <a href="#" class="on">프리랜서 검색</a>
                             <ul class="sub_menu">
                                 <li><a href="#">관심 프리랜서</a></li>
                                 <li><a href="#">오늘 본 프리랜서</a></li>
@@ -139,23 +178,310 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">프리랜서 검색</a>
+                            <a href="#">인터뷰 요청 프리랜서</a>
                         </li>
                         <li>
-                            <a href="#">프리랜서 검색</a>
+                            <a href="#">인터뷰 예약 프리랜서</a>
                         </li>
                         <li>
-                            <a href="#">프리랜서 검색</a>
+                            <a href="#">추천받은 프리랜서</a>
                         </li>
                         <li>
-                            <a href="#">프리랜서 검색</a>
+                            <a href="#">FAQ</a>
                         </li>
-                        <li>
-                            <a href="#">프리랜서 검색</a>
-                        </li>
+
+                        <div class="ple_sch">
+                            <a href="#">
+                                <img src="/img/ple_sch.png" alt="">
+                            </a>
+                        </div>
                     </ul>
                 </div>
-                <div class="content_info"></div>
+                <div class="content_info">
+                    <div class="content">
+                        <div class="custom_sch">
+                            <ul class="custom_tab">
+                                <li>
+                                    <a href="#" class="on">맞춤검색</a>
+                                </li>
+                                <li>
+                                    <a href="#">AI검색</a>
+                                </li>
+                                <li>
+                                    <a href="#">동영상 인터뷰 인재</a>
+                                </li>
+                                <li>
+                                    <a href="#">추천인재</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <script>
+                            $(function () {
+                                const menu = $(".custom_tab");
+                                const menu_li = $(".custom_tab li");
+                                const menu_li_a = $(".custom_tab li a");
+                                const hidden = $(".hidden");
+
+                                $("#tab1").show();
+
+                                menu_li.on("click", function (e) {
+                                    e.preventDefault();
+
+                                    menu_li_a.removeClass("on");
+                                    $(this).find("a").addClass("on");
+
+                                    let target = $(this).find("a").attr("href");
+                                    hidden.fadeOut();
+                                    $(target).fadeIn(400);
+                                });
+                            });
+                        </script>
+
+                        <h1 class="custom_tit">
+                            <span class="left">
+                                맞춤검색
+                            </span>
+                            <span class="right">
+                                <span class="rec">
+                                    최근 본 프리랜서
+                                    <select name="" id="">
+                                        <option value="">11</option>
+                                    </select>
+                                </span><span class="rec_save">
+                                    최근검색/저장한 조건
+                                    <select name="" id="">
+                                        <option value="">11</option>
+                                    </select>
+                                </span>
+                                <span class="url">
+                                    <a href="#">
+                                        <img src="/img/custom_url.png" alt="url 복사">
+                                    </a>
+                                </span>
+                            </span>
+                        </h1>
+
+                        <div class="firstFloor">
+                            <dl>
+                                <dt>
+                                    <button>직무</button>
+                                </dt>
+                                <dd>
+                                    <div class="nano">
+                                        <ul>
+                                            <li>
+                                                <a href="#">웹프로그래머</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">응용프로그래머</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">시스템프로그래머</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="on">DBA·데이터베이스</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">네트워크·서버·보안</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">웹기획·PM</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">웹마케팅</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">컨텐츠·사이트운영</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">HTML·퍼블리싱
+                                                    ·UI개발</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <button>경력</button>
+                                </dt>
+                                <dd>
+                                    <div class="nano">
+                                        <ul>
+                                            <li>
+                                                <a href="#">20년~</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">15년~20년</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="focus">10~15년</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">5~10년</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">3~5년</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">1~3년</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">신입</a>
+                                            </li>
+
+                                            <div class="ttput">
+                                                <input type="text" class="short">
+                                                ~
+                                                <input type="text" class="short">
+                                                년
+                                                <span class="sch">
+                                                    <a href="#">
+                                                        <img src="/img/tt_sch.png" alt="">
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <button>나이/성별</button>
+                                </dt>
+                                <dd>
+                                    <div class="nano">
+                                        <ul>
+                                            <li>
+                                                <a href="#">51세 이상</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">41~50세</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">36~40세</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">31~35세</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="focus">26~30세</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">20~25세</a>
+                                            </li>
+                                            <div class="ttput">
+                                                <input type="text" class="short">
+                                                ~
+                                                <input type="text" class="short">
+                                                세
+                                                <span class="sch">
+                                                    <a href="#">
+                                                        <img src="/img/tt_sch.png" alt="">
+                                                    </a>
+                                                </span>
+                                            </div>
+
+                                            <div class="tt_gender">
+                                                <input type="radio" for="man" name="gender">
+                                                <label di="man">남자</label>
+                                                <input type="radio" for="woman" name="gender">
+                                                <label di="woman">여자</label>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <button>직무</button>
+                                </dt>
+                                <dd>
+                                    <div class="nano">
+                                        <ul>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <button>직무</button>
+                                </dt>
+                                <dd>
+                                    <div class="nano">
+                                        <ul>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <button>직무</button>
+                                </dt>
+                                <dd>
+                                    <div class="nano">
+                                        <ul>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">경영사무</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
