@@ -30,6 +30,7 @@
     <script type="text/javascript" src="/js/slick.min.js"></script>
     <script type="text/javascript" src="/js/swiper.min.js"></script>
     <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/scroll.js"></script>
 </head>
 
 <body>
@@ -266,10 +267,10 @@
 
                         <div class="firstFloor">
                             <dl>
-                                <dt>
+                                <dt class="floor_click">
                                     <button>직무</button>
                                 </dt>
-                                <dd>
+                                <dd class="simplebar" id="scrolls">
                                     <div class="nano">
                                         <ul>
                                             <li>
@@ -282,13 +283,23 @@
                                                 <a href="#">시스템프로그래머</a>
                                             </li>
                                             <li>
-                                                <a href="#" class="on">DBA·데이터베이스</a>
+                                                <a href="#" class="focus">DBA·데이터베이스</a>
                                             </li>
                                             <li>
                                                 <a href="#">네트워크·서버·보안</a>
                                             </li>
                                             <li>
                                                 <a href="#">웹기획·PM</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">웹마케팅</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">컨텐츠·사이트운영</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">HTML·퍼블리싱
+                                                    ·UI개발</a>
                                             </li>
                                             <li>
                                                 <a href="#">웹마케팅</a>
@@ -412,7 +423,7 @@
                                                 <a href="#">인천</a>
                                             </li>
                                             <li>
-                                                <a href="#" class="on">대전</a>
+                                                <a href="#" class="focus">대전</a>
                                             </li>
                                             <li>
                                                 <a href="#">세종</a>
@@ -470,33 +481,256 @@
                             </dl>
                             <dl>
                                 <dt>
-                                    <button>직무</button>
+                                    <button>등급/자격증</button>
                                 </dt>
                                 <dd>
                                     <div class="nano">
                                         <ul>
                                             <li>
-                                                <a href="#">경영사무</a>
+                                                <a href="#">등급</a>
                                             </li>
                                             <li>
-                                                <a href="#">경영사무</a>
+                                                <a href="#">특급</a>
                                             </li>
                                             <li>
-                                                <a href="#">경영사무</a>
+                                                <a href="#">고급</a>
                                             </li>
                                             <li>
-                                                <a href="#">경영사무</a>
+                                                <a href="#">중급</a>
                                             </li>
                                             <li>
-                                                <a href="#">경영사무</a>
+                                                <a href="#">초급</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="nano2">
+                                        <ul>
+                                            <h2>자격증</h2>
+                                            <li>
+                                                <a href="#">
+                                                    기술사
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="#">경영사무</a>
+                                                <a href="#">
+                                                    기사
+                                                </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </dd>
                             </dl>
+                        </div>
+
+                        <!-- 직무를 클릭시 -->
+                        <div class="fisrtFloor_on">
+                            <div class="floor_hed">
+                                <div class="seach_wrap">
+                                    <div class="input_wrap">
+                                        <input type="text" placeholder="직무,키워드 입력">
+                                    </div>
+
+                                    <div class="search_btn">
+                                        <a href="#">
+                                            <img src="/img/fisrt_close.png" alt="닫기">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="seach_close"></div>
+                            </div>
+                            <div class="floor_info">
+                                <dl class="first">
+                                    <dd class="simplebar" id="scrolls2">
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="on">PM/사업관리</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">기획</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">디자인</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">퍼블리싱</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">개발</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">유지보수</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">PM/사업관리</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">기획</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">디자인</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">퍼블리싱</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="on">개발</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">유지보수</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">PM/사업관리</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">기획</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">디자인</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">퍼블리싱</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">개발</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">유지보수</a>
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                                <dl class="second">
+                                    <dd class="simplebar" id="scrolls3">
+                                        <ul class="scrollbar">
+                                            <li>
+                                                <a href="#" class="on">웹프로그래머</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">응용프로그래머</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">시스템프로그래머</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">DBA 데이터베이스</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">네트워크·서버·보안</a>
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                                <dl class="three">
+                                    <ul class="scrollbar">
+                                        <li>
+                                            <a href="#" class="on">전체</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">API</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">API</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">API</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">API</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">API</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">API</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">API</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">API</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">API</a>
+                                        </li>
+                                    </ul>
+                                </dl>
+                            </div>
+                        </div>
+                        <!-- 직무를 클릭시 -->
+
+                        <div class="dvcondition">
+                            <span>
+                                웹프로그래머
+                                <a href="#">
+                                    <img src="/img/dv_close.png" alt="삭제">
+                                </a>
+                            </span>
+                            <span>
+                                10~15년
+                                <a href="#">
+                                    <img src="/img/dv_close.png" alt="삭제">
+                                </a>
+                            </span>
+                            <span>
+                                26~30세
+                                <a href="#">
+                                    <img src="/img/dv_close.png" alt="삭제">
+                                </a>
+                            </span>
+                            <span>
+                                웹프로그래머
+                                <a href="#">
+                                    <img src="/img/dv_close.png" alt="삭제">
+                                </a>
+                            </span>
+                            <span>
+                                웹프로그래머
+                                <a href="#">
+                                    <img src="/img/dv_close.png" alt="삭제">
+                                </a>
+                            </span>
+                            <span>
+                                10~15년
+                                <a href="#">
+                                    <img src="/img/dv_close.png" alt="삭제">
+                                </a>
+                            </span>
+                            <span>
+                                26~30세
+                                <a href="#">
+                                    <img src="/img/dv_close.png" alt="삭제">
+                                </a>
+                            </span>
+                            <span>
+                                웹프로그래머
+                                <a href="#">
+                                    <img src="/img/dv_close.png" alt="삭제">
+                                </a>
+                            </span>
+                            <span>
+                                웹프로그래머
+                                <a href="#">
+                                    <img src="/img/dv_close.png" alt="삭제">
+                                </a>
+                            </span>
+                            <span>
+                                10~15년
+                                <a href="#">
+                                    <img src="/img/dv_close.png" alt="삭제">
+                                </a>
+                            </span>
+                            <span>
+                                26~30세
+                                <a href="#">
+                                    <img src="/img/dv_close.png" alt="삭제">
+                                </a>
+                            </span>
+                            <span>
+                                웹프로그래머
+                                <a href="#">
+                                    <img src="/img/dv_close.png" alt="삭제">
+                                </a>
+                            </span>
                         </div>
                     </div>
                 </div>

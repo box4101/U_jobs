@@ -1,5 +1,48 @@
 $yel: #f8a03c;
 $sub_color: #6c7cb8;
+@mixin scrollbar {
+    &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 255);
+        background-color: #fff;
+    }
+
+    &::-webkit-scrollbar {
+        width: 5px;
+        background-color: #fff;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #6c7cb8;
+        background-image: -webkit-linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.2) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, 0.2) 50%,
+            rgba(255, 255, 255, 0.2) 75%,
+            transparent 75%,
+            transparent
+        );
+    }
+
+    &::-ms-expend-scrollbar-track {
+        -ms-expend-box-shadow: inset 0 0 6px #fff;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+
+    &::-ms-expend-scrollbar {
+        width: 5px;
+        height: 3px;
+        background-color: #fff;
+    }
+
+    &::-ms-expend-scrollbar-thumb {
+        border-radius: 10px;
+        -ms-expend-box-shadow: inset 0 0 6px #fff;
+        background-color: #fff;
+    }
+}
 @mixin text_hidden {
     overflow: hidden;
     white-space: nowrap;
@@ -366,21 +409,17 @@ div#sub_contents {
                 width: 960px;
 
                 div.firstFloor {
+                    background: #ffffff;
                     display: flex;
                     margin-top: 13px;
-                    background: #ffff;
+                    background: #ffff !important;
                     dl {
-                        &:hover {
-                            // border: 1px solid #333;
-                        }
-                        &:hover button {
-                            // border-bottom: 1px solid #333;
-                        }
+                        background: #ffffff;
 
                         flex: 1;
                         dt {
                             button {
-                                width: 153px;
+                                width: 100%;
                                 height: 50px;
                                 border: 1px solid #dbdbdb;
                                 border-bottom: none;
@@ -393,77 +432,44 @@ div#sub_contents {
                         }
 
                         dd {
-                            &::-webkit-scrollbar-track {
-                                -webkit-box-shadow: inset 0 0 6px #e5e5e5;
-                                border-radius: 10px;
-                                background-color: #f5f5f5;
-                            }
-
-                            &::-webkit-scrollbar {
-                                width: 7px;
-                                height: 3px;
-                                background-color: #f5f5f5;
-                            }
-
-                            &::-webkit-scrollbar-thumb {
-                                border-radius: 10px;
-                                -webkit-box-shadow: inset 0 0 6px #e5e5e5;
-                                background-color: #e5e5e5;
-                            }
-
-                            &::-ms-expend-scrollbar-track {
-                                -ms-expend-box-shadow: inset 0 0 6px #e5e5e5;
-                                border-radius: 10px;
-                                background-color: #f5f5f5;
-                            }
-
-                            &::-ms-expend-scrollbar {
-                                width: 5px;
-                                height: 3px;
-                                background-color: #f5f5f5;
-                            }
-
-                            &::-ms-expend-scrollbar-thumb {
-                                border-radius: 10px;
-                                -ms-expend-box-shadow: inset 0 0 6px #e5e5e5;
-                                background-color: #e5e5e5;
-                            }
-                            padding: 20px;
-                            overflow-y: scroll;
+                            @include scrollbar;
+                            padding-top: 10px;
                             border: 1px solid #dbdbdb;
+                            min-height: 360px;
 
-                            .nano2{
+                            .nano2 {
                                 margin-top: 7px;
+                                padding-left: 20px;
                                 padding-top: 10px;
                                 border-top: 1px solid #dbdbdb;
-                                margin-left: -20px;
-                                margin-right: -20px;
-                                padding-left: 20px;
-                                ul{
-                                    h2{
+                                ul {
+                                    h2 {
                                         font-size: 15px;
                                         font-weight: bold;
                                         padding: 6px 0;
                                     }
-                                    li{
-                                        a{
+                                    li {
+                                        a {
                                             font-size: 14px;
                                             color: #555555;
                                             padding: 11px 0;
-                                            letter-spacing: -0.7px;
                                         }
                                     }
                                 }
                             }
 
                             div.nano {
-                                height: 350px;
+                                background: #ffffff;
+                                margin-left: 12px;
+                                padding-left: 10px;
 
                                 div.ttput {
                                     opacity: 1;
                                     margin-top: 8px;
                                     padding: 5px 0;
                                     border: 1px solid #dbdbdb;
+                                    position: relative;
+                                    right: 10px;
 
                                     input.short {
                                         opacity: 1;
@@ -494,8 +500,8 @@ div#sub_contents {
                                         opacity: 1;
                                         display: none;
                                     }
-                                    
-                                    input:checked + label{
+
+                                    input:checked + label {
                                         background: url(/img/bg_radio_gender_on.png) no-repeat;
                                         opacity: 1;
                                         padding-left: 15px;
@@ -537,7 +543,8 @@ div#sub_contents {
                                             color: #555555;
                                             padding: 11px 0;
                                             letter-spacing: -0.7px;
-
+                                            font-weight: 500;
+                                            word-break: keep-all;
                                             &:hover {
                                                 color: $yel;
                                             }
@@ -555,6 +562,206 @@ div#sub_contents {
                                         }
                                     }
                                 }
+                            }
+                        }
+                    }
+                }
+                div.fisrtFloor_on {
+                    .simplebar-content {
+                        padding-left: 20px;
+                    }
+                    opacity: 1;
+                    border: 1px solid #dbdbdb;
+                    box-sizing: border-box;
+                    div.floor_hed {
+                        opacity: 1;
+                        div.seach_wrap {
+                            opacity: 1;
+                            height: 80px;
+                            background: #fff;
+                            border-bottom: 1px solid #dbdbdb;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            padding: 0 25px;
+
+                            .input_wrap {
+                                position: relative;
+                                z-index: 10;
+                                input {
+                                    position: relative;
+                                    opacity: 1;
+                                    width: 360px;
+                                    height: 41px;
+                                    text-indent: 20px;
+                                    border: 1px solid #dbdbdb;
+                                    font-size: 14px;
+                                    color: #666666;
+                                    font-weight: 500;
+                                }
+                                &::after {
+                                    width: 25px;
+                                    height: 26px;
+                                    content: "";
+                                    display: block;
+                                    position: absolute;
+                                    right: 12px;
+                                    top: 14px;
+                                    background: url(/img/sear_btn.png);
+                                    cursor: pointer;
+                                    background-size: 20px;
+                                    background-repeat: no-repeat;
+                                }
+                            }
+
+                            div.search_btn {
+                                opacity: 1;
+                                a {
+                                    opacity: 1;
+                                    img {
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+
+                        div.seach_close {
+                            opacity: 1;
+                        }
+                    }
+
+                    div.floor_info {
+                        padding: 25px 10px;
+                        background: #fff;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        padding-bottom: 0;
+                        padding-top: 0;
+                        padding-left: 0;
+                        overflow: hidden;
+                        height: 310px;
+
+                        > dl {
+                            padding-top: 11px;
+                            border-right: 1px solid #dbdbdb;
+                            position: relative;
+                            z-index: 10;
+
+                            dd {
+                            }
+
+                            .simplebar .simplebar-scroll-content,
+                            [data-simplebar-direction] .simplebar-scroll-content {
+                                height: 340px;
+                            }
+                            a {
+                                display: inline-block;
+                                opacity: 1;
+                                font-size: 14px;
+                                font-weight: 500;
+                                color: #555555;
+                                padding: 9px 0px;
+
+                                &:hover {
+                                    color: $yel;
+                                }
+                            }
+                            a.on {
+                                padding: 6px 12px;
+                                position: relative;
+                                transform: translate(-12px);
+                                background: #f8a03c;
+                                border-radius: 15px;
+                                color: #ffffff;
+                            }
+                            a.focus {
+                                padding: 6px 12px;
+                                position: relative;
+                                transform: translate(-12px);
+                                background: #f8a03c;
+                                border-radius: 15px;
+                                color: #ffffff;
+                            }
+                        }
+                        dl.first {
+                            @include scrollbar;
+                            width: 20%;
+                            opacity: 1;
+                            ul.scrollbar {
+                                opacity: 1;
+                                padding-left: 10px;
+                                li {
+                                    margin-left: 10px;
+                                    opacity: 1;
+                                    a {
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+
+                        dl.second {
+                            width: 30%;
+                            opacity: 1;
+                            ul.scrollbar {
+                                opacity: 1;
+                                li {
+                                    opacity: 1;
+                                    a {
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+
+                        dl.three {
+                            width: 50%;
+                            opacity: 1;
+                            display: flex;
+                            ul.scrollbar {
+                                width: 100%;
+                                opacity: 1;
+                                overflow: hidden;
+                                padding: 0px 22px;
+
+                                li {
+                                    float: left;
+                                    width: 25%;
+                                    opacity: 1;
+                                    a {
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                div.dvcondition {
+                    opacity: 1;
+                    margin-top: 11px;
+                    background: #fff;
+                    width: 100%;
+                    box-sizing: border-box;
+                    border: 1px solid #dbdbdb;
+                    padding: 20px 20px;
+                    align-items: center;
+                    padding-right: 10px;
+                    span {
+                        opacity: 1;
+                        display: inline-block;
+                        font-size: 13px;
+                        color: #666666;
+                        margin-bottom: 13px;
+                        margin-right: 14px;
+                        a {
+                            opacity: 1;
+                            display: inline-block;
+                            font-size: 13px;
+                            color: #666666;
+                            img {
+                                opacity: 1;
                             }
                         }
                     }
