@@ -99,14 +99,14 @@ div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on di
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_hed div.seach_wrap div.search_btn a { opacity: 1; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_hed div.seach_wrap div.search_btn a img { opacity: 1; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_hed div.seach_close { opacity: 1; }
-div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info { padding: 25px 10px; background: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; padding-bottom: 0; padding-top: 0; padding-left: 0; overflow: hidden; height: 310px; }
+div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info { padding: 25px 10px; background: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; padding-bottom: 0; padding-top: 0; padding-left: 0; overflow: hidden; height: 310px; padding-right: 0; border: none; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info > dl { padding-top: 16px; border-right: 1px solid #dbdbdb; position: relative; z-index: 10; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info > dl dd ul { padding-left: 20px; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info > dl .simplebar .simplebar-scroll-content, div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info > dl [data-simplebar-direction] .simplebar-scroll-content { height: 340px; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info > dl a { display: inline-block; opacity: 1; font-size: 14px; font-weight: 500; color: #555555; padding: 9px 0px; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info > dl a:hover { color: #f8a03c; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info > dl a.on { padding: 6px 12px; position: relative; -webkit-transform: translate(-12px); transform: translate(-12px); background: #f8a03c; border-radius: 15px; color: #ffffff; }
-div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info > dl a.focus { padding: 6px 12px; position: relative; -webkit-transform: translate(-12px); transform: translate(-12px); background: #f8a03c; border-radius: 15px; color: #ffffff; }
+div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info > dl a.focus { color: #f8a03c; padding: 5px 11px; border: 1px solid #f8a03c; border-radius: 13px; -webkit-transform: translateX(-11px); transform: translateX(-11px); }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.first { width: 20%; opacity: 1; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.first::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px white; background-color: #fff; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.first::-webkit-scrollbar { width: 5px; background-color: #fff; }
@@ -117,14 +117,14 @@ div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on di
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.first ul.scrollbar { opacity: 1; padding-left: 10px; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.first ul.scrollbar li { margin-left: 10px; opacity: 1; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.first ul.scrollbar li a { opacity: 1; }
-div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.second { width: 30%; opacity: 1; }
+div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.second { width: 24%; opacity: 1; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.second ul.scrollbar { opacity: 1; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.second ul.scrollbar li { opacity: 1; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.second ul.scrollbar li a { opacity: 1; }
-div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.three { width: 50%; opacity: 1; display: -webkit-box; display: -ms-flexbox; display: flex; }
+div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.three { width: 56%; opacity: 1; display: -webkit-box; display: -ms-flexbox; display: flex; border-right: none; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.three ul.scrollbar { width: 100%; opacity: 1; overflow: hidden; padding: 0px 22px; }
 div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.three ul.scrollbar li { float: left; width: 25%; opacity: 1; }
-div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.three ul.scrollbar li a { opacity: 1; }
+div#sub_contents div#sub_content div.inner div.content_info div.fisrtFloor_on div.floor_info dl.three ul.scrollbar li a { opacity: 1; font-weight: 300; }
 div#sub_contents div#sub_content div.inner div.content_info div.dvcondition { opacity: 1; margin-top: 11px; background: #fff; width: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; border: 1px solid #dbdbdb; padding: 20px 20px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding-right: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 div#sub_contents div#sub_content div.inner div.content_info div.dvcondition .dv_lists span { opacity: 1; display: inline-block; font-size: 13px; color: #666666; margin-bottom: 13px; margin-right: 14px; }
 div#sub_contents div#sub_content div.inner div.content_info div.dvcondition .dv_lists span a { opacity: 1; display: inline-block; font-size: 13px; color: #666666; }

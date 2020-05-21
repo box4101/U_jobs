@@ -1,6 +1,3 @@
-.clear {
-  content: '';
-  display: block;
-  clear: both; }
+.clear { content: ''; display: block; clear: both; }
 
 /*# sourceMappingURL=bass.css.map */

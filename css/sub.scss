@@ -648,6 +648,8 @@ div#sub_contents {
                         padding-left: 0;
                         overflow: hidden;
                         height: 310px;
+                        padding-right: 0;
+                        border:none;
 
                         > dl {
                             padding-top: 16px;
@@ -686,12 +688,11 @@ div#sub_contents {
                                 color: #ffffff;
                             }
                             a.focus {
-                                padding: 6px 12px;
-                                position: relative;
-                                transform: translate(-12px);
-                                background: #f8a03c;
-                                border-radius: 15px;
-                                color: #ffffff;
+                                color: #f8a03c;
+                                padding: 5px 11px;
+                                border: 1px solid #f8a03c;
+                                border-radius: 13px;
+                                transform: translateX(-11px);
                             }
                         }
                         dl.first {
@@ -712,7 +713,7 @@ div#sub_contents {
                         }
 
                         dl.second {
-                            width: 30%;
+                            width: 24%;
                             opacity: 1;
                             ul.scrollbar {
                                 opacity: 1;
@@ -726,9 +727,10 @@ div#sub_contents {
                         }
 
                         dl.three {
-                            width: 50%;
+                            width: 56%;
                             opacity: 1;
                             display: flex;
+                            border-right: none;
                             ul.scrollbar {
                                 width: 100%;
                                 opacity: 1;
@@ -741,6 +743,7 @@ div#sub_contents {
                                     opacity: 1;
                                     a {
                                         opacity: 1;
+                                        font-weight: 300;
                                     }
                                 }
                             }
