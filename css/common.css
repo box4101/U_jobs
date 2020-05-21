@@ -2501,7 +2501,7 @@ button {
 	top: auto;
 	left: 0;
 	width: auto;
-	height: 11px;
+	height: 6px;
 }
 
 [data-simplebar-direction="horizontal"] .simplebar-track .simplebar-scrollbar,
@@ -2521,9 +2521,6 @@ button {
 	height: 350px;
 	/* width:400px; */
 	/* overflow: auto; */
-}
-#scrolls2 ul{
-	padding-left: 20px;
 }
 #scrolls3 {
 	height: 350px;

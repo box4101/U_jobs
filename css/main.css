@@ -180,7 +180,7 @@ div#notice_wrap div.inner div.wrap article div.noitice ul { opacity: 1; }
 div#notice_wrap div.inner div.wrap article div.noitice ul li { opacity: 1; margin-bottom: 6px; font-size: 14.5px; }
 div#notice_wrap div.inner div.wrap article div.noitice ul li span { opacity: 1; float: right; color: #aaaaaa; }
 
-div#banner { border-top: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb; padding: 25px 0; -webkit-box-sizing: border-box; box-sizing: border-box; background: #f8f9fa; }
+div#banner { border-top: 1px solid #dbdbdb; padding: 25px 0; -webkit-box-sizing: border-box; box-sizing: border-box; background: #f8f9fa; }
 div#banner img { vertical-align: middle; }
 div#banner div.inner { width: 1180px; margin: 0 auto; }
 div#banner div.inner div.swiper-banner { text-align: center; overflow: hidden; }
