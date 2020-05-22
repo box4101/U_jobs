@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 $yel: #f8a03c;
 
 @mixin text_hidden {
@@ -99,9 +101,6 @@ div#header_info {
       h1.logo {
         position: absolute;
         top: 66px;
-
-        img {
-        }
       }
 
       div.header_top.flex {
@@ -219,9 +218,6 @@ div#header_info {
           top: 21px;
           background: url(/img/sear_btn.png);
           cursor: pointer;
-        }
-
-        img {
         }
       }
 
@@ -885,7 +881,7 @@ div#profile_wrap {
           div {
             float: left;
             display: block;
-            margin-right: 9px;
+            margin-right: 6px;
             background: #eee;
             padding: 7px 17px;
             border-radius: 5px;
@@ -893,17 +889,6 @@ div#profile_wrap {
             color: #666666;
             margin-bottom: 11px;
             font-weight: bold;
-          }
-
-          &::after {
-            // width: 23px;
-            // height: 10px;
-            // position: relative;
-            // top: 5px;
-            // content: "";
-            // display: inline-block;
-            // clear: both;
-            // background: url(/img/card_more.png)no-repeat;
           }
         }
       }
@@ -1270,9 +1255,6 @@ div#banner {
           align-items: center;
           justify-content: center;
         }
-      }
-
-      div.swiper-pagination {
       }
     }
   }
