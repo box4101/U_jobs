@@ -22,7 +22,7 @@ $(function () {
     function scrollbarWidth() {
       // Append a temporary scrolling element to the DOM, then measure
       // the difference between its outer and inner elements.
-      var tempEl = $('<div class="scrollbar-width-tester" style="width:50px;height:50px;overflow-y:scroll;top:-200px;left:-200px;"><div style="height:100px;"></div>'),
+      var tempEl = $('<div class="scrollbar-width-tester" style="width:50px;height:20px;overflow-y:scroll;top:-200px;left:-200px;"><div style="height:100px;"></div>'),
         width = 0,
         widthMinusScrollbars = 0;
 
@@ -372,9 +372,4 @@ $(function () {
   }));
 
   $('#scrolls').simplebar();
-  $('#scrolls2').simplebar();
-  $('#scrolls3').simplebar();
-  $('#scrolls4').simplebar();
-  $('#scrolls5').simplebar();
-  $('#scrolls6').simplebar();
 })
