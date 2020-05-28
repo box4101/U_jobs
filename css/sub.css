@@ -1,4 +1,10 @@
 @charset "UTF-8";
+div.interview { border-top: 2px solid #6c7cb8; opacity: 1; height: 75px; background: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: relative; opacity: 1; -webkit-box-shadow: 0px 3px 20px 0 rgba(0, 0, 0, 0.1); box-shadow: 0px 3px 20px 0 rgba(0, 0, 0, 0.1); }
+div.interview h3 { font-size: 16px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 1.69; letter-spacing: -0.64px; text-align: left; color: #666666; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+div.interview h3 span { font-size: 16px; font-weight: 500; font-stretch: normal; font-style: normal; line-height: 1.69; letter-spacing: -0.64px; text-align: left; color: #6c7cb8; opacity: 1; margin-left: 25px; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+div.interview h3 span img { margin-right: 8px; opacity: 1; }
+div.interview::after { content: ''; display: inline-block; position: absolute; width: 3px; bottom: -45px; height: 15px; border-top: solid 30px #fff; border-left: solid 10px transparent; border-right: solid 10px transparent; }
+
 .content_info ul.card_list li div.card_top { border: 1px solid #dbdbdb; padding: 37px 35px 28px 35px; background-color: #ffffff; overflow: hidden; }
 .content_info ul.card_list li div.card_top div.lef li { margin-bottom: 16px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 15px; font-weight: 500; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: -0.76px; text-align: left; color: #333333; max-width: 299px; }
 .content_info ul.card_list li div.card_top div.lef { position: relative; width: 39.815541%; float: left; }

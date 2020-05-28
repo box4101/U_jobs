@@ -1,5 +1,6 @@
 @charset "UTF-8";
 $yel: #f8a03c;
+$cel: #6c7cb8;
 @mixin select {
     width: 125px;
     height: 34px;
@@ -42,6 +43,66 @@ $yel: #f8a03c;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+div.interview {
+    border-top: 2px solid $cel;
+    opacity: 1;
+    height: 75px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    opacity: 1;
+    box-shadow: 0px 3px 20px 0 rgba(0, 0, 0, 0.1);
+    h3 {
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.69;
+        letter-spacing: -0.64px;
+        text-align: left;
+        color: #666666;
+        display: flex;
+        align-items: center;
+        span {
+            font-size: 16px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.69;
+            letter-spacing: -0.64px;
+            text-align: left;
+            color: #6c7cb8;
+            opacity: 1;
+            margin-left: 25px;
+            display: inline-flex;
+            align-items: center;
+            img {
+                margin-right: 8px;
+                opacity: 1;
+            }
+        }
+    }
+    &::after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 3px;
+        bottom: -45px;
+        height: 15px;
+        border-top: solid 30px #fff;
+        border-left: solid 10px transparent;
+        border-right: solid 10px transparent;
+    }
 }
 
 .content_info {
