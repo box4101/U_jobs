@@ -2,7 +2,6 @@
 
 @font-face {
     font-family: 'Noto Sans KR';
-    font-style: normal;
     font-weight: 300;
     src: url('../fonts/noto-sans-kr-v12-latin_korean-300.eot');
     /* IE9 Compat Modes */
@@ -19,7 +18,6 @@
 
 @font-face {
     font-family: 'Noto Sans KR';
-    font-style: normal;
     font-weight: 400;
     src: url('../fonts/noto-sans-kr-v12-latin_korean-regular.eot');
     /* IE9 Compat Modes */
@@ -33,6 +31,8 @@
 
 
 /* noto-sans-kr-500 - latin_korean */
+
+
 /* noto-sans-kr-500 - latin_korean */
 
 @font-face {
@@ -51,11 +51,12 @@
 
 
 /* noto-sans-kr-700 - latin_korean */
+
+
 /* noto-sans-kr-700 - latin_korean */
 
 @font-face {
     font-family: 'Noto Sans KR';
-    font-style: normal;
     font-weight: 700;
     src: url('../fonts/noto-sans-kr-v12-latin_korean-700.eot');
     /* IE9 Compat Modes */
@@ -72,7 +73,6 @@
 
 @font-face {
     font-family: 'Noto Sans KR';
-    font-style: normal;
     font-weight: 900;
     src: url('../fonts/noto-sans-kr-v12-latin_korean-900.eot');
     /* IE9 Compat Modes */

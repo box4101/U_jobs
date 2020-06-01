@@ -45,6 +45,337 @@ $cel: #6c7cb8;
     background-repeat: no-repeat;
 }
 
+// 보유기술
+div.technology {
+    opacity: 1;
+    margin-top: 23px;
+    ul {
+        opacity: 1;
+        display: flex;
+        margin: 0 -10px;
+        li {
+            margin: 0 10px;
+            opacity: 1;
+            width: 47.8%;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            border: solid 1px #dddddd;
+            h2 {
+                opacity: 1;
+            }
+            h3 {
+                opacity: 1;
+            }
+            p {
+                opacity: 1;
+            }
+        }
+        li:nth-of-type(2n) {
+            margin-right: 0%;
+        }
+        li.prize {
+            opacity: 1;
+        }
+        li.mid {
+            opacity: 1;
+        }
+        li.bot {
+            opacity: 1;
+        }
+    }
+}
+
+// 보유기술
+// 수행프로젝트
+#free_self_nav {
+    margin-top: 40px;
+    padding-bottom: 140px;
+    .paging {
+        margin-top: 50px;
+    }
+    .inner {
+        overflow: hidden;
+        .left {
+            float: left;
+            border: 1px solid #dbdbdb;
+            padding: 42px 0 42px 31px;
+            box-sizing: border-box;
+            width: 18.898305%;
+            /* 223/1180 */
+            .top_name {}
+            .menu {
+                li {
+                    &:first-of-type a {
+                        margin-bottom: 7px;
+                    }
+                    background: #ffffff;
+                    padding: 5px 0 0px 0px;
+                    border-bottom: none;
+                    &:nth-of-type(1) {
+                        border-top: none;
+                    }
+                    &:last-of-type {}
+                    >a {
+                        font-size: 16px;
+                        color: #6c7cb8;
+                        font-weight: bold;
+                        line-height: 1;
+                        letter-spacing: -1px;
+                        &:hover {
+                            color: #6c7cb8;
+                        }
+                    }
+                    a.on {
+                        color: #6c7cb8;
+                    }
+                    ul.sub_menu {
+                        li {
+                            margin-top: 12px;
+                            opacity: 1;
+                            a {
+                                position: relative;
+                                font-size: 16px;
+                                color: #666666;
+                                font-weight: 400;
+                                padding-left: 16px;
+                                &::after {
+                                    position: absolute;
+                                    content: "";
+                                    display: block;
+                                    background: url(/img/bg_lists.png) no-repeat;
+                                    width: 8px;
+                                    height: 12px;
+                                    left: 0;
+                                    top: 2px;
+                                }
+                            }
+                            &:hover a {
+                                color: #333;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .right {
+            float: left;
+            width: 76.9967%;
+            /* 909/1080 */
+            margin-left: 48px;
+            min-height: 1000px;
+            div.top {
+                opacity: 1;
+                margin-top: 6px;
+                div.fle {
+                    justify-content: space-between;
+                    align-items: center;
+                    opacity: 1;
+                    padding-bottom: 12px;
+                    border-bottom: 1px solid #000;
+                    h2 {
+                        opacity: 1;
+                        font-weight: 500;
+                    }
+                    a.view_btn {
+                        opacity: 1;
+                        img {
+                            opacity: 1;
+                        }
+                    }
+                }
+                ul.number_of {
+                    opacity: 1;
+                    margin-top: 37px;
+                    display: flex;
+                    li {
+                        flex: 1;
+                        text-align: center;
+                        height: 103px;
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                        border: solid 1px #eaeaea;
+                        .txt {
+                            h3 {
+                                opacity: 1;
+                                font-size: 16px;
+                                font-weight: normal;
+                                font-stretch: normal;
+                                font-style: normal;
+                                line-height: 2.02;
+                                letter-spacing: -0.64px;
+                                text-align: center;
+                                color: #666666;
+                                span {
+                                    opacity: 1;
+                                    font-size: 24px;
+                                    font-weight: 300;
+                                    font-stretch: normal;
+                                    font-style: normal;
+                                    line-height: 1.35;
+                                    letter-spacing: -1.44px;
+                                    text-align: center;
+                                    color: #333333;
+                                    margin-right: 3px;
+                                    display: inline-block;
+                                }
+                            }
+                            p {
+                                font-size: 14px;
+                                font-weight: normal;
+                                font-stretch: normal;
+                                font-style: normal;
+                                line-height: 2.31;
+                                letter-spacing: -0.56px;
+                                text-align: center;
+                                color: #666666;
+                            }
+                        }
+                        &:hover {
+                            background: $cel;
+                            .txt {
+                                h3 {
+                                    color: #ffffff;
+                                }
+                                span {
+                                    color: #ffffff;
+                                    font-weight: bold;
+                                }
+                            }
+                            p {
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                }
+            }
+            .info {
+                opacity: 1;
+                margin-top: 46px;
+                .info_top.fle {
+                    opacity: 1;
+                    justify-content: space-between;
+                    h2 {
+                        opacity: 1;
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.13;
+                        letter-spacing: -0.96px;
+                        text-align: left;
+                        span {
+                            opacity: 1;
+                            font-size: 24px;
+                            color: $yel;
+                        }
+                    }
+                    select {
+                        @include select;
+                    }
+                }
+                ul.lists {
+                    opacity: 1;
+                    border-top: 1px solid #000;
+                    margin-top: 12px;
+                    li.fle {
+                        opacity: 1;
+                        padding-top: 38px;
+                        padding-left: 71px;
+                        padding-bottom: 26px;
+                        border-bottom: 1px solid #dbdbdb;
+                        div.lef {
+                            opacity: 1;
+                            width: 205px;
+                            h2 {
+                                font-size: 17px;
+                                font-weight: 500;
+                                font-stretch: normal;
+                                font-style: normal;
+                                letter-spacing: 1;
+                                text-align: left;
+                                color: #333333;
+                            }
+                            p {
+                                letter-spacing: 1;
+                                text-align: left;
+                                font-size: 16px;
+                                color: $cel;
+                                margin-top: 21px;
+                            }
+                        }
+                        div.ref {
+                            opacity: 1;
+                            h2 {
+                                opacity: 1;
+                                font-size: 18px;
+                                font-weight: 500;
+                                font-stretch: normal;
+                                font-style: normal;
+                                /* line-height: 2.02; */
+                                letter-spacing: -0.64px;
+                                text-align: left;
+                                color: #333333;
+                                span {
+                                    opacity: 1;
+                                    font-size: 16px;
+                                    display: inline-block;
+                                    margin-left: 17px;
+                                    font-weight: normal;
+                                    font-stretch: normal;
+                                    font-style: normal;
+                                    letter-spacing: -0.64px;
+                                    text-align: center;
+                                    color: #999999;
+                                }
+                            }
+                            ul {
+                                opacity: 1;
+                                margin-top: 22px;
+                                li {
+                                    opacity: 1;
+                                    dl {
+                                        opacity: 1;
+                                        display: flex;
+                                        margin-bottom: 10px;
+                                        dt {
+                                            opacity: 1;
+                                            width: 95px;
+                                            -ms-flex-negative: 0;
+                                            flex-shrink: 0;
+                                            font-size: 16px;
+                                            font-weight: normal;
+                                            font-stretch: normal;
+                                            font-style: normal;
+                                            line-height: 1;
+                                            letter-spacing: -0.56px;
+                                            text-align: left;
+                                            color: #666666;
+                                        }
+                                        dd {
+                                            font-size: 16px;
+                                            font-weight: 400;
+                                            font-stretch: normal;
+                                            font-style: normal;
+                                            letter-spacing: -0.86px;
+                                            color: #333333;
+                                            opacity: 1;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 수행프로젝트
 // 자주찾는질문
 div.faq_wrap {
     opacity: 1;
@@ -1231,6 +1562,10 @@ div {
                                 margin-top: 13px;
                                 background: #ffff !important;
                                 dl {
+                                    border-bottom: 1px solid #dbdbdb;
+                                    &:first-of-type dt {
+                                        border-left: 1px solid #dbdbdb;
+                                    }
                                     background: #ffffff;
                                     -webkit-box-flex: 1;
                                     -ms-flex: 1;
@@ -1239,7 +1574,8 @@ div {
                                         button {
                                             width: 100%;
                                             height: 50px;
-                                            border: 1px solid #dbdbdb;
+                                            border-top: 1px solid #dbdbdb;
+                                            border-right: 1px solid #dbdbdb;
                                             border-bottom: none;
                                             text-align: left;
                                             padding-left: 21px;
@@ -1255,8 +1591,8 @@ div {
                                         }
                                     }
                                     dd {
-                                        padding-top: 10px;
-                                        border: 1px solid #dbdbdb;
+                                        border-top: 1px solid #dbdbdb;
+                                        border-right: 1px solid #dbdbdb;
                                         min-height: 379.5px;
                                         &::-webkit-scrollbar-track {
                                             -webkit-box-shadow: inset 0 0 6px white;
@@ -1286,6 +1622,7 @@ div {
                                             background-color: #fff;
                                         }
                                         ul {
+                                            padding-top: 10px;
                                             padding-left: 20px;
                                         }
                                         .nano2 {
@@ -1406,9 +1743,10 @@ div {
                             }
                             &.fisrtFloor_on {
                                 opacity: 1;
-                                border: 1px solid #dbdbdb;
                                 -webkit-box-sizing: border-box;
                                 box-sizing: border-box;
+                                border-left: 1px solid #dbdbdb;
+                                border-right: 1px solid #dbdbdb;
                                 .simplebar-content {
                                     padding-left: 20px;
                                 }
@@ -1417,7 +1755,6 @@ div {
                                         opacity: 1;
                                         div {
                                             &.seach_wrap {
-                                                border-left: 1px solid #dbdbdb;
                                                 opacity: 1;
                                                 height: 80px;
                                                 background: #fff;
@@ -1488,7 +1825,7 @@ div {
                                         height: 310px;
                                         padding-right: 0;
                                         border: none;
-                                        border-left: 1px solid #dbdbdb;
+                                        // border-left: 1px solid #dbdbdb;
                                         >dl {
                                             padding-top: 16px;
                                             border-right: 1px solid #dbdbdb;
@@ -1615,7 +1952,8 @@ div {
                             }
                             &.fisrtFloor_area {
                                 opacity: 1;
-                                border: 1px solid #dbdbdb;
+                                border-right: 1px solid #dbdbdb;
+                                border-left: 1px solid #dbdbdb;
                                 -webkit-box-sizing: border-box;
                                 box-sizing: border-box;
                                 .simplebar-content {
