@@ -1,9 +1,21 @@
 @charset "UTF-8";
+div.faq_wrap { opacity: 1; border: solid 1px #dddddd; border-top: 1px solid #000; background: #ffffff; }
+div.faq_wrap ul { opacity: 1; padding: 0 20px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+div.faq_wrap ul li { opacity: 1; }
+div.faq_wrap ul li dl { opacity: 1; background: url(/img/quick_off.png) no-repeat; background-position: left center; }
+div.faq_wrap ul li dl dt { opacity: 1; height: 81px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding-left: 28px; border-bottom: 1px solid #dbdbdb; color: #333333; font-weight: bold; background: url(/img/faq_arr_down.png) no-repeat; background-position: right; }
+div.faq_wrap ul li dl dt img { margin-right: 10px; }
+div.faq_wrap ul li dl dt span { opacity: 1; color: #999999; margin-right: 4px; }
+div.faq_wrap ul li dl dd { opacity: 1; }
+div.faq_wrap ul li dl dd p { opacity: 1; opacity: 1; padding: 0 60px; -webkit-box-sizing: border-box; box-sizing: border-box; padding-top: 23px; padding-bottom: 61px; line-height: 1.5; letter-spacing: -0.56px; text-align: left; color: #333333; font-size: 14px; font-weight: 500; }
+div.faq_wrap ul li.on dl { opacity: 1; background: url(/img/quick_on.png) no-repeat; background-position: left top 29px; }
+div.faq_wrap ul li.on dt { opacity: 1; height: 81px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding-left: 28px; border-bottom: 1px solid #dbdbdb; color: #333333; font-weight: bold; background: url(/img/faq_arr_up.png) no-repeat; background-position: right; }
+
 div.interview { border-top: 2px solid #6c7cb8; opacity: 1; height: 75px; background: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: relative; opacity: 1; -webkit-box-shadow: 0px 3px 20px 0 rgba(0, 0, 0, 0.1); box-shadow: 0px 3px 20px 0 rgba(0, 0, 0, 0.1); }
 div.interview h3 { font-size: 16px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 1.69; letter-spacing: -0.64px; text-align: left; color: #666666; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-div.interview h3 span { font-size: 16px; font-weight: 500; font-stretch: normal; font-style: normal; line-height: 1.69; letter-spacing: -0.64px; text-align: left; color: #6c7cb8; opacity: 1; margin-left: 25px; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+div.interview h3 span { font-size: 16px; font-stretch: normal; font-style: normal; line-height: 1.69; letter-spacing: -0.64px; text-align: left; color: #6c7cb8; opacity: 1; margin-left: 25px; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 div.interview h3 span img { margin-right: 8px; opacity: 1; }
-div.interview::after { content: ''; display: inline-block; position: absolute; width: 3px; bottom: -45px; height: 15px; border-top: solid 30px #fff; border-left: solid 10px transparent; border-right: solid 10px transparent; }
+div.interview::after { content: ""; display: inline-block; position: absolute; width: 3px; bottom: -32px; height: 15px; border-top: solid 20px #fff; border-left: solid 10px transparent; border-right: solid 10px transparent; }
 
 .content_info ul.card_list li div.card_top { border: 1px solid #dbdbdb; padding: 37px 35px 28px 35px; background-color: #ffffff; overflow: hidden; }
 .content_info ul.card_list li div.card_top div.lef li { margin-bottom: 16px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 15px; font-weight: 500; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: -0.76px; text-align: left; color: #333333; max-width: 299px; }
@@ -16,7 +28,7 @@ div.officer_wrap div.office_sch select option { opacity: 1; }
 div.officer_wrap div.office_sch .view { background: url(/img/bg_office_sch.png) no-repeat; width: 45px; height: 45px; position: absolute; right: 0; top: 0; background-color: #6c7cb8; display: -webkit-box; display: -ms-flexbox; display: flex; background-position: center; }
 div.officer_wrap div.top_wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; opacity: 1; }
 div.officer_wrap div.top_wrap ul.top { opacity: 1; display: -webkit-box; display: -ms-flexbox; display: flex; }
-div.officer_wrap div.top_wrap ul.top li { opacity: 1; width: 118px; height: 34px; border-radius: 5px; -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25); box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25); background-color: #ffffff; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-right: 5px; }
+div.officer_wrap div.top_wrap ul.top li { opacity: 1; width: 118px; height: 34px; border-radius: 5px; background-color: #ffffff; border: 1px solid #dbdbdb; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-right: 5px; }
 div.officer_wrap div.top_wrap ul.top li a { opacity: 1; font-size: 13px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 2.08; letter-spacing: -0.52px; text-align: left; color: #333333; }
 div.officer_wrap div.top_wrap ul.top li a img { opacity: 1; }
 div.officer_wrap div.top_wrap div.view { opacity: 1; }
@@ -43,7 +55,8 @@ div.skill div { float: left; display: block; margin-right: 5px; background: #eee
 .card_list div.skill div { margin-bottom: 0; }
 
 ul.card_list { margin-top: 30px; }
-ul.card_list > li { margin-bottom: 25px; -webkit-box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.05); box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.05); }
+ul.card_list .chk_box { position: absolute; left: 10px; top: -4px; }
+ul.card_list > li { position: relative; margin-bottom: 25px; -webkit-box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.05); box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.05); }
 ul.card_list > li:last-of-type { margin-bottom: 0; }
 ul.card_list li div.card_top { border: 1px solid #dbdbdb; padding: 38px 75px 38px 75px; background-color: #ffffff; overflow: hidden; }
 ul.card_list li div.card_top:hover { -webkit-box-shadow: 0px 3px 20px 0 rgba(0, 0, 0, 0.1); box-shadow: 0px 3px 20px 0 rgba(0, 0, 0, 0.1); }

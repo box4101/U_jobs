@@ -50,6 +50,34 @@ input[class="chk01"]:checked+label.ra {
 /* 아웃소싱 라디오 */
 
 
+/* 프리랜서 체크박스 */
+
+label.mi02 {
+    background: url(/img/free_chk_off.png) no-repeat;
+    width: 22px;
+    height: 36px;
+    padding-left: 24px;
+    vertical-align: top;
+    position: relative;
+    top: 18px;
+    background-position-y: 0px;
+}
+
+input[class="chk01"]:checked+label.mi02 {
+    background: url(/img/free_chk_on.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    padding-left: 24px;
+    vertical-align: top;
+    position: relative;
+    top: 18px;
+    background-position-y: 0px;
+}
+
+
+/* 프리랜서 체크박스 */
+
+
 /* 숨김 */
 
 label.mi {
@@ -141,12 +169,13 @@ input[class="chk03"]:checked+label.mi3 {
 label.mi4 {
     background: url(/img/login_input.png) no-repeat;
     width: 16px;
-    height: 16px;
-    padding-left: 18px;
+    height: 20px;
+    padding-left: 25px;
     vertical-align: top;
     position: relative;
     top: 0px;
-    background-position-y: 4px;
+    background-position-y: 1.5px;
+    background-size: 20%;
 }
 
 input[class="chk04"]:checked+label.mi4 {
@@ -154,10 +183,11 @@ input[class="chk04"]:checked+label.mi4 {
     background: url(/img/l_hide03_on.png) no-repeat;
     width: 16px;
     height: 20px;
-    padding-left: 22px;
+    padding-left: 25px;
     vertical-align: top;
     position: relative;
     top: 0px;
+    background-size: none;
 }
 
 

@@ -45,6 +45,85 @@ $cel: #6c7cb8;
     background-repeat: no-repeat;
 }
 
+// 자주찾는질문
+div.faq_wrap {
+    opacity: 1;
+    border: solid 1px #dddddd;
+    border-top: 1px solid #000;
+    background: #ffffff;
+    ul {
+        opacity: 1;
+        padding: 0 20px;
+        box-sizing: border-box;
+        li {
+            opacity: 1;
+            dl {
+                opacity: 1;
+                background: url(/img/quick_off.png)no-repeat;
+                background-position: left center;
+                dt {
+                    opacity: 1;
+                    height: 81px;
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    padding-left: 28px;
+                    border-bottom: 1px solid #dbdbdb;
+                    color: #333333;
+                    font-weight: bold;
+                    background: url(/img/faq_arr_down.png) no-repeat;
+                    background-position: right;
+                    img {
+                        margin-right: 10px;
+                    }
+                    span {
+                        opacity: 1;
+                        color: #999999;
+                        margin-right: 4px;
+                    }
+                }
+                dd {
+                    opacity: 1;
+                    p {
+                        opacity: 1;
+                        opacity: 1;
+                        padding: 0 60px;
+                        box-sizing: border-box;
+                        padding-top: 23px;
+                        padding-bottom: 61px;
+                        line-height: 1.5;
+                        letter-spacing: -0.56px;
+                        text-align: left;
+                        color: #333333;
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+        li.on dl {
+            opacity: 1;
+            background: url(/img/quick_on.png)no-repeat;
+            background-position: left top 29px
+        }
+        li.on dt {
+            opacity: 1;
+            height: 81px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            padding-left: 28px;
+            border-bottom: 1px solid #dbdbdb;
+            color: #333333;
+            font-weight: bold;
+            background: url(/img/faq_arr_up.png)no-repeat;
+            background-position: right;
+        }
+        li.on dt img {}
+    }
+}
+
+// 자주찾는질문
 div.interview {
     border-top: 2px solid $cel;
     opacity: 1;
@@ -75,7 +154,6 @@ div.interview {
         align-items: center;
         span {
             font-size: 16px;
-            font-weight: 500;
             font-stretch: normal;
             font-style: normal;
             line-height: 1.69;
@@ -93,13 +171,13 @@ div.interview {
         }
     }
     &::after {
-        content: '';
+        content: "";
         display: inline-block;
         position: absolute;
         width: 3px;
-        bottom: -45px;
+        bottom: -32px;
         height: 15px;
-        border-top: solid 30px #fff;
+        border-top: solid 20px #fff;
         border-left: solid 10px transparent;
         border-right: solid 10px transparent;
     }
@@ -184,8 +262,8 @@ div.officer_wrap {
                 width: 118px;
                 height: 34px;
                 border-radius: 5px;
-                box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
                 background-color: #ffffff;
+                border: 1px solid #dbdbdb;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -300,7 +378,13 @@ div.skill {
 
 ul.card_list {
     margin-top: 30px;
+    .chk_box {
+        position: absolute;
+        left: 10px;
+        top: -4px;
+    }
     >li {
+        position: relative;
         margin-bottom: 25px;
         box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.05);
         &:last-of-type {
