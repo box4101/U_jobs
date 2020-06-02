@@ -2744,3 +2744,220 @@ button {
 .fisrtFloor_area .simplebar-mask {
     border: none;
 }
+
+
+/* 막대그래프 */
+
+.graph {
+    display: grid;
+    grid: repeat(10, auto) max-content / max-content repeat(5, auto);
+    height: 220px;
+    position: relative;
+    left: -30px;
+}
+
+
+/* graph bars */
+
+.graphBar {
+    grid-row: 1 / -2;
+    border-radius: 0 0 50% 50% / 0 0 10px 10px;
+    background: #f5f5f5 linear-gradient(to top, #6c7cb8 var(--h), transparent var(--h));
+    justify-self: center;
+    width: 15px;
+    height: 100%;
+    box-shadow: 0 0 3px lightgrey;
+    width: 20px;
+    margin: 0 11px;
+}
+
+.graphBar:nth-of-type(1) {
+    grid-column: 2;
+    --h: 10%;
+}
+
+.graphBar:nth-of-type(2) {
+    grid-column: 3;
+    --h: 65%;
+}
+
+.graphBar:nth-of-type(3) {
+    grid-column: 4;
+    --h: 52%;
+}
+
+.graphBar:nth-of-type(4) {
+    grid-column: 5;
+    --h: 100%;
+}
+
+.graphBar:nth-of-type(5) {
+    grid-column: 6;
+    --h: 92%;
+}
+
+
+/* graph bar edges */
+
+.graphBar::before,
+.graphBar::after {
+    display: block;
+    content: "";
+    height: 20px;
+    border-radius: 50% / 10px;
+}
+
+.graphBar::before {
+    margin-top: -10px;
+    background-color: #ddd;
+}
+
+.graphBar::after {
+    background-color: darkgoldenrod;
+    position: relative;
+    top: calc(100% - var(--h) - 20px);
+}
+
+
+/* graph  labels */
+
+.graphRowLabel {
+    margin-top: -0.5em;
+}
+
+.graphColumnLabel {
+    justify-self: center;
+    margin-top: 6px;
+    font-size: 12px;
+    letter-spacing: -1.2px;
+    color: #999999;
+}
+
+.graphRowLabel::after {
+    display: inline-block;
+    content: "\2000\2000\2014";
+}
+
+.graphRowLabel:nth-of-type(1)::after {
+    content: "\2000\2014";
+}
+
+figure {
+    width: 98vw;
+    max-width: 190px;
+    margin: 30px auto auto auto;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.screenreader-text {
+    display: block;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+
+/* 막대그래프 */
+
+
+/* 등급_스타_별 */
+
+.star-ratings-css {
+    unicode-bidi: bidi-override;
+    color: #c5c5c5;
+    font-size: 25px;
+    width: 100px;
+    /* height: 25px; */
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    text-shadow: 0px 1px 0 #a2a2a2;
+    overflow: hidden;
+}
+
+.star-ratings-css-top {
+    color: #ffb72b;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.star-ratings-css-bottom {
+    padding: 0;
+    display: block;
+    z-index: 0;
+}
+
+
+/* 회원등급 */
+
+.dif {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin-left: 12px;
+}
+
+.dif .g_red {
+    display: inline-block;
+    font-size: 12px;
+    width: 36px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    background: #f26d7d;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    top: -5px;
+}
+
+.dif .g_blue {
+    display: inline-block;
+    font-size: 12px;
+    width: 36px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    background: #0091d3;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    top: -5px;
+}
+
+.dif .g_sky {
+    display: inline-block;
+    font-size: 12px;
+    width: 36px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    background: #1cbbb4;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    top: -5px;
+}
+
+.dif .g_yellow {
+    display: inline-block;
+    font-size: 12px;
+    width: 36px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    background: #e6bb25;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    top: -5px;
+}

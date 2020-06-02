@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,MAAM;EACF,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI",
+"mappings": "AAAA,MAAM,GACF,OAAO,EAAE,EAAE,EACX,OAAO,EAAE,KAAK,EACd,KAAK,EAAE,IAAI",
 "sources": ["bass.scss"],
 "names": [],
 "file": "bass.css"

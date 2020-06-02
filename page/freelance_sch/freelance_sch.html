@@ -239,6 +239,12 @@
                                     hidden.fadeOut();
                                     $(target).fadeIn(400);
                                 });
+
+
+                                $(".firstFloor").find("dt").on("click", function() {
+                                    $(".firstFloor").find("dt").removeClass("on");
+                                    $(this).addClass("on");
+                                })
                             });
                         </script>
 

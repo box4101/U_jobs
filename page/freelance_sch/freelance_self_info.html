@@ -81,11 +81,240 @@
         </div>
     </div>
 
+    <nav id="navi" style="top: 220px; position: absolute;">
+        <div class="project">
+            <ul>
+                <h2>최근 본 프로젝트</h2>
+                <li>
+                    <a href="#" class="on">비상주 오프라인 매장</a>
+                </li>
+                <li>
+                    <a href="#">안드로이드 프론트</a>
+                </li>
+                <li>
+                    <a href="#">비상주 오프라인 매장</a>
+                </li>
+                <li>
+                    <a href="#">인천국제공항</a>
+                </li>
+            </ul>
+            <ul>
+                <h2>최근 본 프리랜서</h2>
+                <li>
+                    <a href="#" class="on">김철수</a>
+                </li>
+                <li>
+                    <a href="#">홍길동</a>
+                </li>
+                <li>
+                    <a href="#">비상주</a>
+                </li>
+                <li>
+                    <a href="#">김길동</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="banner">
+            <li>
+                <a href="#">
+                    <img src="/img/navi_banner01.png" alt="네비배너1">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/img/navi_banner02.png" alt="네비배너2">
+                </a>
+            </li>
+        </ul>
+        <div class="top_btn">
+            <a href="#">
+                TOP
+            </a>
+        </div>
+
+    </nav>
+    <script>
+        $(function() {
+
+            $(window).scroll(function() {
+                var scroll = $(this).scrollTop();
+                var navi_top = $("#navi").offset().top;
+
+                console.log(scroll);
+                console.log(navi_top);
+
+                if (scroll > 186) {
+                    $("#navi").css({
+                        "position": "fixed",
+                        "top": "20px"
+                    })
+                } else {
+                    $("#navi").css({
+                        "position": "absolute",
+                        "top": "220px"
+                    })
+                }
+            })
+
+        })
+    </script>
+
 
     <div id="sub_contents">
         <div class="sub_tit">
             <div class="inner">
                 <h1>프리랜서</h1>
+            </div>
+        </div>
+
+        <div id="sub_fl_content01">
+            <div class="inner">
+                <img src="/img/profile_info.png" alt="">
+                <!-- <div class="sub_content_wrap01">
+                    <article class="content_ar01">
+                        <div class="pic">
+                            <img src="../../img/freelance_face01.png" alt="">
+                        </div>
+                        <h4>홍OO
+                            <span>(남 41세)</span>
+                        </h4>
+                        <div class="prof_span">
+                            <span class="pSpan">
+                                개발자
+                            </span>
+                            <span class="date">
+                                10년 6개월
+                            </span>
+                            <span class="dif">
+                                <a href="#" class="g_red">특급</a>
+                            </span>
+                        </div>
+                        <div class="prof_wrap">
+                            <a href="#">
+                                활동가능
+                            </a>
+                            <a href="#">
+                                <img src="../../img/meeting_img.png" alt="">
+                                <span>미팅요청하기</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="content_ar02">
+                        <h3>Activity</h3>
+                        <div class="activity_wrap">
+                            <div class="grade_star">
+                                <div class="star-ratings-css">
+                                    <div class="star-ratings-css-top" style="width: 84%">
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                    <div class="star-ratings-css-bottom">
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                </div>
+                                <span class="grade_condition">GOOD</span>
+                            </div>
+
+                            <ul class="content_activity">
+                                <li>· 평균 평점 <a href="">5.0</a> 점</li>
+                                <li>· 평가 <a href="">5</a> 점</li>
+                                <li>· 계약한 프로젝트 <a href="">82</a> 건</li>
+                                <li>· 포트폴리오 <a href="">12</a> 개</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="content_ar03">
+                        <h3>Evaluation</h3>
+                        <figure aria-hidden="true">
+                            <div class="graph">
+                                <span class="graphRowLabel">100</span>
+                                <span class="graphRowLabel">90</span>
+                                <span class="graphRowLabel">80</span>
+                                <span class="graphRowLabel">70</span>
+                                <span class="graphRowLabel">60</span>
+                                <span class="graphRowLabel">50</span>
+                                <span class="graphRowLabel">40</span>
+                                <span class="graphRowLabel">30</span>
+                                <span class="graphRowLabel">20</span>
+                                <span class="graphRowLabel">10</span>
+                                <div class="graphBar"></div>
+                                <div class="graphBar"></div>
+                                <div class="graphBar"></div>
+                                <div class="graphBar"></div>
+                                <div class="graphBar"></div>
+                                <span><sup>Y </sup>&frasl;<sub> X</sub></span>
+                                <span class="graphColumnLabel">전문성</span>
+                                <span class="graphColumnLabel">만족도</span>
+                                <span class="graphColumnLabel">의사소통</span>
+                                <span class="graphColumnLabel">일정준수</span>
+                                <span class="graphColumnLabel">성실성</span>
+                            </div>
+                        </figure>
+                        <span class="screenreader-text">Smiling face with squinting eyes: 10%, grinning face with squinting eyes: 65%, smiling face: 52%, grinning face with smiling eyes: 100%, and grinning face: 92%.</span>
+                    </article>
+
+                    <article class="content_ar04">
+                        <h3>Project</h3>
+                        <ul class="content_Project">
+                            <li>
+                                <a href="#">
+                                    공공
+                                    <span>20건</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    은행
+                                    <span>50건</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    카드사
+                                    <span>13건</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    증권사
+                                    <span>50건</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    보험사
+                                    <span>10건</ㅂ>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    커머스
+                                    <span>0건</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    민간
+                                    <span>2건</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    기타
+                                    <span>9건</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </article>
+                </div> -->
             </div>
         </div>
 
@@ -96,7 +325,7 @@
                         <li>
                             <a href="/page/freelance_sch/freelance_self_info.html">프리랜서</a>
                             <ul class="sub_menu">
-                                <li><a href="/page/freelance_sch/freelance_self_info.html">자기소개</a></li>
+                                <li><a class="on" href="/page/freelance_sch/freelance_self_info.html">자기소개</a></li>
                                 <li><a href="/page/freelance_sch/freelance_self_info02.html">수행 프로젝트</a></li>
                                 <li><a href="/page/freelance_sch/freelance_self_info03.html">보유 기술</a></li>
                                 <li><a href="/page/freelance_sch/freelance_self_info04.html">경력 정보</a></li>
@@ -110,113 +339,52 @@
                 <div class="right">
                     <div class="top">
                         <div class="fle">
-                            <h2>수행 프로젝트</h2>
+                            <h2>자기소개</h2>
                             <a href="#none" class="view_btn">
                                 <img src="/img/free_self_btn.png" alt="이력서 보기 버튼">
                             </a>
                         </div>
-                        <ul class="number_of">
-                            <li>
-                                <div class="txt">
-                                    <h3>
-                                        <span>10</span>건
-                                    </h3>
-                                    <p>공공</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="txt">
-                                    <h3>
-                                        <span>12</span>건
-                                    </h3>
-                                    <p>금융</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="txt">
-                                    <h3>
-                                        <span>10</span>건
-                                    </h3>
-                                    <p>증권/보험</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="txt">
-                                    <h3>
-                                        <span>12</span>건
-                                    </h3>
-                                    <p>커머스</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="txt">
-                                    <h3>
-                                        <span>22</span>건
-                                    </h3>
-                                    <p>민간</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="txt">
-                                    <h3>
-                                        <span>12</span>건
-                                    </h3>
-                                    <p>기타</p>
-                                </div>
-                            </li>
-                        </ul>
                     </div>
+                    <div class="self_info">
+                        <div class="top">
+                            <h2>
+                                기획 경력 20년차로 공공기관, 금융기관, 커머스 등 다수의 프로젝트를 수행
+                            </h2>
+                            <div class="info">
+                                프로젝트에 임할 때는 회사의 사업적인 측면에서 고민합니다. 주어진 자원에서 가장 효율적인 업무를 추진하며, 함께 하는 구성원들의 입장과 역할을 존중하며 협력하여 프로젝트를 진행합니다.
+                                <br><br> [장점 10가지] <br> 1. 경험이 많습니다. <br> PM(크고 작은 프로젝트, 공공기관, 대기업, 중소기업 등)으로서, <br> 기획자(웹기획, 광고기획, 사업기획, 서비스기획, 운영기획 등등)로서, <br> 다양한 분야(SI, 웹, 모바일, 앱(APP) 등)에, <br> 조직관리(소규모 프로젝트, 대형 프로젝트, 회사 팀 운영 등등)에서도 <br> 제안작업(공공프로젝트
+                                제안작업 다수 진행, 프로젝트 제안서, 서비스 제안서, 운영/사업 <br> 제안서 등)에서도 리스크관리(다양한 사업의 책임자로 프로젝트 수행합니다.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 학력사항 -->
                     <div class="info">
                         <div class="info_top fle">
-                            <h2>
-                                총
-                                <span>13</span>개
+                            <h2 class="fw">
+                                학력사항
                             </h2>
-                            <select name="" id="">
-                                <option value="">보기</option>
-                            </select>
                         </div>
                         <ul class="lists">
                             <li class="fle">
                                 <div class="lef">
                                     <h2>2020.01 ~ 현재</h2>
                                     <p>
-                                        수행 중
+                                        졸업예정
                                     </p>
                                 </div>
                                 <div class="ref">
                                     <h2>
-                                        등기빅데이터 시스템 구축 사업
-                                        <span>대법원</span>
+                                        서울모대학원(院) (석사과정)
+                                        <span>컴퓨터공확과</span>
                                     </h2>
                                     <ul>
                                         <li>
                                             <dl>
                                                 <dt>
-                                                    ·역할 
+                                                    학점
                                                 </dt>
                                                 <dd>
-                                                    기획
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt>
-                                                    ·성과
-                                                </dt>
-                                                <dd>
-                                                    기획 기획업무 및 디자인 작업 일정관리 등 프로젝트 초기에 일정이 지연되지 않도록 함
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt>
-                                                    ·개발환경 
-                                                </dt>
-                                                <dd>
-                                                    Window NT, Oracle, JSP, Eclipse, 전자정부프레임웍
+                                                    <span>4.35</span> / 4.5
                                                 </dd>
                                             </dl>
                                         </li>
@@ -226,85 +394,23 @@
                             <li class="fle">
                                 <div class="lef">
                                     <h2>2020.01 ~ 현재</h2>
-                                </div>
-                                <div class="ref">
-                                    <h2>
-                                        한국관광공사 의료관광 플랫폼 구축 사업
-                                        <span>한국관광공사</span>
-                                    </h2>
-                                    <ul>
-                                        <li>
-                                            <dl>
-                                                <dt>
-                                                    ·역할 
-                                                </dt>
-                                                <dd>
-                                                    기획
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt>
-                                                    ·성과
-                                                </dt>
-                                                <dd>
-                                                    기획 기획업무 및 디자인 작업
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt>
-                                                    ·개발환경 
-                                                </dt>
-                                                <dd>
-                                                    Window NT, Oracle, JSP, Eclipse,
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="fle">
-                                <div class="lef">
-                                    <h2>2018.01 ~ 현재</h2>
-                                    <p>
-                                        수행 중
+                                    <p class="yel">
+                                        졸업
                                     </p>
                                 </div>
                                 <div class="ref">
                                     <h2>
-                                        등기빅데이터 시스템 구축 사업
+                                        서울모대학교
+                                        <span>경영학과</span>
                                     </h2>
                                     <ul>
                                         <li>
                                             <dl>
                                                 <dt>
-                                                    ·역할 
+                                                    학점
                                                 </dt>
                                                 <dd>
-                                                    기획
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt>
-                                                    ·성과
-                                                </dt>
-                                                <dd>
-                                                    기획 기획업무 및 디자인 작업 일정관리 등
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt>
-                                                    ·개발환경 
-                                                </dt>
-                                                <dd>
-                                                    Window NT, Oracle, JSP, Eclipse, 전자정부프레임웍
+                                                    <span>4.35</span> / 4.5
                                                 </dd>
                                             </dl>
                                         </li>
@@ -314,103 +420,96 @@
                             <li class="fle">
                                 <div class="lef">
                                     <h2>2020.01 ~ 현재</h2>
-                                    <p>
-                                        수행 중
+                                    <p class="yel">
+                                        졸업
                                     </p>
                                 </div>
                                 <div class="ref">
                                     <h2>
-                                        등기빅데이터 시스템 구축 사업
-                                        <span>대법원</span>
+                                        대전고등학교
+                                        <span>이과계열</span>
                                     </h2>
-                                    <ul>
-                                        <li>
-                                            <dl>
-                                                <dt>
-                                                    ·역할 
-                                                </dt>
-                                                <dd>
-                                                    기획
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt>
-                                                    ·성과
-                                                </dt>
-                                                <dd>
-                                                    기획 기획업무 및 디자인 작업 일정관리 등 프로젝트 초기에 일정이 지연되지 않도록 함
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt>
-                                                    ·개발환경 
-                                                </dt>
-                                                <dd>
-                                                    Window NT, Oracle, JSP, Eclipse, 전자정부프레임웍
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="fle">
-                                <div class="lef">
-                                    <h2>2020.01 ~ 현재</h2>
-                                    <p>
-                                        수행 중
-                                    </p>
-                                </div>
-                                <div class="ref">
-                                    <h2>
-                                        등기빅데이터 시스템 구축 사업
-                                        <span>대법원</span>
-                                    </h2>
-                                    <ul>
-                                        <li>
-                                            <dl>
-                                                <dt>
-                                                    ·역할 
-                                                </dt>
-                                                <dd>
-                                                    기획
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt>
-                                                    ·성과
-                                                </dt>
-                                                <dd>
-                                                    기획 기획업무 및 디자인 작업 일정관리 등 프로젝트 초기에 일정이 지연되지 않도록 함
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt>
-                                                    ·개발환경 
-                                                </dt>
-                                                <dd>
-                                                    Window NT, Oracle, JSP, Eclipse, 전자정부프레임웍
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
                                 </div>
                             </li>
                         </ul>
-                        <div class="paging"><span><a href="#."><img src="/img/btn_page_first.png" alt="처음으로"></a></span><span><a href="#."><img src="/img/btn_page_pre.png" alt="이전으로"></a></span><span class="on">1</span><span><a href="">2</a></span><span><a href="">3</a></span><span><a href="">4</a></span><span>
-                            <a href="">5</a></span>
-
-                            <span class="next">
-                            <a href=""><img src="/img/btn_page_next.png" alt="다음으로"></a></span>
-                            <span><a href="#."><img src="/img/btn_page_last.png" alt="마지막으로"></a></span></div>
                     </div>
+                    <!-- 학력사항 -->
+
+                    <!-- 자격증 -->
+                    <div class="info">
+                        <div class="info_top fle">
+                            <h2 class="fw">
+                                자격증
+                            </h2>
+                        </div>
+                        <ul class="lists">
+                            <li class="fle">
+                                <div class="lef">
+                                    <h2>2020.01 </h2>
+                                </div>
+                                <div class="ref">
+                                    <h2>
+                                        정보처리기사
+                                        <span>한국산업인력관리공단</span>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="fle">
+                                <div class="lef">
+                                    <h2>2020.06</h2>
+                                </div>
+                                <div class="ref">
+                                    <h2>
+                                        정보처리산업기사
+                                        <span>한국산업인력관리공단</span>
+                                    </h2>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 자격증 -->
+
+                    <!-- 희망근무조건 -->
+                    <div class="info">
+                        <div class="info_top fle">
+                            <h2 class="fw">
+                                희망근무조건
+                            </h2>
+                        </div>
+                        <ul class="lists let">
+                            <li class="fle">
+                                <div class="lef">
+                                    <h2>고용형태 </h2>
+                                </div>
+                                <div class="ref">
+                                    <h2>
+                                        정규직, 계약직, 프리랜서, 아웃소싱
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="fle">
+                                <div class="lef">
+                                    <h2>희망보수</h2>
+                                </div>
+                                <div class="ref">
+                                    <h2>
+                                        서울전지역, 경기 광명시, 경기 안산시 단원구, 경기 수원시 권선구
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="fle">
+                                <div class="lef">
+                                    <h2>희망근무지</h2>
+                                </div>
+                                <div class="ref">
+                                    <h2>
+                                        희망월급여 500 ∼ 600만원
+                                    </h2>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 희망근무조건 -->
                 </div>
             </div>
         </div>
