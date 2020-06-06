@@ -49,6 +49,177 @@ $cel: #6c7cb8;
     background-repeat: no-repeat;
 }
 
+// 프리랜서 프로필
+div#freelance_profile {
+    opacity: 1;
+    ul {
+        opacity: 1;
+        display: flex;
+        li {
+            p.tit {
+                opacity: 1;
+            }
+            div.info {
+                opacity: 1;
+                margin-top: 18px;
+                padding: 25px 20px;
+                background: #fff;
+                border: 1px solid #f4f4f4;
+                border-radius: 29px;
+                box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+                div.star_wrap {
+                    opacity: 1;
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 19px;
+                    border-bottom: 1px solid #dedede;
+                    img {
+                        opacity: 1;
+                        display: inline-block;
+                        margin: 0 3px;
+                    }
+                    span {
+                        opacity: 1;
+                        font-size: 14px;
+                        color: #bbbbbb;
+                        font-family: 'Myriad Pro';
+                        display: inline-block;
+                        margin-left: 5px;
+                    }
+                }
+                ul {
+                    margin-top: 18px;
+                    opacity: 1;
+                    display: block;
+                    li {
+                        opacity: 1;
+                        font-size: 14px;
+                        color: #666666;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        img {
+                            opacity: 1;
+                            margin-right: 6px;
+                        }
+                        span {
+                            opacity: 1;
+                            font-size: 18px;
+                            display: inline-block;
+                            margin-left: 7px;
+                            color: #6c7cb8;
+                        }
+                    }
+                }
+            }
+            opacity: 1;
+            flex: 1;
+            div.profile {
+                opacity: 1;
+                width: 117px;
+                height: 117px;
+                border-radius: 50%;
+                background: url(/img/fre_pro.png)no-repeat;
+                background-size: cover;
+                background-position: center;
+                margin: 0 auto;
+            }
+            h2 {
+                opacity: 1;
+                font-weight: bold;
+                font-size: 18px;
+                color: #333333;
+                text-align: center;
+                margin-top: 24px;
+                span {
+                    opacity: 1;
+                    font-size: 18px;
+                    display: inline-block;
+                    margin-left: 7px;
+                    color: #6c7cb8;
+                }
+            }
+            h3 {
+                opacity: 1;
+                font-size: 14px;
+                color: #333333;
+                margin-top: 11px;
+                text-align: center;
+                span.da {
+                    display: inline-block;
+                    width: 1px;
+                    height: 12px;
+                    background: #dddddd;
+                    margin-right: 5px;
+                }
+                span.dut {
+                    opacity: 1;
+                    font-size: 14px;
+                    color: #333333;
+                    margin-right: 5px;
+                }
+                span.day {
+                    opacity: 1;
+                }
+                span.skill {
+                    opacity: 1;
+                    display: inline-block;
+                    width: 32px;
+                    height: 20px;
+                    border: 1px solid #dddddd;
+                    border-radius: 5px;
+                    background: #f3f3f3;
+                    font-size: 12px;
+                    color: #999999;
+                    text-align: center;
+                    line-height: 18px;
+                    margin-left: 5px;
+                }
+            }
+            div.btn_wrap {
+                opacity: 1;
+                opacity: 1;
+                text-align: center;
+                margin-top: 17px;
+                span.poss {
+                    opacity: 1;
+                    display: inline-block;
+                    width: 62px;
+                    height: 25px;
+                    text-align: center;
+                    color: #80c269;
+                    border: 1px solid #80c269;
+                    font-size: 12px;
+                    line-height: 25px;
+                    border-radius: 20px;
+                    background: #ffffff;
+                    font-weight: bold;
+                }
+                span.poss2 {
+                    opacity: 1;
+                    display: inline-block;
+                    width: 104px;
+                    height: 25px;
+                    text-align: center;
+                    color: #fff;
+                    font-size: 12px;
+                    line-height: 25px;
+                    border-radius: 44px;
+                    background: #6c7cb8;
+                    font-weight: bold;
+                    margin-left: 5px;
+                    img {
+                        display: inline-block;
+                        position: relative;
+                        top: 2px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 프리랜서 프로필
 // 희망근무조건
 div.fw_table {
     margin-top: 12px;
@@ -778,18 +949,18 @@ div.interview {
         overflow: hidden;
     }
     ul.card_list li div.card_top div.lef li {
-        margin-bottom: 16px;
+        margin-bottom: 11px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
         font-size: 15px;
-        font-weight: 500;
+        font-weight: 400;
         font-stretch: normal;
         font-style: normal;
         line-height: 1;
         letter-spacing: -0.76px;
         text-align: left;
-        color: #333333;
+        color: #444;
         max-width: 299px;
     }
     ul.card_list li div.card_top div.lef {

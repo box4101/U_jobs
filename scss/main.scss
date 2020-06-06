@@ -301,18 +301,19 @@ div#profile_wrap {
                         opacity: 1;
                         p {
                             opacity: 1;
-                            font-size: 16px;
+                            font-size: 21px;
                             font-weight: 500;
                             span.date {
                                 position: relative;
-                                top: -1px;
-                                font-size: 13px;
+                                top: 0px;
+                                left: -5px;
+                                font-size: 20px;
                                 padding: 4px 10px;
                                 border-radius: 25px;
-                                color: #fff;
+                                color: darkred;
                                 opacity: 1;
                                 display: inline-block;
-                                background: #f38f1e;
+                                /* background: #f38f1e; */
                                 margin-left: 2px;
                             }
                         }
@@ -382,6 +383,7 @@ div#profile_wrap {
                         display: inline-block;
                         padding-left: 0;
                         border-left: none;
+                        font-weight: 500;
                     }
                     >span {
                         letter-spacing: -1px;
@@ -425,7 +427,7 @@ div#profile_wrap {
                             right: 1px;
                             right: 1px;
                         }
-                        &:nth-of-type(3)::after {
+                        &:nth-of-type(2)::after {
                             display: none;
                         }
                         &:nth-of-type(5)::after {
@@ -466,7 +468,7 @@ div#profile_wrap {
                     a {
                         display: inline-block;
                         text-align: center;
-                        padding: 13px 27.6px;
+                        padding: 13px 10.6px;
                         font-size: 16px;
                         border: 1px solid #dbdbdb;
                         border-radius: 7px;
@@ -1434,6 +1436,7 @@ nav#navi {
             }
         }
     }
+    
     .top_btn {
         margin-top: 15px;
         a {

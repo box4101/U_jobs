@@ -23,6 +23,9 @@
     <link rel="stylesheet" href="/css/sub.css">
     <link rel="stylesheet" href="/css/swiper.min.css">
     <link rel="stylesheet" href="https://unpkg.com/simplebar@5.2.0/dist/simplebar.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
 
     <script src="https://kit.fontawesome.com/334d6efb93.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
@@ -135,9 +138,9 @@
     </nav>
 
     <script>
-        $(function() {
+        $(function () {
 
-            $(window).scroll(function() {
+            $(window).scroll(function () {
                 var scroll = $(this).scrollTop();
                 var navi_top = $("#navi").offset().top;
 
@@ -207,18 +210,18 @@
                             <ul class="custom_tab">
                                 <li>
                                     <a href="#tab1" class="on">
-                                          전체   <b>10</b>
+                                        전체 <b>10</b>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#tab2">프로젝트 별
-                                          <b class="on">10</b>
+                                        <b class="on">10</b>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <script>
-                            $(function() {
+                            $(function () {
                                 const menu = $(".custom_tab");
                                 const menu_li = $(".custom_tab li");
                                 const menu_li_a = $(".custom_tab li a");
@@ -226,7 +229,7 @@
 
                                 $("#tab1").show();
 
-                                menu_li.on("click", function(e) {
+                                menu_li.on("click", function (e) {
                                     e.preventDefault();
 
                                     menu_li_a.removeClass("on");
@@ -261,8 +264,8 @@
                                     </ul>
                                     <div class="view">
                                         <select name="" id="">
-                                                    <option value="">보기</option>
-                                              </select>
+                                            <option value="">보기</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>
@@ -273,7 +276,21 @@
                                         <input type="checkbox" id="c1" class="chk01">
                                         <label for="c1" class="mi02"></label>
                                     </div>
-                                    <div class="card_top">
+                                    <div class="interview">
+                                        <div class="chk_box">
+                                            <input type="checkbox" id="c1" class="chk01">
+                                            <label for="c1" class="mi02"></label>
+                                        </div>
+                                        <h3>
+                                            인터뷰 일시
+
+                                            <span>
+                                                <img src="/img/interview02.png" alt="인터뷰 일시 이미지">
+                                                2020 .05 17 10:00
+                                            </span>
+                                        </h3>
+                                    </div>
+                                    <div class="card_top" style="border-top:none">
                                         <div class="oh">
                                             <div class="lef">
                                                 <div class="profile">
@@ -284,27 +301,34 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                  <img src="/img/icons8_love_48px.png" alt="">
-                                                              </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                              개발
-                                                          </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                              10년 6개월
-                                                          </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                              <a href="#" class="spa">특급</a>
-                                                          </span>
+                                                            <a href="#" class="prize">고급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
                                                     <li>
                                                         · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월)</p>
                                                     </li>
                                                     <li>
                                                         · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월) </p>
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
                                                     </li>
                                                 </ul>
                                             </div>
@@ -373,11 +397,21 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="chk_box">
-                                        <input type="checkbox" id="c1" class="chk01">
-                                        <label for="c1" class="mi02"></label>
+                                    <div class="interview">
+                                        <div class="chk_box">
+                                            <input type="checkbox" id="c1" class="chk01">
+                                            <label for="c1" class="mi02"></label>
+                                        </div>
+                                        <h3>
+                                            인터뷰 일시
+
+                                            <span>
+                                                <img src="/img/interview02.png" alt="인터뷰 일시 이미지">
+                                                2020 .05 17 10:00
+                                            </span>
+                                        </h3>
                                     </div>
-                                    <div class="card_top">
+                                    <div class="card_top" style="border-top:none">
                                         <div class="oh">
                                             <div class="lef">
                                                 <div class="profile">
@@ -388,27 +422,34 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                  <img src="/img/icons8_love_48px.png" alt="">
-                                                              </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                              개발
-                                                          </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                              10년 6개월
-                                                          </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                              <a href="#" class="spa">특급</a>
-                                                          </span>
+                                                            <a href="#" class="prize">고급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
                                                     <li>
                                                         · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월)</p>
                                                     </li>
                                                     <li>
                                                         · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월) </p>
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
                                                     </li>
                                                 </ul>
                                             </div>
@@ -477,11 +518,21 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="chk_box">
-                                        <input type="checkbox" id="c1" class="chk01">
-                                        <label for="c1" class="mi02"></label>
+                                    <div class="interview">
+                                        <div class="chk_box">
+                                            <input type="checkbox" id="c1" class="chk01">
+                                            <label for="c1" class="mi02"></label>
+                                        </div>
+                                        <h3>
+                                            인터뷰 일시
+
+                                            <span>
+                                                <img src="/img/interview02.png" alt="인터뷰 일시 이미지">
+                                                2020 .05 17 10:00
+                                            </span>
+                                        </h3>
                                     </div>
-                                    <div class="card_top">
+                                    <div class="card_top" style="border-top:none">
                                         <div class="oh">
                                             <div class="lef">
                                                 <div class="profile">
@@ -492,27 +543,34 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                  <img src="/img/icons8_love_48px.png" alt="">
-                                                              </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                              개발
-                                                          </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                              10년 6개월
-                                                          </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                              <a href="#" class="spa">특급</a>
-                                                          </span>
+                                                            <a href="#" class="prize">고급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
                                                     <li>
                                                         · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월)</p>
                                                     </li>
                                                     <li>
                                                         · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월) </p>
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
                                                     </li>
                                                 </ul>
                                             </div>
@@ -581,11 +639,21 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="chk_box">
-                                        <input type="checkbox" id="c1" class="chk01">
-                                        <label for="c1" class="mi02"></label>
+                                    <div class="interview">
+                                        <div class="chk_box">
+                                            <input type="checkbox" id="c1" class="chk01">
+                                            <label for="c1" class="mi02"></label>
+                                        </div>
+                                        <h3>
+                                            인터뷰 일시
+
+                                            <span>
+                                                <img src="/img/interview02.png" alt="인터뷰 일시 이미지">
+                                                2020 .05 17 10:00
+                                            </span>
+                                        </h3>
                                     </div>
-                                    <div class="card_top">
+                                    <div class="card_top" style="border-top:none">
                                         <div class="oh">
                                             <div class="lef">
                                                 <div class="profile">
@@ -596,27 +664,34 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                  <img src="/img/icons8_love_48px.png" alt="">
-                                                              </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                              개발
-                                                          </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                              10년 6개월
-                                                          </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                              <a href="#" class="spa">특급</a>
-                                                          </span>
+                                                            <a href="#" class="prize">고급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
                                                     <li>
                                                         · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월)</p>
                                                     </li>
                                                     <li>
                                                         · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월) </p>
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
                                                     </li>
                                                 </ul>
                                             </div>
@@ -685,11 +760,21 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="chk_box">
-                                        <input type="checkbox" id="c1" class="chk01">
-                                        <label for="c1" class="mi02"></label>
+                                    <div class="interview">
+                                        <div class="chk_box">
+                                            <input type="checkbox" id="c1" class="chk01">
+                                            <label for="c1" class="mi02"></label>
+                                        </div>
+                                        <h3>
+                                            인터뷰 일시
+
+                                            <span>
+                                                <img src="/img/interview02.png" alt="인터뷰 일시 이미지">
+                                                2020 .05 17 10:00
+                                            </span>
+                                        </h3>
                                     </div>
-                                    <div class="card_top">
+                                    <div class="card_top" style="border-top:none">
                                         <div class="oh">
                                             <div class="lef">
                                                 <div class="profile">
@@ -700,27 +785,34 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                  <img src="/img/icons8_love_48px.png" alt="">
-                                                              </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                              개발
-                                                          </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                              10년 6개월
-                                                          </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                              <a href="#" class="spa">특급</a>
-                                                          </span>
+                                                            <a href="#" class="prize">고급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
                                                     <li>
                                                         · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월)</p>
                                                     </li>
                                                     <li>
                                                         · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월) </p>
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
                                                     </li>
                                                 </ul>
                                             </div>
@@ -789,11 +881,21 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="chk_box">
-                                        <input type="checkbox" id="c1" class="chk01">
-                                        <label for="c1" class="mi02"></label>
+                                    <div class="interview">
+                                        <div class="chk_box">
+                                            <input type="checkbox" id="c1" class="chk01">
+                                            <label for="c1" class="mi02"></label>
+                                        </div>
+                                        <h3>
+                                            인터뷰 일시
+
+                                            <span>
+                                                <img src="/img/interview02.png" alt="인터뷰 일시 이미지">
+                                                2020 .05 17 10:00
+                                            </span>
+                                        </h3>
                                     </div>
-                                    <div class="card_top">
+                                    <div class="card_top" style="border-top:none">
                                         <div class="oh">
                                             <div class="lef">
                                                 <div class="profile">
@@ -804,27 +906,34 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                  <img src="/img/icons8_love_48px.png" alt="">
-                                                              </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                              개발
-                                                          </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                              10년 6개월
-                                                          </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                              <a href="#" class="spa">특급</a>
-                                                          </span>
+                                                            <a href="#" class="prize">고급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
                                                     <li>
                                                         · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월)</p>
                                                     </li>
                                                     <li>
                                                         · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월) </p>
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
                                                     </li>
                                                 </ul>
                                             </div>
@@ -895,12 +1004,12 @@
                             </ul>
                         </div>
 
-                        <div id="tab2" class="hidden">
+                        <div id="tab2" class="hidden" style="display: block;">
                             <div class="officer_wrap">
                                 <div class="office_sch">
                                     <select name="" id="">
-                                                    <option value="">전체</option>
-                                              </select>
+                                        <option value="">전체</option>
+                                    </select>
                                     <div class="view">
 
                                     </div>
@@ -925,14 +1034,18 @@
                                     </ul>
                                     <div class="view">
                                         <select name="" id="">
-                                                      <option value="">보기</option>
-                                                </select>
+                                            <option value="">보기</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>
 
                             <ul class="card_list">
                                 <li>
+                                    <div class="chk_box">
+                                        <input type="checkbox" id="c1" class="chk01">
+                                        <label for="c1" class="mi02"></label>
+                                    </div>
                                     <div class="card_top">
                                         <div class="oh">
                                             <div class="lef">
@@ -944,27 +1057,34 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                    <img src="/img/icons8_love_48px.png" alt="">
-                                                                </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                                개발
-                                                            </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                                10년 6개월
-                                                            </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                                <a href="#" class="spa">특급</a>
-                                                            </span>
+                                                            <a href="#" class="spa">특급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
                                                     <li>
                                                         · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월)</p>
                                                     </li>
                                                     <li>
                                                         · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월) </p>
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1034,6 +1154,10 @@
                                 </li>
                                 <li>
                                     <div class="card_top">
+                                        <div class="chk_box">
+                                            <input type="checkbox" id="c1" class="chk01">
+                                            <label for="c1" class="mi02"></label>
+                                        </div>
                                         <div class="oh">
                                             <div class="lef">
                                                 <div class="profile">
@@ -1044,27 +1168,34 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                    <img src="/img/icons8_love_48px.png" alt="">
-                                                                </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                                개발
-                                                            </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                                10년 6개월
-                                                            </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                                <a href="#" class="spa">특급</a>
-                                                            </span>
+                                                            <a href="#" class="spa">특급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
                                                     <li>
                                                         · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월)</p>
                                                     </li>
                                                     <li>
                                                         · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월) </p>
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1134,6 +1265,10 @@
                                 </li>
                                 <li>
                                     <div class="card_top">
+                                        <div class="chk_box">
+                                            <input type="checkbox" id="c1" class="chk01">
+                                            <label for="c1" class="mi02"></label>
+                                        </div>
                                         <div class="oh">
                                             <div class="lef">
                                                 <div class="profile">
@@ -1144,27 +1279,34 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                    <img src="/img/icons8_love_48px.png" alt="">
-                                                                </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                                개발
-                                                            </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                                10년 6개월
-                                                            </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                                <a href="#" class="spa">특급</a>
-                                                            </span>
+                                                            <a href="#" class="spa">특급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
                                                     <li>
                                                         · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월)</p>
                                                     </li>
                                                     <li>
                                                         · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월) </p>
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1234,6 +1376,10 @@
                                 </li>
                                 <li>
                                     <div class="card_top">
+                                        <div class="chk_box">
+                                            <input type="checkbox" id="c1" class="chk01">
+                                            <label for="c1" class="mi02"></label>
+                                        </div>
                                         <div class="oh">
                                             <div class="lef">
                                                 <div class="profile">
@@ -1244,27 +1390,34 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                    <img src="/img/icons8_love_48px.png" alt="">
-                                                                </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                                개발
-                                                            </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                                10년 6개월
-                                                            </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                                <a href="#" class="spa">특급</a>
-                                                            </span>
+                                                            <a href="#" class="spa">특급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
                                                     <li>
                                                         · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월)</p>
                                                     </li>
                                                     <li>
                                                         · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월) </p>
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1334,6 +1487,10 @@
                                 </li>
                                 <li>
                                     <div class="card_top">
+                                        <div class="chk_box">
+                                            <input type="checkbox" id="c1" class="chk01">
+                                            <label for="c1" class="mi02"></label>
+                                        </div>
                                         <div class="oh">
                                             <div class="lef">
                                                 <div class="profile">
@@ -1344,27 +1501,34 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                    <img src="/img/icons8_love_48px.png" alt="">
-                                                                </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                                개발
-                                                            </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                                10년 6개월
-                                                            </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                                <a href="#" class="spa">특급</a>
-                                                            </span>
+                                                            <a href="#" class="spa">특급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
                                                     <li>
                                                         · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월)</p>
                                                     </li>
                                                     <li>
                                                         · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월) </p>
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1434,6 +1598,10 @@
                                 </li>
                                 <li>
                                     <div class="card_top">
+                                        <div class="chk_box">
+                                            <input type="checkbox" id="c1" class="chk01">
+                                            <label for="c1" class="mi02"></label>
+                                        </div>
                                         <div class="oh">
                                             <div class="lef">
                                                 <div class="profile">
@@ -1444,27 +1612,34 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                    <img src="/img/icons8_love_48px.png" alt="">
-                                                                </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                                개발
-                                                            </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                                10년 6개월
-                                                            </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                                <a href="#" class="spa">특급</a>
-                                                            </span>
+                                                            <a href="#" class="spa">특급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
                                                     <li>
                                                         · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월)</p>
                                                     </li>
                                                     <li>
                                                         · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월) </p>
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1534,6 +1709,10 @@
                                 </li>
                                 <li>
                                     <div class="card_top">
+                                        <div class="chk_box">
+                                            <input type="checkbox" id="c1" class="chk01">
+                                            <label for="c1" class="mi02"></label>
+                                        </div>
                                         <div class="oh">
                                             <div class="lef">
                                                 <div class="profile">
@@ -1544,27 +1723,34 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                    <img src="/img/icons8_love_48px.png" alt="">
-                                                                </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                                개발
-                                                            </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                                10년 6개월
-                                                            </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                                <a href="#" class="spa">특급</a>
-                                                            </span>
+                                                            <a href="#" class="spa">특급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
                                                     <li>
                                                         · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월)</p>
                                                     </li>
                                                     <li>
                                                         · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
-                                                        <p>2019.01.15 ~ 2019.12.21 (3개월) </p>
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산광역시 부산시 정비사업 e-조합시스템 구축 용역
+                                                    </li>
+                                                    <li>
+                                                        · 부산항 신항 제덕 3개 물양장 정비공사 건설사업관리용역
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1724,7 +1910,8 @@
             <div class="footer_bottom">
                 <div class="inner">
                     <p>
-                        잡스인은 통신판매중개자이며 통신판매의 당사자가 아닙니다. <br> 따라서 개별 판매자가 등록하여 판매한 모든 상품에 대한 거래 정보 및 거래에 대한 책임은 각 판매자가 부담하고, 이에 대하여 잡스인은 일체 책임지지 않습니다.
+                        잡스인은 통신판매중개자이며 통신판매의 당사자가 아닙니다. <br> 따라서 개별 판매자가 등록하여 판매한 모든 상품에 대한 거래 정보 및 거래에 대한 책임은 각 판매자가
+                        부담하고, 이에 대하여 잡스인은 일체 책임지지 않습니다.
                     </p>
                     <p class="copy">
                         Copyright © 2020 Jons In. Inc. All rights reserved.

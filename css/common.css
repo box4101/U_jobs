@@ -2961,3 +2961,73 @@ figcaption {
     position: relative;
     top: -5px;
 }
+
+
+/* 회원 개발,기획,디자인,퍼블 */
+
+.dif_de {
+    margin-right: 7px;
+    background: #f8a03c;
+    color: #ffffff;
+    opacity: 1;
+    display: inline-block;
+    width: 55px;
+    height: 23px;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid #f8a03c;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.dif_plan {
+    margin-right: 7px;
+    background: #6876b5;
+    color: #ffffff;
+    opacity: 1;
+    display: inline-block;
+    width: 55px;
+    height: 23px;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid #6876b5;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.dif_disign {
+    margin-right: 7px;
+    background: #8bc135;
+    color: #ffffff;
+    opacity: 1;
+    display: inline-block;
+    width: 55px;
+    height: 23px;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid #8bc135;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.dif_pb {
+    margin-right: 7px;
+    background: #de3030;
+    color: #ffffff;
+    opacity: 1;
+    display: inline-block;
+    width: 55px;
+    height: 23px;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid #de3030;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+
+/* 회원 개발,기획,디자인,퍼블 */
