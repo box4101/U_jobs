@@ -18,13 +18,14 @@
     <meta property="og:title" content="U잡스">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
-    <meta property="og:image" content="img/logo.png">
+    <meta property="og:image" content="/img/logo.png">
     <meta property="og:image:type" content="/image/png">
     <meta property="og:image:width" content="173">
     <meta property="og:image:height" content="65">
     <meta property="og:description" content="">
 
-    <!-- <link rel="stylesheet" href="/css/@default.css" /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/@default.css" />
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/font.css">
@@ -76,17 +77,30 @@
                     </li>
                 </ul>
             </div>
+            <ul class="banner">
+                <li>
+                    <a href="#">
+                        <img src="/img/navi_banner01.png" alt="네비배너1">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/img/navi_banner02.png" alt="네비배너2">
+                    </a>
+                </li>
+            </ul>
             <div class="top_btn">
                 <a href="#">
                     TOP
                 </a>
             </div>
+
         </nav>
 
         <script>
-            $(function () {
+            $(function() {
 
-                $(window).scroll(function () {
+                $(window).scroll(function() {
                     var scroll = $(this).scrollTop();
                     var navi_top = $("#navi").offset().top;
 
@@ -101,7 +115,7 @@
                     } else {
                         $("#navi").css({
                             "position": "absolute",
-                            "top": "auto"
+                            "top": "628px"
                         })
                     }
                 })
@@ -112,32 +126,51 @@
         <div id="header">
             <div class="inner">
                 <div class="header_top flex">
-                    <a href="/page/freelance_sch.html" class="top_search">프리랜서 찾기</a>
+                    <a href="/page/freelance_sch/freelance_sch.html" class="top_search">프리랜서 찾기</a>
                     <a href="#" class="top_search_right">기업고객이신가요? ⇢</a>
                 </div>
                 <h1 class="logo">
                     <img src="/img/logo.png" alt="로고 이미지">
                 </h1>
+
+                <ul id="main_gnb">
+                    <li>
+                        <a href="/page/freelance_sch/freelance_sch.html">프리랜서 검색</a>
+                    </li>
+                    <li>
+                        <a href="/page/freelance_sch/freelance_self_info.html">프로젝트 검색 </a>
+                    </li>
+                    <li>
+                        <a href="#">이용안내</a>
+                    </li>
+                    <li>
+                        <a href="#">IT잡스 소개</a>
+                    </li>
+                    <li>
+                        <a href="#">고객지원</a>
+                    </li>
+                </ul>
+
                 <ul class="util clear">
                     <li>
                         <a href="#" class="on">프로젝트 등록</a>
                     </li>
                     <li>
-                        <a href="#">로그인</a>
+                        <a href="/page/login/login01.html">로그인</a>
                     </li>
                     <li>
                         <a href="#">회원가입</a>
                     </li>
                 </ul>
                 <div class="main_txt">
-                    <img src="img/bg_main_txt.png" alt="">
+                    <img src="/img/bg_main_txt.png" alt="">
                 </div>
                 <div class="seach_wrap">
                     <input type="text" placeholder="프로젝트 검색">
 
                     <div class="search_btn">
                         <a href="#">
-                            <img src="img/search_btn.png" alt="프로젝트 맞춤 서비스">
+                            <img src="/img/search_btn.png" alt="프로젝트 맞춤 서비스">
                         </a>
                     </div>
                 </div>
@@ -164,58 +197,72 @@
             <div class="wrap">
                 <article>
                     <div class="pic">
-                        <img src="img/sta01.png" alt="">
-                        <h2>
-                            애플리케이션 <br>
-                            개발
-                        </h2>
+                        <a href="#">
+                            <img src="/img/sta01.png" alt="">
+                            <h2>
+                                애플리케이션 <br> 개발
+                            </h2>
+
+                        </a>
                     </div>
                 </article>
                 <article>
                     <div class="pic">
-                        <img src="img/sta02.png" alt="">
-                        <h2>
-                            웹 개발
-                        </h2>
+                        <a href="#">
+                            <img src="/img/sta02.png" alt="">
+                            <h2>
+                                웹 개발
+                            </h2>
+                    </div>
+
+                    </a>
+                </article>
+                <article>
+                    <div class="pic">
+                        <a href="#">
+                            <img src="/img/sta03.png" alt="">
+                            <h2>
+                                일반 <br> 소프트웨어 개발
+                            </h2>
+                        </a>
                     </div>
                 </article>
                 <article>
                     <div class="pic">
-                        <img src="img/sta03.png" alt="">
-                        <h2>
-                            일반 <br>
-                            소프트웨어 개발
-                        </h2>
+                        <a href="#">
+                            <img src="/img/sta04.png" alt="">
+                            <h2>
+                                웹 디자인
+                            </h2>
+                    </div>
+
+                    </a>
+                </article>
+                <article>
+                    <div class="pic">
+                        <a href="#">
+                            <img src="/img/sta05.png" alt="">
+                            <h2>
+                                커머스, 쇼핑몰
+                            </h2>
+                    </div>
+
+                    </a>
+                </article>
+                <article>
+                    <div class="pic">
+                        <a href="#">
+                            <img src="/img/sta06.png" alt="">
+                            <h2>
+                                애플리케이션 <br> 디자인
+                            </h2>
+
+                        </a>
                     </div>
                 </article>
                 <article>
                     <div class="pic">
-                        <img src="img/sta04.png" alt="">
-                        <h2>
-                            웹 디자인
-                        </h2>
-                    </div>
-                </article>
-                <article>
-                    <div class="pic">
-                        <img src="img/sta05.png" alt="">
-                        <h2>
-                            커머스, 쇼핑몰
-                        </h2>
-                    </div>
-                </article>
-                <article>
-                    <div class="pic">
-                        <img src="img/sta06.png" alt="">
-                        <h2>
-                            애플리케이션 <br>
-                            디자인
-                        </h2>
-                    </div>
-                </article>
-                <article>
-                    <div class="pic">
-                        <img src="img/sta07.png" alt="">
+                        <img src="/img/sta07.png" alt="">
                         <h2>
                             퍼블리싱
                         </h2>
@@ -223,7 +270,7 @@
                 </article>
                 <article>
                     <div class="pic">
-                        <img src="img/sta08.png" alt="">
+                        <img src="/img/sta08.png" alt="">
                         <h2>
                             기타 개발
                         </h2>
@@ -237,9 +284,9 @@
         <div class="inner">
             <div class="top_tab_wrap">
                 <ul class="tab">
-                    <li><a href="#tab" class="on">진행 중 프로젝트</a></li>
-                    <li><a href="#tab">진행 중 아웃소싱</a></li>
-                    <li><a href="#tab">프리랜서 정보</a></li>
+                    <li><a href="#tab1" class="on">프리랜서 정보</a></li>
+                    <li><a href="#tab2">진행 중 아웃소싱</a></li>
+                    <li><a href="#tab3">진행 중 프로젝트</a></li>
                 </ul>
                 <div class="use">
                     <label><input id="check" type="checkbox"><i></i></label>
@@ -247,25 +294,2002 @@
             </div>
         </div>
     </div>
+    <!-- 프리랜서정보 -->
+    <div id="tab1" class="hidden">
+        <div id="profile_wrap">
+            <div class="inner">
+                <h1>프리랜서 정보</h1>
+                <div class="wrap">
+                    <article>
+                        <h1>공공기관의 포털사이트 구축, 업무시스템 개발, 서버 환경 셋팅 등 10년 경력</h1>
+                        <div class="profile">
+                            <div class="pic">
+                                <img src="/img/face.png" alt="회원얼굴사진">
+                            </div>
+                            <div class="proile_txt">
+                                <span class="psb">즉시 투입가능</span>
+                                <h2>김OO <span>(남 41세)</span>
+                                    <span class="heart">
+                                        <img src="/img/icons8_love_48px.png" alt="">
+                                    </span></h2>
+                                <span class="pSpan">
+                                    개발
+                                </span>
+                                <span class="date">
+                                    10년 6개월
+                                </span>
+                                <span class="dif">
+                                    <a href="#" class="spa">특급</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mainwork">
+                            <h2>주요 수행 프로젝트</h2>
+                            <ul class="mwList">
+                                <li><a href="#">· 국가생명윤리정책원 평가인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 부천종합운동장 주요설비 IoT 모니터링 시스템 구축 용역
+                                    </a></li>
+                                <li><a href="#">· 인천국제공항공사 인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 지경영시스템 인프라 활용 기반 구축 및 지원사업 사후관리
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <ul class="wNum">
+                            <li><a href="#">공공<span>33</span></a></li>
+                            <li><a href="#">금융<span>12</span></a></li>
+                            <li><a href="#">증권/보험<span>53</span></a></li>
+                            <li><a href="#">커머스<span>33</span></a></li>
+                            <li><a href="#">증권<span>15</span></a></li>
+                        </ul>
+                        <div class="area">
+                            <span class="area1">근무지역</span>
+                            <span class="area2">[서울] 금천구,구로구,종로구,영등포구</span>
+                        </div>
+                        <div class="skill">
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>MySQL</div>
+                            <div class="more">
+                                <img src="/img/card_more.png" alt="더보기">
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <h1>JSP 개발 전문으로 공공기관 10년 경력의 전문 개발자</h1>
+                        <div class="profile">
+                            <div class="pic">
+                                <img src="/img/face2.png" alt="회원얼굴사진">
+                            </div>
+                            <div class="proile_txt">
+                                <span class="psb">7월 1일 투입 가능</span>
+                                <h2>김OO <span>(남 41세)</span>
+                                    <span class="heart">
+                                        <img src="/img/icons8_love_48px_on.png" alt="">
+                                    </span></h2>
+                                <span class="pSpan blue">
+                                    기획
+                                </span>
+                                <span class="date">
+                                    10년 6개월
+                                </span>
+                                <span class="dif">
+                                    <a href="#" class="prize">고급</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mainwork">
+                            <h2>주요 수행 프로젝트</h2>
+                            <ul class="mwList">
+                                <li><a href="#">· 국가생명윤리정책원 평가인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 부천종합운동장 주요설비 IoT 모니터링 시스템 구축 용역
+                                    </a></li>
+                                <li><a href="#">· 인천국제공항공사 인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 지경영시스템 인프라 활용 기반 구축 및 지원사업 사후관리
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <ul class="wNum">
+                            <li><a href="#">공공<span>33</span></a></li>
+                            <li><a href="#">금융<span>12</span></a></li>
+                            <li><a href="#">증권/보험<span>53</span></a></li>
+                            <li><a href="#">커머스<span>33</span></a></li>
+                            <li><a href="#">증권<span>15</span></a></li>
+                        </ul>
+                        <div class="area">
+                            <span class="area1">근무지역</span>
+                            <span class="area2">[서울] 금천구,구로구,종로구,영등포구</span>
+                        </div>
+                        <div class="skill">
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>MySQL</div>
+                            <div class="more">
+                                <img src="/img/card_more.png" alt="더보기">
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <h1>JSP 개발 전문으로 공공기관 10년 경력의 전문 개발자</h1>
+                        <div class="profile">
+                            <div class="pic">
+                                <img src="/img/face.png" alt="회원얼굴사진">
+                            </div>
+                            <div class="proile_txt">
+                                <h2>김OO <span>(남 41세)</span>
+                                    <span class="heart">
+                                        <img src="/img/icons8_love_48px.png" alt="">
+                                    </span></h2>
+                                <span class="pSpan green">
+                                    디자인
+                                </span>
+                                <span class="date">
+                                    10년 6개월
+                                </span>
+                                <span class="dif">
+                                    <a href="#" class="mid">중급</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mainwork">
+                            <h2>주요 수행 프로젝트</h2>
+                            <ul class="mwList">
+                                <li><a href="#">· 국가생명윤리정책원 평가인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 부천종합운동장 주요설비 IoT 모니터링 시스템 구축 용역
+                                    </a></li>
+                                <li><a href="#">· 인천국제공항공사 인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 지경영시스템 인프라 활용 기반 구축 및 지원사업 사후관리
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <ul class="wNum">
+                            <li><a href="#">공공<span>33</span></a></li>
+                            <li><a href="#">금융<span>12</span></a></li>
+                            <li><a href="#">증권/보험<span>53</span></a></li>
+                            <li><a href="#">커머스<span>33</span></a></li>
+                            <li><a href="#">증권<span>15</span></a></li>
+                        </ul>
+                        <div class="area">
+                            <span class="area1">근무지역</span>
+                            <span class="area2">[서울] 금천구,구로구,종로구,영등포구</span>
+                        </div>
+                        <div class="skill">
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>MySQL</div>
+                            <div class="more">
+                                <img src="/img/card_more.png" alt="더보기">
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <h1>JSP 개발 전문으로 공공기관 10년 경력의 전문 개발자</h1>
+                        <div class="profile">
+                            <div class="pic">
+                                <img src="/img/face2.png" alt="회원얼굴사진">
+                            </div>
+                            <div class="proile_txt">
+                                <h2>김OO <span>(남 41세)</span>
+                                    <span class="heart">
+                                        <img src="/img/icons8_love_48px.png" alt="">
+                                    </span></h2>
+                                <span class="pSpan red">
+                                    퍼블리셔
+                                </span>
+                                <span class="date">
+                                    10년 6개월
+                                </span>
+                                <span class="dif">
+                                    <a href="#" class="begin">초급</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mainwork">
+                            <h2>주요 수행 프로젝트</h2>
+                            <ul class="mwList">
+                                <li><a href="#">· 국가생명윤리정책원 평가인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 부천종합운동장 주요설비 IoT 모니터링 시스템 구축 용역
+                                    </a></li>
+                                <li><a href="#">· 인천국제공항공사 인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 지경영시스템 인프라 활용 기반 구축 및 지원사업 사후관리
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <ul class="wNum">
+                            <li><a href="#">공공<span>33</span></a></li>
+                            <li><a href="#">금융<span>12</span></a></li>
+                            <li><a href="#">증권/보험<span>53</span></a></li>
+                            <li><a href="#">커머스<span>33</span></a></li>
+                            <li><a href="#">증권<span>15</span></a></li>
+                        </ul>
+                        <div class="area">
+                            <span class="area1">근무지역</span>
+                            <span class="area2">[서울] 금천구,구로구,종로구,영등포구</span>
+                        </div>
+                        <div class="skill">
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>MySQL</div>
+                            <div class="more">
+                                <img src="/img/card_more.png" alt="더보기">
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <h1>공공기관의 포털사이트 구축, 업무시스템 개발, 서버 환경 셋팅 등 10년 경력</h1>
+                        <div class="profile">
+                            <div class="pic">
+                                <img src="/img/face.png" alt="회원얼굴사진">
+                            </div>
+                            <div class="proile_txt">
+                                <span class="psb">즉시 투입가능</span>
+                                <h2>김OO <span>(남 41세)</span>
+                                    <span class="heart">
+                                        <img src="/img/icons8_love_48px.png" alt="">
+                                    </span></h2>
+                                <span class="pSpan">
+                                    개발
+                                </span>
+                                <span class="date">
+                                    10년 6개월
+                                </span>
+                                <span class="dif">
+                                    <a href="#" class="spa">특급</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mainwork">
+                            <h2>주요 수행 프로젝트</h2>
+                            <ul class="mwList">
+                                <li><a href="#">· 국가생명윤리정책원 평가인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 부천종합운동장 주요설비 IoT 모니터링 시스템 구축 용역
+                                    </a></li>
+                                <li><a href="#">· 인천국제공항공사 인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 지경영시스템 인프라 활용 기반 구축 및 지원사업 사후관리
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <ul class="wNum">
+                            <li><a href="#">공공<span>33</span></a></li>
+                            <li><a href="#">금융<span>12</span></a></li>
+                            <li><a href="#">증권/보험<span>53</span></a></li>
+                            <li><a href="#">커머스<span>33</span></a></li>
+                            <li><a href="#">증권<span>15</span></a></li>
+                        </ul>
+                        <div class="area">
+                            <span class="area1">근무지역</span>
+                            <span class="area2">[서울] 금천구,구로구,종로구,영등포구</span>
+                        </div>
+                        <div class="skill">
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>MySQL</div>
+                            <div class="more">
+                                <img src="/img/card_more.png" alt="더보기">
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <h1>JSP 개발 전문으로 공공기관 10년 경력의 전문 개발자</h1>
+                        <div class="profile">
+                            <div class="pic">
+                                <img src="/img/face2.png" alt="회원얼굴사진">
+                            </div>
+                            <div class="proile_txt">
+                                <span class="psb">7월 1일 투입 가능</span>
+                                <h2>김OO <span>(남 41세)</span>
+                                    <span class="heart">
+                                        <img src="/img/icons8_love_48px_on.png" alt="">
+                                    </span></h2>
+                                <span class="pSpan blue">
+                                    기획
+                                </span>
+                                <span class="date">
+                                    10년 6개월
+                                </span>
+                                <span class="dif">
+                                    <a href="#" class="prize">고급</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mainwork">
+                            <h2>주요 수행 프로젝트</h2>
+                            <ul class="mwList">
+                                <li><a href="#">· 국가생명윤리정책원 평가인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 부천종합운동장 주요설비 IoT 모니터링 시스템 구축 용역
+                                    </a></li>
+                                <li><a href="#">· 인천국제공항공사 인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 지경영시스템 인프라 활용 기반 구축 및 지원사업 사후관리
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <ul class="wNum">
+                            <li><a href="#">공공<span>33</span></a></li>
+                            <li><a href="#">금융<span>12</span></a></li>
+                            <li><a href="#">증권/보험<span>53</span></a></li>
+                            <li><a href="#">커머스<span>33</span></a></li>
+                            <li><a href="#">증권<span>15</span></a></li>
+                        </ul>
+                        <div class="area">
+                            <span class="area1">근무지역</span>
+                            <span class="area2">[서울] 금천구,구로구,종로구,영등포구</span>
+                        </div>
+                        <div class="skill">
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>MySQL</div>
+                            <div class="more">
+                                <img src="/img/card_more.png" alt="더보기">
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <h1>JSP 개발 전문으로 공공기관 10년 경력의 전문 개발자</h1>
+                        <div class="profile">
+                            <div class="pic">
+                                <img src="/img/face.png" alt="회원얼굴사진">
+                            </div>
+                            <div class="proile_txt">
+                                <h2>김OO <span>(남 41세)</span>
+                                    <span class="heart">
+                                        <img src="/img/icons8_love_48px.png" alt="">
+                                    </span></h2>
+                                <span class="pSpan green">
+                                    디자인
+                                </span>
+                                <span class="date">
+                                    10년 6개월
+                                </span>
+                                <span class="dif">
+                                    <a href="#" class="mid">중급</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mainwork">
+                            <h2>주요 수행 프로젝트</h2>
+                            <ul class="mwList">
+                                <li><a href="#">· 국가생명윤리정책원 평가인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 부천종합운동장 주요설비 IoT 모니터링 시스템 구축 용역
+                                    </a></li>
+                                <li><a href="#">· 인천국제공항공사 인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 지경영시스템 인프라 활용 기반 구축 및 지원사업 사후관리
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <ul class="wNum">
+                            <li><a href="#">공공<span>33</span></a></li>
+                            <li><a href="#">금융<span>12</span></a></li>
+                            <li><a href="#">증권/보험<span>53</span></a></li>
+                            <li><a href="#">커머스<span>33</span></a></li>
+                            <li><a href="#">증권<span>15</span></a></li>
+                        </ul>
+                        <div class="area">
+                            <span class="area1">근무지역</span>
+                            <span class="area2">[서울] 금천구,구로구,종로구,영등포구</span>
+                        </div>
+                        <div class="skill">
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>MySQL</div>
+                            <div class="more">
+                                <img src="/img/card_more.png" alt="더보기">
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <h1>JSP 개발 전문으로 공공기관 10년 경력의 전문 개발자</h1>
+                        <div class="profile">
+                            <div class="pic">
+                                <img src="/img/face2.png" alt="회원얼굴사진">
+                            </div>
+                            <div class="proile_txt">
+                                <h2>김OO <span>(남 41세)</span>
+                                    <span class="heart">
+                                        <img src="/img/icons8_love_48px.png" alt="">
+                                    </span></h2>
+                                <span class="pSpan red">
+                                    퍼블리셔
+                                </span>
+                                <span class="date">
+                                    10년 6개월
+                                </span>
+                                <span class="dif">
+                                    <a href="#" class="begin">초급</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mainwork">
+                            <h2>주요 수행 프로젝트</h2>
+                            <ul class="mwList">
+                                <li><a href="#">· 국가생명윤리정책원 평가인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 부천종합운동장 주요설비 IoT 모니터링 시스템 구축 용역
+                                    </a></li>
+                                <li><a href="#">· 인천국제공항공사 인증 및 통합관리시스템 구축 </a></li>
+                                <li><a href="#">· 지경영시스템 인프라 활용 기반 구축 및 지원사업 사후관리
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <ul class="wNum">
+                            <li><a href="#">공공<span>33</span></a></li>
+                            <li><a href="#">금융<span>12</span></a></li>
+                            <li><a href="#">증권/보험<span>53</span></a></li>
+                            <li><a href="#">커머스<span>33</span></a></li>
+                            <li><a href="#">증권<span>15</span></a></li>
+                        </ul>
+                        <div class="area">
+                            <span class="area1">근무지역</span>
+                            <span class="area2">[서울] 금천구,구로구,종로구,영등포구</span>
+                        </div>
+                        <div class="skill">
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>JSP</div>
+                            <div>Java Script</div>
+                            <div>MySQL</div>
+                            <div>Photoshop</div>
+                            <div>MySQL</div>
+                            <div class="more">
+                                <img src="/img/card_more.png" alt="더보기">
+                            </div>
+                        </div>
+                    </article>
 
-    <div id="profile_wrap">
-        <div class="inner">
-            <h1>프리랜서 정보</h1>
-            <div class="wrap">
-                <img src="/img/prelance.jpg" alt="" style="width:100%">
-
-                <div class="paging"><span><a href="#."><img src="/img/btn_page_first.png" alt="처음으로"></a></span><span><a
-                            href="#."><img src="/img/btn_page_pre.png" alt="이전으로"></a></span><span
-                        class="on">1</span><span><a href="">2</a></span><span><a href="">3</a></span><span><a
-                            href="">4</a></span><span>
-                        <a href="">5</a></span>
-                    </span>
-                    <span class="next">
-                        <a href=""><img src="/img/btn_page_next.png" alt="다음으로"></a></span>
-                    <span><a href="#."><img src="/img/btn_page_last.png" alt="마지막으로"></a></span></div>
+                    <div class="paging"><span><a href="#."><img src="/img/btn_page_first.png"
+                                    alt="처음으로"></a></span><span><a href="#."><img src="/img/btn_page_pre.png"
+                                    alt="이전으로"></a></span><span class="on">1</span><span><a href="">2</a></span><span><a
+                                href="">3</a></span><span><a href="">4</a></span><span>
+                            <a href="">5</a></span>
+                        </span>
+                        <span class="next">
+                            <a href=""><img src="/img/btn_page_next.png" alt="다음으로"></a></span>
+                        <span><a href="#."><img src="/img/btn_page_last.png" alt="마지막으로"></a></span></div>
+                </div>
             </div>
         </div>
     </div>
+    <!-- 진행중 아웃소싱 -->
+    <div id="tab2" class="hidden">
+        <div id="profile_wrap">
+            <div class="inner">
+                <h1>진행 중 아웃소싱</h1>
+                <div class="wrap">
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_de">개발</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_pb">퍼블리셔</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_plan">기획</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_disign">디자인</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_pb">퍼블리셔</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_de">개발</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_de">개발</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_de">개발</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <div class="paging"><span><a href="#."><img src="/img/btn_page_first.png"
+                                    alt="처음으로"></a></span><span><a href="#."><img src="/img/btn_page_pre.png"
+                                    alt="이전으로"></a></span><span class="on">1</span><span><a href="">2</a></span><span><a
+                                href="">3</a></span><span><a href="">4</a></span><span>
+                            <a href="">5</a></span>
+                        </span>
+                        <span class="next">
+                            <a href=""><img src="/img/btn_page_next.png" alt="다음으로"></a></span>
+                        <span><a href="#."><img src="/img/btn_page_last.png" alt="마지막으로"></a></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 진행 중 프로젝트 -->
+    <div id="tab3" class="hidden">
+        <div id="profile_wrap">
+            <div class="inner">
+                <h1>진행 중 프로젝트</h1>
+                <div class="wrap">
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_de">개발</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_pb">퍼블리셔</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_plan">기획</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_disign">디자인</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_pb">퍼블리셔</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_de">개발</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_de">개발</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <article>
+                        <h2 class="pro_header">
+                            <span class="left">
+                                <p>
+                                    5월 5일 마감
+                                    <span class="date">D-12</span>
+                            </p>
+                            </span>
+                            <span class="right">
+                            <span class="dif_de">개발</span>
+                            <span class="a1">모집중</span>
+                            <span class="a2">NEW</span>
+                            <a href="#">
+                                <img src="/img/star.png" alt="별">
+                            </a>
+                            </span>
+                        </h2>
+                        <h3>
+                            <a href="#">
+                                <span>[비상주]</span> 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </a>
+                        </h3>
+                        <div class="info_wrap">
+                            <span>
+                                <img src="/img/info_img01.png" alt="모집">
+                                <b>모집</b>
+                                <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
+                            </span>
+                            <!-- <span>
+                                <img src="/img/info_img02.png" alt="모집">
+                                <b>분야</b>
+                                개발PL, 개발
+                            </span> -->
+                            <span>
+                                <img src="/img/support.png" alt="지원">
+                                <b>지원자수</b>
+                                <span class="num">1</span>명
+                            </span>
+                        </div>
+                        <div class="price_wrap">
+                            <a href="#" class="price">
+                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                            </a>
+                            <a href="#" class="dates">
+                                <img src="/img/pro_time.png" alt="">
+                                <span>
+                                    6월 중순 ∼9월 하순
+                                    <span class="da">(4.5개월)</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="skills">
+                            <span class="path">
+                                개발 > 앱
+                            </span>
+                            <span class="skill">
+                                HTML5, CSS3, Typescript, React, GraphQL, Apollo Client
+                            </span>
+                        </div>
+
+                        <div class="way">
+                            <dl>
+                                <dt>진행 방식</dt>
+                                <dd>
+                                    최초 오프라인 미팅 - 사무실위치 : 경기도 군포시 당정로 부근입니다. - 주1회 정기적인 미팅 - 원격, 재택근무
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>근무지역</dt>
+                                <dd>
+                                    서울시 4호선 충무로역 2번 출구 3분 거리
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="pro_profile_wrap">
+                            <div class="profile" style="background-image: url(/img/face.png);">
+                            </div>
+                            <div class="name">
+                                KIKI_92
+                                <span>서울</span>
+                            </div>
+                            <div class="company">
+                                <a href="#">회사소개 ⇢</a>
+                            </div>
+                        </div>
+
+
+                    </article>
+                    <div class="paging"><span><a href="#."><img src="/img/btn_page_first.png"
+                                    alt="처음으로"></a></span><span><a href="#."><img src="/img/btn_page_pre.png"
+                                    alt="이전으로"></a></span><span class="on">1</span><span><a href="">2</a></span><span><a
+                                href="">3</a></span><span><a href="">4</a></span><span>
+                            <a href="">5</a></span>
+                        </span>
+                        <span class="next">
+                            <a href=""><img src="/img/btn_page_next.png" alt="다음으로"></a></span>
+                        <span><a href="#."><img src="/img/btn_page_last.png" alt="마지막으로"></a></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(function() {
+            const menu = $(".top_tab_wrap");
+            const menu_li = $(".top_tab_wrap li");
+            const menu_li_a = $(".top_tab_wrap li a");
+            const hidden = $(".hidden");
+
+            $("#tab1").show();
+
+            menu_li.on("click", function(e) {
+                e.preventDefault();
+
+                menu_li_a.removeClass("on");
+                $(this).find("a").addClass("on");
+
+                let target = $(this).find("a").attr("href");
+                hidden.fadeOut();
+                $(target).fadeIn(400);
+            });
+        });
+    </script>
 
     <div id="ad">
         <div class="swiper-container">
@@ -273,12 +2297,11 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="img/ad_icon01.png" alt="">
+                            <img src="/img/ad_icon01.png" alt="">
                         </div>
                         <h2>내년작업도 it잡스에서 할래요!</h2>
                         <h3>
-                            꼼꼼하게 체크해서 수정해 주셨어요!
-                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                            꼼꼼하게 체크해서 수정해 주셨어요! 사이트도 너무 예쁘게 나왔구요ㅎㅎ
                         </h3>
                         <span class="date">2019.01.20</span>
                     </div>
@@ -286,12 +2309,11 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="img/ad_icon02.png" alt="">
+                            <img src="/img/ad_icon02.png" alt="">
                         </div>
                         <h2>인생샷 득템이요~</h2>
                         <h3>
-                            꼼꼼하게 체크해서 수정해 주셨어요!
-                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                            꼼꼼하게 체크해서 수정해 주셨어요! 사이트도 너무 예쁘게 나왔구요ㅎㅎ
                         </h3>
                         <span class="date">2019.01.20</span>
                     </div>
@@ -299,12 +2321,11 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="img/ad_icon03.png" alt="">
+                            <img src="/img/ad_icon03.png" alt="">
                         </div>
                         <h2>정말 뜻깊은 작업이었습니다!</h2>
                         <h3>
-                            꼼꼼하게 체크해서 수정해 주셨어요!
-                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                            꼼꼼하게 체크해서 수정해 주셨어요! 사이트도 너무 예쁘게 나왔구요ㅎㅎ
                         </h3>
                         <span class="date">2019.01.20</span>
                     </div>
@@ -312,12 +2333,11 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="img/ad_icon01.png" alt="">
+                            <img src="/img/ad_icon01.png" alt="">
                         </div>
                         <h2>정말 뜻깊은 작업이었습니다!</h2>
                         <h3>
-                            꼼꼼하게 체크해서 수정해 주셨어요!
-                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                            꼼꼼하게 체크해서 수정해 주셨어요! 사이트도 너무 예쁘게 나왔구요ㅎㅎ
                         </h3>
                         <span class="date">2019.01.20</span>
                     </div>
@@ -325,12 +2345,11 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="img/ad_icon02.png" alt="">
+                            <img src="/img/ad_icon02.png" alt="">
                         </div>
                         <h2>정말 뜻깊은 작업이었습니다!</h2>
                         <h3>
-                            꼼꼼하게 체크해서 수정해 주셨어요!
-                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                            꼼꼼하게 체크해서 수정해 주셨어요! 사이트도 너무 예쁘게 나왔구요ㅎㅎ
                         </h3>
                         <span class="date">2019.01.20</span>
                     </div>
@@ -338,12 +2357,11 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="img/ad_icon03.png" alt="">
+                            <img src="/img/ad_icon03.png" alt="">
                         </div>
                         <h2>정말 뜻깊은 작업이었습니다!</h2>
                         <h3>
-                            꼼꼼하게 체크해서 수정해 주셨어요!
-                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                            꼼꼼하게 체크해서 수정해 주셨어요! 사이트도 너무 예쁘게 나왔구요ㅎㅎ
                         </h3>
                         <span class="date">2019.01.20</span>
                     </div>
@@ -351,12 +2369,11 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="img/ad_icon01.png" alt="">
+                            <img src="/img/ad_icon01.png" alt="">
                         </div>
                         <h2>정말 뜻깊은 작업이었습니다!</h2>
                         <h3>
-                            꼼꼼하게 체크해서 수정해 주셨어요!
-                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                            꼼꼼하게 체크해서 수정해 주셨어요! 사이트도 너무 예쁘게 나왔구요ㅎㅎ
                         </h3>
                         <span class="date">2019.01.20</span>
                     </div>
@@ -364,12 +2381,11 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="img/ad_icon01.png" alt="">
+                            <img src="/img/ad_icon01.png" alt="">
                         </div>
                         <h2>정말 뜻깊은 작업이었습니다!</h2>
                         <h3>
-                            꼼꼼하게 체크해서 수정해 주셨어요!
-                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                            꼼꼼하게 체크해서 수정해 주셨어요! 사이트도 너무 예쁘게 나왔구요ㅎㅎ
                         </h3>
                         <span class="date">2019.01.20</span>
                     </div>
@@ -377,12 +2393,11 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="img/ad_icon02.png" alt="">
+                            <img src="/img/ad_icon02.png" alt="">
                         </div>
                         <h2>내년작업도 it잡스에서 할래요!</h2>
                         <h3>
-                            꼼꼼하게 체크해서 수정해 주셨어요!
-                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                            꼼꼼하게 체크해서 수정해 주셨어요! 사이트도 너무 예쁘게 나왔구요ㅎㅎ
                         </h3>
                         <span class="date">2019.01.20</span>
                     </div>
@@ -390,12 +2405,11 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="img/ad_icon03.png" alt="">
+                            <img src="/img/ad_icon03.png" alt="">
                         </div>
                         <h2>정말 뜻깊은 작업이었습니다!</h2>
                         <h3>
-                            꼼꼼하게 체크해서 수정해 주셨어요!
-                            사이트도 너무 예쁘게 나왔구요ㅎㅎ
+                            꼼꼼하게 체크해서 수정해 주셨어요! 사이트도 너무 예쁘게 나왔구요ㅎㅎ
                         </h3>
                         <span class="date">2019.01.20</span>
                     </div>
@@ -433,12 +2447,12 @@
             <div class="wrap">
                 <article>
                     <a href="#">
-                        <img src="img/notice_option01.png" alt="">
+                        <img src="/img/notice_option01.png" alt="">
                     </a>
                 </article>
                 <article>
                     <a href="#">
-                        <img src="img/notice_option02.png" alt="">
+                        <img src="/img/notice_option02.png" alt="">
                     </a>
                 </article>
                 <article>
@@ -506,34 +2520,35 @@
             <div class="swiper-banner">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="img/banner_img01.png" alt="">
+                        <img src="/img/banner_img01.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/banner_img02.png" alt="">
+                        <img src="/img/banner_img02.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/banner_img03.png" alt="">
+                        <img src="/img/banner_img03.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/banner_img04.png" alt="">
+                        <img src="/img/banner_img04.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/banner_img05.png" alt="">
+                        <img src="/img/banner_img05.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/banner_img01.png" alt="">
+                        <img src="/img/banner_img01.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/banner_img02.png" alt="">
+                        <img src="/img/banner_img02.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/banner_img03.png" alt="">
+                        <img src="/img/banner_img03.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/banner_img04.png" alt="">
+                        <img src="/img/banner_img04.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/banner_img05.png" alt="">0</div>
+                        <img src="/img/banner_img05.png" alt="">
+                    </div>
                 </div>
                 <!-- Add Pagination -->
             </div>
@@ -585,6 +2600,12 @@
                             <a href="#">고객센터</a>
                         </li>
                     </ul>
+
+                    <div class="site_map">
+                        <select name="" id="">
+                            <option value="">SITE MAP</option>
+                        </select>
+                    </div>
                 </div>
             </div>
 
@@ -628,8 +2649,7 @@
                                 </li>
                             </ul>
                             <div class="phone">
-                                <img src="/img/f_pon.png" alt="">
-                                02-3211-0114
+                                <img src="/img/f_pon.png" alt=""> 02-3211-0114
                             </div>
                         </article>
                     </div>
@@ -639,8 +2659,7 @@
             <div class="footer_bottom">
                 <div class="inner">
                     <p>
-                        잡스인은 통신판매중개자이며 통신판매의 당사자가 아닙니다. <br>
-                        따라서 개별 판매자가 등록하여 판매한 모든 상품에 대한 거래 정보 및 거래에 대한 책임은 각 판매자가 부담하고, 이에 대하여 잡스인은 일체 책임지지 않습니다.
+                        잡스인은 통신판매중개자이며 통신판매의 당사자가 아닙니다. <br> 따라서 개별 판매자가 등록하여 판매한 모든 상품에 대한 거래 정보 및 거래에 대한 책임은 각 판매자가 부담하고, 이에 대하여 잡스인은 일체 책임지지 않습니다.
                     </p>
                     <p class="copy">
                         Copyright © 2020 Jons In. Inc. All rights reserved.
