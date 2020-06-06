@@ -1,54 +1,5 @@
 @charset "UTF-8";
-$yel: #f8a03c;
-$cel: #6c7cb8;
-@mixin radius {
-    border-radius: 13px;
-}
-
-@mixin select {
-    width: 125px;
-    height: 34px;
-    border: solid 1px #bbbbbb;
-    background-color: #ffffff;
-    letter-spacing: -0.52px;
-    text-align: left;
-    color: #333333;
-    padding-left: 14px;
-    font-weight: bold;
-    background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
-}
-
-@mixin text_hidden {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-@mixin poa_left {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-@mixin inner {
-    width: 1180px;
-    margin: 0 auto;
-}
-
-@mixin text_line {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-@mixin bg_center($width, $height) {
-    width: $width;
-    height: $height;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
+@import 'reset';
 // 프리랜서 프로필
 div#freelance_profile {
     opacity: 1;
@@ -489,7 +440,7 @@ div.technology {
                     margin-top: 37px;
                     display: flex;
                     li.on {
-                        background: $cel;
+                        background: $main_color_blue;
                         .txt {
                             h3 {
                                 color: #ffffff;
@@ -553,7 +504,7 @@ div.technology {
                             }
                         }
                         &:hover {
-                            background: $cel;
+                            background: $main_color_blue;
                             .txt {
                                 h3 {
                                     color: #ffffff;
@@ -630,7 +581,7 @@ div.technology {
                                 letter-spacing: 1;
                                 text-align: left;
                                 font-size: 14px;
-                                color: $cel;
+                                color: $main_color_blue;
                                 margin-top: 19px;
                             }
                             p.yel {
@@ -727,7 +678,7 @@ div.technology {
                                 letter-spacing: 1;
                                 text-align: left;
                                 font-size: 16px;
-                                color: $cel;
+                                color: $main_color_blue;
                                 margin-top: 21px;
                             }
                             p.yel {
@@ -884,7 +835,7 @@ div.faq_wrap {
 
 // 자주찾는질문
 div.interview {
-    border-top: 2px solid $cel;
+    border-top: 2px solid $main_color_blue;
     opacity: 1;
     height: 75px;
     background: #fff;
