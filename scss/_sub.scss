@@ -3,12 +3,84 @@
 // 프리랜서 프로필
 div#freelance_profile {
     opacity: 1;
-    ul {
+    >ul {
         opacity: 1;
         display: flex;
-        li {
+        margin: 0 -20px;
+        >li {
+            margin: 0 20px;
+            &:nth-of-type(2) {
+                margin: 0 0px;
+                margin-right: 20px;
+            }
             p.tit {
                 opacity: 1;
+            }
+            .pro_info {
+                ul.pro {
+                    overflow: hidden;
+                    margin-top: 18px;
+                    margin-left: -17px;
+                    li {
+                        float: left;
+                        width: 50%;
+                        margin-bottom: 7px;
+                        &:nth-of-type(7) dl {
+                            border-bottom: none;
+                        }
+                        &:nth-of-type(8) dl {
+                            border-bottom: none;
+                        }
+                        &:hover dl {
+                            border-radius: 20px;
+                            background-color: #f8a03c;
+                            transition: all 0.2s;
+                            dt,
+                            dd {
+                                color: #ffffff;
+                            }
+                        }
+                        a {
+                            display: inline-block;
+                            width: 120px;
+                            height: 40px;
+                            dl {
+                                width: 120px;
+                                height: 100%;
+                                border-radius: 20px;
+                                background: #ffffff;
+                                display: flex;
+                                justify-content: space-between;
+                                padding: 0 18px;
+                                box-sizing: border-box;
+                                display: flex;
+                                align-items: center;
+                                border-bottom: 1px solid #dbdbdb;
+                                border-radius: 0;
+                                dt {
+                                    font-size: 14px;
+                                    font-weight: bold;
+                                    font-stretch: normal;
+                                    font-style: normal;
+                                    line-height: 1.43;
+                                    letter-spacing: -0.56px;
+                                    text-align: left;
+                                    color: #999999;
+                                }
+                                dd {
+                                    font-size: 16px;
+                                    font-weight: bold;
+                                    font-stretch: normal;
+                                    font-style: normal;
+                                    line-height: 1.25;
+                                    letter-spacing: -0.64px;
+                                    text-align: left;
+                                    color: #666666;
+                                }
+                            }
+                        }
+                    }
+                }
             }
             div.info {
                 opacity: 1;
@@ -16,8 +88,10 @@ div#freelance_profile {
                 padding: 25px 20px;
                 background: #fff;
                 border: 1px solid #f4f4f4;
-                border-radius: 29px;
+                border-radius: 20px;
                 box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+                padding-bottom: 10px;
+                padding-top: 22px;
                 div.star_wrap {
                     opacity: 1;
                     display: flex;
@@ -30,12 +104,15 @@ div#freelance_profile {
                         margin: 0 3px;
                     }
                     span {
-                        opacity: 1;
                         font-size: 14px;
+                        font-weight: bold;
+                        font-stretch: normal;
+                        font-style: normal;
+                        /* line-height: 1.93; */
+                        /* letter-spacing: -0.56px; */
+                        text-align: left;
                         color: #bbbbbb;
-                        font-family: 'Myriad Pro';
-                        display: inline-block;
-                        margin-left: 5px;
+                        margin-left: 7px;
                     }
                 }
                 ul {
@@ -43,6 +120,7 @@ div#freelance_profile {
                     opacity: 1;
                     display: block;
                     li {
+                        margin-bottom: 6px;
                         opacity: 1;
                         font-size: 14px;
                         color: #666666;
@@ -59,6 +137,21 @@ div#freelance_profile {
                             display: inline-block;
                             margin-left: 7px;
                             color: #6c7cb8;
+                            margin-right: 3px;
+                        }
+                        span.dw {
+                            opacity: 1;
+                            // font-family: 'Roboto';
+                            font-size: 18px;
+                            font-weight: bold;
+                            display: inline-block;
+                            margin-left: 7px;
+                            color: #333;
+                            margin-right: 2px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.5;
                         }
                     }
                 }
@@ -542,7 +635,7 @@ div.technology {
                         span {
                             opacity: 1;
                             font-size: 24px;
-                            color: $yel;
+                            color: $main_color_yel;
                         }
                     }
                     select {
@@ -585,7 +678,7 @@ div.technology {
                                 margin-top: 19px;
                             }
                             p.yel {
-                                color: $yel;
+                                color: $main_color_yel;
                             }
                         }
                         div.ref {
@@ -682,7 +775,7 @@ div.technology {
                                 margin-top: 21px;
                             }
                             p.yel {
-                                color: $yel;
+                                color: $main_color_yel;
                             }
                         }
                         div.ref {
@@ -2725,7 +2818,7 @@ div {
                     width: 31% !important;
                     /* ul.wNum { position: absolute; right: 23px; top: 95px;
       li { width: 160px; height: 40px; border: 1px solid #ddd; border-radius: 7px; margin-bottom: 5px; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 5px 15px;
-      &:hover { background: $yel; color: #ffffff;
+      &:hover { background: $main_color_yel; color: #ffffff;
       a, span { color: #ffffff;
       &::after { color: #ffffff; } } }
       a { float: left; line-height: 30px; font-size: 14px; color: #303030; font-weight: 400;
@@ -3342,6 +3435,3 @@ div.footer_top {
     width: 100%;
     height: 360px;
 }
-
-
-/*# sourceMappingURL=sub.css.map */

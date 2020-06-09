@@ -1,5 +1,6 @@
 @import 'reset';
-
+@import 'sub';
+@import 'suk';
 div#header_info {
     position: relative;
     div#header {
@@ -1402,7 +1403,6 @@ nav#navi {
             }
         }
     }
-    
     .top_btn {
         margin-top: 15px;
         a {

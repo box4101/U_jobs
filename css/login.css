@@ -231,14 +231,14 @@ div.personal div.agree_wrap div.agree_info ul li.fle.just_s span input#c1.chk03 
 div.personal div.agree_wrap div.agree_info ul li.fle.just_s span label.mi3 {}
 
 .member_wrap .inner {
-    width: 975px;
+    width: 750px;
     margin: 0;
 }
 
 div.members_wrap {
     margin-top: 20px;
     border: 1px solid #dbdbdb;
-    padding: 50px 220px;
+    padding: 50px 100px;
 }
 
 div.members_wrap div.fle {
@@ -422,7 +422,7 @@ div.member_wrap ul.custom_tab {
 
 div.member_wrap ul.custom_tab li {
     float: left;
-    width: 325px;
+    width: 250px;
     height: 55px;
     text-align: center;
     border: solid 1px #dddddd;
@@ -453,7 +453,7 @@ div.member_wrap div#tab1 {}
 div.member_wrap div#tab1 div.inner {}
 
 div.member_wrap div#tab1 div.inner div.sns_wrap {
-    padding: 70px 164px;
+    padding: 70px 64px;
     text-align: center;
     border: 1px solid #dbdbdb;
     border-top: none;
