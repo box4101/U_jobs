@@ -49,6 +49,79 @@ $main_color_blue: #6c7cb8;
     background-repeat: no-repeat;
 }
 
+// page move
+.page_move {
+    width: 100%;
+    margin-top: 110px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 0;
+  
+    ul {
+      display: block;
+      border-top: 1px solid #d9d9d9;
+    }
+  
+    li {
+      &.prev {
+        display: inline-block;
+        width: 150px;
+        text-align: center;
+        color: #858585;
+        font-family: 'Noto Sans KR';
+        font-size: 14px;
+        padding: 12px 0;
+        background: #f3f3f3;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+  
+        img {
+          margin-right: 10px;
+          margin-top: 5px;
+        }
+      }
+  
+      &.prev_tit {
+        display: inline-block;
+        width: 566px;
+        text-align: left;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        color: #333;
+        font-size: 14px;
+        font-family: 'Noto Sans KR';
+        a{
+            display: inline-block;
+            color: #333333;
+        }
+      }
+  
+      &.prev_date {
+        display: inline-block;
+        width: 150px;
+        text-align: center;
+        padding: 12px 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        color: #737373;
+        font-size: 13px;
+        font-family: 'Noto Sans KR';
+      }
+    }
+  
+    ul:first-child {
+      border-top: 0 solid #d9d9d9;
+    }
+  }
+// page move
+
 html {
     font-family: "Noto Sans KR", NanumGothic, "Malgun Gothic", sans-serif;
     color: #333;

@@ -2,9 +2,9 @@
       overflow: hidden;
       h1.custom_tit {
             overflow: hidden;
-            justify-content: flex-end!important;
+            justify-content: flex-end !important;
             span.right {
-            //      float: right;
+                  //      float: right;
                   position: relative;
                   input {
                         border: solid 1px #dddddd;
@@ -15,7 +15,7 @@
                         text-align: left;
                         color: #999999;
                   }
-                  a{
+                  a {
                         display: inline-block;
                         position: absolute;
                         z-index: 99;
@@ -34,54 +34,154 @@ div.custom_table_wrap {
       opacity: 1;
       margin-top: 16px;
       table {
-            border-top:1px solid #333;
+            border-top: 1px solid #333;
             width: 100%;
-        tbody {
-              opacity: 1;
-          tr {
-                  &:hover{
-                        background-color: #b7d1f2;
+            tbody {
+                  opacity: 1;
+                  tr {
+                        &:hover {
+                              th,
+                              td {
+                                    background-color: #f8fafe;
+                              }
+                        }
+                        th {
+                              font-size: 14px;
+                              font-weight: 500;
+                              color: #333333;
+                              height: 56px;
+                              background: #ffffff;
+                              border-bottom: 1px solid #dddd;
+                        }
+                        td {
+                              font-size: 14px;
+                              font-weight: 500;
+                              color: #333333;
+                              height: 56px;
+                              background: #ffffff;
+                              text-align: center;
+                              border-bottom: 1px solid #dddd;
+                              a {
+                                    display: inline-block;
+                                    width: 52px;
+                                    height: 24px;
+                                    line-height: 24px;
+                                    font-size: 14.5px;
+                                    color: #ffffff;
+                                    border-radius: 3px;
+                                    background-color: #6c7cb8;
+                              }
+                              img {
+                                    display: inline-block;
+                                    position: relative;
+                                    top: 2px;
+                                    left: 2px;
+                              }
+                        }
+                        td.left {
+                              text-align: left !important;
+                              cursor: pointer;
+                        }
+                        td.date {
+                              color: #999999;
+                        }
                   }
-            th {
-                  font-size: 14px;
-                  font-weight: 500;
-                  color: #333333;
-                  height: 56px; 
-                  background: #ffffff;
-                  border-bottom: 1px solid #dddd;
             }
-            td{
-                  font-size: 14px;
-                  font-weight: 500;
-                  color: #333333;
-                  height: 56px; 
-                  background: #ffffff;
-                  text-align: center;
-                  border-bottom: 1px solid #dddd;
-                  a{
-                        display: inline-block;
-                        width: 52px; height: 24px;
-                        line-height: 24px;
-                        font-size: 14.5px;
-                        color: #ffffff;
-                        border-radius: 3px;
-                        background-color: #6c7cb8;
-                  }
-                  img{
-                        display: inline-block;
-                        position: relative;
-                        top: 2px;
-                        left: 2px;
-                  }
-            }
-            td.left{
-                  text-align: left!important;
-            }
-            td.date{
-                  color: #999999;
-            }
-          }
-        }
       }
-    }
+}
 // 테이블
+// 고객지원 게시판 뷰
+div.custom_view_wrap {
+      opacity: 1;
+      padding: 47px 27px;
+      background: #fff;
+      border-top: 1px solid #000;
+      margin-top: 20px;
+      div.custom_view_top {
+            opacity: 1;
+            padding: 0 32px;
+            padding-bottom: 35px;
+            border-bottom: 1px solid #dddddd;
+            h2 {
+                  font-size: 24px;
+                  text-align: left;
+                  color: #333333;
+            }
+
+            div.desc {
+                  margin-top: 24px;
+                  opacity: 1;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  div.lef {
+                        span {
+                              font-size: 13px;
+                        }
+                        span.low {
+                              display: inline-block;
+                              width: 1px;
+                              height: 12px;
+                              background-color: #dddddd;
+                              margin: 0 10px;
+                        }
+                        opacity: 1;
+                        span.pr {
+                              opacity: 1;
+                              display: inline-block;
+                              color: #333;
+                        }
+
+                        span.date {
+                              opacity: 1;
+                              color: #999;
+                        }
+
+                        span.view {
+                              opacity: 1;
+                              color: #999;
+                              img {
+                                    opacity: 1;
+                              }
+                        }
+                  }
+
+                  div.ref {
+                        opacity: 1;
+                        display: flex;
+                        align-items: center;
+                        span.fr a {
+                              font-size: 13px;
+                              color: #999999;
+                              img {
+                                    opacity: 1;
+                                    vertical-align: text-top;
+                              }
+                        }
+                  }
+            }
+      }
+
+      div.custom_view_info {
+            padding: 40px 0;
+            padding-top: 0;
+            div.img {
+                  opacity: 1;
+                  margin: 38px auto;
+                  display: block;
+                  display: flex;
+                  justify-content: center;
+                  img {
+                        opacity: 1;
+                  }
+            }
+
+            p {
+                  opacity: 1;
+                  br {
+                        opacity: 1;
+                  }
+            }
+      }
+}
+// 고객지원 게시판 뷰

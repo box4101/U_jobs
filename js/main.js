@@ -15,6 +15,31 @@ function initDOM() {
 //이벤트 바인딩
 function bindingEvent() {
 
+  // 탭공통
+
+  $(function () {
+    const menu = $(".custom_tabs");
+    const menu_li = $(".custom_tabs li");
+    const menu_li_a = $(".custom_tabs li a");
+    const hidden = $(".hidden");
+
+    $("#tab1").show();
+
+    menu_li.on("click", function (e) {
+      e.preventDefault();
+
+      menu_li_a.removeClass("on");
+      $(this).find("a").addClass("on");
+
+      let target = $(this).find("a").attr("href");
+      hidden.fadeOut();
+      $(target).fadeIn(400);
+    });
+  });
+
+  // 탭공통
+
+
 
   // 맞춤검색 직무선택시
   $(function () {
@@ -39,7 +64,7 @@ function bindingEvent() {
       $(".fisrtFloor_on").show();
       $(".fisrtFloor_area").hide();
     });
-    
+
     // 지역클릭시
     $(".floor_area_chk").on("click", function () {
       $(".firstFloor").find("dd").hide();
