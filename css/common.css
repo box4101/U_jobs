@@ -2664,6 +2664,7 @@ button {
     color: #424242;
     font-size: 12px;
     font-family: "Nanum Gothic";
+    background: #ffffff;
 }
 
 .paging span:hover {

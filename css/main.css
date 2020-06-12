@@ -10111,6 +10111,75 @@ div#sub_fl_content01 {
               div#sub_fl_content01 div.inner article.content_ar04 ul.content_Project li:hover a span {
                 color: #ffffff; }
 
+.custom_sch {
+  overflow: hidden; }
+  .custom_sch h1.custom_tit {
+    overflow: hidden;
+    justify-content: flex-end !important; }
+    .custom_sch h1.custom_tit span.right {
+      position: relative; }
+      .custom_sch h1.custom_tit span.right input {
+        border: solid 1px #dddddd;
+        width: 313px;
+        height: 45px;
+        padding-left: 18px;
+        font-size: 13px;
+        text-align: left;
+        color: #999999; }
+      .custom_sch h1.custom_tit span.right a {
+        display: inline-block;
+        position: absolute;
+        z-index: 99;
+        width: 21px;
+        height: 22px;
+        right: 16px;
+        top: 50%;
+        transform: translateY(-50%); }
+
+div.custom_table_wrap {
+  opacity: 1;
+  margin-top: 16px; }
+  div.custom_table_wrap table {
+    border-top: 1px solid #333;
+    width: 100%; }
+    div.custom_table_wrap table tbody {
+      opacity: 1; }
+      div.custom_table_wrap table tbody tr:hover {
+        background-color: #b7d1f2; }
+      div.custom_table_wrap table tbody tr th {
+        font-size: 14px;
+        font-weight: 500;
+        color: #333333;
+        height: 56px;
+        background: #ffffff;
+        border-bottom: 1px solid #dddd; }
+      div.custom_table_wrap table tbody tr td {
+        font-size: 14px;
+        font-weight: 500;
+        color: #333333;
+        height: 56px;
+        background: #ffffff;
+        text-align: center;
+        border-bottom: 1px solid #dddd; }
+        div.custom_table_wrap table tbody tr td a {
+          display: inline-block;
+          width: 52px;
+          height: 24px;
+          line-height: 24px;
+          font-size: 14.5px;
+          color: #ffffff;
+          border-radius: 3px;
+          background-color: #6c7cb8; }
+        div.custom_table_wrap table tbody tr td img {
+          display: inline-block;
+          position: relative;
+          top: 2px;
+          left: 2px; }
+      div.custom_table_wrap table tbody tr td.left {
+        text-align: left !important; }
+      div.custom_table_wrap table tbody tr td.date {
+        color: #999999; }
+
 div#header_info {
   position: relative; }
   div#header_info div#header {
