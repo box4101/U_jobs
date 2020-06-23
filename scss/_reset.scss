@@ -276,8 +276,9 @@ label.mi3 {
 input[class="chk03"]:checked+label.mi3 {
     display: inline-block;
     background: url(/img/l_hide03_on.png) no-repeat;
+    background-size: contain;
     width: 16px;
-    height: 16px;
+    height: 19px;
     padding-left: 24px;
     vertical-align: top;
     position: relative;
@@ -306,7 +307,7 @@ input[class="chk04"]:checked+label.mi4 {
     display: inline-block;
     background: url(/img/l_hide03_on.png) no-repeat;
     width: 16px;
-    height: 20px;
+    height: 19px;
     padding-left: 25px;
     vertical-align: top;
     position: relative;
@@ -328,7 +329,6 @@ input[class="chk04"]:checked+label.mi4 {
     width: 190px;
     height: 55px;
     line-height: 55px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.54);
     background-color: #333333;
     text-align: center;
     font-size: 18px;

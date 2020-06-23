@@ -11,20 +11,20 @@
 
 .out_input span label {}
 
-div#adress_pop.overlay div.popup {}
+.overlay div.popup {}
 
-div#adress_pop.overlay div.popup a.close {}
+.overlay div.popup a.close {}
 
-div#adress_pop.overlay div.popup h2 {
+.overlay div.popup h2 {
     padding-bottom: 19px;
     border-bottom: 1px solid #dbdbdb;
 }
 
-div#adress_pop.overlay div.popup div.info {
+.overlay div.popup div.info {
     margin-top: 15px;
 }
 
-div#adress_pop.overlay div.popup div.info div.fle {}
+.overlay div.popup div.info div.fle {}
 
 div#adress_pop.overlay div.popup div.info div.fle div.lef {
     width: 80%;
@@ -236,9 +236,9 @@ div.personal div.agree_wrap div.agree_info ul li.fle.just_s span label.mi3 {}
 }
 
 div.members_wrap {
-    margin-top: 20px;
     border: 1px solid #dbdbdb;
     padding: 50px 100px;
+    border-top:none;
 }
 
 div.members_wrap div.fle {
@@ -413,7 +413,10 @@ div.members_wrap ul.input_wrap li input {
 }
 
 div.member_wrap {
+    width: 750px;
+    margin: 0 auto;
     margin-top: 5px;
+
 }
 
 div.member_wrap ul.custom_tab {
