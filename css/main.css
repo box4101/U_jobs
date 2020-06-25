@@ -2109,7 +2109,8 @@ button {
   height: 30px;
   color: #424242;
   font-size: 12px;
-  font-family: "Nanum Gothic"; }
+  font-family: "Nanum Gothic";
+  background: #ffffff; }
 
 .paging span:hover {
   border: 1px solid #333; }
@@ -2294,6 +2295,10 @@ figcaption {
   padding: 0;
   display: block;
   z-index: 0; }
+
+input, select {
+  font-family: "Noto Sans KR", NanumGothic, "Malgun Gothic", sans-serif !important;
+  letter-spacing: -0.4px !important; }
 
 /* 회원등급 */
 .dif {
@@ -4526,7 +4531,8 @@ button {
   height: 30px;
   color: #424242;
   font-size: 12px;
-  font-family: "Nanum Gothic"; }
+  font-family: "Nanum Gothic";
+  background: #ffffff; }
 
 .paging span:hover {
   border: 1px solid #333; }
@@ -4711,6 +4717,10 @@ figcaption {
   padding: 0;
   display: block;
   z-index: 0; }
+
+input, select {
+  font-family: "Noto Sans KR", NanumGothic, "Malgun Gothic", sans-serif !important;
+  letter-spacing: -0.4px !important; }
 
 /* 회원등급 */
 .dif {
@@ -9819,7 +9829,8 @@ button {
   height: 30px;
   color: #424242;
   font-size: 12px;
-  font-family: "Nanum Gothic"; }
+  font-family: "Nanum Gothic";
+  background: #ffffff; }
 
 .paging span:hover {
   border: 1px solid #333; }
@@ -10004,6 +10015,10 @@ figcaption {
   padding: 0;
   display: block;
   z-index: 0; }
+
+input, select {
+  font-family: "Noto Sans KR", NanumGothic, "Malgun Gothic", sans-serif !important;
+  letter-spacing: -0.4px !important; }
 
 /* 회원등급 */
 .dif {
@@ -10476,6 +10491,378 @@ div.custom_view_wrap {
       opacity: 1; }
       div.custom_view_wrap div.custom_view_info p br {
         opacity: 1; }
+
+input[class="find_id_radio"]:checked + label {
+  background: url(/img/id_radio_on.png) no-repeat !important;
+  height: 18px;
+  padding-left: 26px; }
+
+div#login_id_find {
+  padding-top: 100px;
+  padding-bottom: 130px; }
+  div#login_id_find .inner {
+    width: 440px;
+    margin: 0 auto;
+    text-align: center; }
+    div#login_id_find .inner h2 {
+      opacity: 1;
+      margin-bottom: 19px; }
+    div#login_id_find .inner p.tit {
+      font-size: 16px;
+      line-height: 1;
+      opacity: 1;
+      color: #666;
+      margin-bottom: 42px; }
+    div#login_id_find .inner ul.find_id {
+      opacity: 1;
+      display: flex;
+      justify-content: center; }
+      div#login_id_find .inner ul.find_id li {
+        opacity: 1;
+        margin: 0 16px; }
+        div#login_id_find .inner ul.find_id li:first-of-type a::after {
+          position: absolute;
+          right: -18px;
+          content: "";
+          top: 4px;
+          position: absolute;
+          width: 1px;
+          height: 15px;
+          background: #dddddd; }
+        div#login_id_find .inner ul.find_id li a {
+          display: inline-block;
+          position: relative;
+          font-size: 18px;
+          color: #333333; }
+      div#login_id_find .inner ul.find_id a.on {
+        font-weight: bold;
+        padding-bottom: 8px;
+        border-bottom: 3px solid #6c7cb8; }
+    div#login_id_find .inner ul.certified {
+      display: flex;
+      margin-top: 34px;
+      justify-content: center; }
+      div#login_id_find .inner ul.certified li {
+        opacity: 1;
+        margin: 0 13px; }
+        div#login_id_find .inner ul.certified li input#a1 {
+          opacity: 1; }
+        div#login_id_find .inner ul.certified li label {
+          background: url(/img/id_radio_off.png) no-repeat;
+          height: 18px;
+          display: flex;
+          align-items: center;
+          padding-left: 26px; }
+    div#login_id_find .inner div.select_type {
+      opacity: 1;
+      margin-top: 40px; }
+      div#login_id_find .inner div.select_type select {
+        opacity: 1;
+        background: #6c7cb8 url(/img/bg_id_select.png) no-repeat center right 20px;
+        width: 100%;
+        height: 60px;
+        padding-left: 25px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        opacity: 1; }
+        div#login_id_find .inner div.select_type select option {
+          opacity: 1;
+          background: #ffffff;
+          color: #333333; }
+    div#login_id_find .inner ul.fre {
+      opacity: 1; }
+      div#login_id_find .inner ul.fre li {
+        opacity: 1; }
+        div#login_id_find .inner ul.fre li input {
+          opacity: 1;
+          width: 100%;
+          height: 60px;
+          padding-left: 25px;
+          box-sizing: border-box;
+          border: 1px solid #dddddd;
+          margin-top: 13px;
+          font-size: 16px;
+          color: #666666; }
+          div#login_id_find .inner ul.fre li input::placeholder {
+            font-size: 16px;
+            color: #666666; }
+        div#login_id_find .inner ul.fre li select {
+          margin-top: 13px;
+          opacity: 1;
+          background: #fff url(/img/bg_id_select2.png) no-repeat center right 20px;
+          width: 100%;
+          height: 60px;
+          padding-left: 25px;
+          color: #666;
+          font-size: 16px;
+          border: 1px solid #dddddd; }
+          div#login_id_find .inner ul.fre li select::placeholder {
+            font-size: 16px;
+            color: #666666; }
+    div#login_id_find .inner div.login_com_btn a {
+      margin-top: 30px;
+      width: 100%;
+      height: 60px;
+      line-height: 60px;
+      color: #ffffff;
+      text-align: center;
+      font-size: 18px;
+      background: #333333;
+      color: #ffffff; }
+
+.com_vi_a {
+  opacity: 1;
+  display: inline-block;
+  padding: 2px 7px;
+  background: #f8a03c;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 400; }
+
+.com_vi_a.blue {
+  background: #6876b5; }
+
+.com_vi_a.green {
+  background: #8bc135; }
+
+.com_vi_a.red {
+  background: #de3030; }
+
+#video_interview_wrap .name {
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  top: 3px;
+  margin-left: 4px; }
+
+.star_wrap .data {
+  display: inline-block;
+  margin-left: 5px; }
+
+.com_vi_a2 {
+  display: inline-block;
+  width: 128px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  color: #333333;
+  border: 1px solid #333333;
+  margin-top: 6px;
+  transition: all 0.3s;
+  position: relative;
+  left: 31px;
+  bottom: 9px; }
+
+.com_vi_a2:hover {
+  background: #333333;
+  color: #ffffff; }
+
+input[class="v_input"] + label {
+  width: 16px;
+  height: 16px;
+  background: url(/img/v_input_off.png) no-repeat;
+  font-size: 14px;
+  color: #333333;
+  font-weight: 400;
+  padding-left: 23px;
+  background-position-y: 3px;
+  margin-left: 10px; }
+
+input[class="v_input"]:checked + label {
+  background: url(/img/v_input_on.png) no-repeat;
+  background-position-y: 3px; }
+
+div#video_interview_wrap div#sta {
+  margin-top: 0; }
+  div#video_interview_wrap div#sta div.inner {
+    width: 100%; }
+    div#video_interview_wrap div#sta div.inner div.wrap {
+      background: #fff;
+      margin: 0 -2px; }
+      div#video_interview_wrap div#sta div.inner div.wrap article {
+        margin: 0 2px;
+        height: 146px; }
+div#video_interview_wrap div.interview_wrap {
+  margin-top: 25px;
+  background: #ffffff;
+  padding: 25px;
+  padding-right: 50px;
+  box-sizing: border-box;
+  padding-bottom: 0; }
+  div#video_interview_wrap div.interview_wrap div.inter_view_info {
+    opacity: 1; }
+    div#video_interview_wrap div.interview_wrap div.inter_view_info div.top {
+      opacity: 1;
+      display: flex;
+      justify-content: space-between; }
+      div#video_interview_wrap div.interview_wrap div.inter_view_info div.top div.lef {
+        opacity: 1;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333333;
+        display: flex;
+        align-items: center; }
+      div#video_interview_wrap div.interview_wrap div.inter_view_info div.top div.ref {
+        opacity: 1; }
+        div#video_interview_wrap div.interview_wrap div.inter_view_info div.top div.ref span {
+          opacity: 1; }
+          div#video_interview_wrap div.interview_wrap div.inter_view_info div.top div.ref span input#c1.chk03 {
+            opacity: 1; }
+          div#video_interview_wrap div.interview_wrap div.inter_view_info div.top div.ref span label.mi3 {
+            background: url(/img/l_hide03_off.png) no-repeat;
+            width: auto;
+            height: 26px;
+            padding-left: 24px;
+            font-size: 13px;
+            vertical-align: top;
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            top: 0px;
+            background-position-y: 4px; }
+        div#video_interview_wrap div.interview_wrap div.inter_view_info div.top div.ref span.select {
+          display: inline-block;
+          margin-left: 30px;
+          opacity: 1; }
+          div#video_interview_wrap div.interview_wrap div.inter_view_info div.top div.ref span.select select {
+            opacity: 1;
+            width: 125px;
+            height: 34px;
+            border: solid 1px #bbbbbb;
+            background-color: #ffffff;
+            letter-spacing: -0.52px;
+            text-align: left;
+            color: #333333;
+            padding-left: 14px;
+            font-weight: bold;
+            background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
+            background-color: #fff; }
+            div#video_interview_wrap div.interview_wrap div.inter_view_info div.top div.ref span.select select option {
+              opacity: 1; }
+    div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists {
+      opacity: 1; }
+      div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li {
+        display: flex;
+        align-items: center;
+        padding: 37px 0;
+        border-bottom: 1px solid #dddddd;
+        box-sizing: border-box;
+        opacity: 1; }
+        div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li:last-of-type {
+          border-bottom: none; }
+        div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li div.wrap {
+          opacity: 1;
+          display: flex;
+          width: 100%;
+          justify-content: space-around; }
+          div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li div.wrap article {
+            opacity: 1;
+            display: flex;
+            align-items: center; }
+            div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li div.wrap article .info {
+              font-size: 14px;
+              color: #999999;
+              margin-top: 8px;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              max-width: 137px; }
+            div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li div.wrap article img {
+              opacity: 1; }
+            div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li div.wrap article div.txt_wrap {
+              opacity: 1; }
+              div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li div.wrap article div.txt_wrap p.tit {
+                opacity: 1; }
+                div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li div.wrap article div.txt_wrap p.tit span.com_vi_a {
+                  opacity: 1; }
+                div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li div.wrap article div.txt_wrap p.tit span.name {
+                  opacity: 1; }
+              div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li div.wrap article div.txt_wrap p.txt {
+                opacity: 1;
+                font-size: 16px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                margin-top: 11px;
+                color: #666666;
+                font-weight: 400; }
+          div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li div.wrap article:nth-of-type(2) {
+            padding: 14px 28px;
+            box-sizing: border-box; }
+          div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li div.wrap article:nth-of-type(3) {
+            position: relative;
+            padding: 24px 28px;
+            position: relative;
+            left: 28px; }
+            div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li div.wrap article:nth-of-type(3)::before {
+              content: '';
+              position: absolute;
+              width: 1px;
+              height: 50px;
+              background: #dddddd;
+              left: -12px;
+              top: 36px; }
+          div#video_interview_wrap div.interview_wrap div.inter_view_info ul.lists li div.wrap article:nth-of-type(4) {
+            padding: 14px 28px;
+            padding-bottom: 0;
+            box-sizing: border-box; }
+
+div.ai_search_wrap {
+  opacity: 1;
+  background: #414866; }
+  div.ai_search_wrap div.inner {
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    height: 125px;
+    width: 1140px; }
+    div.ai_search_wrap div.inner div.wrap {
+      opacity: 1;
+      display: flex;
+      justify-content: space-between;
+      width: 100%; }
+      div.ai_search_wrap div.inner div.wrap article.lef {
+        opacity: 1;
+        width: 830px; }
+        div.ai_search_wrap div.inner div.wrap article.lef div.input_wrap {
+          opacity: 1;
+          width: 100%;
+          height: 60px;
+          position: relative; }
+          div.ai_search_wrap div.inner div.wrap article.lef div.input_wrap input {
+            width: 100%;
+            height: 100%;
+            background: #ffffff;
+            opacity: 1;
+            padding-left: 25px;
+            box-sizing: border-box; }
+            div.ai_search_wrap div.inner div.wrap article.lef div.input_wrap input::placeholder {
+              font-size: 16px;
+              color: #999999; }
+          div.ai_search_wrap div.inner div.wrap article.lef div.input_wrap a.btn {
+            position: absolute;
+            right: 0;
+            top: 0; }
+            div.ai_search_wrap div.inner div.wrap article.lef div.input_wrap a.btn img {
+              opacity: 1; }
+      div.ai_search_wrap div.inner div.wrap article.ref {
+        display: flex;
+        align-items: center; }
+        div.ai_search_wrap div.inner div.wrap article.ref .txt_wrap {
+          height: 35px; }
+          div.ai_search_wrap div.inner div.wrap article.ref .txt_wrap p.tit {
+            font-size: 14px;
+            color: #ffffff;
+            line-height: 19px;
+            font-weight: 500;
+            margin-bottom: 3px; }
+          div.ai_search_wrap div.inner div.wrap article.ref .txt_wrap p.ex {
+            font-weight: 300;
+            font-size: 14px;
+            color: #b9c8ff; }
 
 div#header_info {
   position: relative; }

@@ -230,6 +230,7 @@ input[class="chk01"]:checked+label.mi {
 /* 숨김 */
 
 
+
 /* 필수동의 체크박스 */
 
 label.mi2 {
@@ -2788,6 +2789,7 @@ button {
     color: #424242;
     font-size: 12px;
     font-family: "Nanum Gothic";
+    background: #ffffff;
 }
 
 .paging span:hover {
@@ -3020,6 +3022,11 @@ figcaption {
     z-index: 0;
 }
 
+input,select{
+    font-family: "Noto Sans KR", NanumGothic, "Malgun Gothic", sans-serif!important;
+
+    letter-spacing: -0.4px!important;
+}
 
 /* 회원등급 */
 

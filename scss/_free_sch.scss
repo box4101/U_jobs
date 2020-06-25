@@ -1,0 +1,311 @@
+// 동영상 인터뷰 인재
+.com_vi_a {
+  opacity: 1;
+  display: inline-block;
+  padding: 2px 7px;
+  background: #f8a03c;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.com_vi_a.blue {
+  background: #6876b5;
+}
+.com_vi_a.green {
+  background: #8bc135;
+}
+.com_vi_a.red {
+  background: #de3030;
+}
+#video_interview_wrap .name {
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  top: 3px;
+  margin-left: 4px;
+}
+.star_wrap .data {
+  display: inline-block;
+  margin-left: 5px;
+}
+.com_vi_a2 {
+  display: inline-block;
+  width: 128px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  color: #333333;
+  border: 1px solid #333333;
+  margin-top: 6px;
+  transition: all 0.3s;
+  position: relative;
+  left: 31px;
+  bottom: 9px;
+}
+.com_vi_a2:hover {
+  background: #333333;
+  color: #ffffff;
+}
+input[class="v_input"] + label {
+  width: 16px;
+  height: 16px;
+  background: url(/img/v_input_off.png) no-repeat;
+  font-size: 14px;
+  color: #333333;
+  font-weight: 400;
+  padding-left: 23px;
+  background-position-y: 3px;
+  margin-left: 10px;
+}
+input[class="v_input"]:checked + label {
+  background: url(/img/v_input_on.png) no-repeat;
+  background-position-y: 3px;
+}
+
+div#video_interview_wrap {
+  div#sta {
+    margin-top: 0;
+    div.inner {
+      width: 100%;
+      div.wrap {
+        background: #fff;
+        margin: 0 -2px;
+        article {
+          margin: 0 2px;
+          // background: #ffffff;
+          height: 146px;
+          div.pic {
+            a {
+              img {
+              }
+
+              h2 {
+                br {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  div.interview_wrap {
+    margin-top: 25px;
+    background: #ffffff;
+    padding: 25px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    padding-bottom: 0;
+    div.inter_view_info {
+      opacity: 1;
+      div.top {
+        opacity: 1;
+        display: flex;
+        justify-content: space-between;
+        div.lef {
+          opacity: 1;
+          font-size: 20px;
+          font-weight: bold;
+          color: #333333;
+          display: flex;
+          align-items: center;
+        }
+
+        div.ref {
+          opacity: 1;
+          span {
+            opacity: 1;
+            input#c1.chk03 {
+              opacity: 1;
+            }
+
+            label.mi3 {
+              background: url(/img/l_hide03_off.png) no-repeat;
+              width: auto;
+              height: 26px;
+              padding-left: 24px;
+              font-size: 13px;
+              vertical-align: top;
+              position: relative;
+              display: inline-flex;
+              align-items: center;
+              top: 0px;
+              background-position-y: 4px;
+            }
+          }
+
+          span.select {
+            display: inline-block;
+            margin-left: 30px;
+            opacity: 1;
+            select {
+              opacity: 1;
+              @include select;
+              option {
+                opacity: 1;
+              }
+            }
+          }
+        }
+      }
+
+      ul.lists {
+        opacity: 1;
+        li {
+          display: flex;
+          align-items: center;
+          padding: 37px 0;
+          border-bottom: 1px solid #dddddd;
+          box-sizing: border-box;
+          opacity: 1;
+
+          &:last-of-type {
+            border-bottom: none;
+          }
+          div.wrap {
+            opacity: 1;
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            article {
+              opacity: 1;
+              display: flex;
+              align-items: center;
+              .info {
+                font-size: 14px;
+                color: #999999;
+                margin-top: 8px;
+                @include text_line;
+                max-width: 137px;
+              }
+              img {
+                opacity: 1;
+              }
+              div.txt_wrap {
+                opacity: 1;
+                p.tit {
+                  opacity: 1;
+                  span.com_vi_a {
+                    opacity: 1;
+                  }
+
+                  span.name {
+                    opacity: 1;
+                  }
+                }
+
+                p.txt {
+                  opacity: 1;
+                  font-size: 16px;
+                  overflow: hidden;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  margin-top: 11px;
+                  color: #666666;
+                  font-weight: 400;
+                }
+              }
+            }
+            article:nth-of-type(2) {
+              padding: 14px 28px;
+              box-sizing: border-box;
+            }
+            article:nth-of-type(3) {
+              position: relative;
+              padding: 24px 28px;
+              position: relative;
+              left: 28px;
+              &::before{
+                content: '';
+                position: absolute;
+                width: 1px;
+                height: 50px;
+                background: #dddddd;
+                left: -12px;
+                top: 36px;
+              }
+            }
+            article:nth-of-type(4) {
+              padding: 14px 28px;
+
+              padding-bottom: 0;
+              box-sizing: border-box;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// 동영상 인터뷰 인재
+
+// ai 검색
+div.ai_search_wrap {
+  opacity: 1;
+  background: #414866;
+  div.inner {
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    height: 125px;
+    width: 1140px;
+    div.wrap {
+      opacity: 1;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      article.lef {
+        opacity: 1;
+        width: 830px;
+        div.input_wrap {
+          opacity: 1;
+          width: 100%;
+          height: 60px;
+          position: relative;
+          input {
+            width: 100%;
+            height: 100%;
+            background: #ffffff;
+            opacity: 1;
+            padding-left: 25px;
+            box-sizing: border-box;
+            &::placeholder {
+              font-size: 16px;
+              color: #999999;
+            }
+          }
+          a.btn {
+            position: absolute;
+            right: 0;
+            top: 0;
+            img {
+              opacity: 1;
+            }
+          }
+        }
+      }
+      article.ref {
+        display: flex;
+        align-items: center;
+        .txt_wrap {
+          height: 35px;
+          p.tit {
+            font-size: 14px;
+            color: #ffffff;
+            line-height: 19px;
+            font-weight: 500;
+            margin-bottom: 3px;
+          }
+          p.ex {
+            font-weight: 300;
+            font-size: 14px;
+            color: #b9c8ff;
+          }
+        }
+      }
+    }
+  }
+}
+// ai 검색

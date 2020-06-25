@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<!--  권장되는 방식 -->
+
+<head style="overflow-y:hidden;">
+      <title>weep</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta property="og:title" content="weep">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="">
+      <meta property="og:image" content="/img/logo.png">
+      <meta property="og:image:type" content="/image/png">
+      <meta property="og:image:width" content="173">
+      <meta property="og:image:height" content="65">
+      <meta property="og:description" content="">
+
+      <link rel="stylesheet" href="/css/@default.css" />
+      <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="/css/common.css">
+      <link rel="stylesheet" href="/css/font.css">
+      <link rel="stylesheet" href="/css/sub.css">
+      <link rel="stylesheet" href="/css/swiper.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/simplebar@5.2.0/dist/simplebar.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+            rel="stylesheet">
+
+
+      <script src="https://kit.fontawesome.com/334d6efb93.js" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="/js/jquery.easing.min.js"></script>
+      <script type="text/javascript" src="/js/slick.min.js"></script>
+      <script type="text/javascript" src="/js/swiper.min.js"></script>
+      <script type="text/javascript" src="/js/main.js"></script>
+      <script type="text/javascript" src="https://unpkg.com/simplebar@5.2.0/dist/simplebar.min.js"></script>
+</head>
+
+<body>
+
+      <div id="sub_header">
+            <div class="inner">
+                  <h1 class="logo2">
+                        <a href="/index.html">
+                              <img src="/img/logo2.png" alt="">
+                        </a>
+                  </h1>
+                  <ul id="gnb">
+                        <li>
+                              <a href="#">프리랜서 검색</a>
+                        </li>
+                        <li>
+                              <a href="#">프로젝트 검색</a>
+                        </li>
+                        <li>
+                              <a href="#">이용안내</a>
+                        </li>
+                        <li>
+                              <a href="#">IT잡스 소개</a>
+                        </li>
+                        <li>
+                              <a href="#">고객지원</a>
+                        </li>
+                  </ul>
+                  <ul class="sub_login_menu">
+                        <li>
+                              <img src="/img/sub_login.png" alt="로그인하기">
+                        </li>
+                        <li>
+                              <a href="#">
+                                    로그인
+                              </a>
+                        </li>
+                        <li>
+                              <a href="#">회원가입</a>
+                        </li>
+                  </ul>
+                  <div class="all_menu">
+                        <a href="#">
+                              <img src="/img/all_menu.png" alt="메뉴모두보기">
+                        </a>
+                  </div>
+            </div>
+      </div>
+
+
+      <div id="login_id_find">
+            <div class="inner">
+                  <h2>
+                        <img src="/img/id_find.png" alt="아이디 패스워드">
+                  </h2>
+                  <p class="tit">회원구분별로 가입 시 입력한 본인정보를 입력해 주세요.
+                  </p>
+                  <ul class="find_id">
+                        <li>
+                              <a href="#tab1" class="on">아이디 찾기</a>
+                        </li>
+                        <li>
+                              <a href="#tab2" >비밀번호 찾기</a>
+                        </li>
+                  </ul>
+                  <ul class="certified">
+                        <li>
+                              <input type="radio" id="a1" name="certi" class="find_id_radio"><label for="a1">이메일</label>
+                        </li>
+                        <li>
+                              <input type="radio" id="a2" name="certi" class="find_id_radio"><label for="a2">휴대폰인증</label>
+                        </li>
+                  </ul>
+
+                  <div class="select_type">
+                        <select name="" id="" onchange="location.href=this.value">
+                              <option value="/page/login/login_find_id_fre.html" selected>프리랜서 회원</option>
+                              <option value="/page/login/login_find_id_out.html">아웃소싱 회원</option>
+                              <option value="/page/login/login_find_id_client.html">클라이언트 회원</option>
+                        </select>
+                  </div>
+
+                  <!-- 프리랜서회원 -->
+                  <ul class="fre">
+                        <li>
+                              <input type="text" placeholder="이름을 입력하세요.">
+                        </li>
+                        <li>
+                              <input type="text" placeholder="이메일을 입력하세요.">
+                        </li>
+                        <li>
+                              <select name="" id="">
+                                    <option value="">메일 선택</option>
+                              </select>
+                        </li>
+                  </ul>
+                  <!-- 프리랜서회원 -->
+
+                  <div class="login_com_btn">
+                        <a href="#">아이디 찾기</a>
+                  </div>
+            </div>
+
+      </div>
+
+      <div id="footer_info">
+      </div>
+
+      <script>
+            $(function () {
+                  // $("#header_info").load("/inc/header.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
+                  $("#footer_info").load("/inc/footer.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
+            });
+      </script>
+</body>
+
+
+</html>
