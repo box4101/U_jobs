@@ -49,6 +49,54 @@ $main_color_blue: #6c7cb8;
     background-repeat: no-repeat;
 }
 
+a.btn01 {
+    display: inline-block;
+    width: 238px;
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+a.btn01.on {
+    color: #ffffff;
+    background: #6c7cb8;
+    border: none;
+}
+span.btn_s01 {
+    display: inline-block;
+    height: 18px; width: auto; padding: 0 7px;
+    border-radius: 5px; line-height: 18px;
+    background: #333; text-align: center;
+    font-size: 12px; font-weight: 400; color: #ffffff;
+}
+
+.sel01 {
+    width: 238px;
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+    padding-left: 15px;
+    color: #999999;
+    border: 1px solid #000;
+    background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
+    box-sizing: border-box;
+}
+.sel01 option {
+    font-size: 14px;
+    color: #999999;
+}
+input{border:none}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select::-ms-expand {
+    display: none; /* 화살표 없애기 for IE10, 11*/
+}
 // page move
 .page_move {
     width: 100%;
@@ -59,67 +107,67 @@ $main_color_blue: #6c7cb8;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     font-size: 0;
-  
+
     ul {
-      display: block;
-      border-top: 1px solid #d9d9d9;
+        display: block;
+        border-top: 1px solid #d9d9d9;
     }
-  
+
     li {
-      &.prev {
-        display: inline-block;
-        width: 150px;
-        text-align: center;
-        color: #858585;
-        font-family: 'Noto Sans KR';
-        font-size: 14px;
-        padding: 12px 0;
-        background: #f3f3f3;
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-  
-        img {
-          margin-right: 10px;
-          margin-top: 5px;
-        }
-      }
-  
-      &.prev_tit {
-        display: inline-block;
-        width: 566px;
-        text-align: left;
-        padding: 12px 20px;
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        color: #333;
-        font-size: 14px;
-        font-family: 'Noto Sans KR';
-        a{
+        &.prev {
             display: inline-block;
-            color: #333333;
+            width: 150px;
+            text-align: center;
+            color: #858585;
+            font-family: "Noto Sans KR";
+            font-size: 14px;
+            padding: 12px 0;
+            background: #f3f3f3;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+
+            img {
+                margin-right: 10px;
+                margin-top: 5px;
+            }
         }
-      }
-  
-      &.prev_date {
-        display: inline-block;
-        width: 150px;
-        text-align: center;
-        padding: 12px 0;
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        color: #737373;
-        font-size: 13px;
-        font-family: 'Noto Sans KR';
-      }
+
+        &.prev_tit {
+            display: inline-block;
+            width: 566px;
+            text-align: left;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            color: #333;
+            font-size: 14px;
+            font-family: "Noto Sans KR";
+            a {
+                display: inline-block;
+                color: #333333;
+            }
+        }
+
+        &.prev_date {
+            display: inline-block;
+            width: 150px;
+            text-align: center;
+            padding: 12px 0;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            color: #737373;
+            font-size: 13px;
+            font-family: "Noto Sans KR";
+        }
     }
-  
+
     ul:first-child {
-      border-top: 0 solid #d9d9d9;
+        border-top: 0 solid #d9d9d9;
     }
-  }
+}
 // page move
 
 html {
@@ -148,7 +196,6 @@ input[type="radio"] {
     display: none;
 }
 
-
 /* 아웃소싱 라디오 */
 
 label.ra {
@@ -162,7 +209,7 @@ label.ra {
     color: #000;
 }
 
-input[class="chk01"]:checked+label.ra {
+input[class="chk01"]:checked + label.ra {
     background: url(/img/l_ra_on.png) no-repeat;
     width: 22px;
     height: 22px;
@@ -170,9 +217,7 @@ input[class="chk01"]:checked+label.ra {
     background-size: contain;
 }
 
-
 /* 아웃소싱 라디오 */
-
 
 /* 프리랜서 체크박스 */
 
@@ -187,7 +232,7 @@ label.mi02 {
     background-position-y: 0px;
 }
 
-input[class="chk01"]:checked+label.mi02 {
+input[class="chk01"]:checked + label.mi02 {
     background: url(/img/free_chk_on.png) no-repeat;
     width: 22px;
     height: 22px;
@@ -198,9 +243,7 @@ input[class="chk01"]:checked+label.mi02 {
     background-position-y: 0px;
 }
 
-
 /* 프리랜서 체크박스 */
-
 
 /* 숨김 */
 
@@ -215,7 +258,7 @@ label.mi {
     background-position-y: 4px;
 }
 
-input[class="chk01"]:checked+label.mi {
+input[class="chk01"]:checked + label.mi {
     background: url(/img/l_hide_on.png) no-repeat;
     width: 22px;
     height: 22px;
@@ -226,10 +269,7 @@ input[class="chk01"]:checked+label.mi {
     background-position-y: 4px;
 }
 
-
 /* 숨김 */
-
-
 
 /* 필수동의 체크박스 */
 
@@ -245,7 +285,7 @@ label.mi2 {
     background-position-y: 4px;
 }
 
-input[class="chk02"]:checked+label.mi2 {
+input[class="chk02"]:checked + label.mi2 {
     display: inline-block;
     background: url(/img/l_hide02_on.png) no-repeat;
     width: 28px;
@@ -257,9 +297,7 @@ input[class="chk02"]:checked+label.mi2 {
     background-position-y: 4px;
 }
 
-
 /* 필수동의 체크박스 */
-
 
 /* 필수동의 체크박스 */
 
@@ -274,7 +312,7 @@ label.mi3 {
     background-position-y: 4px;
 }
 
-input[class="chk03"]:checked+label.mi3 {
+input[class="chk03"]:checked + label.mi3 {
     display: inline-block;
     background: url(/img/l_hide03_on.png) no-repeat;
     background-size: contain;
@@ -286,9 +324,7 @@ input[class="chk03"]:checked+label.mi3 {
     top: 0px;
 }
 
-
 /* 필수동의 체크박스 */
-
 
 /* 아이디 저장 */
 
@@ -304,7 +340,7 @@ label.mi4 {
     background-size: 20%;
 }
 
-input[class="chk04"]:checked+label.mi4 {
+input[class="chk04"]:checked + label.mi4 {
     display: inline-block;
     background: url(/img/l_hide03_on.png) no-repeat;
     width: 16px;
@@ -316,9 +352,7 @@ input[class="chk04"]:checked+label.mi4 {
     background-size: none;
 }
 
-
 /* 아이디 저장 */
-
 
 /* 회원가입완료 */
 
@@ -340,9 +374,7 @@ input[class="chk04"]:checked+label.mi4 {
     color: #ffffff;
 }
 
-
 /* 회원가입완료 */
-
 
 /* 팝업공통 */
 
@@ -413,7 +445,6 @@ input[class="chk04"]:checked+label.mi4 {
 .popup .close:hover {
     color: #00e5ee;
 }
-
 
 /* 팝업공통 */
 
@@ -2846,8 +2877,8 @@ button {
     top: 0;
     bottom: 0;
     right: 0;
-    width: auto!important;
-    height: auto!important;
+    width: auto !important;
+    height: auto !important;
     z-index: 0;
     min-height: 380px;
     padding-bottom: 27px;
@@ -2871,7 +2902,6 @@ button {
     border: none;
 }
 
-
 /* 막대그래프 */
 
 .graph {
@@ -2881,7 +2911,6 @@ button {
     position: relative;
     left: -30px;
 }
-
 
 /* graph bars */
 
@@ -2922,7 +2951,6 @@ button {
     --h: 92%;
 }
 
-
 /* graph bar edges */
 
 .graphBar::before,
@@ -2943,7 +2971,6 @@ button {
     position: relative;
     top: calc(100% - var(--h) - 20px);
 }
-
 
 /* graph  labels */
 
@@ -2986,9 +3013,7 @@ figcaption {
     overflow: hidden;
 }
 
-
 /* 막대그래프 */
-
 
 /* 등급_스타_별 */
 
@@ -3022,10 +3047,11 @@ figcaption {
     z-index: 0;
 }
 
-input,select{
-    font-family: "Noto Sans KR", NanumGothic, "Malgun Gothic", sans-serif!important;
+input,
+select {
+    font-family: "Noto Sans KR", NanumGothic, "Malgun Gothic", sans-serif !important;
 
-    letter-spacing: -0.4px!important;
+    letter-spacing: -0.4px !important;
 }
 
 /* 회원등급 */
@@ -3093,7 +3119,6 @@ input,select{
     top: -5px;
 }
 
-
 /* 회원 개발,기획,디자인,퍼블 */
 
 .dif_de {
@@ -3159,6 +3184,5 @@ input,select{
     border-radius: 12px;
     font-weight: bold;
 }
-
 
 /* 회원 개발,기획,디자인,퍼블 */

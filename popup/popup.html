@@ -1,120 +1,188 @@
 <!DOCTYPE html>
 <html lang="ko">
 
-      <head style="overflow-y:hidden;">
-            <title>위프</title>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, user-scalable=1.0">
-            <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <meta property="og:title" content="위프">
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="">
-            <meta property="og:image" content="/img/logo.png">
-            <meta property="og:image:type" content="/image/png">
-            <meta property="og:image:width" content="173">
-            <meta property="og:image:height" content="65">
-            <meta property="og:description" content="">
-        
-            <link rel="stylesheet" href="/css/@default.css" />
-            <link rel="stylesheet" href="/css/main.css">
-            <link rel="stylesheet" href="/css/common.css">
-            <link rel="stylesheet" href="/css/font.css">
-            <link rel="stylesheet" href="/css/sub.css">
-            <link rel="stylesheet" href="/css/swiper.min.css">
-            <link rel="stylesheet" href="https://unpkg.com/simplebar@5.2.0/dist/simplebar.min.css">
-            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-        
-        
-            <script src="https://kit.fontawesome.com/334d6efb93.js" crossorigin="anonymous"></script>
-            <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
-            <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
-            <script type="text/javascript" src="/js/jquery.easing.min.js"></script>
-            <script type="text/javascript" src="/js/slick.min.js"></script>
-            <script type="text/javascript" src="/js/swiper.min.js"></script>
-            <script type="text/javascript" src="/js/main.js"></script>
-            <script type="text/javascript" src="https://unpkg.com/simplebar@5.2.0/dist/simplebar.min.js"></script>
-        </head>
+<head style="overflow-y:hidden;">
+    <title>위프</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="위프">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="/img/logo.png">
+    <meta property="og:image:type" content="/image/png">
+    <meta property="og:image:width" content="173">
+    <meta property="og:image:height" content="65">
+    <meta property="og:description" content="">
+
+    <link rel="stylesheet" href="/css/@default.css" />
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/sub.css">
+    <link rel="stylesheet" href="/css/swiper.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@5.2.0/dist/simplebar.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+
+    <script src="https://kit.fontawesome.com/334d6efb93.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="/js/slick.min.js"></script>
+    <script type="text/javascript" src="/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/simplebar@5.2.0/dist/simplebar.min.js"></script>
+</head>
 
 <body>
-      <!--Wrap-->
-      <div id="wrap">
+    <!--Wrap-->
+    <div id="wrap">
 
-            <!--Container-->
-            <div id="container">
-                  <div class="sub_wrap inner" style="margin-top:20px;">
-                        <ul>
-                              <li><a href="#adress_pop">1_00adress_pop 주소찾기</a></li>
-                              <li><a href="javascript:layerPop('#confirm_pop');">2_00confirm</a></li>
-                              <li><a href="javascript:layerPop('#full_pop');">3_00popup</a></li>
-                              <li><a href="javascript:layerPop('#main_pop');">4_01main_01main_popup</a></li>
-                              <li><a href="javascript:layerPop('#rewards_pop');">5_02menu_02myrewards_01_popup</a></li>
-                              <li><a href="javascript:layerPop('#rewards2_pop');">6_02menu_02myrewards_02_popup</a></li>
-                              <li><a href="javascript:layerPop('#rewards3_pop');">7_02menu_02myrewards_03_popup</a></li>
-                              <li><a href="javascript:layerPop('#coupon_pop');">8_02menu_03mycoupon_02_popup</a></li>
-                              <li><a href="javascript:layerPop('#store_pop');">9_02menu_07store_popup</a></li>
-                              <li><a href="javascript:layerPop('#login_pop');">10_04login_02_popup</a></li>
-                              <li><a href="javascript:layerPop('#login_re_pop');">11_04login_03_popup</a></li>
-                        </ul>
-                  </div>
+        <!--Container-->
+        <div id="container">
+            <div class="sub_wrap inner" style="margin-top:20px;">
+                <ul>
+                    <li><a href="#adress_pop">1_00adress_pop 주소찾기</a></li>
+                    <li><a href="#freelance_form">2_freelance_form</a></li>
+                    <li><a href="#freelance_form_comple">3_freelance_form_comple 찜 완료</a></li>
+                    <li><a href="javascript:layerPop('#main_pop');">4_01main_01main_popup</a></li>
+                    <li><a href="javascript:layerPop('#rewards_pop');">5_02menu_02myrewards_01_popup</a></li>
+                    <li><a href="javascript:layerPop('#rewards2_pop');">6_02menu_02myrewards_02_popup</a></li>
+                    <li><a href="javascript:layerPop('#rewards3_pop');">7_02menu_02myrewards_03_popup</a></li>
+                    <li><a href="javascript:layerPop('#coupon_pop');">8_02menu_03mycoupon_02_popup</a></li>
+                    <li><a href="javascript:layerPop('#store_pop');">9_02menu_07store_popup</a></li>
+                    <li><a href="javascript:layerPop('#login_pop');">10_04login_02_popup</a></li>
+                    <li><a href="javascript:layerPop('#login_re_pop');">11_04login_03_popup</a></li>
+                </ul>
             </div>
-            <!--END Container-->
+        </div>
+        <!--END Container-->
 
 
-            <!-- 회사팝업 -->
-            <div id="adress_pop" class="overlay">
-                  <div class="popup">
-                      <a href="#none" class="close">×</a>
-                      <h2>주소찾기</h2>
-                      <div class="info">
-                          <div class="fle">
-                              <div class="lef">
-                                  <div class="wrap">
-                                      <dl class="w50">
-                                          <dt>시도</dt>
-                                          <dd>
-                                              <select name="" id="">
-                                                  <option value="">선택</option>
-                                              </select>
-                                          </dd>
-                                      </dl>
-                                      <dl class="w50">
-                                          <dt>시군구</dt>
-                                          <dd>
-                                              <select name="" id="">
-                                                  <option value="">선택</option>
-                                              </select>
-                                          </dd>
-                                      </dl>
-                                      <dl>
-                                          <dt>주소</dt>
-                                          <dd>
-                                              <select name="" id="">
-                                                  <option value="">선택</option>
-                                              </select>
-                                          </dd>
-                                      </dl>
-                                  </div>
-                                  <p class="tit">
-                                      * 찾으시는 시도와 시군구를 선택 후, 주소를 검색하세요.
-                                  </p>
-                                  <p class="txt">
-                                      예)테헤란로, 삼성동, 송암빌딩, 반포 자이아파트
-                                  </p>
-                                  <div class="btn_wrap">
-                                      <a href="#" class="btn">취소</a><a href="#" class="btn on">저장</a>
-                                  </div>
-                              </div>
-                              <div class="ref">
-                                  <input type="button" value="검색">
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-            <!-- 회사팝업 -->
+        <!-- 주소찾기 팝업 -->
+        <div id="adress_pop" class="overlay">
+            <div class="popup">
+                <a href="#none" class="close">×</a>
+                <h2>주소찾기</h2>
+                <div class="info">
+                    <div class="fle">
+                        <div class="lef">
+                            <div class="wrap">
+                                <dl class="w50">
+                                    <dt>시도</dt>
+                                    <dd>
+                                        <select name="" id="">
+                                            <option value="">선택</option>
+                                        </select>
+                                    </dd>
+                                </dl>
+                                <dl class="w50">
+                                    <dt>시군구</dt>
+                                    <dd>
+                                        <select name="" id="">
+                                            <option value="">선택</option>
+                                        </select>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>주소</dt>
+                                    <dd>
+                                        <select name="" id="">
+                                            <option value="">선택</option>
+                                        </select>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <p class="tit">
+                                * 찾으시는 시도와 시군구를 선택 후, 주소를 검색하세요.
+                            </p>
+                            <p class="txt">
+                                예)테헤란로, 삼성동, 송암빌딩, 반포 자이아파트
+                            </p>
+                            <div class="btn_wrap">
+                                <a href="#" class="btn">취소</a><a href="#" class="btn on">저장</a>
+                            </div>
+                        </div>
+                        <div class="ref">
+                            <input type="button" value="검색">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 주소찾기 팝업 -->
 
-      </div>
-      <!--END Wrap-->
+        <!-- 프리랜서 찜 -->
+        <div id="freelance_form" class="overlay">
+            <div class="popup">
+                <a href="#none" class="close">×</a>
+                <h2>
+                    프리랜서 찜
+                    <p class="info">기본 폴더와 프로젝트별 폴더 중 원하는 위치에 프리랜서를 찜할 수 있습니다.</p>
+                </h2>
+                <ul class="info">
+                    <li>
+                        <div class="lef">
+                            <p>
+                                <img src="/img/fre_pop_file.png" alt="파일 이미지">
+                                기본폴더에 찜하기
+                            </p>
+                        </div>
+                        <div class="ref">
+                            <a href="#" class="btn01 on">
+                                프리랜서 찜하기
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="lef">
+                            <p>
+                                <img src="/img/fre_pop_file.png" alt="파일 이미지">
+                                프로젝트별 찜하기
+                            </p>
+                        </div>
+                        <div class="ref">
+                            <select name="" id="" class="sel01 mb10">
+                                <option value="">채용 공고를 선택하세요.</option>
+                            </select>
+                            <a href="#" class="btn01">
+                                프리랜서 찜하기
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 프리랜서 찜 -->
+
+        <!-- 프리랜서 찜 완료 -->
+        <div id="freelance_form_comple" class="overlay">
+            <div class="popup">
+                <a href="#none" class="close">×</a>
+                <div class="infos">
+                    <h2>
+                        <b>프리랜서 찜</b>이 <br>
+                        완료되었습니다.
+                    </h2>
+                    <ul class="btn_wrap">
+                        <li>
+                            <a href="#" class="btn01 on">스크랩 인재보기</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn01">확인</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 프리랜서 찜 -->
+
+
+
+    </div>
+    <!--END Wrap-->
 </body>
 
 </html>

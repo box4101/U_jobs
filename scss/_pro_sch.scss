@@ -1,0 +1,155 @@
+#profile_wrap02.project_sch > .inner > .wrap > article {
+      width: 48% !important;
+}
+
+// 프로젝트정보
+div#project_self {
+      padding-top: 55px;
+      div.inner {
+            div.top_wrap {
+                  div.top {
+                        h2 {
+                              font-size: 20px;
+                              line-height: 1;
+                              color: #333;
+                        }
+
+                        div.top_info {
+                              margin-top: 17px;
+                              padding-right: 0;
+                              display: flex;
+                              height: 330px;
+                              box-sizing: border-box;
+                              justify-content: space-between;
+                              border: 1px solid #dbdbdbdb;
+                              border-top: 2px solid #333333;
+                              div.lef {
+                                    padding: 39px 35px;
+                                    width: 86.388889%; /* 933/1080 */
+                                    margin-right: 4%;
+                                    div.top_txt {
+                                          padding-bottom: 35px;
+                                          border-bottom: 1px solid #dbdbdb;
+                                          p {
+                                                span.btn_s01 {
+                                                      margin-right: 5px;
+                                                }
+
+                                                span.date {
+                                                      font-size: 14px;
+                                                      font-weight: 400;
+                                                      color: #888888;
+                                                      margin-right: 5px;
+                                                      b {
+                                                            font-size: 14px;
+                                                            color: #333333;
+                                                      }
+                                                }
+                                                span.date_d_day {
+                                                      margin-right: 5px;
+                                                      font-weight: bold;
+                                                      color: #dd2020;
+                                                }
+                                          }
+
+                                          h3 {
+                                                margin-top: 18px;
+                                                font-size: 22px;
+                                                color: #202020;
+                                                font-weight: 400;
+                                          }
+                                    }
+
+                                    ul.info {
+                                          margin-top: 32px;
+                                          width: 100%;
+                                          display: flex;
+                                          flex-wrap: wrap;
+                                          li {
+                                                width: 50%;
+                                                dl {
+                                                      overflow: hidden;
+                                                      margin-bottom: 12px;
+                                                      dt {
+                                                            margin-right: 25px;
+                                                            float: left;
+                                                            font-size: 14px;
+                                                            color: #999999;
+                                                      }
+
+                                                      dd.yel {
+                                                            font-size: 14px;
+                                                            color: #f8a03c;
+                                                      }
+                                                      dd {
+                                                            font-size: 14px;
+                                                            color: #333333;
+                                                      }
+                                                }
+                                          }
+                                    }
+                              }
+
+                              div.ref {
+                                    width: 23.148148%;
+                                    border-left: 1px solid #dbdbdb;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    .wrap {
+                                          width: 100%;
+                                          padding: 0 35px;
+                                          div.logo_img {
+                                                opacity: 1;
+                                                text-align: center;
+                                                img {
+                                                      opacity: 1;
+                                                }
+                                          }
+
+                                          p.tit {
+                                                margin-top: 30px;
+                                                font-size: 14px;
+                                                color: #333333;
+                                                line-height: 1;
+                                                opacity: 1;
+                                          }
+                                          .dl_wrap {
+                                                margin-top: 22px;
+                                                dl {
+                                                      margin-bottom: 10px;
+                                                      opacity: 1;
+                                                      overflow: hidden;
+                                                      dt {
+                                                            opacity: 1;
+                                                            font-size: 13px;
+                                                            font-weight: 400;
+                                                            color: #999999;
+                                                            float: left;
+                                                            width: 55px;
+                                                      }
+
+                                                      dd {
+                                                            font-size: 13px;
+                                                            color: #333333;
+                                                            line-height: 1;
+                                                      }
+                                                }
+                                          }
+                                    }
+                              }
+                        }
+                  }
+
+                  ul.btns_wrap {
+                        li {
+                              a.btn02 {
+                                    img {
+                                    }
+                              }
+                        }
+                  }
+            }
+      }
+}
+// 프로젝트정보

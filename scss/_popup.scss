@@ -1,0 +1,211 @@
+.overlay div.popup h2 {
+      padding-bottom: 19px;
+      border-bottom: 1px solid #dbdbdb;
+}
+
+.overlay div.popup h2 p.info {
+      font-size: 14px;
+      color: #666666;
+      margin-top: 10px;
+      font-weight: 400;
+}
+.overlay div.popup div.info {
+      margin-top: 15px;
+}
+
+.overlay div.popup div.info div.fle {
+}
+
+// 프리랜스 찜 완료
+div#freelance_form_comple.overlay {
+      div.infos {
+            text-align: center;
+            h2 {
+                  font-size: 32px;
+                  line-height: 40px;
+                  color: #333333;
+                  font-weight: 300;
+                  border: none;
+                  b {
+                        font-weight: 500;
+                  }
+            }
+
+            ul.btn_wrap {
+                  margin-top: 20px;
+                  display: flex; justify-content: center;
+                  li {
+                        a.btn01 {
+                              width: 190px;
+                              &.on {
+                                    margin-right: 10px;
+                              }
+                        }
+                  }
+            }
+      }
+}
+// 프리랜스 찜 완료
+
+// 프리랜서 찜
+div#freelance_form.overlay {
+      div.popup {
+            ul.info {
+                  opacity: 1;
+                  li {
+                        > div {
+                              flex: 1;
+                        }
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 32px 0;
+                        box-sizing: border-box;
+                        border-bottom: 1px solid #dbdbdb;
+                        align-items: center;
+                        div.lef {
+                              p {
+                                    display: flex;
+                                    align-items: center;
+                                    font-size: 18px;
+                                    img {
+                                          display: inline-block;
+                                          margin-right: 10px;
+                                    }
+                              }
+                        }
+
+                        div.ref {
+                              opacity: 1;
+                        }
+                  }
+            }
+      }
+}
+// 프리랜서 찜
+
+// 공지사항 팝업
+div#adress_pop.overlay div.popup div.info div.fle div.lef {
+      width: 80%;
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef div.wrap {
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef div.wrap dl.w50 {
+      float: left;
+      width: 50%;
+      display: flex;
+      margin-bottom: 15px;
+      align-items: center;
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef div.wrap dl.w50 dt {
+      float: left;
+      margin-right: 15px;
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef div.wrap dl.w50 dd {
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef div.wrap dl.w50 dd select {
+      width: 115px;
+      height: 34px;
+      border: solid 1px #bbbbbb;
+      background-color: #ffffff;
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef div.wrap dl {
+      overflow: hidden;
+      width: 100%;
+      display: flex;
+      align-items: center;
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef div.wrap dl dt {
+      float: left;
+      margin-right: 15px;
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef div.wrap dl dd {
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef div.wrap dl dd select {
+      width: 308px;
+      height: 34px;
+      border: solid 1px #bbbbbb;
+      background-color: #ffffff;
+      padding-left: 12px;
+      color: #999999;
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef div.wrap dl dd select option {
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef p.tit {
+      margin-top: 15px;
+      font-size: 13px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.58;
+      letter-spacing: -0.3px;
+      text-align: left;
+      color: #666666;
+      padding-left: 50px;
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef p.txt {
+      margin-top: 5px;
+      font-size: 13px;
+      color: #999;
+      padding-left: 50px;
+      letter-spacing: 0.3px;
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef div.btn_wrap {
+      margin-top: 35px;
+      position: relative;
+      left: 50%;
+      width: 100%;
+      transform: translate(-23.5px);
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef div.btn_wrap a.btn {
+      width: 63px;
+      height: 27px;
+      border: solid 1px #dddddd;
+      background-color: #ffffff;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 27px;
+      letter-spacing: -0.35px;
+      text-align: left;
+      color: #999999;
+      text-align: center;
+      margin: 0 4px;
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef div.btn_wrap a.btn.on {
+      background: #f8a03c;
+      color: #ffffff;
+      border: #f8a03c;
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.lef div.btn_wrap a.btn.on {
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.ref {
+}
+
+div#adress_pop.overlay div.popup div.info div.fle div.ref input {
+      width: 88px;
+      height: 84px;
+      background-color: #f8a03c;
+      color: #fff;
+      border: none;
+      font-size: 19px;
+      font-weight: bold;
+}
+// 공지사항 팝업

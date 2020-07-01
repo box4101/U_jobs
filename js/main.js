@@ -46,9 +46,9 @@ function bindingEvent() {
     $(".fisrtFloor_on").hide();
     $(".fisrtFloor_area").hide();
 
-    $(".search_btn").on("click", function () {
-      $(".firstFloor").find("dd").show();
-      $(".fisrtFloor_on").hide();
+    $(".freelance .search_btn").on("click", function () {
+      $(".freelance .firstFloor").find("dd").show();
+      $(".freelance .fisrtFloor_on").hide();
     });
 
     $(".firstFloor").find("dt").on("click", function () {
@@ -59,10 +59,10 @@ function bindingEvent() {
     });
 
     // 직무클릭시
-    $(".floor_click").on("click", function () {
-      $(".firstFloor").find("dd").hide();
-      $(".fisrtFloor_on").show();
-      $(".fisrtFloor_area").hide();
+    $(".freelance .floor_click").on("click", function () {
+      $(".freelance .firstFloor").find("dd").hide();
+      $(".freelance .fisrtFloor_on").show();
+      $(".freelance .fisrtFloor_area").hide();
     });
 
     // 지역클릭시
