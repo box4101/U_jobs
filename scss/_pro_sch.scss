@@ -5,6 +5,7 @@
 // 프로젝트정보
 div#project_self {
       padding-top: 55px;
+      padding-bottom: 220px;
       div.inner {
             div.top_wrap {
                   div.top {
@@ -148,6 +149,214 @@ div#project_self {
                                     }
                               }
                         }
+                  }
+            }
+            div.info_wrap {
+                  margin-top: 108px;
+                  ul {
+                        display: flex;
+                        border-top: 2px solid #333333;
+                        li {
+                              flex: 1;
+                              border: 1px solid #dbdbdb;
+                              border-top: none;
+                              border-left: none;
+                              text-align: center;
+                              a {
+                                    display: inline-block;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    text-align: center;
+                                    height: 60px;
+                                    line-height: 60px;
+                                    color: #333333;
+                                    width: 100%;
+                                    height: 100%;
+                                    &.on {
+                                          background: #333;
+                                          color: #ffffff;
+                                          font-weight: 500;
+                                    }
+                              }
+                              &:last-of-type {
+                                    background: #ebebeb;
+                                    border-top: 1px solid #333;
+                                    a {
+                                          display: inline-block;
+                                          font-size: 12px;
+                                          font-weight: 400;
+                                          color: #333333;
+                                          span {
+                                                font-size: 16px;
+                                                display: inline-block;
+                                                font-weight: bold;
+                                                color: $main_color_yel;
+                                          }
+                                    }
+                              }
+                        }
+                  }
+
+                  div.info {
+                        padding: 60px;
+                        box-sizing: border-box;
+                        min-height: 420px;
+                        border: 1px solid #dbdbdb;
+                        border-top: none;
+                        h2 {
+                              font-size: 22px;
+                              color: #333333;
+                        }
+
+                        p {
+                              margin-top: 15px;
+                              font-size: 16px;
+                              font-weight: 400;
+                              color: #333333;
+                        }
+                  }
+            }
+            div.similar_project {
+                  margin-top: 60px;
+                  h2 {
+                        font-size: 20px;
+                  }
+
+                  div.wrap {
+                        margin-top: 25px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        article {
+                              position: relative;
+                              height: 366px;
+                              box-sizing: border-box;
+                              padding: 37px;
+                              width: 32%;
+                              margin-right: 2%;
+                              border: 1px solid #dbdbdb;
+                              margin-bottom: 25px;
+                              border-radius: 8px;
+                              .star {
+                                    position: absolute;
+                                    right: 20px;
+                                    top: 91px;
+                              }
+                              h3 {
+                                    margin-top: 20px;
+                                    line-height: 1.3;
+                              }
+
+                              ul {
+                                    margin-top: 30px;
+                                    li {
+                                          opacity: 1;
+                                          dl {
+                                                opacity: 1;
+                                                overflow: hidden;
+                                                margin-bottom: 10px;
+                                                dt {
+                                                      opacity: 1;
+                                                      float: left;
+                                                      width: 65px;
+                                                      font-size: 14px;
+                                                      display: flex;
+                                                      align-items: center;
+                                                      img {
+                                                            opacity: 1;
+                                                            width: 15px;
+                                                            margin-right: 7px;
+                                                      }
+                                                }
+
+                                                dd {
+                                                      font-size: 14px;
+                                                      color: #666666;
+                                                      @include text_line;
+                                                      span {
+                                                            color: $main_color_yel;
+                                                      }
+                                                }
+                                          }
+                                    }
+                              }
+                              &:nth-of-type(3n) {
+                                    margin-right: 0;
+                              }
+                        }
+                  }
+            }
+            h2.pro_header {
+                  opacity: 1;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  position: relative;
+                  span.left {
+                        opacity: 1;
+                        p {
+                              opacity: 1;
+                              font-size: 14px;
+                              font-weight: 500;
+                              color: #333333;
+                              span.date {
+                                    color: darkred;
+                                    font-weight: bold;
+                              }
+                        }
+                  }
+                  span.right {
+                        opacity: 1;
+                        display: flex;
+                        align-items: center;
+                        position: relative;
+                        left: 34px;
+                        span.a1 {
+                              margin-right: 7px;
+                              color: #80c269;
+                              opacity: 1;
+                              display: inline-block;
+                              width: 55px;
+                              height: 23px;
+                              font-size: 12px;
+                              line-height: 23px;
+                              text-align: center;
+                              border: 1px solid #80c269;
+                              border-radius: 12px;
+                              font-weight: bold;
+                        }
+                        span.a2 {
+                              margin-right: 15px;
+                              color: #00a0e9;
+                              opacity: 1;
+                              display: inline-block;
+                              width: 55px;
+                              height: 23px;
+                              font-size: 12px;
+                              line-height: 23px;
+                              text-align: center;
+                              border: 1px solid #00a0e9;
+                              border-radius: 12px;
+                        }
+                        img {
+                              opacity: 1;
+                        }
+                  }
+            }
+            .area {
+                  display: inline-block;
+                  margin-top: 14px;
+                  .area1 {
+                        border: 1px solid;
+                        padding: 3px 8px;
+                        border-radius: 18px;
+                        font-size: 12px;
+                        margin-right: 3px;
+                        font-weight: bold;
+                        margin-right: 5px;
+                  }
+                  span.area2 {
+                        font-size: 14px;
+                        color: #666666;
                   }
             }
       }
