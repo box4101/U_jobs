@@ -40,6 +40,9 @@ $main_color_blue: #6c7cb8;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+@mixin text_line_two {
+    white-space: normal; line-height: 1.2; height: 2.4em; text-align: left; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;overflow: hidden;
+}
 
 @mixin bg_center($width, $height) {
     width: $width;
@@ -48,6 +51,14 @@ $main_color_blue: #6c7cb8;
     background-position: center;
     background-repeat: no-repeat;
 }
+// 고급
+.spa_bg{background: #f26d7d;color: #ffffff;}
+.prize_bg{    background: #0091d3;color: #ffffff;}
+.plan_bg{background: #6876b5; color: #ffffff;}
+.depe_bg{background: #f8a03c; color: #ffffff;}
+.green_bg{background: green; color: #ffffff;}
+.pub_bg{background: #de3030; color: #ffffff;}
+// 고급
 
 .btns_wrap {
     margin-top: 40px;

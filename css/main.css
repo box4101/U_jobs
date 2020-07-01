@@ -1,4 +1,28 @@
 @charset "UTF-8";
+.spa_bg {
+  background: #f26d7d;
+  color: #ffffff; }
+
+.prize_bg {
+  background: #0091d3;
+  color: #ffffff; }
+
+.plan_bg {
+  background: #6876b5;
+  color: #ffffff; }
+
+.depe_bg {
+  background: #f8a03c;
+  color: #ffffff; }
+
+.green_bg {
+  background: green;
+  color: #ffffff; }
+
+.pub_bg {
+  background: #de3030;
+  color: #ffffff; }
+
 .btns_wrap {
   margin-top: 40px;
   display: flex;
@@ -2506,6 +2530,30 @@ select {
   font-weight: bold; }
 
 /* 회원 개발,기획,디자인,퍼블 */
+.spa_bg {
+  background: #f26d7d;
+  color: #ffffff; }
+
+.prize_bg {
+  background: #0091d3;
+  color: #ffffff; }
+
+.plan_bg {
+  background: #6876b5;
+  color: #ffffff; }
+
+.depe_bg {
+  background: #f8a03c;
+  color: #ffffff; }
+
+.green_bg {
+  background: green;
+  color: #ffffff; }
+
+.pub_bg {
+  background: #de3030;
+  color: #ffffff; }
+
 .btns_wrap {
   margin-top: 40px;
   display: flex;
@@ -7888,6 +7936,30 @@ div.footer_top {
   width: 100%;
   height: 360px; }
 
+.spa_bg {
+  background: #f26d7d;
+  color: #ffffff; }
+
+.prize_bg {
+  background: #0091d3;
+  color: #ffffff; }
+
+.plan_bg {
+  background: #6876b5;
+  color: #ffffff; }
+
+.depe_bg {
+  background: #f8a03c;
+  color: #ffffff; }
+
+.green_bg {
+  background: green;
+  color: #ffffff; }
+
+.pub_bg {
+  background: #de3030;
+  color: #ffffff; }
+
 .btns_wrap {
   margin-top: 40px;
   display: flex;
@@ -11268,6 +11340,382 @@ div#adress_pop.overlay div.popup div.info div.fle div.ref input {
 #profile_wrap02.project_sch > .inner > .wrap > article {
   width: 48% !important; }
 
+ul.day_month {
+  margin-top: 13px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap; }
+  ul.day_month a {
+    position: absolute;
+    top: 20px;
+    right: 20px; }
+  ul.day_month li {
+    position: relative;
+    width: 33.3%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    background: #ffffff; }
+    ul.day_month li div.top span {
+      display: inline-block;
+      font-size: 12px;
+      color: #ffffff;
+      padding: 5px 10px; }
+    ul.day_month li div.top span.a1 {
+      display: inline-block;
+      color: #d62d2d;
+      border: 1px solid #d62d2d;
+      font-size: 12px; }
+    ul.day_month li div.info {
+      margin-top: 25px; }
+      ul.day_month li div.info h2 {
+        font-size: 14px;
+        color: #202020;
+        line-height: 1; }
+      ul.day_month li div.info p.txt {
+        margin-top: 13px;
+        font-size: 17px;
+        font-weight: 400;
+        color: #202020;
+        line-height: 23px;
+        white-space: normal;
+        line-height: 1.2;
+        height: 2.4em;
+        text-align: left;
+        word-wrap: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden; }
+      ul.day_month li div.info div.skill {
+        margin-top: 21px;
+        overflow: hidden;
+        height: 78px; }
+        ul.day_month li div.info div.skill .more {
+          background: #ffffff; }
+        ul.day_month li div.info div.skill div {
+          float: left;
+          display: block;
+          margin-right: 5px;
+          background: #eee;
+          padding: 7px 10px;
+          border-radius: 5px;
+          font-size: 12px;
+          color: #666666;
+          margin-bottom: 11px;
+          font-weight: bold; }
+
+ul.project_card_list {
+  margin-top: 30px; }
+  ul.project_card_list li {
+    padding: 35px 50px;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 13px;
+    margin-bottom: 15px; }
+    ul.project_card_list li:hover {
+      box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1); }
+    ul.project_card_list li h2.pro_header {
+      opacity: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      ul.project_card_list li h2.pro_header span.left {
+        opacity: 1; }
+        ul.project_card_list li h2.pro_header span.left p {
+          opacity: 1;
+          font-size: 21px;
+          font-weight: 500; }
+          ul.project_card_list li h2.pro_header span.left p span.date {
+            position: relative;
+            top: 0px;
+            left: -5px;
+            font-size: 20px;
+            padding: 4px 10px;
+            border-radius: 25px;
+            color: darkred;
+            opacity: 1;
+            display: inline-block;
+            /* background: #f38f1e; */
+            margin-left: 2px; }
+      ul.project_card_list li h2.pro_header span.right {
+        opacity: 1;
+        display: flex;
+        align-items: center; }
+        ul.project_card_list li h2.pro_header span.right span.a1 {
+          margin-right: 7px;
+          color: #80c269;
+          opacity: 1;
+          display: inline-block;
+          width: 55px;
+          height: 23px;
+          font-size: 12px;
+          line-height: 23px;
+          text-align: center;
+          border: 1px solid #80c269;
+          border-radius: 12px;
+          font-weight: bold; }
+        ul.project_card_list li h2.pro_header span.right span.a2 {
+          margin-right: 15px;
+          color: #00a0e9;
+          opacity: 1;
+          display: inline-block;
+          width: 55px;
+          height: 23px;
+          font-size: 12px;
+          line-height: 23px;
+          text-align: center;
+          border: 1px solid #00a0e9;
+          border-radius: 12px; }
+        ul.project_card_list li h2.pro_header span.right img {
+          opacity: 1; }
+    ul.project_card_list li div.wrap {
+      display: flex;
+      justify-content: space-between; }
+      ul.project_card_list li div.wrap div.lef {
+        position: relative; }
+        ul.project_card_list li div.wrap div.lef::after {
+          display: inline-block;
+          content: "";
+          position: absolute;
+          width: 1px;
+          height: 100%;
+          background: #dddddd;
+          top: 0;
+          right: -72px; }
+        ul.project_card_list li div.wrap div.lef h3 a {
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          opacity: 1;
+          font-size: 20px;
+          line-height: 1;
+          letter-spacing: -0.9px;
+          margin-top: 33px;
+          margin-bottom: 17px;
+          color: #333333; }
+        ul.project_card_list li div.wrap div.lef h3 span {
+          display: inline-block;
+          color: #80786d;
+          opacity: 1; }
+        ul.project_card_list li div.wrap div.lef div.info_wrap {
+          opacity: 1; }
+          ul.project_card_list li div.wrap div.lef div.info_wrap span.num {
+            opacity: 1;
+            font-size: 14px;
+            font-weight: bold;
+            color: #f38f1e; }
+          ul.project_card_list li div.wrap div.lef div.info_wrap span:first-of-type {
+            display: inline-block;
+            padding-left: 0;
+            border-left: none;
+            font-weight: 500; }
+          ul.project_card_list li div.wrap div.lef div.info_wrap > span {
+            letter-spacing: -1px;
+            position: relative;
+            margin-left: 0;
+            color: #666666;
+            font-weight: 400;
+            letter-spacing: -0.4px;
+            padding: 0 15px;
+            display: inline-block;
+            opacity: 1;
+            display: inline-flex;
+            align-items: center;
+            font-size: 14px;
+            margin-bottom: 10px; }
+            ul.project_card_list li div.wrap div.lef div.info_wrap > span b {
+              font-size: 14px;
+              color: #333333;
+              font-weight: 500;
+              margin-right: 6px; }
+            ul.project_card_list li div.wrap div.lef div.info_wrap > span img {
+              display: inline-block;
+              margin-right: 4px;
+              opacity: 1;
+              /* width: 13px; */
+              /* height: 13px; */
+              /* position: relative; */
+              /* top: 2px; */
+              display: inline-flex;
+              align-items: center; }
+            ul.project_card_list li div.wrap div.lef div.info_wrap > span::after {
+              content: "";
+              display: inline-block;
+              width: 1px;
+              height: 10px;
+              background: #dddddd;
+              position: absolute;
+              top: 4px;
+              right: 1px;
+              right: 1px; }
+            ul.project_card_list li div.wrap div.lef div.info_wrap > span:nth-of-type(2)::after {
+              display: none; }
+            ul.project_card_list li div.wrap div.lef div.info_wrap > span:nth-of-type(5)::after {
+              display: none; }
+          ul.project_card_list li div.wrap div.lef div.info_wrap span.sup {
+            opacity: 1;
+            padding-left: 0; }
+            ul.project_card_list li div.wrap div.lef div.info_wrap span.sup img {
+              opacity: 1;
+              margin-right: 7px; }
+            ul.project_card_list li div.wrap div.lef div.info_wrap span.sup span {
+              opacity: 1; }
+          ul.project_card_list li div.wrap div.lef div.info_wrap span.state {
+            opacity: 1;
+            position: relative;
+            left: -4px;
+            color: #333333; }
+            ul.project_card_list li div.wrap div.lef div.info_wrap span.state img {
+              opacity: 1; }
+            ul.project_card_list li div.wrap div.lef div.info_wrap span.state b {
+              position: relative;
+              top: 2px; }
+            ul.project_card_list li div.wrap div.lef div.info_wrap span.state span.p {
+              position: relative;
+              top: 1.1px; }
+        ul.project_card_list li div.wrap div.lef .price_wrap {
+          margin-top: 26px; }
+          ul.project_card_list li div.wrap div.lef .price_wrap a {
+            display: inline-block;
+            text-align: center;
+            padding: 13px 10.6px;
+            font-size: 16px;
+            border: 1px solid #dbdbdb;
+            border-radius: 7px;
+            display: inline-flex;
+            align-items: center;
+            color: #000000;
+            box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1); }
+          ul.project_card_list li div.wrap div.lef .price_wrap a.price {
+            opacity: 1;
+            margin-right: 8px;
+            margin-right: 8px;
+            border-radius: 15px; }
+            ul.project_card_list li div.wrap div.lef .price_wrap a.price img {
+              opacity: 1;
+              margin-right: 8px; }
+            ul.project_card_list li div.wrap div.lef .price_wrap a.price span {
+              padding: 0 3px;
+              opacity: 1;
+              color: #f8a03c; }
+          ul.project_card_list li div.wrap div.lef .price_wrap a.dates {
+            opacity: 1;
+            border-radius: 15px; }
+            ul.project_card_list li div.wrap div.lef .price_wrap a.dates img {
+              opacity: 1; }
+            ul.project_card_list li div.wrap div.lef .price_wrap a.dates span {
+              opacity: 1;
+              padding: 0 4px; }
+            ul.project_card_list li div.wrap div.lef .price_wrap a.dates span.da {
+              padding: 0;
+              font-size: 16px;
+              font-weight: 400;
+              color: #666666; }
+        ul.project_card_list li div.wrap div.lef div.pro_profile_wrap {
+          opacity: 1;
+          display: flex;
+          align-items: center;
+          margin-top: 20px; }
+          ul.project_card_list li div.wrap div.lef div.pro_profile_wrap div.profile {
+            opacity: 1;
+            width: 40px;
+            height: 40px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat; }
+            ul.project_card_list li div.wrap div.lef div.pro_profile_wrap div.profile img {
+              opacity: 1; }
+          ul.project_card_list li div.wrap div.lef div.pro_profile_wrap div.name {
+            position: relative;
+            margin-left: 11px;
+            opacity: 1;
+            font-size: 13px;
+            font-weight: bold;
+            color: #333333; }
+            ul.project_card_list li div.wrap div.lef div.pro_profile_wrap div.name span {
+              font-size: 12px;
+              color: #f8a03c;
+              opacity: 1;
+              display: inline-block;
+              margin-left: 15px;
+              position: relative;
+              top: -1px; }
+            ul.project_card_list li div.wrap div.lef div.pro_profile_wrap div.name::after {
+              content: "";
+              display: inline-block;
+              position: absolute;
+              width: 1px;
+              height: 9px;
+              background: #dddddd;
+              right: 30px;
+              top: 3px; }
+          ul.project_card_list li div.wrap div.lef div.pro_profile_wrap div.company {
+            opacity: 1; }
+            ul.project_card_list li div.wrap div.lef div.pro_profile_wrap div.company a {
+              display: inline-block;
+              padding: 4px 8px;
+              text-align: center;
+              font-size: 12px;
+              color: #999;
+              background: #f5f5f5;
+              border: 1px solid #dbdbdb;
+              margin-left: 30px; }
+      ul.project_card_list li div.wrap div.ref div.skills {
+        opacity: 1;
+        margin-top: 33px;
+        padding-bottom: 15px; }
+        ul.project_card_list li div.wrap div.ref div.skills span.path {
+          border: 1px solid #dbdbdb;
+          opacity: 1;
+          background: #f3f3f3;
+          padding: 7px;
+          text-align: center;
+          display: inline-flex;
+          font-size: 12px;
+          color: #999999; }
+        ul.project_card_list li div.wrap div.ref div.skills span.skill {
+          opacity: 1;
+          font-size: 14px;
+          color: #666666;
+          margin-left: 10px;
+          font-weight: 400; }
+      ul.project_card_list li div.wrap div.ref div.way {
+        opacity: 1;
+        padding: 18px 0;
+        border-top: 1px dotted #dbdbdb;
+        border-bottom: 1px dotted #dbdbdb;
+        padding-bottom: 6px; }
+        ul.project_card_list li div.wrap div.ref div.way dl {
+          opacity: 1;
+          display: flex;
+          margin-bottom: 12px;
+          align-items: baseline; }
+          ul.project_card_list li div.wrap div.ref div.way dl dt {
+            opacity: 1;
+            color: #333333;
+            width: 78px;
+            font-weight: bold;
+            -ms-flex-preferred-size: 78px;
+            flex-basis: 78px;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+            font-size: 14px; }
+          ul.project_card_list li div.wrap div.ref div.way dl dd {
+            font-size: 14px;
+            color: #666666;
+            line-height: 20px;
+            opacity: 1;
+            overflow: hidden;
+            width: 382px;
+            word-break: keep-all; }
+          ul.project_card_list li div.wrap div.ref div.way dl:last-of-type dd {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis; }
+
 div#project_self {
   padding-top: 55px;
   padding-bottom: 220px; }
@@ -11380,6 +11828,8 @@ div#project_self {
         border-top: none;
         border-left: none;
         text-align: center; }
+        div#project_self div.inner div.info_wrap ul li:nth-of-type(1) {
+          border-left: 1px solid #dbdbdb; }
         div#project_self div.inner div.info_wrap ul li a {
           display: inline-block;
           font-size: 16px;
@@ -11416,6 +11866,19 @@ div#project_self {
       div#project_self div.inner div.info_wrap div.info h2 {
         font-size: 22px;
         color: #333333; }
+      div#project_self div.inner div.info_wrap div.info div.dl_wrap {
+        margin-top: 35px; }
+        div#project_self div.inner div.info_wrap div.info div.dl_wrap dl {
+          overflow: hidden;
+          margin-bottom: 20px; }
+          div#project_self div.inner div.info_wrap div.info div.dl_wrap dl dt {
+            font-size: 16px;
+            color: #999999;
+            float: left;
+            width: 155px; }
+          div#project_self div.inner div.info_wrap div.info div.dl_wrap dl dd {
+            font-size: 16px;
+            color: #333333; }
       div#project_self div.inner div.info_wrap div.info p {
         margin-top: 15px;
         font-size: 16px;
