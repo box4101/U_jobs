@@ -71,6 +71,7 @@ function bindingEvent() {
       $(".fisrtFloor_area").show();
     });
 
+
   });
 
 

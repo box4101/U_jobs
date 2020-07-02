@@ -669,9 +669,36 @@ div#project_self {
                         min-height: 420px;
                         border: 1px solid #dbdbdb;
                         border-top: none;
+                        div.text_area {
+                              margin-top: 15px;
+                              textarea {
+                                    padding: 28px; box-sizing: border-box;
+                                    width: 100%; height: 220px;
+                                    overflow-y: scroll;
+                                    font-size: 14px; font-weight: 400;  color: #999999;
+                                    line-height: 29px;
+                              }
+                            }
+                            
+                            div.btn_wraps {
+                                  margin-top: 22px;
+                                  position: relative;
+                                  left: 50%; transform: translateX(-50%);
+                                  text-align: center;
+                              li {
+                                a.btn01 {
+                            
+                                }
+                              }
+                            }
                         h2 {
                               font-size: 22px;
                               color: #333333;
+                              display: flex; justify-content: space-between;
+                              span.num{
+                                    display: inline-block;
+                                    font-size: 14px; font-weight: 400; color: #333333;
+                              }
                         }
                         div.dl_wrap {
                               margin-top: 35px;
@@ -693,11 +720,21 @@ div#project_self {
                               }
                         }
 
+                        p.nam{
+                              font-size: 16px;
+                              font-weight: 400;
+                              margin-top: 30px;
+                        }
+
                         p {
                               margin-top: 15px;
                               font-size: 16px;
                               font-weight: 400;
                               color: #333333;
+                              margin-bottom: 20px;
+                              &.tit{
+                                    font-weight: bold;
+                              }
                         }
                   }
             }

@@ -123,18 +123,7 @@
       <div id="sub_contents">
             <div class="sub_tit">
                   <div class="inner">
-                        <div class="top_wrap">
-                              <h1>
-                                    프로젝트 검색
-                              </h1>
-                              <ul class="s_util wrap">
-                                    <li>
-                                          <a href="#">
-                                                <img src="/img/" alt="">
-                                          </a>
-                                    </li>
-                              </ul>
-                        </div>
+                        <h1>프로젝트 검색</h1>
                   </div>
             </div>
 
@@ -246,11 +235,11 @@
                         <div class="info_wrap">
                               <ul>
                                     <li>
-                                          <a href="#none" class="on"
+                                          <a href="#none"
                                                 onclick="location.href='/page/project_sch/project_self_info.html'">기본정보</a>
                                     </li>
                                     <li>
-                                          <a href="#none"
+                                          <a href="#none" 
                                                 onclick="location.href='/page/project_sch/project_self_info02.html'">상세정보</a>
                                     </li>
                                     <li>
@@ -262,7 +251,7 @@
                                                 onclick="location.href='/page/project_sch/project_self_info04.html'">모집요건</a>
                                     </li>
                                     <li>
-                                          <a href="#none"
+                                          <a href="#none"    class="on"
                                                 onclick="location.href='/page/project_sch/project_self_info05.html'">프로젝트
                                                 문의</a>
                                     </li>
@@ -273,39 +262,20 @@
                                     </li>
                               </ul>
                               <div class="info">
-                                    <h2>프로젝트 상세업무</h2>
-                                    <p>
-                                          -기획 PL, 웹기획, 앱기획
-                                    </p>
-                                    <h2>프로젝트의 현재 상황
+                                    <h2>
+                                          프로젝트 문의
+                                          <span class="num">10자/1000자</span>
                                     </h2>
-                                    <p class="tit">프로젝트 진행 분류 - 신규 프로젝트 진행</p>
-                                    <p>
-                                          - 신규 프로젝트 진행
-                                    </p>
-
-                                    <p class="tit">
-                                          프로젝트 상태
-                                    </p>
-                                    <p class="txt">
-                                          프로젝트 상태- 프로젝트 계획 중(내부 계획수립 또는 고객사 제안 단계) <br>
-                                          - 프로젝트 착수 준비 중 <br>
-                                          - 프로젝트 착수 및 요구사항을 분석 중
-                                    </p>
-
-                                    <p class="tit">기획 상태</p>
-                                    <p>
-                                          - 기획 전 <br>
-                                          - 요구사항정의서 완료 <br>
-                                          - 화면설계서(스토리보드, 와이어프레임) 작성 중
-                                    </p>
-
-                                    <p class="tit">프로젝트 협업 가능 인력 상황  
-                                    </p>
-                                    <p>
-                                          IT 프로젝트 경험이 있는 인력이 있습니다. <br>
-                                          - 협업 가능 인력 : 개발자
-                                    </p>
+                                    <div class="text_area">
+                                          <textarea name="" id="" cols="30" rows="10">[주의] 프로젝트 문의에 작성한 내용은 수정 및 삭제가 불가능합니다. 
+이메일, 전화번호 등을 게시하여 직거래를 유도하는 경우, 서비스 이용에 제재를 받을 수 있습니다.
+                                          </textarea>
+                                    </div>
+                                    <div class="btn_wraps">
+                                          <li>
+                                                <a href="#" class="btn01">문의등록</a>
+                                          </li>
+                                    </div>
                               </div>
                         </div>
 
@@ -920,11 +890,11 @@
       <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
       <script>
             $(function () {
-                  // $("#header_info").load("/inc/header.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
-                  $("#projuct_left_menu").load("/inc/project_left_ment.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
-                  $("#sub_headers").load("/inc/project_top_menu.html");
+                // $("#header_info").load("/inc/header.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
+                $("#projuct_left_menu").load("/inc/project_left_ment.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
+                $("#sub_headers").load("/inc/project_top_menu.html");
             });
-      </script>
+        </script>
 </body>
 
 

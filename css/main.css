@@ -53,7 +53,7 @@
 
 a.btn01 {
   display: inline-block;
-  width: 238px;
+  width: 161px;
   height: 51px;
   line-height: 51px;
   text-align: center;
@@ -2584,7 +2584,7 @@ select {
 
 a.btn01 {
   display: inline-block;
-  width: 238px;
+  width: 161px;
   height: 51px;
   line-height: 51px;
   text-align: center;
@@ -7990,7 +7990,7 @@ div.footer_top {
 
 a.btn01 {
   display: inline-block;
-  width: 238px;
+  width: 161px;
   height: 51px;
   line-height: 51px;
   text-align: center;
@@ -11863,9 +11863,34 @@ div#project_self {
       min-height: 420px;
       border: 1px solid #dbdbdb;
       border-top: none; }
+      div#project_self div.inner div.info_wrap div.info div.text_area {
+        margin-top: 15px; }
+        div#project_self div.inner div.info_wrap div.info div.text_area textarea {
+          padding: 28px;
+          box-sizing: border-box;
+          width: 100%;
+          height: 220px;
+          overflow-y: scroll;
+          font-size: 14px;
+          font-weight: 400;
+          color: #999999;
+          line-height: 29px; }
+      div#project_self div.inner div.info_wrap div.info div.btn_wraps {
+        margin-top: 22px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center; }
       div#project_self div.inner div.info_wrap div.info h2 {
         font-size: 22px;
-        color: #333333; }
+        color: #333333;
+        display: flex;
+        justify-content: space-between; }
+        div#project_self div.inner div.info_wrap div.info h2 span.num {
+          display: inline-block;
+          font-size: 14px;
+          font-weight: 400;
+          color: #333333; }
       div#project_self div.inner div.info_wrap div.info div.dl_wrap {
         margin-top: 35px; }
         div#project_self div.inner div.info_wrap div.info div.dl_wrap dl {
@@ -11879,11 +11904,18 @@ div#project_self {
           div#project_self div.inner div.info_wrap div.info div.dl_wrap dl dd {
             font-size: 16px;
             color: #333333; }
+      div#project_self div.inner div.info_wrap div.info p.nam {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 30px; }
       div#project_self div.inner div.info_wrap div.info p {
         margin-top: 15px;
         font-size: 16px;
         font-weight: 400;
-        color: #333333; }
+        color: #333333;
+        margin-bottom: 20px; }
+        div#project_self div.inner div.info_wrap div.info p.tit {
+          font-weight: bold; }
   div#project_self div.inner div.similar_project {
     margin-top: 60px; }
     div#project_self div.inner div.similar_project h2 {
@@ -12012,13 +12044,13 @@ div#header_info {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      left: 162px;
+      left: 101px;
       top: 65px; }
       div#header_info div#header #main_gnb li {
         opacity: 1;
-        padding-left: 36px; }
+        padding-left: 20px; }
         div#header_info div#header #main_gnb li a {
-          font-size: 16px;
+          font-size: 15px;
           color: #333333;
           letter-spacing: -0.4px;
           display: inline-block;
