@@ -23,7 +23,8 @@
     <link rel="stylesheet" href="/css/sub.css">
     <link rel="stylesheet" href="/css/swiper.min.css">
     <link rel="stylesheet" href="https://unpkg.com/simplebar@5.2.0/dist/simplebar.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
 
 
     <script src="https://kit.fontawesome.com/334d6efb93.js" crossorigin="anonymous"></script>
@@ -38,50 +39,7 @@
 
 <body>
 
-    <div id="sub_header">
-        <div class="inner">
-            <h1 class="logo2">
-                <a href="/index.html">
-                    <img src="/img/logo2.png" alt="">
-                </a>
-            </h1>
-            <ul id="gnb">
-                <li>
-                    <a href="#">프리랜서 검색</a>
-                </li>
-                <li>
-                    <a href="#">프로젝트 검색</a>
-                </li>
-                <li>
-                    <a href="#">이용안내</a>
-                </li>
-                <li>
-                    <a href="#">IT잡스 소개</a>
-                </li>
-                <li>
-                    <a href="#">고객지원</a>
-                </li>
-            </ul>
-            <ul class="sub_login_menu">
-                <li>
-                    <img src="/img/sub_login.png" alt="로그인하기">
-                </li>
-                <li>
-                    <a href="#">
-                        로그인
-                    </a>
-                </li>
-                <li>
-                    <a href="#">회원가입</a>
-                </li>
-            </ul>
-            <div class="all_menu">
-                <a href="#">
-                    <img src="/img/all_menu.png" alt="메뉴모두보기">
-                </a>
-            </div>
-        </div>
-    </div>
+    <div id="sub_headers"></div>
 
     <nav id="navi" style="top: 220px; position: absolute;">
         <div class="project">
@@ -136,9 +94,9 @@
 
     </nav>
     <script>
-        $(function() {
+        $(function () {
 
-            $(window).scroll(function() {
+            $(window).scroll(function () {
                 var scroll = $(this).scrollTop();
                 var navi_top = $("#navi").offset().top;
 
@@ -340,8 +298,11 @@
                             기획 경력 20년차로 공공기관, 금융기관, 커머스 등 다수의 프로젝트를 수행
                         </h2>
                         <div class="info">
-                            프로젝트에 임할 때는 회사의 사업적인 측면에서 고민합니다. <br> 주어진 자원에서 가장 효율적인 업무를 추진하며, <br> 함께 하는 구성원들의 입장과 역할을 존중하며 협력하여 프로젝트를 진행합니다.
-                            <br><br> [장점 10가지] <br> 1. 경험이 많습니다. <br> PM(크고 작은 프로젝트, 공공기관, 대기업, 중소기업 등)으로서, <br> 기획자(웹기획, 광고기획, 사업기획, 서비스기획, 운영기획 등등)로서, <br> 다양한 분야(SI, 웹, 모바일, 앱(APP) 등)에, <br> 조직관리(소규모 프로젝트, 대형 프로젝트, 회사 팀 운영 등등)에서도 <br> 제안작업(공공프로젝트 제안작업
+                            프로젝트에 임할 때는 회사의 사업적인 측면에서 고민합니다. <br> 주어진 자원에서 가장 효율적인 업무를 추진하며, <br> 함께 하는 구성원들의 입장과 역할을
+                            존중하며 협력하여 프로젝트를 진행합니다.
+                            <br><br> [장점 10가지] <br> 1. 경험이 많습니다. <br> PM(크고 작은 프로젝트, 공공기관, 대기업, 중소기업 등)으로서, <br>
+                            기획자(웹기획, 광고기획, 사업기획, 서비스기획, 운영기획 등등)로서, <br> 다양한 분야(SI, 웹, 모바일, 앱(APP) 등)에, <br> 조직관리(소규모
+                            프로젝트, 대형 프로젝트, 회사 팀 운영 등등)에서도 <br> 제안작업(공공프로젝트 제안작업
                             다수 진행, 프로젝트 제안서, 서비스 제안서, 운영/사업 <br> 제안서 등)에서도 리스크관리(다양한 사업의 책임자로 프로젝트 수행합니다.
                         </div>
                     </div>
@@ -371,8 +332,8 @@
                                     <li>
                                         <dl>
                                             <dt style="width:46px;">
-                                                    학점
-                                                </dt>
+                                                학점
+                                            </dt>
                                             <dd>
                                                 <span>4.35</span> / 4.5
                                             </dd>
@@ -399,8 +360,8 @@
                                     <li>
                                         <dl>
                                             <dt style="width:46px;">
-                                                    학점
-                                                </dt>
+                                                학점
+                                            </dt>
                                             <dd>
                                                 <span>4.35</span> / 4.5
                                             </dd>
@@ -579,7 +540,8 @@
             <div class="footer_bottom">
                 <div class="inner">
                     <p>
-                        잡스인은 통신판매중개자이며 통신판매의 당사자가 아닙니다. <br> 따라서 개별 판매자가 등록하여 판매한 모든 상품에 대한 거래 정보 및 거래에 대한 책임은 각 판매자가 부담하고, 이에 대하여 잡스인은 일체 책임지지 않습니다.
+                        잡스인은 통신판매중개자이며 통신판매의 당사자가 아닙니다. <br> 따라서 개별 판매자가 등록하여 판매한 모든 상품에 대한 거래 정보 및 거래에 대한 책임은 각 판매자가
+                        부담하고, 이에 대하여 잡스인은 일체 책임지지 않습니다.
                     </p>
                     <p class="copy">
                         Copyright © 2020 Jons In. Inc. All rights reserved.
@@ -588,6 +550,11 @@
             </div>
         </div>
     </div>
+    <script>
+        $(function () {
+            $("#sub_headers").load("/inc/freelance_top_menu.html");
+        });
+    </script>
 </body>
 
 

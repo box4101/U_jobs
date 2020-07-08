@@ -38,50 +38,8 @@
 
 <body>
 
-    <div id="sub_header">
-        <div class="inner">
-            <h1 class="logo2">
-                <a href="/index.html">
-                    <img src="/img/logo2.png" alt="">
-                </a>
-            </h1>
-            <ul id="gnb">
-                <li>
-                    <a href="#">프리랜서 검색</a>
-                </li>
-                <li>
-                    <a href="#">프로젝트 검색</a>
-                </li>
-                <li>
-                    <a href="#">이용안내</a>
-                </li>
-                <li>
-                    <a href="#">IT잡스 소개</a>
-                </li>
-                <li>
-                    <a href="#">고객지원</a>
-                </li>
-            </ul>
-            <ul class="sub_login_menu">
-                <li>
-                    <img src="/img/sub_login.png" alt="로그인하기">
-                </li>
-                <li>
-                    <a href="#">
-                        로그인
-                    </a>
-                </li>
-                <li>
-                    <a href="#">회원가입</a>
-                </li>
-            </ul>
-            <div class="all_menu">
-                <a href="#">
-                    <img src="/img/all_menu.png" alt="메뉴모두보기">
-                </a>
-            </div>
-        </div>
-    </div>
+    <div id="sub_headers"></div>
+
 
 
     <div id="sub_contents">
@@ -371,6 +329,11 @@
             </div>
         </div>
     </div>
+    <script>
+        $(function () {
+            $("#sub_headers").load("/inc/freelance_top_menu.html");
+        });
+    </script>
 </body>
 
 

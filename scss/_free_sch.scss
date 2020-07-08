@@ -1,3 +1,207 @@
+// 인터뷰
+div.fre_interview_wrap {
+  margin-top: 28px;
+  box-sizing: border-box;
+  div.info {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    div.wrap {
+      display: flex;
+      div.lef {
+        flex: 0 0 379px;
+        margin-right: 20px;
+        img {
+          width: 100%;
+        }
+      }
+
+      div.ref {
+        h2 {
+          margin-top: 23px;
+          font-weight: bold;
+          font-size: 24px;
+          letter-spacing: 2px;
+          line-height: 1;
+        }
+
+        p.txt {
+          position: relative;
+          margin-top: 12px;
+          font-size: 14px;
+          font-weight: 400;
+          color: $main_color_yel;
+          &::after {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 1px;
+            background: #000000;
+            left: 0;
+            top: 35px;
+          }
+        }
+
+        p.thumb {
+          margin-top: 34px;
+          font-weight: 400;
+          font-size: 14px;
+          color: #333333;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+
+  div.info2 {
+    margin-top: 25px;
+    ul {
+      border: 1px solid #dbdbdb;
+      border-top: 1px solid #000;
+      overflow: hidden;
+      li {
+        padding: 42px 8px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #dbdbdbdb;
+        margin: 0 40px;
+
+        &:last-of-type{
+          border-bottom: none;
+        }
+        p.qxt {
+          font-size: 16px;
+          display: flex;
+          align-items: center;
+          color: #333333;
+          img {
+            margin-right: 8px;
+          }
+        }
+
+        p.axt {
+          margin-top: 22px;
+          margin-left: 30px;
+          font-size: 14px;
+          font-weight: 400;
+          color: #666666;
+          line-height: 1.3;
+        }
+      }
+    }
+  }
+}
+// 인터뷰
+
+// 포트폴리오
+div.portfolio_wrap {
+  div.port_top {
+    height: 58px;
+    border-top: 1px solid #333;
+    background: #f7f7f7;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+    padding-left: 17px;
+  }
+
+  div.port_select {
+    padding-left: 25px;
+    border-bottom: 1px solid #dbdbdb;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div {
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #333333;
+        span {
+          display: inline-flex;
+          font-size: 20px;
+          font-weight: bold;
+          color: #f38f1e;
+        }
+      }
+      select {
+        @include select;
+      }
+    }
+  }
+  .port_list_wrap {
+    li.port_lists {
+      position: relative;
+      padding-left: 25px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid #dbdbdb;
+      div.wrap {
+        display: flex;
+        .lef {
+          flex: 1 0 296px;
+          margin-right: 40px;
+          img {
+          }
+        }
+        .ref {
+          flex: 1 0 548px;
+          h2 {
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 1;
+            margin-bottom: 17px;
+          }
+
+          div.dl_wrap {
+            dl {
+              display: flex;
+              margin-bottom: 3px;
+              align-items: center;
+              &:last-of-type {
+                align-items: baseline;
+                margin-top: 3px;
+              }
+              dt {
+                flex: 0 0 100px;
+                font-size: 14px;
+                font-weight: 400;
+                color: #333;
+              }
+
+              dd {
+                font-size: 14px;
+                font-weight: 400;
+                color: #666666;
+                line-height: 25px;
+                &.yel {
+                  color: $main_color_yel;
+                  font-weight: 500;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      ul.util {
+        position: absolute;
+        top: 38px;
+        right: 0;
+        overflow: hidden;
+        li {
+          float: left;
+          &:first-of-type {
+            margin-right: 4px;
+          }
+          a.btn_s02 {
+          }
+        }
+      }
+    }
+  }
+}
+// 포트폴리오
+
 // 동영상 인터뷰 인재
 .com_vi_a {
   opacity: 1;
@@ -217,8 +421,8 @@ div#video_interview_wrap {
               padding: 24px 28px;
               position: relative;
               left: 28px;
-              &::before{
-                content: '';
+              &::before {
+                content: "";
                 position: absolute;
                 width: 1px;
                 height: 50px;

@@ -23,7 +23,8 @@
     <link rel="stylesheet" href="/css/sub.css">
     <link rel="stylesheet" href="/css/swiper.min.css">
     <link rel="stylesheet" href="https://unpkg.com/simplebar@5.2.0/dist/simplebar.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
 
 
     <script src="https://kit.fontawesome.com/334d6efb93.js" crossorigin="anonymous"></script>
@@ -38,50 +39,7 @@
 
 <body>
 
-    <div id="sub_header">
-        <div class="inner">
-            <h1 class="logo2">
-                <a href="/index.html">
-                    <img src="/img/logo2.png" alt="">
-                </a>
-            </h1>
-            <ul id="gnb">
-                <li>
-                    <a href="#">프리랜서 검색</a>
-                </li>
-                <li>
-                    <a href="#">프로젝트 검색</a>
-                </li>
-                <li>
-                    <a href="#">이용안내</a>
-                </li>
-                <li>
-                    <a href="#">IT잡스 소개</a>
-                </li>
-                <li>
-                    <a href="#">고객지원</a>
-                </li>
-            </ul>
-            <ul class="sub_login_menu">
-                <li>
-                    <img src="/img/sub_login.png" alt="로그인하기">
-                </li>
-                <li>
-                    <a href="#">
-                        로그인
-                    </a>
-                </li>
-                <li>
-                    <a href="#">회원가입</a>
-                </li>
-            </ul>
-            <div class="all_menu">
-                <a href="#">
-                    <img src="/img/all_menu.png" alt="메뉴모두보기">
-                </a>
-            </div>
-        </div>
-    </div>
+    <div id="sub_headers"></div>
 
     <nav id="navi" style="top:186px">
         <div class="project">
@@ -137,9 +95,9 @@
     </nav>
 
     <script>
-        $(function() {
+        $(function () {
 
-            $(window).scroll(function() {
+            $(window).scroll(function () {
                 var scroll = $(this).scrollTop();
                 var navi_top = $("#navi").offset().top;
 
@@ -170,57 +128,26 @@
 
         <div id="sub_content">
             <div class="inner">
-                <div class="left_menu">
-                    <ul>
-                        <li>
-                            <a href="/page/freelance_sch/freelance_sch.html">프리랜서 검색</a>
-                        </li>
-                        <li>
-                            <a href="/page/freelance_sch/freelance_sch02.html">프리랜서 관리</a>
-                            <ul class="sub_menu">
-                                <li><a href="#">관심 프리랜서</a></li>
-                                <li><a href="#">오늘 본 프리랜서</a></li>
-                                <li><a href="#">프로젝트 관심 프리랜서</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="/page/freelance_sch/freelance_sch03.html">인터뷰 요청 프리랜서</a>
-                        </li>
-                        <li>
-                            <a href="/page/freelance_sch/freelance_sch04.html" class="on">인터뷰 예약 프리랜서</a>
-                        </li>
-                        <li>
-                            <a href="/page/freelance_sch/freelance_sch05.html">추천받은 프리랜서</a>
-                        </li>
-                        <li>
-                            <a href="/page/freelance_sch/freelance_sch06.html">FAQ</a>
-                        </li>
+                <div id="projuct_left_menu"></div>
 
-                        <div class="ple_sch">
-                            <a href="#">
-                                <img src="/img/ple_sch.png" alt="">
-                            </a>
-                        </div>
-                    </ul>
-                </div>
                 <div class="content_info">
                     <div class="content">
                         <div class="custom_sch">
                             <ul class="custom_tab">
                                 <li>
                                     <a href="#tab1" class="on">
-                                          전체   <b>10</b>
+                                        전체 <b>10</b>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#tab2">프로젝트 별
-                                          <b class="on">10</b>
+                                        <b class="on">10</b>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <script>
-                            $(function() {
+                            $(function () {
                                 const menu = $(".custom_tab");
                                 const menu_li = $(".custom_tab li");
                                 const menu_li_a = $(".custom_tab li a");
@@ -228,7 +155,7 @@
 
                                 $("#tab1").show();
 
-                                menu_li.on("click", function(e) {
+                                menu_li.on("click", function (e) {
                                     e.preventDefault();
 
                                     menu_li_a.removeClass("on");
@@ -263,8 +190,8 @@
                                     </ul>
                                     <div class="view">
                                         <select name="" id="">
-                                                    <option value="">보기</option>
-                                              </select>
+                                            <option value="">보기</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>
@@ -300,14 +227,14 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                  <img src="/img/icons8_love_48px.png" alt="">
-                                                              </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                              개발
-                                                          </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                              10년 6개월
-                                                          </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
                                                             <a href="#" class="prize">고급</a>
                                                         </span>
@@ -421,14 +348,14 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                  <img src="/img/icons8_love_48px.png" alt="">
-                                                              </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                              개발
-                                                          </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                              10년 6개월
-                                                          </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
                                                             <a href="#" class="prize">고급</a>
                                                         </span>
@@ -542,14 +469,14 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                  <img src="/img/icons8_love_48px.png" alt="">
-                                                              </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                              개발
-                                                          </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                              10년 6개월
-                                                          </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
                                                             <a href="#" class="prize">고급</a>
                                                         </span>
@@ -663,14 +590,14 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                  <img src="/img/icons8_love_48px.png" alt="">
-                                                              </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                              개발
-                                                          </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                              10년 6개월
-                                                          </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
                                                             <a href="#" class="prize">고급</a>
                                                         </span>
@@ -784,14 +711,14 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                  <img src="/img/icons8_love_48px.png" alt="">
-                                                              </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                              개발
-                                                          </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                              10년 6개월
-                                                          </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
                                                             <a href="#" class="prize">고급</a>
                                                         </span>
@@ -905,14 +832,14 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                  <img src="/img/icons8_love_48px.png" alt="">
-                                                              </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                              개발
-                                                          </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                              10년 6개월
-                                                          </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
                                                             <a href="#" class="prize">고급</a>
                                                         </span>
@@ -1007,8 +934,8 @@
                             <div class="officer_wrap">
                                 <div class="office_sch">
                                     <select name="" id="">
-                                                    <option value="">전체</option>
-                                              </select>
+                                        <option value="">전체</option>
+                                    </select>
                                     <div class="view">
 
                                     </div>
@@ -1033,8 +960,8 @@
                                     </ul>
                                     <div class="view">
                                         <select name="" id="">
-                                                      <option value="">보기</option>
-                                                </select>
+                                            <option value="">보기</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>
@@ -1056,17 +983,17 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                    <img src="/img/icons8_love_48px.png" alt="">
-                                                                </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                                개발
-                                                            </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                                10년 6개월
-                                                            </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                                <a href="#" class="spa">특급</a>
-                                                            </span>
+                                                            <a href="#" class="spa">특급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
@@ -1167,17 +1094,17 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                    <img src="/img/icons8_love_48px.png" alt="">
-                                                                </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                                개발
-                                                            </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                                10년 6개월
-                                                            </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                                <a href="#" class="spa">특급</a>
-                                                            </span>
+                                                            <a href="#" class="spa">특급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
@@ -1278,17 +1205,17 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                    <img src="/img/icons8_love_48px.png" alt="">
-                                                                </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                                개발
-                                                            </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                                10년 6개월
-                                                            </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                                <a href="#" class="spa">특급</a>
-                                                            </span>
+                                                            <a href="#" class="spa">특급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
@@ -1389,17 +1316,17 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                    <img src="/img/icons8_love_48px.png" alt="">
-                                                                </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                                개발
-                                                            </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                                10년 6개월
-                                                            </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                                <a href="#" class="spa">특급</a>
-                                                            </span>
+                                                            <a href="#" class="spa">특급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
@@ -1500,17 +1427,17 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                    <img src="/img/icons8_love_48px.png" alt="">
-                                                                </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                                개발
-                                                            </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                                10년 6개월
-                                                            </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                                <a href="#" class="spa">특급</a>
-                                                            </span>
+                                                            <a href="#" class="spa">특급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
@@ -1611,17 +1538,17 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                    <img src="/img/icons8_love_48px.png" alt="">
-                                                                </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                                개발
-                                                            </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                                10년 6개월
-                                                            </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                                <a href="#" class="spa">특급</a>
-                                                            </span>
+                                                            <a href="#" class="spa">특급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
@@ -1722,17 +1649,17 @@
                                                         <span class="psb">즉시 투입가능</span>
                                                         <h2>김OO <span>(남 41세)</span>
                                                             <span class="heart">
-                                                                    <img src="/img/icons8_love_48px.png" alt="">
-                                                                </span></h2>
+                                                                <img src="/img/icons8_love_48px.png" alt="">
+                                                            </span></h2>
                                                         <span class="pSpan">
-                                                                개발
-                                                            </span>
+                                                            개발
+                                                        </span>
                                                         <span class="date">
-                                                                10년 6개월
-                                                            </span>
+                                                            10년 6개월
+                                                        </span>
                                                         <span class="dif">
-                                                                <a href="#" class="spa">특급</a>
-                                                            </span>
+                                                            <a href="#" class="spa">특급</a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <ul>
@@ -1909,7 +1836,8 @@
             <div class="footer_bottom">
                 <div class="inner">
                     <p>
-                        잡스인은 통신판매중개자이며 통신판매의 당사자가 아닙니다. <br> 따라서 개별 판매자가 등록하여 판매한 모든 상품에 대한 거래 정보 및 거래에 대한 책임은 각 판매자가 부담하고, 이에 대하여 잡스인은 일체 책임지지 않습니다.
+                        잡스인은 통신판매중개자이며 통신판매의 당사자가 아닙니다. <br> 따라서 개별 판매자가 등록하여 판매한 모든 상품에 대한 거래 정보 및 거래에 대한 책임은 각 판매자가
+                        부담하고, 이에 대하여 잡스인은 일체 책임지지 않습니다.
                     </p>
                     <p class="copy">
                         Copyright © 2020 Jons In. Inc. All rights reserved.
@@ -1918,6 +1846,13 @@
             </div>
         </div>
     </div>
+    <script>
+        $(function () {
+            // $("#header_info").load("/inc/header.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
+            $("#projuct_left_menu").load("/inc/freelance_left_ment.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
+            $("#sub_headers").load("/inc/freelance_top_menu.html");
+        });
+    </script>
 </body>
 
 

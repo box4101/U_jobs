@@ -39,50 +39,7 @@
 
 <body>
 
-    <div id="sub_header">
-        <div class="inner">
-            <h1 class="logo2">
-                <a href="/index.html">
-                    <img src="/img/logo2.png" alt="">
-                </a>
-            </h1>
-            <ul id="gnb">
-                <li>
-                    <a href="#">프리랜서 검색</a>
-                </li>
-                <li>
-                    <a href="#">프로젝트 검색</a>
-                </li>
-                <li>
-                    <a href="#">이용안내</a>
-                </li>
-                <li>
-                    <a href="#">IT잡스 소개</a>
-                </li>
-                <li>
-                    <a href="#">고객지원</a>
-                </li>
-            </ul>
-            <ul class="sub_login_menu">
-                <li>
-                    <img src="/img/sub_login.png" alt="로그인하기">
-                </li>
-                <li>
-                    <a href="#">
-                        로그인
-                    </a>
-                </li>
-                <li>
-                    <a href="#">회원가입</a>
-                </li>
-            </ul>
-            <div class="all_menu">
-                <a href="#">
-                    <img src="/img/all_menu.png" alt="메뉴모두보기">
-                </a>
-            </div>
-        </div>
-    </div>
+    <div id="sub_headers"></div>
 
     <nav id="navi" style="top:186px">
         <div class="project">
@@ -171,39 +128,8 @@
 
         <div id="sub_content">
             <div class="inner">
-                <div class="left_menu">
-                    <ul>
-                        <li>
-                            <a href="/page/freelance_sch/freelance_sch.html">프리랜서 검색</a>
-                        </li>
-                        <li>
-                            <a href="/page/freelance_sch/freelance_sch02.html">프리랜서 관리</a>
-                            <ul class="sub_menu">
-                                <li><a href="#">관심 프리랜서</a></li>
-                                <li><a href="#">오늘 본 프리랜서</a></li>
-                                <li><a href="#">프로젝트 관심 프리랜서</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="/page/freelance_sch/freelance_sch03.html">인터뷰 요청 프리랜서</a>
-                        </li>
-                        <li>
-                            <a href="/page/freelance_sch/freelance_sch04.html">인터뷰 예약 프리랜서</a>
-                        </li>
-                        <li>
-                            <a href="/page/freelance_sch/freelance_sch05.html" class="on">추천받은 프리랜서</a>
-                        </li>
-                        <li>
-                            <a href="/page/freelance_sch/freelance_sch06.html">FAQ</a>
-                        </li>
+             <div id="projuct_left_menu"></div>
 
-                        <div class="ple_sch">
-                            <a href="#">
-                                <img src="/img/ple_sch.png" alt="">
-                            </a>
-                        </div>
-                    </ul>
-                </div>
                 <div class="content_info">
                     <div class="content">
                         <div class="custom_sch">
@@ -1920,6 +1846,13 @@
             </div>
         </div>
     </div>
+    <script>
+        $(function () {
+          // $("#header_info").load("/inc/header.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
+          $("#projuct_left_menu").load("/inc/freelance_left_ment.html"); //파일내용을 불러와서 includeLoad에 뿌려준다.
+          $("#sub_headers").load("/inc/freelance_top_menu.html");
+      });
+    </script>
 </body>
 
 

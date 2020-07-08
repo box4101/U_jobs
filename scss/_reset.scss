@@ -33,6 +33,7 @@ $main_color_blue: #6c7cb8;
     font-weight: bold;
     background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
     background-color: #fff;
+    font-weight: 400;
 }
 
 @mixin text_line {
@@ -96,7 +97,7 @@ a.btn01.on {
     background: #6c7cb8;
     border: none;
 }
-span.btn_s01 {
+.btn_s01 {
     display: inline-block;
     height: 18px;
     width: auto;
@@ -107,6 +108,23 @@ span.btn_s01 {
     text-align: center;
     font-size: 12px;
     font-weight: 400;
+    color: #ffffff;
+}
+.btn_s02 {
+    display: inline-block;
+    width: auto;
+    padding: 7px 14px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    border:1px solid #bbbbbb;
+    color: #333333;
+}
+.btn_s02:hover{
+    background: $main_color_yel;
     color: #ffffff;
 }
 

@@ -2,6 +2,628 @@
       width: 48% !important;
 }
 
+// 추천프리랜서
+#Recom {
+      .wrap {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+      }
+      article {
+            h2.pro_header {
+                  opacity: 1;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  span.left {
+                        opacity: 1;
+                        p {
+                              opacity: 1;
+                              font-size: 21px;
+                              font-weight: 500;
+                              span.date {
+                                    position: relative;
+                                    top: 0px;
+                                    left: -5px;
+                                    font-size: 20px;
+                                    padding: 4px 10px;
+                                    border-radius: 25px;
+                                    color: darkred;
+                                    opacity: 1;
+                                    display: inline-block;
+                                    /* background: #f38f1e; */
+                                    margin-left: 2px;
+                              }
+                        }
+                  }
+                  span.right {
+                        opacity: 1;
+                        display: flex;
+                        align-items: center;
+                        span.a1 {
+                              margin-right: 7px;
+                              color: #80c269;
+                              opacity: 1;
+                              display: inline-block;
+                              width: 55px;
+                              height: 23px;
+                              font-size: 12px;
+                              line-height: 23px;
+                              text-align: center;
+                              border: 1px solid #80c269;
+                              border-radius: 12px;
+                              font-weight: bold;
+                        }
+                        span.a2 {
+                              margin-right: 15px;
+                              color: #00a0e9;
+                              opacity: 1;
+                              display: inline-block;
+                              width: 55px;
+                              height: 23px;
+                              font-size: 12px;
+                              line-height: 23px;
+                              text-align: center;
+                              border: 1px solid #00a0e9;
+                              border-radius: 12px;
+                        }
+                        img {
+                              opacity: 1;
+                        }
+                  }
+            }
+            h3 {
+                  a {
+                        @include text_line;
+                        opacity: 1;
+                        font-size: 20px;
+                        line-height: 1;
+                        letter-spacing: -0.9px;
+                        margin-top: 33px;
+                        margin-bottom: 17px;
+                        color: #333333;
+                  }
+                  span {
+                        display: inline-block;
+                        color: #80786d;
+                        opacity: 1;
+                  }
+            }
+            div.info_wrap {
+                  opacity: 1;
+                  span.num {
+                        opacity: 1;
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: #f38f1e;
+                  }
+                  span:first-of-type {
+                        display: inline-block;
+                        padding-left: 0;
+                        border-left: none;
+                        font-weight: 500;
+                  }
+                  > span {
+                        letter-spacing: -1px;
+                        position: relative;
+                        margin-left: 0;
+                        color: #666666;
+                        font-weight: 400;
+                        letter-spacing: -0.4px;
+                        padding: 0 15px;
+                        display: inline-block;
+                        opacity: 1;
+                        display: inline-flex;
+                        align-items: center;
+                        font-size: 14px;
+                        margin-bottom: 10px;
+                        b {
+                              font-size: 14px;
+                              color: #333333;
+                              font-weight: 500;
+                              margin-right: 6px;
+                        }
+                        img {
+                              display: inline-block;
+                              margin-right: 4px;
+                              opacity: 1;
+                              /* width: 13px; */
+                              /* height: 13px; */
+                              /* position: relative; */
+                              /* top: 2px; */
+                              display: inline-flex;
+                              align-items: center;
+                        }
+                        &::after {
+                              content: "";
+                              display: inline-block;
+                              width: 1px;
+                              height: 10px;
+                              background: #dddddd;
+                              position: absolute;
+                              top: 4px;
+                              right: 1px;
+                              right: 1px;
+                        }
+                        &:nth-of-type(2)::after {
+                              display: none;
+                        }
+                        &:nth-of-type(5)::after {
+                              display: none;
+                        }
+                  }
+                  span.sup {
+                        opacity: 1;
+                        padding-left: 0;
+                        img {
+                              opacity: 1;
+                              margin-right: 7px;
+                        }
+                        span {
+                              opacity: 1;
+                        }
+                  }
+                  span.state {
+                        opacity: 1;
+                        position: relative;
+                        left: -4px;
+                        color: #333333;
+                        img {
+                              opacity: 1;
+                        }
+                        b {
+                              position: relative;
+                              top: 2px;
+                        }
+                        span.p {
+                              position: relative;
+                              top: 1.1px;
+                        }
+                  }
+            }
+            .price_wrap {
+                  margin-top: 26px;
+                  a {
+                        display: inline-block;
+                        text-align: center;
+                        padding: 13px 10.6px;
+                        font-size: 16px;
+                        border: 1px solid #dbdbdb;
+                        border-radius: 7px;
+                        display: inline-flex;
+                        align-items: center;
+                        color: #000000;
+                        box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+                  }
+                  a.price {
+                        opacity: 1;
+                        margin-right: 8px;
+                        margin-right: 8px;
+                        border-radius: 15px;
+                        img {
+                              opacity: 1;
+                              margin-right: 8px;
+                        }
+                        span {
+                              padding: 0 3px;
+                              opacity: 1;
+                              color: $main_color_yel;
+                        }
+                  }
+                  a.dates {
+                        opacity: 1;
+                        border-radius: 15px;
+                        img {
+                              opacity: 1;
+                        }
+                        span {
+                              opacity: 1;
+                              padding: 0 4px;
+                        }
+                        span.da {
+                              padding: 0;
+                              font-size: 16px;
+                              font-weight: 400;
+                              color: #666666;
+                        }
+                  }
+            }
+            div.skills {
+                  opacity: 1;
+                  margin-top: 33px;
+                  padding-bottom: 15px;
+                  span.path {
+                        border: 1px solid #dbdbdb;
+                        opacity: 1;
+                        background: #f3f3f3;
+                        padding: 7px;
+                        text-align: center;
+                        display: inline-flex;
+                        font-size: 12px;
+                        color: #999999;
+                  }
+                  span.skill {
+                        opacity: 1;
+                        font-size: 14px;
+                        color: #666666;
+                        margin-left: 10px;
+                        font-weight: 400;
+                  }
+            }
+            div.way {
+                  opacity: 1;
+                  padding: 18px 0;
+                  border-top: 1px dotted #dbdbdb;
+                  border-bottom: 1px dotted #dbdbdb;
+                  padding-bottom: 6px;
+                  dl {
+                        opacity: 1;
+                        display: flex;
+                        margin-bottom: 12px;
+                        align-items: baseline;
+                        dt {
+                              opacity: 1;
+                              color: #333333;
+                              width: 78px;
+                              font-weight: bold;
+                              -ms-flex-preferred-size: 78px;
+                              flex-basis: 78px;
+                              -ms-flex-negative: 0;
+                              flex-shrink: 0;
+                              font-size: 14px;
+                        }
+                        dd {
+                              font-size: 14px;
+                              color: #666666;
+                              line-height: 20px;
+                              opacity: 1;
+                              overflow: hidden;
+                              width: 382px;
+                              word-break: keep-all;
+                        }
+                        &:last-of-type dd {
+                              @include text_line;
+                        }
+                  }
+            }
+            div.pro_profile_wrap {
+                  opacity: 1;
+                  display: flex;
+                  align-items: center;
+                  margin-top: 20px;
+                  div.profile {
+                        opacity: 1;
+                        @include bg_center(40px, 40px);
+                        img {
+                              opacity: 1;
+                        }
+                  }
+                  div.name {
+                        position: relative;
+                        margin-left: 11px;
+                        opacity: 1;
+                        font-size: 13px;
+                        font-weight: bold;
+                        color: #333333;
+                        span {
+                              font-size: 12px;
+                              color: $main_color_yel;
+                              opacity: 1;
+                              display: inline-block;
+                              margin-left: 15px;
+                              position: relative;
+                              top: -1px;
+                        }
+                        &::after {
+                              content: "";
+                              display: inline-block;
+                              position: absolute;
+                              width: 1px;
+                              height: 9px;
+                              background: #dddddd;
+                              right: 30px;
+                              top: 3px;
+                        }
+                  }
+                  div.company {
+                        opacity: 1;
+                        a {
+                              display: inline-block;
+                              padding: 4px 8px;
+                              text-align: center;
+                              font-size: 12px;
+                              color: #999;
+                              background: #f5f5f5;
+                              border: 1px solid #dbdbdb;
+                              margin-left: 30px;
+                        }
+                  }
+            }
+            position: relative;
+            width: 49%;
+            margin-right: 1%;
+            padding: 36px 36px;
+            border: 1px solid #dbdbdb;
+            border-radius: 13px;
+            opacity: 1;
+            /* margin: 0 10px; */
+            transition: all 0.7s;
+            margin-bottom: 25px;
+            &:hover {
+                  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+            }
+            article:nth-of-type(n) {
+                  margin-right: 2%;
+            }
+            &:nth-of-type(2n) {
+                  margin-right: 0;
+                  width: 50%;
+            }
+            h1 {
+                  opacity: 1;
+                  font-size: 19px;
+                  letter-spacing: -0.63px;
+                  padding-bottom: 18px;
+                  border-bottom: 1px solid #dbdbdb;
+                  margin-bottom: 19px;
+                  font-weight: 500;
+                  @include text_line;
+            }
+            div.profile {
+                  opacity: 1;
+                  display: flex;
+                  align-items: center;
+                  div.pic {
+                        opacity: 1;
+                        img {
+                              opacity: 1;
+                              width: 84px;
+                              height: 84px;
+                        }
+                  }
+                  div.proile_txt {
+                        opacity: 1;
+                        margin-left: 17px;
+                        .psb {
+                              display: inline-block;
+                              font-size: 12px;
+                              height: 20px;
+                              color: #d62d2d;
+                              font-weight: 500;
+                              padding: 8px 6px;
+                              border: 1px solid #d62d2d;
+                              display: inline-flex;
+                              justify-content: center;
+                              align-items: center;
+                              letter-spacing: -0.4px;
+                              margin-bottom: 5px;
+                        }
+                        h2 {
+                              opacity: 1;
+                              font-size: 16px;
+                              font-weight: 500;
+                              letter-spacing: -1.1px;
+                              cursor: pointer;
+                              span {
+                                    opacity: 1;
+                                    color: #666666;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                              }
+                              .heart {
+                                    position: relative;
+                                    display: inline-block;
+                                    top: 3px;
+                              }
+                        }
+                        span.pSpan {
+                              opacity: 1;
+                              margin-top: 7px;
+                              display: inline-block;
+                              /* padding: 3px 8px; */
+                              /* background: #6876b5; */
+                              color: #fff;
+                              font-size: 14px;
+                              color: $main_color_yel;
+                              border-radius: 5px;
+                              font-weight: 500;
+                        }
+                        span.pSpan.blue {
+                              color: #6876b5;
+                        }
+                        span.pSpan.green {
+                              color: #8bc135;
+                        }
+                        span.pSpan.red {
+                              color: #de3030;
+                        }
+                        span.date {
+                              position: relative;
+                              font-size: 12px;
+                              color: #666666;
+                              position: relative;
+                              margin-left: 6px;
+                              top: -0.5px;
+                              &::after {
+                                    position: absolute;
+                                    display: inline-block;
+                                    content: "";
+                                    width: 1px;
+                                    height: 10px;
+                                    background: #dddddd;
+                                    top: 52%;
+                                    transform: translateY(-50%);
+                                    left: -5px;
+                              }
+                              &::before {
+                                    position: absolute;
+                                    display: inline-block;
+                                    content: "";
+                                    width: 1px;
+                                    height: 10px;
+                                    background: #dddddd;
+                                    top: 52%;
+                                    transform: translateY(-50%);
+                                    right: -5px;
+                              }
+                        }
+                        span.dif {
+                              display: inline-block;
+                              position: relative;
+                              top: 5px;
+                              margin-left: 12px;
+                              a {
+                                    display: inline-block;
+                                    font-size: 12px;
+                                    width: 36px;
+                                    height: 18px;
+                                    text-align: center;
+                                    line-height: 18px;
+                                    background: #f26d7d;
+                                    color: #fff;
+                                    border-radius: 5px;
+                                    position: relative;
+                                    top: -5px;
+                              }
+                              a.prize {
+                                    background: #0091d3;
+                              }
+                              a.mid {
+                                    background: #1cbbb4;
+                              }
+                              a.begin {
+                                    background: #e6bb25;
+                              }
+                        }
+                  }
+            }
+            div.mainwork {
+                  margin-top: 24px;
+                  h2 {
+                        font-size: 17px;
+                        margin-bottom: 4px;
+                        font-weight: 500;
+                  }
+                  .mwList {
+                        margin-top: 10px;
+                        li {
+                              margin-bottom: 5px;
+                              a {
+                                    color: #707070;
+                                    font-size: 15px;
+                                    letter-spacing: -0.5px;
+                                    font-weight: 400;
+                                    width: 343px;
+                                    @include text_hidden;
+                              }
+                        }
+                  }
+            }
+            ul.wNum {
+                  position: absolute;
+                  right: 23px;
+                  top: 95px;
+                  li {
+                        width: 160px;
+                        height: 40px;
+                        border: 1px solid #ddd;
+                        border-radius: 7px;
+                        margin-bottom: 5px;
+                        -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                        padding: 5px 15px;
+                        &:hover {
+                              background: $main_color_yel;
+                              color: #ffffff;
+                              a,
+                              span {
+                                    color: #ffffff;
+                                    &::after {
+                                          color: #ffffff;
+                                    }
+                              }
+                        }
+                        a {
+                              float: left;
+                              line-height: 30px;
+                              font-size: 14px;
+                              color: #303030;
+                              font-weight: 400;
+                              span {
+                                    float: right;
+                                    position: absolute;
+                                    right: 12px;
+                                    color: $main_color_yel;
+                                    font-weight: bold;
+                                    &::after {
+                                          content: "건";
+                                          color: #999999;
+                                          font-weight: 400;
+                                    }
+                              }
+                        }
+                        &::after {
+                              content: "";
+                              display: block;
+                              clear: both;
+                        }
+                  }
+            }
+            .area {
+                  display: inline-block;
+                  margin-top: 14px;
+                  .area1 {
+                        border: 1px solid;
+                        padding: 3px 8px;
+                        border-radius: 18px;
+                        font-size: 12px;
+                        margin-right: 3px;
+                        font-weight: bold;
+                        margin-right: 5px;
+                  }
+                  span.area2 {
+                        font-size: 14px;
+                        color: #666666;
+                  }
+            }
+            div.skill {
+                  margin-top: 21px;
+                  overflow: hidden;
+                  height: 78px;
+                  .more {
+                        background: #ffffff;
+                  }
+                  div {
+                        float: left;
+                        display: block;
+                        margin-right: 5px;
+                        background: #eee;
+                        padding: 7px 17px;
+                        border-radius: 5px;
+                        font-size: 12px;
+                        color: #666666;
+                        margin-bottom: 11px;
+                        font-weight: bold;
+                  }
+                  &::after {
+                        // width: 23px;
+                        // height: 10px;
+                        // position: relative;
+                        // top: 5px;
+                        // content: "";
+                        // display: inline-block;
+                        // clear: both;
+                        // background: url(/img/card_more.png)no-repeat;
+                  }
+            }
+      }
+      ul.mwList li {
+            padding: 0 !important;
+            border: none !important;
+      }
+}
+// 추천프리랜서
+
 // 이달의 아웃소싱
 ul.day_month {
       margin-top: 13px;
@@ -99,10 +721,107 @@ ul.day_month {
 // 이달의 아웃소싱
 
 // 프로젝트정보
+#tab1 {
+      ul.project_card_list li div.wrap div.lef::after {
+            right: 22px !important;
+      }
+      ul.project_card_list li div.wrap div.ref div.way dl dd {
+            width: auto !important;
+      }
+      ul.project_card_list li div.wrap div.ref div.way {
+            margin-top: 13px !important;
+      }
+      ul.project_card_list li {
+            padding: 35px 35px !important;
+      }
+      ul.project_card_list li div.wrap div.lef {
+            position: relative !important;
+            flex: 1 0 540px !important;
+      }
+      ul.project_card_list li div.wrap div.ref div.way {
+            border-top: none !important;
+      }
+      div.pro_profile_wrap {
+            opacity: 1;
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            div.profile {
+                  opacity: 1;
+                  @include bg_center(40px, 40px);
+                  img {
+                        opacity: 1;
+                  }
+            }
+            div.name {
+                  position: relative;
+                  margin-left: 11px;
+                  opacity: 1;
+                  font-size: 13px;
+                  font-weight: bold;
+                  color: #333333;
+                  span {
+                        font-size: 12px;
+                        color: $main_color_yel;
+                        opacity: 1;
+                        display: inline-block;
+                        margin-left: 15px;
+                        position: relative;
+                        top: -1px;
+                  }
+                  &::after {
+                        content: "";
+                        display: inline-block;
+                        position: absolute;
+                        width: 1px;
+                        height: 9px;
+                        background: #dddddd;
+                        right: 30px;
+                        top: 3px;
+                  }
+            }
+            div.company {
+                  opacity: 1;
+                  a {
+                        display: inline-block;
+                        padding: 4px 8px;
+                        text-align: center;
+                        font-size: 12px;
+                        color: #999;
+                        background: #f5f5f5;
+                        border: 1px solid #dbdbdb;
+                        margin-left: 30px;
+                  }
+            }
+      }
+      div.skills {
+            opacity: 1;
+            margin-top: 33px;
+            padding-bottom: 15px;
+            span.path {
+                  border: 1px solid #dbdbdb;
+                  opacity: 1;
+                  background: #f3f3f3;
+                  padding: 7px;
+                  text-align: center;
+                  display: inline-flex;
+                  font-size: 12px;
+                  color: #999999;
+            }
+            span.skill {
+                  opacity: 1;
+                  font-size: 14px;
+                  color: #666666;
+                  margin-left: 10px;
+                  font-weight: 400;
+            }
+      }
+}
 ul.project_card_list {
       margin-top: 30px;
       li {
             padding: 35px 50px;
+            background: #ffffff;
             box-sizing: border-box;
             border: 1px solid #dbdbdb;
             border-radius: 13px;
@@ -672,32 +1391,39 @@ div#project_self {
                         div.text_area {
                               margin-top: 15px;
                               textarea {
-                                    padding: 28px; box-sizing: border-box;
-                                    width: 100%; height: 220px;
+                                    padding: 28px;
+                                    box-sizing: border-box;
+                                    width: 100%;
+                                    height: 220px;
                                     overflow-y: scroll;
-                                    font-size: 14px; font-weight: 400;  color: #999999;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: #999999;
                                     line-height: 29px;
                               }
-                            }
-                            
-                            div.btn_wraps {
-                                  margin-top: 22px;
-                                  position: relative;
-                                  left: 50%; transform: translateX(-50%);
-                                  text-align: center;
+                        }
+
+                        div.btn_wraps {
+                              margin-top: 22px;
+                              position: relative;
+                              left: 50%;
+                              transform: translateX(-50%);
+                              text-align: center;
                               li {
-                                a.btn01 {
-                            
-                                }
+                                    a.btn01 {
+                                    }
                               }
-                            }
+                        }
                         h2 {
                               font-size: 22px;
                               color: #333333;
-                              display: flex; justify-content: space-between;
-                              span.num{
+                              display: flex;
+                              justify-content: space-between;
+                              span.num {
                                     display: inline-block;
-                                    font-size: 14px; font-weight: 400; color: #333333;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: #333333;
                               }
                         }
                         div.dl_wrap {
@@ -710,20 +1436,25 @@ div#project_self {
                                           font-size: 16px;
                                           color: #999999;
                                           float: left;
+                                          word-break: keep-all;
                                           width: 155px;
                                     }
 
                                     dd {
                                           font-size: 16px;
                                           color: #333333;
+                                          float: left;
                                     }
                               }
                         }
 
-                        p.nam{
+                        p.nam {
                               font-size: 16px;
                               font-weight: 400;
                               margin-top: 30px;
+                        }
+                        p.red {
+                              color: darkred;
                         }
 
                         p {
@@ -732,7 +1463,7 @@ div#project_self {
                               font-weight: 400;
                               color: #333333;
                               margin-bottom: 20px;
-                              &.tit{
+                              &.tit {
                                     font-weight: bold;
                               }
                         }
