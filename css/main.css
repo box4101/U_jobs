@@ -7,7 +7,7 @@
   color: #dedede;
   font-size: 25px;
   height: 25px;
-  width: 100px;
+  width: auto;
   margin: 0 auto;
   position: relative;
   padding: 0;
@@ -27,7 +27,7 @@
 
 .star-ratings-css-bottom {
   padding: 0;
-  display: block;
+  display: inline-block;
   z-index: 0; }
   .star-ratings-css-bottom span {
     margin-right: 3px; }
@@ -2578,7 +2578,7 @@ select {
   color: #dedede;
   font-size: 25px;
   height: 25px;
-  width: 100px;
+  width: auto;
   margin: 0 auto;
   position: relative;
   padding: 0;
@@ -2598,7 +2598,7 @@ select {
 
 .star-ratings-css-bottom {
   padding: 0;
-  display: block;
+  display: inline-block;
   z-index: 0; }
   .star-ratings-css-bottom span {
     margin-right: 3px; }
@@ -8037,7 +8037,7 @@ div.footer_top {
   color: #dedede;
   font-size: 25px;
   height: 25px;
-  width: 100px;
+  width: auto;
   margin: 0 auto;
   position: relative;
   padding: 0;
@@ -8057,7 +8057,7 @@ div.footer_top {
 
 .star-ratings-css-bottom {
   padding: 0;
-  display: block;
+  display: inline-block;
   z-index: 0; }
   .star-ratings-css-bottom span {
     margin-right: 3px; }
@@ -14235,7 +14235,7 @@ nav#navi {
       background: #fff;
       font-size: 12px;
       color: #333333;
-      border: 1px solid #dbdbdbdb;
+      border: 1px solid #dbdbdb;
       -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
       box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1); }
 

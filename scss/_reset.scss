@@ -75,7 +75,7 @@ $main_color_blue: #6c7cb8;
     color: #dedede;
     font-size: 25px;
     height: 25px;
-    width: 100px;
+    width: auto;
     margin: 0 auto;
     position: relative;
     padding: 0;
@@ -99,7 +99,7 @@ $main_color_blue: #6c7cb8;
 
 .star-ratings-css-bottom {
     padding: 0;
-    display: block;
+    display: inline-block;
     z-index: 0;
     span{
         margin-right: 3px;
