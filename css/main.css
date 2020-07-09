@@ -1,4 +1,55 @@
 @charset "UTF-8";
+/* 익스 css */
+/* //익스 css */
+/* 등급_스타_별 */
+.star-ratings-css {
+  unicode-bidi: bidi-override;
+  color: #dedede;
+  font-size: 25px;
+  height: 25px;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 1px 0 #dedede; }
+
+.star-ratings-css-top {
+  color: #ffb72b;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 0;
+  left: 0;
+  overflow: hidden; }
+  .star-ratings-css-top span {
+    margin-right: 3px; }
+
+.star-ratings-css-bottom {
+  padding: 0;
+  display: block;
+  z-index: 0; }
+  .star-ratings-css-bottom span {
+    margin-right: 3px; }
+
+.star-ratings-sprite {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  font-size: 0;
+  height: 21px;
+  line-height: 0;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 110px;
+  margin: 0 auto; }
+
+.star-ratings-sprite-rating {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  background-position: 0 100%;
+  float: left;
+  height: 21px;
+  display: block; }
+
+/* 등급_스타_별 */
 .spa_bg {
   background: #f26d7d;
   color: #ffffff; }
@@ -2393,34 +2444,6 @@ figcaption {
   overflow: hidden; }
 
 /* 막대그래프 */
-/* 등급_스타_별 */
-.star-ratings-css {
-  unicode-bidi: bidi-override;
-  color: #c5c5c5;
-  font-size: 25px;
-  width: 100px;
-  /* height: 25px; */
-  margin: 0 auto;
-  position: relative;
-  padding: 0;
-  text-shadow: 0px 1px 0 #a2a2a2;
-  overflow: hidden; }
-
-.star-ratings-css-top {
-  color: #ffb72b;
-  padding: 0;
-  position: absolute;
-  z-index: 1;
-  display: block;
-  top: 0;
-  left: 0;
-  overflow: hidden; }
-
-.star-ratings-css-bottom {
-  padding: 0;
-  display: block;
-  z-index: 0; }
-
 input,
 select {
   font-family: "Noto Sans KR", NanumGothic, "Malgun Gothic", sans-serif !important;
@@ -2547,6 +2570,57 @@ select {
   font-weight: bold; }
 
 /* 회원 개발,기획,디자인,퍼블 */
+/* 익스 css */
+/* //익스 css */
+/* 등급_스타_별 */
+.star-ratings-css {
+  unicode-bidi: bidi-override;
+  color: #dedede;
+  font-size: 25px;
+  height: 25px;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 1px 0 #dedede; }
+
+.star-ratings-css-top {
+  color: #ffb72b;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 0;
+  left: 0;
+  overflow: hidden; }
+  .star-ratings-css-top span {
+    margin-right: 3px; }
+
+.star-ratings-css-bottom {
+  padding: 0;
+  display: block;
+  z-index: 0; }
+  .star-ratings-css-bottom span {
+    margin-right: 3px; }
+
+.star-ratings-sprite {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  font-size: 0;
+  height: 21px;
+  line-height: 0;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 110px;
+  margin: 0 auto; }
+
+.star-ratings-sprite-rating {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  background-position: 0 100%;
+  float: left;
+  height: 21px;
+  display: block; }
+
+/* 등급_스타_별 */
 .spa_bg {
   background: #f26d7d;
   color: #ffffff; }
@@ -4941,34 +5015,6 @@ figcaption {
   overflow: hidden; }
 
 /* 막대그래프 */
-/* 등급_스타_별 */
-.star-ratings-css {
-  unicode-bidi: bidi-override;
-  color: #c5c5c5;
-  font-size: 25px;
-  width: 100px;
-  /* height: 25px; */
-  margin: 0 auto;
-  position: relative;
-  padding: 0;
-  text-shadow: 0px 1px 0 #a2a2a2;
-  overflow: hidden; }
-
-.star-ratings-css-top {
-  color: #ffb72b;
-  padding: 0;
-  position: absolute;
-  z-index: 1;
-  display: block;
-  top: 0;
-  left: 0;
-  overflow: hidden; }
-
-.star-ratings-css-bottom {
-  padding: 0;
-  display: block;
-  z-index: 0; }
-
 input,
 select {
   font-family: "Noto Sans KR", NanumGothic, "Malgun Gothic", sans-serif !important;
@@ -6497,7 +6543,7 @@ div#sub_header {
         opacity: 1; }
     div#sub_header div.inner ul#gnb {
       position: absolute;
-      left: 210px;
+      left: 149px;
       top: 0;
       bottom: 0;
       display: -webkit-box;
@@ -6774,7 +6820,8 @@ div#sub_contents div#sub_content {
               opacity: 1; }
     div#sub_contents div#sub_content div.inner div.left_menu {
       float: left;
-      width: 220px; }
+      width: 220px;
+      margin-bottom: 72px; }
       div#sub_contents div#sub_content div.inner div.left_menu > ul .ple_sch {
         margin-top: 10px;
         height: 88px;
@@ -6979,8 +7026,16 @@ div#sub_contents div#sub_content {
                 letter-spacing: -0.7px;
                 font-weight: 500;
                 word-break: keep-all; }
-                div#sub_contents div#sub_content div.inner div.content_info div.firstFloor dl dd div.nano ul li a:hover, div#sub_contents div#sub_content div.inner div.content_info div.firstFloor dl dd div.nano ul li a.on {
+                div#sub_contents div#sub_content div.inner div.content_info div.firstFloor dl dd div.nano ul li a:hover {
                   color: #f8a03c; }
+                div#sub_contents div#sub_content div.inner div.content_info div.firstFloor dl dd div.nano ul li a.on {
+                  padding: 6px 12px;
+                  position: relative;
+                  -webkit-transform: translate(-12px);
+                  transform: translate(-12px);
+                  background: #f8a03c;
+                  border-radius: 15px;
+                  color: #ffffff; }
                 div#sub_contents div#sub_content div.inner div.content_info div.firstFloor dl dd div.nano ul li a.focus {
                   padding: 6px 12px;
                   position: relative;
@@ -7974,6 +8029,57 @@ div.footer_top {
   width: 100%;
   height: 360px; }
 
+/* 익스 css */
+/* //익스 css */
+/* 등급_스타_별 */
+.star-ratings-css {
+  unicode-bidi: bidi-override;
+  color: #dedede;
+  font-size: 25px;
+  height: 25px;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 1px 0 #dedede; }
+
+.star-ratings-css-top {
+  color: #ffb72b;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 0;
+  left: 0;
+  overflow: hidden; }
+  .star-ratings-css-top span {
+    margin-right: 3px; }
+
+.star-ratings-css-bottom {
+  padding: 0;
+  display: block;
+  z-index: 0; }
+  .star-ratings-css-bottom span {
+    margin-right: 3px; }
+
+.star-ratings-sprite {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  font-size: 0;
+  height: 21px;
+  line-height: 0;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 110px;
+  margin: 0 auto; }
+
+.star-ratings-sprite-rating {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  background-position: 0 100%;
+  float: left;
+  height: 21px;
+  display: block; }
+
+/* 등급_스타_별 */
 .spa_bg {
   background: #f26d7d;
   color: #ffffff; }
@@ -10368,34 +10474,6 @@ figcaption {
   overflow: hidden; }
 
 /* 막대그래프 */
-/* 등급_스타_별 */
-.star-ratings-css {
-  unicode-bidi: bidi-override;
-  color: #c5c5c5;
-  font-size: 25px;
-  width: 100px;
-  /* height: 25px; */
-  margin: 0 auto;
-  position: relative;
-  padding: 0;
-  text-shadow: 0px 1px 0 #a2a2a2;
-  overflow: hidden; }
-
-.star-ratings-css-top {
-  color: #ffb72b;
-  padding: 0;
-  position: absolute;
-  z-index: 1;
-  display: block;
-  top: 0;
-  left: 0;
-  overflow: hidden; }
-
-.star-ratings-css-bottom {
-  padding: 0;
-  display: block;
-  z-index: 0; }
-
 input,
 select {
   font-family: "Noto Sans KR", NanumGothic, "Malgun Gothic", sans-serif !important;
@@ -10991,6 +11069,132 @@ div#login_id_find {
       font-size: 18px;
       background: #333333;
       color: #ffffff; }
+
+ul.client_evalu_wrap {
+  margin-top: 30px; }
+  ul.client_evalu_wrap > li {
+    position: relative;
+    transition: all 0.3s;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 27px; }
+    ul.client_evalu_wrap > li:hover {
+      box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1); }
+    ul.client_evalu_wrap > li div.horoscope {
+      position: absolute;
+      right: 10px;
+      top: 20px; }
+    ul.client_evalu_wrap > li div.client_info_top {
+      padding: 40px; }
+      ul.client_evalu_wrap > li div.client_info_top h3 {
+        font-size: 22px;
+        color: #333333;
+        line-height: 1; }
+        ul.client_evalu_wrap > li div.client_info_top h3 img {
+          display: inline-block;
+          margin-left: 5px; }
+      ul.client_evalu_wrap > li div.client_info_top div.dl_wrap {
+        margin-top: 25px;
+        display: flex;
+        justify-content: start; }
+        ul.client_evalu_wrap > li div.client_info_top div.dl_wrap dl {
+          display: inline-block;
+          font-size: 14px;
+          font-weight: 400;
+          margin-right: 30px; }
+          ul.client_evalu_wrap > li div.client_info_top div.dl_wrap dl dt {
+            float: left;
+            flex: 0 1 40px;
+            color: #666666;
+            margin-right: 10px; }
+          ul.client_evalu_wrap > li div.client_info_top div.dl_wrap dl dd {
+            float: left; }
+      ul.client_evalu_wrap > li div.client_info_top ul.evalu_num {
+        margin-top: 22px;
+        display: flex;
+        border: 1px solid #dbdbdb;
+        border-radius: 43px;
+        height: 45px;
+        align-items: center;
+        box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1); }
+        ul.client_evalu_wrap > li div.client_info_top ul.evalu_num li {
+          flex: 1;
+          text-align: center; }
+          ul.client_evalu_wrap > li div.client_info_top ul.evalu_num li dl {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; }
+            ul.client_evalu_wrap > li div.client_info_top ul.evalu_num li dl dt {
+              float: left;
+              text-align: center;
+              margin-right: 9px;
+              font-weight: 400; }
+            ul.client_evalu_wrap > li div.client_info_top ul.evalu_num li dl dd {
+              font-family: "roboto", sans-serif;
+              font-weight: bold;
+              font-size: 18px; }
+    ul.client_evalu_wrap > li div.client_info_bot {
+      opacity: 1;
+      padding: 40px;
+      /* margin-top: 20px; */
+      background: #f7f7f7;
+      position: relative;
+      display: flex; }
+      ul.client_evalu_wrap > li div.client_info_bot div.Regist {
+        opacity: 1;
+        position: absolute;
+        right: 55px;
+        bottom: 35px;
+        font-size: 13px;
+        font-weight: 400;
+        color: #999999; }
+        ul.client_evalu_wrap > li div.client_info_bot div.Regist span {
+          opacity: 1; }
+      ul.client_evalu_wrap > li div.client_info_bot div.lef {
+        opacity: 1;
+        flex: 1 0 196px;
+        text-align: center;
+        background: url(/img/bg_profile.png) no-repeat;
+        background-position: right;
+        margin-right: 25px; }
+        ul.client_evalu_wrap > li div.client_info_bot div.lef div.person_wrap {
+          opacity: 1; }
+          ul.client_evalu_wrap > li div.client_info_bot div.lef div.person_wrap div.img {
+            opacity: 1;
+            margin-bottom: 12px; }
+            ul.client_evalu_wrap > li div.client_info_bot div.lef div.person_wrap div.img img {
+              opacity: 1; }
+          ul.client_evalu_wrap > li div.client_info_bot div.lef div.person_wrap div.per_txt {
+            opacity: 1; }
+            ul.client_evalu_wrap > li div.client_info_bot div.lef div.person_wrap div.per_txt span.name {
+              opacity: 1;
+              font-size: 13px;
+              font-weight: bold;
+              color: #333;
+              display: inline-block;
+              margin-right: 20px;
+              position: relative; }
+              ul.client_evalu_wrap > li div.client_info_bot div.lef div.person_wrap div.per_txt span.name::after {
+                content: '';
+                top: 3px;
+                left: 42px;
+                position: absolute;
+                width: 1px;
+                height: 11px;
+                background: #ccc; }
+            ul.client_evalu_wrap > li div.client_info_bot div.lef div.person_wrap div.per_txt span.name_en {
+              opacity: 1;
+              font-size: 13px;
+              font-weight: 400; }
+      ul.client_evalu_wrap > li div.client_info_bot div.ref {
+        opacity: 1; }
+        ul.client_evalu_wrap > li div.client_info_bot div.ref p {
+          opacity: 1;
+          font-weight: 400;
+          font-size: 14px;
+          max-width: 93%;
+          word-break: keep-all;
+          line-height: 21px; }
 
 div.fre_interview_wrap {
   margin-top: 28px;

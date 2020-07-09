@@ -1,3 +1,169 @@
+// 클라이언트평가
+ul.client_evalu_wrap {
+  margin-top: 30px;
+  > li {
+    position: relative;
+    transition: all 0.3s;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 27px;
+
+    &:hover {
+      @include shadow;
+    }
+    div.horoscope {
+      position: absolute;
+      right: 10px;
+      top: 20px;
+    }
+
+    div.client_info_top {
+      padding: 40px;
+      h3 {
+        font-size: 22px;
+        color: #333333;
+        line-height: 1;
+        img {
+          display: inline-block;
+          margin-left: 5px;
+        }
+      }
+
+      div.dl_wrap {
+        margin-top: 25px;
+        display: flex;
+        justify-content: start;
+        dl {
+          display: inline-block;
+          font-size: 14px;
+          font-weight: 400;
+          margin-right: 30px;
+          dt {
+            float: left;
+            flex: 0 1 40px;
+            color: #666666;
+            margin-right: 10px;
+          }
+          dd {
+            float: left;
+          }
+        }
+      }
+
+      ul.evalu_num {
+        margin-top: 22px;
+        display: flex;
+        border: 1px solid #dbdbdb;
+        border-radius: 43px;
+        height: 45px;
+        align-items: center;
+        @include shadow;
+        li {
+          flex: 1;
+          text-align: center;
+          dl {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            dt {
+              float: left;
+              text-align: center;
+              margin-right: 9px;
+              font-weight: 400;
+            }
+            dd {
+              font-family: "roboto", sans-serif;
+              font-weight: bold;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+
+    div.client_info_bot {
+      opacity: 1;
+      padding: 40px;
+      /* margin-top: 20px; */
+      background: #f7f7f7;
+      position: relative;
+      display: flex;
+      div.Regist {
+        opacity: 1;
+        position: absolute;
+        right: 55px;
+        bottom: 35px;
+        font-size: 13px;
+        font-weight: 400;
+        color: #999999;
+        span {
+          opacity: 1;
+        }
+      }
+
+      div.lef {
+        opacity: 1;
+        flex: 1 0 196px;
+        text-align: center;
+        background: url(/img/bg_profile.png)no-repeat;
+        background-position: right;
+        margin-right: 25px;
+        div.person_wrap {
+          opacity: 1;
+          div.img {
+            opacity: 1;
+            margin-bottom: 12px;
+            img {
+              opacity: 1;
+            }
+          }
+
+          div.per_txt {
+            opacity: 1;
+            span.name {
+              opacity: 1;
+              font-size: 13px;
+              font-weight: bold;
+              color: #333;
+              display: inline-block;
+              margin-right: 20px;
+              position: relative;
+              &::after{
+                content: '';
+                top: 3px;
+                left: 42px;
+                position: absolute;
+                width: 1px;
+                height: 11px;
+                background: #ccc;
+              }
+            }
+
+            span.name_en {
+              opacity: 1;
+              font-size: 13px;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+
+      div.ref {
+        opacity: 1;
+        p {
+          opacity: 1;
+          font-weight: 400;
+          font-size: 14px;
+          max-width: 93%;
+          word-break: keep-all;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+}
+// 클라이언트평가
+
 // 인터뷰
 div.fre_interview_wrap {
   margin-top: 28px;
@@ -65,7 +231,7 @@ div.fre_interview_wrap {
         border-bottom: 1px solid #dbdbdbdb;
         margin: 0 40px;
 
-        &:last-of-type{
+        &:last-of-type {
           border-bottom: none;
         }
         p.qxt {

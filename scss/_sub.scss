@@ -1690,7 +1690,7 @@ div {
             ul {
                 &#gnb {
                     position: absolute;
-                    left: 210px;
+                    left: 149px;
                     top: 0;
                     bottom: 0;
                     display: -webkit-box;
@@ -2021,6 +2021,7 @@ div {
                     &.left_menu {
                         float: left;
                         width: 220px;
+                        margin-bottom: 72px;
                         >ul {
                             .ple_sch {
                                 margin-top: 10px;
@@ -2274,9 +2275,18 @@ div {
                                                 letter-spacing: -0.7px;
                                                 font-weight: 500;
                                                 word-break: keep-all;
-                                                &:hover,
-                                                &.on {
+                                                &:hover
+                                                {
                                                     color: #f8a03c;
+                                                }
+                                                &.on {
+                                                    padding: 6px 12px;
+                                                    position: relative;
+                                                    -webkit-transform: translate(-12px);
+                                                    transform: translate(-12px);
+                                                    background: #f8a03c;
+                                                    border-radius: 15px;
+                                                    color: #ffffff;
                                                 }
                                                 &.focus {
                                                     padding: 6px 12px;
