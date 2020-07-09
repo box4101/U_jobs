@@ -12,12 +12,21 @@ ul.client_evalu_wrap {
     }
     div.horoscope {
       position: absolute;
-      right: 10px;
-      top: 20px;
+      right: 47px;
+      top: 35px;
+      .horo_num{
+        opacity: 1;
+        font-family: 'roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #333333;
+        position: relative;
+        bottom: 1px;
+      }
     }
 
     div.client_info_top {
-      padding: 40px;
+      padding: 45px;
       h3 {
         font-size: 22px;
         color: #333333;
@@ -157,6 +166,7 @@ ul.client_evalu_wrap {
           max-width: 93%;
           word-break: keep-all;
           line-height: 21px;
+          margin-top: 5px;
         }
       }
     }
