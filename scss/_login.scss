@@ -10,7 +10,7 @@
       color: #ffffff;
 }
 @mixin id_radio_off {
-      background: url(/img/id_radio_off.png) no-repeat;
+      background: url(../img/id_radio_off.png) no-repeat;
       height: 18px;
       display: flex;
       align-items: center;
@@ -18,7 +18,7 @@
 }
 @mixin id_select {
       opacity: 1;
-      background: #6c7cb8 url(/img/bg_id_select.png) no-repeat center right 20px;
+      background: #6c7cb8 url(../img/bg_id_select.png) no-repeat center right 20px;
       width: 100%;
       height: 60px;
       padding-left: 25px;
@@ -29,7 +29,7 @@
 @mixin id_select2 {
       margin-top: 13px;
       opacity: 1;
-      background: #fff url(/img/bg_id_select2.png) no-repeat center right 20px;
+      background: #fff url(../img/bg_id_select2.png) no-repeat center right 20px;
       width: 100%;
       height: 60px;
       padding-left: 25px;
@@ -38,7 +38,7 @@
       border: 1px solid #dddddd;
 }
 input[class="find_id_radio"]:checked + label {
-      background: url(/img/id_radio_on.png) no-repeat !important;
+      background: url(../img/id_radio_on.png) no-repeat !important;
       height: 18px;
       padding-left: 26px;
 }

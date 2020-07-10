@@ -156,7 +156,7 @@ a.btn01.on {
   padding-left: 15px;
   color: #999999;
   border: 1px solid #000;
-  background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
+  background: url(../img/bg_smail_sel.png) no-repeat center right 20px;
   box-sizing: border-box; }
 
 .sel01 option {
@@ -253,7 +253,7 @@ input[type="radio"] {
 
 /* 아웃소싱 라디오 */
 label.ra {
-  background: url(/img/l_ra_off.png) no-repeat;
+  background: url(../img/l_ra_off.png) no-repeat;
   width: 24px;
   height: 32px;
   padding-left: 28px;
@@ -263,7 +263,7 @@ label.ra {
   color: #000; }
 
 input[class="chk01"]:checked + label.ra {
-  background: url(/img/l_ra_on.png) no-repeat;
+  background: url(../img/l_ra_on.png) no-repeat;
   width: 22px;
   height: 22px;
   padding-left: 24px;
@@ -272,7 +272,7 @@ input[class="chk01"]:checked + label.ra {
 /* 아웃소싱 라디오 */
 /* 프리랜서 체크박스 */
 label.mi02 {
-  background: url(/img/free_chk_off.png) no-repeat;
+  background: url(../img/free_chk_off.png) no-repeat;
   width: 22px;
   height: 36px;
   padding-left: 24px;
@@ -282,7 +282,7 @@ label.mi02 {
   background-position-y: 0px; }
 
 input[class="chk01"]:checked + label.mi02 {
-  background: url(/img/free_chk_on.png) no-repeat;
+  background: url(../img/free_chk_on.png) no-repeat;
   width: 22px;
   height: 22px;
   padding-left: 24px;
@@ -294,7 +294,7 @@ input[class="chk01"]:checked + label.mi02 {
 /* 프리랜서 체크박스 */
 /* 숨김 */
 label.mi {
-  background: url(/img/l_hide_off.png) no-repeat;
+  background: url(../img/l_hide_off.png) no-repeat;
   width: 22px;
   height: 22px;
   padding-left: 24px;
@@ -304,7 +304,7 @@ label.mi {
   background-position-y: 4px; }
 
 input[class="chk01"]:checked + label.mi {
-  background: url(/img/l_hide_on.png) no-repeat;
+  background: url(../img/l_hide_on.png) no-repeat;
   width: 22px;
   height: 22px;
   padding-left: 24px;
@@ -317,7 +317,7 @@ input[class="chk01"]:checked + label.mi {
 /* 필수동의 체크박스 */
 label.mi2 {
   display: inline-block;
-  background: url(/img/l_hide02_off.png) no-repeat;
+  background: url(../img/l_hide02_off.png) no-repeat;
   width: 28px;
   height: 31px;
   padding-left: 24px;
@@ -328,7 +328,7 @@ label.mi2 {
 
 input[class="chk02"]:checked + label.mi2 {
   display: inline-block;
-  background: url(/img/l_hide02_on.png) no-repeat;
+  background: url(../img/l_hide02_on.png) no-repeat;
   width: 28px;
   height: 31px;
   padding-left: 24px;
@@ -340,7 +340,7 @@ input[class="chk02"]:checked + label.mi2 {
 /* 필수동의 체크박스 */
 /* 필수동의 체크박스 */
 label.mi3 {
-  background: url(/img/l_hide03_off.png) no-repeat;
+  background: url(../img/l_hide03_off.png) no-repeat;
   width: 16px;
   height: 16px;
   padding-left: 24px;
@@ -351,7 +351,7 @@ label.mi3 {
 
 input[class="chk03"]:checked + label.mi3 {
   display: inline-block;
-  background: url(/img/l_hide03_on.png) no-repeat;
+  background: url(../img/l_hide03_on.png) no-repeat;
   background-size: contain;
   width: 16px;
   height: 19px;
@@ -363,7 +363,7 @@ input[class="chk03"]:checked + label.mi3 {
 /* 필수동의 체크박스 */
 /* 아이디 저장 */
 label.mi4 {
-  background: url(/img/login_input.png) no-repeat;
+  background: url(../img/login_input.png) no-repeat;
   width: 16px;
   height: 20px;
   padding-left: 25px;
@@ -375,7 +375,7 @@ label.mi4 {
 
 input[class="chk04"]:checked + label.mi4 {
   display: inline-block;
-  background: url(/img/l_hide03_on.png) no-repeat;
+  background: url(../img/l_hide03_on.png) no-repeat;
   width: 16px;
   height: 19px;
   padding-left: 25px;
@@ -2727,7 +2727,7 @@ a.btn01.on {
   padding-left: 15px;
   color: #999999;
   border: 1px solid #000;
-  background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
+  background: url(../img/bg_smail_sel.png) no-repeat center right 20px;
   box-sizing: border-box; }
 
 .sel01 option {
@@ -2824,7 +2824,7 @@ input[type="radio"] {
 
 /* 아웃소싱 라디오 */
 label.ra {
-  background: url(/img/l_ra_off.png) no-repeat;
+  background: url(../img/l_ra_off.png) no-repeat;
   width: 24px;
   height: 32px;
   padding-left: 28px;
@@ -2834,7 +2834,7 @@ label.ra {
   color: #000; }
 
 input[class="chk01"]:checked + label.ra {
-  background: url(/img/l_ra_on.png) no-repeat;
+  background: url(../img/l_ra_on.png) no-repeat;
   width: 22px;
   height: 22px;
   padding-left: 24px;
@@ -2843,7 +2843,7 @@ input[class="chk01"]:checked + label.ra {
 /* 아웃소싱 라디오 */
 /* 프리랜서 체크박스 */
 label.mi02 {
-  background: url(/img/free_chk_off.png) no-repeat;
+  background: url(../img/free_chk_off.png) no-repeat;
   width: 22px;
   height: 36px;
   padding-left: 24px;
@@ -2853,7 +2853,7 @@ label.mi02 {
   background-position-y: 0px; }
 
 input[class="chk01"]:checked + label.mi02 {
-  background: url(/img/free_chk_on.png) no-repeat;
+  background: url(../img/free_chk_on.png) no-repeat;
   width: 22px;
   height: 22px;
   padding-left: 24px;
@@ -2865,7 +2865,7 @@ input[class="chk01"]:checked + label.mi02 {
 /* 프리랜서 체크박스 */
 /* 숨김 */
 label.mi {
-  background: url(/img/l_hide_off.png) no-repeat;
+  background: url(../img/l_hide_off.png) no-repeat;
   width: 22px;
   height: 22px;
   padding-left: 24px;
@@ -2875,7 +2875,7 @@ label.mi {
   background-position-y: 4px; }
 
 input[class="chk01"]:checked + label.mi {
-  background: url(/img/l_hide_on.png) no-repeat;
+  background: url(../img/l_hide_on.png) no-repeat;
   width: 22px;
   height: 22px;
   padding-left: 24px;
@@ -2888,7 +2888,7 @@ input[class="chk01"]:checked + label.mi {
 /* 필수동의 체크박스 */
 label.mi2 {
   display: inline-block;
-  background: url(/img/l_hide02_off.png) no-repeat;
+  background: url(../img/l_hide02_off.png) no-repeat;
   width: 28px;
   height: 31px;
   padding-left: 24px;
@@ -2899,7 +2899,7 @@ label.mi2 {
 
 input[class="chk02"]:checked + label.mi2 {
   display: inline-block;
-  background: url(/img/l_hide02_on.png) no-repeat;
+  background: url(../img/l_hide02_on.png) no-repeat;
   width: 28px;
   height: 31px;
   padding-left: 24px;
@@ -2911,7 +2911,7 @@ input[class="chk02"]:checked + label.mi2 {
 /* 필수동의 체크박스 */
 /* 필수동의 체크박스 */
 label.mi3 {
-  background: url(/img/l_hide03_off.png) no-repeat;
+  background: url(../img/l_hide03_off.png) no-repeat;
   width: 16px;
   height: 16px;
   padding-left: 24px;
@@ -2922,7 +2922,7 @@ label.mi3 {
 
 input[class="chk03"]:checked + label.mi3 {
   display: inline-block;
-  background: url(/img/l_hide03_on.png) no-repeat;
+  background: url(../img/l_hide03_on.png) no-repeat;
   background-size: contain;
   width: 16px;
   height: 19px;
@@ -2934,7 +2934,7 @@ input[class="chk03"]:checked + label.mi3 {
 /* 필수동의 체크박스 */
 /* 아이디 저장 */
 label.mi4 {
-  background: url(/img/login_input.png) no-repeat;
+  background: url(../img/login_input.png) no-repeat;
   width: 16px;
   height: 20px;
   padding-left: 25px;
@@ -2946,7 +2946,7 @@ label.mi4 {
 
 input[class="chk04"]:checked + label.mi4 {
   display: inline-block;
-  background: url(/img/l_hide03_on.png) no-repeat;
+  background: url(../img/l_hide03_on.png) no-repeat;
   width: 16px;
   height: 19px;
   padding-left: 25px;
@@ -5279,7 +5279,7 @@ div#freelance_profile {
         width: 117px;
         height: 117px;
         border-radius: 50%;
-        background: url(/img/fre_pro.png) no-repeat;
+        background: url(../img/fre_pro.png) no-repeat;
         background-size: cover;
         background-position: center;
         margin: 0 auto; }
@@ -5485,15 +5485,15 @@ div.technology {
       margin-right: 0%; }
     div.technology ul li.prize {
       opacity: 1;
-      background: url(/img/bg_tech_prize.png) no-repeat;
+      background: url(../img/bg_tech_prize.png) no-repeat;
       background-position: right 25px bottom; }
     div.technology ul li.mid {
       opacity: 1;
-      background: url(/img/bg_tech_mid.png) no-repeat;
+      background: url(../img/bg_tech_mid.png) no-repeat;
       background-position: right 25px bottom; }
     div.technology ul li.bot {
       opacity: 1;
-      background: url(/img/bg_tech_bot.png) no-repeat;
+      background: url(../img/bg_tech_bot.png) no-repeat;
       background-position: right 25px bottom; }
 
 #free_self_nav {
@@ -5541,7 +5541,7 @@ div.technology {
               position: absolute;
               content: "";
               display: block;
-              background: url(/img/bg_lists.png) no-repeat;
+              background: url(../img/bg_lists.png) no-repeat;
               width: 8px;
               height: 12px;
               left: 0;
@@ -5672,7 +5672,7 @@ div.technology {
             color: #333333;
             padding-left: 14px;
             font-weight: bold;
-            background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
+            background: url(../img/bg_smail_sel.png) no-repeat center right 20px;
             background-color: #fff;
             font-weight: 400; }
         #free_self_nav .inner .right .info ul.lists {
@@ -5859,7 +5859,7 @@ div.faq_wrap {
       opacity: 1; }
       div.faq_wrap ul li dl {
         opacity: 1;
-        background: url(/img/quick_off.png) no-repeat;
+        background: url(../img/quick_off.png) no-repeat;
         background-position: left center; }
         div.faq_wrap ul li dl dt {
           opacity: 1;
@@ -5871,7 +5871,7 @@ div.faq_wrap {
           border-bottom: 1px solid #dbdbdb;
           color: #333333;
           font-weight: bold;
-          background: url(/img/faq_arr_down.png) no-repeat;
+          background: url(../img/faq_arr_down.png) no-repeat;
           background-position: right; }
           div.faq_wrap ul li dl dt img {
             margin-right: 10px; }
@@ -5896,7 +5896,7 @@ div.faq_wrap {
             font-weight: 500; }
     div.faq_wrap ul li.on dl {
       opacity: 1;
-      background: url(/img/quick_on.png) no-repeat;
+      background: url(../img/quick_on.png) no-repeat;
       background-position: left top 29px; }
     div.faq_wrap ul li.on dt {
       opacity: 1;
@@ -5908,7 +5908,7 @@ div.faq_wrap {
       border-bottom: 1px solid #dbdbdb;
       color: #333333;
       font-weight: bold;
-      background: url(/img/faq_arr_up.png) no-repeat;
+      background: url(../img/faq_arr_up.png) no-repeat;
       background-position: right; }
 
 div.interview {
@@ -6013,7 +6013,7 @@ div.officer_wrap {
       div.officer_wrap div.office_sch select option {
         opacity: 1; }
     div.officer_wrap div.office_sch .view {
-      background: url(/img/bg_office_sch.png) no-repeat;
+      background: url(../img/bg_office_sch.png) no-repeat;
       width: 45px;
       height: 45px;
       position: absolute;
@@ -6064,7 +6064,7 @@ div.officer_wrap {
         color: #333333;
         padding-left: 14px;
         font-weight: bold;
-        background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
+        background: url(../img/bg_smail_sel.png) no-repeat center right 20px;
         background-color: #fff;
         font-weight: 400;
         background-color: #fff; }
@@ -6472,7 +6472,7 @@ div.sch_menu {
     color: #333333;
     padding-left: 14px;
     font-weight: bold;
-    background: url(/img/bg_smail_sel.png) no-repeat center right 20px; }
+    background: url(../img/bg_smail_sel.png) no-repeat center right 20px; }
 
 #sub_banner .inner {
   padding-bottom: 35px;
@@ -6794,7 +6794,7 @@ div#sub_contents div#sub_content {
           margin-right: 15px;
           opacity: 1; }
           div#sub_contents div#sub_content div.inner h1.custom_tit span.right span.rec select, div#sub_contents div#sub_content div.inner h1.custom_tit span.right span.rec_save select {
-            background: url(/img/bg_smail_sel.png) no-repeat;
+            background: url(../img/bg_smail_sel.png) no-repeat;
             background-size: 7px 4px;
             padding-right: 9px;
             background-position: center right;
@@ -6868,7 +6868,7 @@ div#sub_contents div#sub_content {
                 position: absolute;
                 content: "";
                 display: block;
-                background: url(/img/bg_lists.png) no-repeat;
+                background: url(../img/bg_lists.png) no-repeat;
                 width: 8px;
                 height: 12px;
                 left: 0;
@@ -6905,7 +6905,7 @@ div#sub_contents div#sub_content {
             padding-left: 21px;
             font-weight: bold;
             font-size: 14px;
-            background: url(/img/bg_smail_sel.png) no-repeat center right 20px; }
+            background: url(../img/bg_smail_sel.png) no-repeat center right 20px; }
           div#sub_contents div#sub_content div.inner div.content_info div.firstFloor dl dt:hover {
             background: #6c7cb8; }
             div#sub_contents div#sub_content div.inner div.content_info div.firstFloor dl dt:hover button {
@@ -6987,7 +6987,7 @@ div#sub_contents div#sub_content {
                   opacity: 1;
                   display: none; }
                   div#sub_contents div#sub_content div.inner div.content_info div.firstFloor dl dd div.nano div.tt_gender input:checked + label {
-                    background: url(/img/bg_radio_gender_on.png) no-repeat;
+                    background: url(../img/bg_radio_gender_on.png) no-repeat;
                     opacity: 1;
                     padding-left: 15px;
                     vertical-align: middle;
@@ -7002,7 +7002,7 @@ div#sub_contents div#sub_content {
                     margin-right: 5px;
                     display: inline-block; }
                 div#sub_contents div#sub_content div.inner div.content_info div.firstFloor dl dd div.nano div.tt_gender label {
-                  background: url(/img/bg_radio_gender_off.png) no-repeat;
+                  background: url(../img/bg_radio_gender_off.png) no-repeat;
                   opacity: 1;
                   padding-left: 15px;
                   vertical-align: middle;
@@ -7089,7 +7089,7 @@ div#sub_contents div#sub_content {
                 position: absolute;
                 right: 12px;
                 top: 14px;
-                background: url(/img/sear_btn.png);
+                background: url(../img/sear_btn.png);
                 cursor: pointer;
                 background-size: 20px;
                 background-repeat: no-repeat; }
@@ -7254,7 +7254,7 @@ div#sub_contents div#sub_content {
                 position: absolute;
                 right: 12px;
                 top: 14px;
-                background: url(/img/sear_btn.png);
+                background: url(../img/sear_btn.png);
                 cursor: pointer;
                 background-size: 20px;
                 background-repeat: no-repeat; }
@@ -7500,7 +7500,7 @@ div#profile_wrap02 {
           font-size: 16px;
           font-style: initial;
           font-weight: 700;
-          background: url(/img/input_check_on.png) no-repeat center/contain;
+          background: url(../img/input_check_on.png) no-repeat center/contain;
           background-position: left;
           color: #333333; }
       div#profile_wrap02 div.inner span.sel em label {
@@ -7508,7 +7508,7 @@ div#profile_wrap02 {
         width: 27px;
         height: 37px;
         vertical-align: middle;
-        background: url(/img/input_check_off.png) no-repeat center/contain;
+        background: url(../img/input_check_off.png) no-repeat center/contain;
         padding-left: 32px;
         background-position: left;
         font-size: 16px;
@@ -8186,7 +8186,7 @@ a.btn01.on {
   padding-left: 15px;
   color: #999999;
   border: 1px solid #000;
-  background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
+  background: url(../img/bg_smail_sel.png) no-repeat center right 20px;
   box-sizing: border-box; }
 
 .sel01 option {
@@ -8283,7 +8283,7 @@ input[type="radio"] {
 
 /* 아웃소싱 라디오 */
 label.ra {
-  background: url(/img/l_ra_off.png) no-repeat;
+  background: url(../img/l_ra_off.png) no-repeat;
   width: 24px;
   height: 32px;
   padding-left: 28px;
@@ -8293,7 +8293,7 @@ label.ra {
   color: #000; }
 
 input[class="chk01"]:checked + label.ra {
-  background: url(/img/l_ra_on.png) no-repeat;
+  background: url(../img/l_ra_on.png) no-repeat;
   width: 22px;
   height: 22px;
   padding-left: 24px;
@@ -8302,7 +8302,7 @@ input[class="chk01"]:checked + label.ra {
 /* 아웃소싱 라디오 */
 /* 프리랜서 체크박스 */
 label.mi02 {
-  background: url(/img/free_chk_off.png) no-repeat;
+  background: url(../img/free_chk_off.png) no-repeat;
   width: 22px;
   height: 36px;
   padding-left: 24px;
@@ -8312,7 +8312,7 @@ label.mi02 {
   background-position-y: 0px; }
 
 input[class="chk01"]:checked + label.mi02 {
-  background: url(/img/free_chk_on.png) no-repeat;
+  background: url(../img/free_chk_on.png) no-repeat;
   width: 22px;
   height: 22px;
   padding-left: 24px;
@@ -8324,7 +8324,7 @@ input[class="chk01"]:checked + label.mi02 {
 /* 프리랜서 체크박스 */
 /* 숨김 */
 label.mi {
-  background: url(/img/l_hide_off.png) no-repeat;
+  background: url(../img/l_hide_off.png) no-repeat;
   width: 22px;
   height: 22px;
   padding-left: 24px;
@@ -8334,7 +8334,7 @@ label.mi {
   background-position-y: 4px; }
 
 input[class="chk01"]:checked + label.mi {
-  background: url(/img/l_hide_on.png) no-repeat;
+  background: url(../img/l_hide_on.png) no-repeat;
   width: 22px;
   height: 22px;
   padding-left: 24px;
@@ -8347,7 +8347,7 @@ input[class="chk01"]:checked + label.mi {
 /* 필수동의 체크박스 */
 label.mi2 {
   display: inline-block;
-  background: url(/img/l_hide02_off.png) no-repeat;
+  background: url(../img/l_hide02_off.png) no-repeat;
   width: 28px;
   height: 31px;
   padding-left: 24px;
@@ -8358,7 +8358,7 @@ label.mi2 {
 
 input[class="chk02"]:checked + label.mi2 {
   display: inline-block;
-  background: url(/img/l_hide02_on.png) no-repeat;
+  background: url(../img/l_hide02_on.png) no-repeat;
   width: 28px;
   height: 31px;
   padding-left: 24px;
@@ -8370,7 +8370,7 @@ input[class="chk02"]:checked + label.mi2 {
 /* 필수동의 체크박스 */
 /* 필수동의 체크박스 */
 label.mi3 {
-  background: url(/img/l_hide03_off.png) no-repeat;
+  background: url(../img/l_hide03_off.png) no-repeat;
   width: 16px;
   height: 16px;
   padding-left: 24px;
@@ -8381,7 +8381,7 @@ label.mi3 {
 
 input[class="chk03"]:checked + label.mi3 {
   display: inline-block;
-  background: url(/img/l_hide03_on.png) no-repeat;
+  background: url(../img/l_hide03_on.png) no-repeat;
   background-size: contain;
   width: 16px;
   height: 19px;
@@ -8393,7 +8393,7 @@ input[class="chk03"]:checked + label.mi3 {
 /* 필수동의 체크박스 */
 /* 아이디 저장 */
 label.mi4 {
-  background: url(/img/login_input.png) no-repeat;
+  background: url(../img/login_input.png) no-repeat;
   width: 16px;
   height: 20px;
   padding-left: 25px;
@@ -8405,7 +8405,7 @@ label.mi4 {
 
 input[class="chk04"]:checked + label.mi4 {
   display: inline-block;
-  background: url(/img/l_hide03_on.png) no-repeat;
+  background: url(../img/l_hide03_on.png) no-repeat;
   width: 16px;
   height: 19px;
   padding-left: 25px;
@@ -10952,7 +10952,7 @@ div.custom_view_wrap {
         opacity: 1; }
 
 input[class="find_id_radio"]:checked + label {
-  background: url(/img/id_radio_on.png) no-repeat !important;
+  background: url(../img/id_radio_on.png) no-repeat !important;
   height: 18px;
   padding-left: 26px; }
 
@@ -11007,7 +11007,7 @@ div#login_id_find {
         div#login_id_find .inner ul.certified li input#a1 {
           opacity: 1; }
         div#login_id_find .inner ul.certified li label {
-          background: url(/img/id_radio_off.png) no-repeat;
+          background: url(../img/id_radio_off.png) no-repeat;
           height: 18px;
           display: flex;
           align-items: center;
@@ -11017,7 +11017,7 @@ div#login_id_find {
       margin-top: 40px; }
       div#login_id_find .inner div.select_type select {
         opacity: 1;
-        background: #6c7cb8 url(/img/bg_id_select.png) no-repeat center right 20px;
+        background: #6c7cb8 url(../img/bg_id_select.png) no-repeat center right 20px;
         width: 100%;
         height: 60px;
         padding-left: 25px;
@@ -11049,7 +11049,7 @@ div#login_id_find {
         div#login_id_find .inner ul.fre li select {
           margin-top: 13px;
           opacity: 1;
-          background: #fff url(/img/bg_id_select2.png) no-repeat center right 20px;
+          background: #fff url(../img/bg_id_select2.png) no-repeat center right 20px;
           width: 100%;
           height: 60px;
           padding-left: 25px;
@@ -11163,7 +11163,7 @@ ul.client_evalu_wrap {
         opacity: 1;
         flex: 1 0 196px;
         text-align: center;
-        background: url(/img/bg_profile.png) no-repeat;
+        background: url(../img/bg_profile.png) no-repeat;
         background-position: right;
         margin-right: 25px; }
         ul.client_evalu_wrap > li div.client_info_bot div.lef div.person_wrap {
@@ -11308,7 +11308,7 @@ div.portfolio_wrap div.port_select {
     color: #333333;
     padding-left: 14px;
     font-weight: bold;
-    background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
+    background: url(../img/bg_smail_sel.png) no-repeat center right 20px;
     background-color: #fff;
     font-weight: 400; }
 div.portfolio_wrap .port_list_wrap li.port_lists {
@@ -11411,7 +11411,7 @@ div.portfolio_wrap .port_list_wrap li.port_lists {
 input[class="v_input"] + label {
   width: 16px;
   height: 16px;
-  background: url(/img/v_input_off.png) no-repeat;
+  background: url(../img/v_input_off.png) no-repeat;
   font-size: 14px;
   color: #333333;
   font-weight: 400;
@@ -11420,7 +11420,7 @@ input[class="v_input"] + label {
   margin-left: 10px; }
 
 input[class="v_input"]:checked + label {
-  background: url(/img/v_input_on.png) no-repeat;
+  background: url(../img/v_input_on.png) no-repeat;
   background-position-y: 3px; }
 
 div#video_interview_wrap div#sta {
@@ -11460,7 +11460,7 @@ div#video_interview_wrap div.interview_wrap {
           div#video_interview_wrap div.interview_wrap div.inter_view_info div.top div.ref span input#c1.chk03 {
             opacity: 1; }
           div#video_interview_wrap div.interview_wrap div.inter_view_info div.top div.ref span label.mi3 {
-            background: url(/img/l_hide03_off.png) no-repeat;
+            background: url(../img/l_hide03_off.png) no-repeat;
             width: auto;
             height: 26px;
             padding-left: 24px;
@@ -11486,7 +11486,7 @@ div#video_interview_wrap div.interview_wrap {
             color: #333333;
             padding-left: 14px;
             font-weight: bold;
-            background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
+            background: url(../img/bg_smail_sel.png) no-repeat center right 20px;
             background-color: #fff;
             font-weight: 400; }
             div#video_interview_wrap div.interview_wrap div.inter_view_info div.top div.ref span.select select option {
@@ -12922,7 +12922,7 @@ div#header_info {
   position: relative; }
   div#header_info div#header {
     position: relative;
-    background: url(/img/bg_main.png) no-repeat center/cover; }
+    background: url(../img/bg_main.png) no-repeat center/cover; }
     div#header_info div#header #main_gnb {
       position: absolute;
       display: -webkit-box;
@@ -13027,7 +13027,7 @@ div#header_info {
           top: 37px;
           right: -39px;
           display: inline-block;
-          background: url(/img/bg_member.png) no-repeat; }
+          background: url(../img/bg_member.png) no-repeat; }
       div#header_info div#header div.inner .main_txt {
         position: absolute;
         left: 50%;
@@ -13061,7 +13061,7 @@ div#header_info {
           position: absolute;
           right: 21px;
           top: 21px;
-          background: url(/img/sear_btn.png);
+          background: url(../img/sear_btn.png);
           cursor: pointer; }
       div#header_info div#header div.inner .search_btn {
         position: absolute;
@@ -13639,7 +13639,7 @@ div#sta {
               font-size: 16px;
               font-style: initial;
               font-weight: 500;
-              background: url(/img/input_check_on.png) no-repeat center/contain;
+              background: url(../img/input_check_on.png) no-repeat center/contain;
               background-position: left;
               color: #333333; }
           div#sta div.inner div.header_bot span.sel em label {
@@ -13647,7 +13647,7 @@ div#sta {
             width: 27px;
             height: 37px;
             vertical-align: middle;
-            background: url(/img/input_check_off.png) no-repeat center/contain;
+            background: url(../img/input_check_off.png) no-repeat center/contain;
             padding-left: 32px;
             background-position: left;
             font-size: 16px;
@@ -13773,7 +13773,7 @@ div#spot {
 #ad {
   margin: 75px 0;
   height: 340px;
-  background: url(/img/bg_ad.png) no-repeat center/cover; }
+  background: url(../img/bg_ad.png) no-repeat center/cover; }
   #ad .swiper-container {
     width: 100%;
     height: 300px;
@@ -13843,7 +13843,7 @@ div#spot {
 
 #ad_two {
   height: 220px;
-  background: url(/img/bg_ad02.png) no-repeat center/cover;
+  background: url(../img/bg_ad02.png) no-repeat center/cover;
   margin-top: 215px;
   cursor: pointer; }
 
@@ -13951,7 +13951,7 @@ div.footer_top {
         box-sizing: border-box;
         border-top: none;
         border-bottom: none;
-        background: url(/img/bg_smail_sel.png) no-repeat center right 20px; }
+        background: url(../img/bg_smail_sel.png) no-repeat center right 20px; }
 
 div.footer_inner {
   opacity: 1; }
@@ -14033,7 +14033,7 @@ nav#navi {
     opacity: 1; }
     nav#navi .banner li {
       opacity: 1;
-      background: url(/img/navi_banner01.png) no-repeat;
+      background: url(../img/navi_banner01.png) no-repeat;
       width: 150px;
       height: 150px;
       background-size: cover;
@@ -14046,7 +14046,7 @@ nav#navi {
           width: 100%;
           display: none; }
     nav#navi .banner li:nth-of-type(2) {
-      background: url(/img/navi_banner02.png) no-repeat;
+      background: url(../img/navi_banner02.png) no-repeat;
       width: 150px;
       height: 150px;
       background-size: cover;

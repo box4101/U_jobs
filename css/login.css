@@ -344,7 +344,7 @@ div.members_wrap div.fle .left .focus .death::after {
     bottom: -9px;
     width: 16px;
     height: 9px;
-    background: url(/img/sprite-icon.png) no-repeat 0px -46px;
+    background: url(../img/sprite-icon.png) no-repeat 0px -46px;
     z-index: 11;
 }
 
@@ -414,7 +414,7 @@ div.members_wrap ul.input_wrap li input {
 
 
 div.members_wrap ul.input_wrap li select {
-    background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
+    background: url(../img/bg_smail_sel.png) no-repeat center right 20px;
     width: 100%;
     height: 49px;
     border: solid 1px #dddddd;
@@ -725,7 +725,7 @@ div#login01 div.inner div.login_wrap div.wrap div.lef div.member a.btn {
 div#login01 div.inner div.login_wrap div.wrap div.lef div.member a.btn::after {
     content: "";
     display: inline-block;
-    background: url(/img/bg_con.png) no-repeat;
+    background: url(../img/bg_con.png) no-repeat;
     width: 160px;
     height: 37px;
     position: absolute;
@@ -749,7 +749,7 @@ div#login01 div.inner div.login_wrap div.wrap>div.ref .img {
     width: 100%;
     height: 100%;
     display: inline-block;
-    background: url(/img/bg_login_info.png) no-repeat;
+    background: url(../img/bg_login_info.png) no-repeat;
     margin-left: 13px;
     margin-top: 10px;
     background-size: cover;

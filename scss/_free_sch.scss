@@ -115,7 +115,7 @@ ul.client_evalu_wrap {
         opacity: 1;
         flex: 1 0 196px;
         text-align: center;
-        background: url(/img/bg_profile.png)no-repeat;
+        background: url(../img/bg_profile.png)no-repeat;
         background-position: right;
         margin-right: 25px;
         div.person_wrap {
@@ -432,7 +432,7 @@ div.portfolio_wrap {
 input[class="v_input"] + label {
   width: 16px;
   height: 16px;
-  background: url(/img/v_input_off.png) no-repeat;
+  background: url(../img/v_input_off.png) no-repeat;
   font-size: 14px;
   color: #333333;
   font-weight: 400;
@@ -441,7 +441,7 @@ input[class="v_input"] + label {
   margin-left: 10px;
 }
 input[class="v_input"]:checked + label {
-  background: url(/img/v_input_on.png) no-repeat;
+  background: url(../img/v_input_on.png) no-repeat;
   background-position-y: 3px;
 }
 
@@ -503,7 +503,7 @@ div#video_interview_wrap {
             }
 
             label.mi3 {
-              background: url(/img/l_hide03_off.png) no-repeat;
+              background: url(../img/l_hide03_off.png) no-repeat;
               width: auto;
               height: 26px;
               padding-left: 24px;

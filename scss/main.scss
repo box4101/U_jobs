@@ -10,7 +10,7 @@ div#header_info {
     position: relative;
     div#header {
         position: relative;
-        background: url(/img/bg_main.png) no-repeat center/cover;
+        background: url(../img/bg_main.png) no-repeat center/cover;
         #main_gnb {
             position: absolute;
             display: -webkit-box;
@@ -136,7 +136,7 @@ div#header_info {
                     top: 37px;
                     right: -39px;
                     display: inline-block;
-                    background: url(/img/bg_member.png) no-repeat;
+                    background: url(../img/bg_member.png) no-repeat;
                     
                 }
             }
@@ -171,7 +171,7 @@ div#header_info {
                     position: absolute;
                     right: 21px;
                     top: 21px;
-                    background: url(/img/sear_btn.png);
+                    background: url(../img/sear_btn.png);
                     cursor: pointer;
                 }
                 img {}
@@ -809,7 +809,7 @@ div#profile_wrap {
                         // content: "";
                         // display: inline-block;
                         // clear: both;
-                        // background: url(/img/card_more.png)no-repeat;
+                        // background: url(../img/card_more.png)no-repeat;
                     }
                 }
             }
@@ -853,7 +853,7 @@ div#sta {
                             font-size: 16px;
                             font-style: initial;
                             font-weight: 500;
-                            background: url(/img/input_check_on.png) no-repeat center/contain;
+                            background: url(../img/input_check_on.png) no-repeat center/contain;
                             background-position: left;
                             color: #333333;
                         }
@@ -863,7 +863,7 @@ div#sta {
                         width: 27px;
                         height: 37px;
                         vertical-align: middle;
-                        background: url(/img/input_check_off.png) no-repeat center/contain;
+                        background: url(../img/input_check_off.png) no-repeat center/contain;
                         padding-left: 32px;
                         background-position: left;
                         font-size: 16px;
@@ -1021,7 +1021,7 @@ div#spot {
 #ad {
     margin: 75px 0;
     height: 340px;
-    background: url(/img/bg_ad.png) no-repeat center/cover;
+    background: url(../img/bg_ad.png) no-repeat center/cover;
     .swiper-container {
         width: 100%;
         height: 300px;
@@ -1105,7 +1105,7 @@ div#spot {
 
 #ad_two {
     height: 220px;
-    background: url(/img/bg_ad02.png) no-repeat center/cover;
+    background: url(../img/bg_ad02.png) no-repeat center/cover;
     margin-top: 215px;
     cursor: pointer;
 }
@@ -1232,7 +1232,7 @@ div.footer_top {
                 box-sizing: border-box;
                 border-top: none;
                 border-bottom: none;
-                background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
+                background: url(../img/bg_smail_sel.png) no-repeat center right 20px;
             }
         }
     }
@@ -1338,7 +1338,7 @@ nav#navi {
         opacity: 1;
         li {
             opacity: 1;
-            background: url(/img/navi_banner01.png)no-repeat;
+            background: url(../img/navi_banner01.png)no-repeat;
             width: 150px;
             height: 150px;
             background-size: cover;
@@ -1354,7 +1354,7 @@ nav#navi {
             }
         }
         li:nth-of-type(2) {
-            background: url(/img/navi_banner02.png)no-repeat;
+            background: url(../img/navi_banner02.png)no-repeat;
             width: 150px;
             height: 150px;
             background-size: cover;

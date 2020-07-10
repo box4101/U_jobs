@@ -163,7 +163,7 @@ div#freelance_profile {
                 width: 117px;
                 height: 117px;
                 border-radius: 50%;
-                background: url(/img/fre_pro.png)no-repeat;
+                background: url(../img/fre_pro.png)no-repeat;
                 background-size: cover;
                 background-position: center;
                 margin: 0 auto;
@@ -408,17 +408,17 @@ div.technology {
         }
         li.prize {
             opacity: 1;
-            background: url(/img/bg_tech_prize.png)no-repeat;
+            background: url(../img/bg_tech_prize.png)no-repeat;
             background-position: right 25px bottom;
         }
         li.mid {
             opacity: 1;
-            background: url(/img/bg_tech_mid.png)no-repeat;
+            background: url(../img/bg_tech_mid.png)no-repeat;
             background-position: right 25px bottom;
         }
         li.bot {
             opacity: 1;
-            background: url(/img/bg_tech_bot.png)no-repeat;
+            background: url(../img/bg_tech_bot.png)no-repeat;
             background-position: right 25px bottom;
         }
     }
@@ -481,7 +481,7 @@ div.technology {
                                     position: absolute;
                                     content: "";
                                     display: block;
-                                    background: url(/img/bg_lists.png) no-repeat;
+                                    background: url(../img/bg_lists.png) no-repeat;
                                     width: 8px;
                                     height: 12px;
                                     left: 0;
@@ -862,7 +862,7 @@ div.faq_wrap {
             opacity: 1;
             dl {
                 opacity: 1;
-                background: url(/img/quick_off.png)no-repeat;
+                background: url(../img/quick_off.png)no-repeat;
                 background-position: left center;
                 dt {
                     opacity: 1;
@@ -874,7 +874,7 @@ div.faq_wrap {
                     border-bottom: 1px solid #dbdbdb;
                     color: #333333;
                     font-weight: bold;
-                    background: url(/img/faq_arr_down.png) no-repeat;
+                    background: url(../img/faq_arr_down.png) no-repeat;
                     background-position: right;
                     img {
                         margin-right: 10px;
@@ -906,7 +906,7 @@ div.faq_wrap {
         }
         li.on dl {
             opacity: 1;
-            background: url(/img/quick_on.png)no-repeat;
+            background: url(../img/quick_on.png)no-repeat;
             background-position: left top 29px
         }
         li.on dt {
@@ -919,7 +919,7 @@ div.faq_wrap {
             border-bottom: 1px solid #dbdbdb;
             color: #333333;
             font-weight: bold;
-            background: url(/img/faq_arr_up.png)no-repeat;
+            background: url(../img/faq_arr_up.png)no-repeat;
             background-position: right;
         }
         li.on dt img {}
@@ -1040,7 +1040,7 @@ div.officer_wrap {
             }
         }
         .view {
-            background: url(/img/bg_office_sch.png) no-repeat;
+            background: url(../img/bg_office_sch.png) no-repeat;
             width: 45px;
             height: 45px;
             position: absolute;
@@ -1597,7 +1597,7 @@ div {
                 color: #333333;
                 padding-left: 14px;
                 font-weight: bold;
-                background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
+                background: url(../img/bg_smail_sel.png) no-repeat center right 20px;
                 option {}
             }
         }
@@ -1982,7 +1982,7 @@ div {
                                     margin-right: 15px;
                                     opacity: 1;
                                     select {
-                                        background: url(/img/bg_smail_sel.png) no-repeat;
+                                        background: url(../img/bg_smail_sel.png) no-repeat;
                                         background-size: 7px 4px;
                                         padding-right: 9px;
                                         background-position: center right;
@@ -2077,7 +2077,7 @@ div {
                                                 position: absolute;
                                                 content: "";
                                                 display: block;
-                                                background: url(/img/bg_lists.png) no-repeat;
+                                                background: url(../img/bg_lists.png) no-repeat;
                                                 width: 8px;
                                                 height: 12px;
                                                 left: 0;
@@ -2124,7 +2124,7 @@ div {
                                             padding-left: 21px;
                                             font-weight: bold;
                                             font-size: 14px;
-                                            background: url(/img/bg_smail_sel.png) no-repeat center right 20px;
+                                            background: url(../img/bg_smail_sel.png) no-repeat center right 20px;
                                         }
                                         &:hover {
                                             background: #6c7cb8;
@@ -2230,7 +2230,7 @@ div {
                                                         opacity: 1;
                                                         display: none;
                                                         &:checked+label {
-                                                            background: url(/img/bg_radio_gender_on.png) no-repeat;
+                                                            background: url(../img/bg_radio_gender_on.png) no-repeat;
                                                             opacity: 1;
                                                             padding-left: 15px;
                                                             vertical-align: middle;
@@ -2247,7 +2247,7 @@ div {
                                                         }
                                                     }
                                                     label {
-                                                        background: url(/img/bg_radio_gender_off.png) no-repeat;
+                                                        background: url(../img/bg_radio_gender_off.png) no-repeat;
                                                         opacity: 1;
                                                         padding-left: 15px;
                                                         vertical-align: middle;
@@ -2351,7 +2351,7 @@ div {
                                                         position: absolute;
                                                         right: 12px;
                                                         top: 14px;
-                                                        background: url(/img/sear_btn.png);
+                                                        background: url(../img/sear_btn.png);
                                                         cursor: pointer;
                                                         background-size: 20px;
                                                         background-repeat: no-repeat;
@@ -2560,7 +2560,7 @@ div {
                                                         position: absolute;
                                                         right: 12px;
                                                         top: 14px;
-                                                        background: url(/img/sear_btn.png);
+                                                        background: url(../img/sear_btn.png);
                                                         cursor: pointer;
                                                         background-size: 20px;
                                                         background-repeat: no-repeat;
@@ -2866,7 +2866,7 @@ div {
                         font-size: 16px;
                         font-style: initial;
                         font-weight: 700;
-                        background: url(/img/input_check_on.png) no-repeat (center / contain);
+                        background: url(../img/input_check_on.png) no-repeat (center / contain);
                         background-position: left;
                         color: #333333;
                     }
@@ -2876,7 +2876,7 @@ div {
                     width: 27px;
                     height: 37px;
                     vertical-align: middle;
-                    background: url(/img/input_check_off.png) no-repeat (center / contain);
+                    background: url(../img/input_check_off.png) no-repeat (center / contain);
                     padding-left: 32px;
                     background-position: left;
                     font-size: 16px;

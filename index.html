@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <!--  권장되는 방식 -->
@@ -11,27 +10,25 @@
     <meta property="og:title" content="WEEP">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
-    <meta property="og:image" content="/img/logo.png">
-    <meta property="og:image:type" content="/image/png">
+    <meta property="og:image" content="img/logo.png">
+    <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="173">
     <meta property="og:image:height" content="65">
     <meta property="og:description" content="">
 
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/@default.css" />
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/common.css">
-    <link rel="stylesheet" href="/css/font.css">
-    <link rel="stylesheet" href="/css/sub.css">
-    <link rel="stylesheet" href="/css/swiper.min.css">
+    <link rel="stylesheet" href="css/@default.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
 
     <script src="https://kit.fontawesome.com/334d6efb93.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="/js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="/js/slick.min.js"></script>
-    <script type="text/javascript" src="/js/swiper.min.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 
 <body>
@@ -73,12 +70,12 @@
             <ul class="banner">
                 <li>
                     <a href="#">
-                        <img src="/img/navi_banner01.png" alt="네비배너1">
+                        <img src="img/navi_banner01.png" alt="네비배너1">
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="/img/navi_banner02.png" alt="네비배너2">
+                        <img src="img/navi_banner02.png" alt="네비배너2">
                     </a>
                 </li>
             </ul>
@@ -97,9 +94,6 @@
                     var scroll = $(this).scrollTop();
                     var navi_top = $("#navi").offset().top;
 
-                    console.log(scroll);
-                    console.log(navi_top);
-
                     if (scroll > 627) {
                         $("#navi").css({
                             "position": "fixed",
@@ -117,7 +111,64 @@
         </script>
 
         <div id="header">
-            <div class="main_header_info"></div>
+            <div class="inner">
+                <div class="header_top flex">
+                      <a href="page/freelance_sch/freelance_sch.html" class="top_search">프리랜서 찾기</a>
+                      <a href="#" class="top_search_right">기업고객이신가요? ⇢</a>
+                </div>
+                <h1 class="logo">
+                      <img src="img/logo.png" alt="로고 이미지">
+                </h1>
+          
+                <ul id="main_gnb">
+                      <li>
+                            <a href="page/project_sch/project_sch.html">프로젝트 검색 </a>
+                      </li>
+                      <li>
+                            <a href="page/outsourcing/outsourcing_sch.html">아웃소싱 검색</a>
+                      </li>
+                      <li>
+                            <a href="page/freelance_sch/freelance_sch.html">프리랜서 검색</a>
+                      </li>
+                      <li>
+                            <a href="page/partner_sch/partner.html">파트너 검색</a>
+                      </li>
+                      <li>
+                            <a href="#">이용안내</a>
+                      </li>
+                      <li>
+                            <a href="#">WEE.P 소개
+                            </a>
+                      </li>
+                      <li>
+                            <a href="page/custom_sup/custom_sup01.html">지원센터</a>
+                      </li>
+                </ul>
+          
+                <ul class="util clear">
+                      <li>
+                            <a href="#" class="on">프로젝트 등록</a>
+                      </li>
+                      <li>
+                            <a href="page/login/login01.html">로그인</a>
+                      </li>
+                      <li>
+                            <a href="#">회원가입</a>
+                      </li>
+                </ul>
+                <div class="main_txt">
+                      <img src="img/bg_main_txt.png" alt="">
+                </div>
+                <div class="seach_wrap">
+                      <input type="text" placeholder="프로젝트 검색">
+          
+                      <div class="search_btn">
+                            <a href="#">
+                                  <img src="img/search_btn.png" alt="프로젝트 맞춤 서비스">
+                            </a>
+                      </div>
+                </div>
+          </div>
         </div>
     </div>
 
@@ -144,7 +195,7 @@
                 <article>
                     <div class="pic">
                         <a href="#">
-                            <img src="/img/sta01.png" alt="">
+                            <img src="img/sta01.png" alt="">
                             <h2>
                                 애플리케이션 <br> 개발
                             </h2>
@@ -154,7 +205,7 @@
                 <article>
                     <div class="pic">
                         <a href="#">
-                            <img src="/img/sta02.png" alt="">
+                            <img src="img/sta02.png" alt="">
                             <h2>
                                 웹 개발
                             </h2>
@@ -165,7 +216,7 @@
                 <article>
                     <div class="pic">
                         <a href="#">
-                            <img src="/img/sta03.png" alt="">
+                            <img src="img/sta03.png" alt="">
                             <h2>
                                 일반 <br> 소프트웨어 개발
                             </h2>
@@ -175,7 +226,7 @@
                 <article>
                     <div class="pic">
                         <a href="#">
-                            <img src="/img/sta04.png" alt="">
+                            <img src="img/sta04.png" alt="">
                             <h2>
                                 웹 디자인
                             </h2>
@@ -186,7 +237,7 @@
                 <article>
                     <div class="pic">
                         <a href="#">
-                            <img src="/img/sta05.png" alt="">
+                            <img src="img/sta05.png" alt="">
                             <h2>
                                 커머스, 쇼핑몰
                             </h2>
@@ -197,7 +248,7 @@
                 <article>
                     <div class="pic">
                         <a href="#">
-                            <img src="/img/sta06.png" alt="">
+                            <img src="img/sta06.png" alt="">
                             <h2>
                                 애플리케이션 <br> 디자인
                             </h2>
@@ -207,7 +258,7 @@
                 </article>
                 <article>
                     <div class="pic">
-                        <img src="/img/sta07.png" alt="">
+                        <img src="img/sta07.png" alt="">
                         <h2>
                             퍼블리싱
                         </h2>
@@ -215,7 +266,7 @@
                 </article>
                 <article>
                     <div class="pic">
-                        <img src="/img/sta08.png" alt="">
+                        <img src="img/sta08.png" alt="">
                         <h2>
                             기타 개발
                         </h2>
@@ -249,13 +300,13 @@
                         <h1>공공기관의 포털사이트 구축, 업무시스템 개발, 서버 환경 셋팅 등 10년 경력</h1>
                         <div class="profile">
                             <div class="pic">
-                                <img src="/img/face.png" alt="회원얼굴사진">
+                                <img src="img/face.png" alt="회원얼굴사진">
                             </div>
                             <div class="proile_txt">
                                 <span class="psb">즉시 투입가능</span>
                                 <h2>김OO <span>(남 41세)</span>
                                     <span class="heart">
-                                        <img src="/img/icons8_love_48px.png" alt="">
+                                        <img src="img/icons8_love_48px.png" alt="">
                                     </span></h2>
                                 <span class="pSpan">
                                     개발
@@ -301,7 +352,7 @@
                             <div>Photoshop</div>
                             <div>MySQL</div>
                             <div class="more">
-                                <img src="/img/card_more.png" alt="더보기">
+                                <img src="img/card_more.png" alt="더보기">
                             </div>
                         </div>
                     </article>
@@ -309,13 +360,13 @@
                         <h1>JSP 개발 전문으로 공공기관 10년 경력의 전문 개발자</h1>
                         <div class="profile">
                             <div class="pic">
-                                <img src="/img/face2.png" alt="회원얼굴사진">
+                                <img src="img/face2.png" alt="회원얼굴사진">
                             </div>
                             <div class="proile_txt">
                                 <span class="psb">7월 1일 투입 가능</span>
                                 <h2>김OO <span>(남 41세)</span>
                                     <span class="heart">
-                                        <img src="/img/icons8_love_48px_on.png" alt="">
+                                        <img src="img/icons8_love_48px_on.png" alt="">
                                     </span></h2>
                                 <span class="pSpan blue">
                                     기획
@@ -361,7 +412,7 @@
                             <div>Photoshop</div>
                             <div>MySQL</div>
                             <div class="more">
-                                <img src="/img/card_more.png" alt="더보기">
+                                <img src="img/card_more.png" alt="더보기">
                             </div>
                         </div>
                     </article>
@@ -369,12 +420,12 @@
                         <h1>JSP 개발 전문으로 공공기관 10년 경력의 전문 개발자</h1>
                         <div class="profile">
                             <div class="pic">
-                                <img src="/img/face.png" alt="회원얼굴사진">
+                                <img src="img/face.png" alt="회원얼굴사진">
                             </div>
                             <div class="proile_txt">
                                 <h2>김OO <span>(남 41세)</span>
                                     <span class="heart">
-                                        <img src="/img/icons8_love_48px.png" alt="">
+                                        <img src="img/icons8_love_48px.png" alt="">
                                     </span></h2>
                                 <span class="pSpan green">
                                     디자인
@@ -420,7 +471,7 @@
                             <div>Photoshop</div>
                             <div>MySQL</div>
                             <div class="more">
-                                <img src="/img/card_more.png" alt="더보기">
+                                <img src="img/card_more.png" alt="더보기">
                             </div>
                         </div>
                     </article>
@@ -428,12 +479,12 @@
                         <h1>JSP 개발 전문으로 공공기관 10년 경력의 전문 개발자</h1>
                         <div class="profile">
                             <div class="pic">
-                                <img src="/img/face2.png" alt="회원얼굴사진">
+                                <img src="img/face2.png" alt="회원얼굴사진">
                             </div>
                             <div class="proile_txt">
                                 <h2>김OO <span>(남 41세)</span>
                                     <span class="heart">
-                                        <img src="/img/icons8_love_48px.png" alt="">
+                                        <img src="img/icons8_love_48px.png" alt="">
                                     </span></h2>
                                 <span class="pSpan red">
                                     퍼블리셔
@@ -479,7 +530,7 @@
                             <div>Photoshop</div>
                             <div>MySQL</div>
                             <div class="more">
-                                <img src="/img/card_more.png" alt="더보기">
+                                <img src="img/card_more.png" alt="더보기">
                             </div>
                         </div>
                     </article>
@@ -487,13 +538,13 @@
                         <h1>공공기관의 포털사이트 구축, 업무시스템 개발, 서버 환경 셋팅 등 10년 경력</h1>
                         <div class="profile">
                             <div class="pic">
-                                <img src="/img/face.png" alt="회원얼굴사진">
+                                <img src="img/face.png" alt="회원얼굴사진">
                             </div>
                             <div class="proile_txt">
                                 <span class="psb">즉시 투입가능</span>
                                 <h2>김OO <span>(남 41세)</span>
                                     <span class="heart">
-                                        <img src="/img/icons8_love_48px.png" alt="">
+                                        <img src="img/icons8_love_48px.png" alt="">
                                     </span></h2>
                                 <span class="pSpan">
                                     개발
@@ -539,7 +590,7 @@
                             <div>Photoshop</div>
                             <div>MySQL</div>
                             <div class="more">
-                                <img src="/img/card_more.png" alt="더보기">
+                                <img src="img/card_more.png" alt="더보기">
                             </div>
                         </div>
                     </article>
@@ -547,13 +598,13 @@
                         <h1>JSP 개발 전문으로 공공기관 10년 경력의 전문 개발자</h1>
                         <div class="profile">
                             <div class="pic">
-                                <img src="/img/face2.png" alt="회원얼굴사진">
+                                <img src="img/face2.png" alt="회원얼굴사진">
                             </div>
                             <div class="proile_txt">
                                 <span class="psb">7월 1일 투입 가능</span>
                                 <h2>김OO <span>(남 41세)</span>
                                     <span class="heart">
-                                        <img src="/img/icons8_love_48px_on.png" alt="">
+                                        <img src="img/icons8_love_48px_on.png" alt="">
                                     </span></h2>
                                 <span class="pSpan blue">
                                     기획
@@ -599,7 +650,7 @@
                             <div>Photoshop</div>
                             <div>MySQL</div>
                             <div class="more">
-                                <img src="/img/card_more.png" alt="더보기">
+                                <img src="img/card_more.png" alt="더보기">
                             </div>
                         </div>
                     </article>
@@ -607,12 +658,12 @@
                         <h1>JSP 개발 전문으로 공공기관 10년 경력의 전문 개발자</h1>
                         <div class="profile">
                             <div class="pic">
-                                <img src="/img/face.png" alt="회원얼굴사진">
+                                <img src="img/face.png" alt="회원얼굴사진">
                             </div>
                             <div class="proile_txt">
                                 <h2>김OO <span>(남 41세)</span>
                                     <span class="heart">
-                                        <img src="/img/icons8_love_48px.png" alt="">
+                                        <img src="img/icons8_love_48px.png" alt="">
                                     </span></h2>
                                 <span class="pSpan green">
                                     디자인
@@ -658,7 +709,7 @@
                             <div>Photoshop</div>
                             <div>MySQL</div>
                             <div class="more">
-                                <img src="/img/card_more.png" alt="더보기">
+                                <img src="img/card_more.png" alt="더보기">
                             </div>
                         </div>
                     </article>
@@ -666,12 +717,12 @@
                         <h1>JSP 개발 전문으로 공공기관 10년 경력의 전문 개발자</h1>
                         <div class="profile">
                             <div class="pic">
-                                <img src="/img/face2.png" alt="회원얼굴사진">
+                                <img src="img/face2.png" alt="회원얼굴사진">
                             </div>
                             <div class="proile_txt">
                                 <h2>김OO <span>(남 41세)</span>
                                     <span class="heart">
-                                        <img src="/img/icons8_love_48px.png" alt="">
+                                        <img src="img/icons8_love_48px.png" alt="">
                                     </span></h2>
                                 <span class="pSpan red">
                                     퍼블리셔
@@ -717,20 +768,20 @@
                             <div>Photoshop</div>
                             <div>MySQL</div>
                             <div class="more">
-                                <img src="/img/card_more.png" alt="더보기">
+                                <img src="img/card_more.png" alt="더보기">
                             </div>
                         </div>
                     </article>
 
-                    <div class="paging"><span><a href="#."><img src="/img/btn_page_first.png"
-                                    alt="처음으로"></a></span><span><a href="#."><img src="/img/btn_page_pre.png"
+                    <div class="paging"><span><a href="#."><img src="img/btn_page_first.png"
+                                    alt="처음으로"></a></span><span><a href="#."><img src="img/btn_page_pre.png"
                                     alt="이전으로"></a></span><span class="on">1</span><span><a href="">2</a></span><span><a
                                 href="">3</a></span><span><a href="">4</a></span><span>
                             <a href="">5</a></span>
                         </span>
                         <span class="next">
-                            <a href=""><img src="/img/btn_page_next.png" alt="다음으로"></a></span>
-                        <span><a href="#."><img src="/img/btn_page_last.png" alt="마지막으로"></a></span></div>
+                            <a href=""><img src="img/btn_page_next.png" alt="다음으로"></a></span>
+                        <span><a href="#."><img src="img/btn_page_last.png" alt="마지막으로"></a></span></div>
                 </div>
             </div>
         </div>
@@ -754,7 +805,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -765,27 +816,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -818,7 +869,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -844,7 +895,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -855,27 +906,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -908,7 +959,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -934,7 +985,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -945,27 +996,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -998,7 +1049,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -1024,7 +1075,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -1035,27 +1086,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -1088,7 +1139,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -1114,7 +1165,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -1125,27 +1176,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -1178,7 +1229,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -1204,7 +1255,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -1215,27 +1266,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -1268,7 +1319,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -1294,7 +1345,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -1305,27 +1356,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -1358,7 +1409,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -1384,7 +1435,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -1395,27 +1446,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -1448,7 +1499,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -1461,15 +1512,15 @@
 
 
                     </article>
-                    <div class="paging"><span><a href="#."><img src="/img/btn_page_first.png"
-                                    alt="처음으로"></a></span><span><a href="#."><img src="/img/btn_page_pre.png"
+                    <div class="paging"><span><a href="#."><img src="img/btn_page_first.png"
+                                    alt="처음으로"></a></span><span><a href="#."><img src="img/btn_page_pre.png"
                                     alt="이전으로"></a></span><span class="on">1</span><span><a href="">2</a></span><span><a
                                 href="">3</a></span><span><a href="">4</a></span><span>
                             <a href="">5</a></span>
                         </span>
                         <span class="next">
-                            <a href=""><img src="/img/btn_page_next.png" alt="다음으로"></a></span>
-                        <span><a href="#."><img src="/img/btn_page_last.png" alt="마지막으로"></a></span></div>
+                            <a href=""><img src="img/btn_page_next.png" alt="다음으로"></a></span>
+                        <span><a href="#."><img src="img/btn_page_last.png" alt="마지막으로"></a></span></div>
                 </div>
             </div>
         </div>
@@ -1493,7 +1544,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -1504,27 +1555,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -1557,7 +1608,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -1583,7 +1634,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -1594,27 +1645,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -1647,7 +1698,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -1673,7 +1724,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -1684,27 +1735,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -1737,7 +1788,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -1763,7 +1814,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -1774,27 +1825,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -1827,7 +1878,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -1853,7 +1904,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -1864,27 +1915,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -1917,7 +1968,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -1943,7 +1994,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -1954,27 +2005,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -2007,7 +2058,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -2033,7 +2084,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -2044,27 +2095,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -2097,7 +2148,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -2123,7 +2174,7 @@
                             <span class="a1">모집중</span>
                             <span class="a2">NEW</span>
                             <a href="#">
-                                <img src="/img/star.png" alt="별">
+                                <img src="img/star.png" alt="별">
                             </a>
                             </span>
                         </h2>
@@ -2134,27 +2185,27 @@
                         </h3>
                         <div class="info_wrap">
                             <span>
-                                <img src="/img/info_img01.png" alt="모집">
+                                <img src="img/info_img01.png" alt="모집">
                                 <b>모집</b>
                                 <span class="num">4</span>명 (고급 PL 1명,중급 1명,초급 2명,특급 1명)
                             </span>
                             <!-- <span>
-                                <img src="/img/info_img02.png" alt="모집">
+                                <img src="img/info_img02.png" alt="모집">
                                 <b>분야</b>
                                 개발PL, 개발
                             </span> -->
                             <span>
-                                <img src="/img/support.png" alt="지원">
+                                <img src="img/support.png" alt="지원">
                                 <b>지원자수</b>
                                 <span class="num">1</span>명
                             </span>
                         </div>
                         <div class="price_wrap">
                             <a href="#" class="price">
-                                <img src="/img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
+                                <img src="img/pro_price.png" alt="     ">월 <span>5,000,000 ~ 10,000,000</span>원
                             </a>
                             <a href="#" class="dates">
-                                <img src="/img/pro_time.png" alt="">
+                                <img src="img/pro_time.png" alt="">
                                 <span>
                                     6월 중순 ∼9월 하순
                                     <span class="da">(4.5개월)</span>
@@ -2187,7 +2238,7 @@
                         </div>
 
                         <div class="pro_profile_wrap">
-                            <div class="profile" style="background-image: url(/img/face.png);">
+                            <div class="profile" style="background-image: url(img/face.png);">
                             </div>
                             <div class="name">
                                 KIKI_92
@@ -2200,15 +2251,15 @@
 
 
                     </article>
-                    <div class="paging"><span><a href="#."><img src="/img/btn_page_first.png"
-                                    alt="처음으로"></a></span><span><a href="#."><img src="/img/btn_page_pre.png"
+                    <div class="paging"><span><a href="#."><img src="img/btn_page_first.png"
+                                    alt="처음으로"></a></span><span><a href="#."><img src="img/btn_page_pre.png"
                                     alt="이전으로"></a></span><span class="on">1</span><span><a href="">2</a></span><span><a
                                 href="">3</a></span><span><a href="">4</a></span><span>
                             <a href="">5</a></span>
                         </span>
                         <span class="next">
-                            <a href=""><img src="/img/btn_page_next.png" alt="다음으로"></a></span>
-                        <span><a href="#."><img src="/img/btn_page_last.png" alt="마지막으로"></a></span></div>
+                            <a href=""><img src="img/btn_page_next.png" alt="다음으로"></a></span>
+                        <span><a href="#."><img src="img/btn_page_last.png" alt="마지막으로"></a></span></div>
                 </div>
             </div>
         </div>
@@ -2242,7 +2293,7 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="/img/ad_icon01.png" alt="">
+                            <img src="img/ad_icon01.png" alt="">
                         </div>
                         <h2>내년작업도 it잡스에서 할래요!</h2>
                         <h3>
@@ -2254,7 +2305,7 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="/img/ad_icon02.png" alt="">
+                            <img src="img/ad_icon02.png" alt="">
                         </div>
                         <h2>인생샷 득템이요~</h2>
                         <h3>
@@ -2266,7 +2317,7 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="/img/ad_icon03.png" alt="">
+                            <img src="img/ad_icon03.png" alt="">
                         </div>
                         <h2>정말 뜻깊은 작업이었습니다!</h2>
                         <h3>
@@ -2278,7 +2329,7 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="/img/ad_icon01.png" alt="">
+                            <img src="img/ad_icon01.png" alt="">
                         </div>
                         <h2>정말 뜻깊은 작업이었습니다!</h2>
                         <h3>
@@ -2290,7 +2341,7 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="/img/ad_icon02.png" alt="">
+                            <img src="img/ad_icon02.png" alt="">
                         </div>
                         <h2>정말 뜻깊은 작업이었습니다!</h2>
                         <h3>
@@ -2302,7 +2353,7 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="/img/ad_icon03.png" alt="">
+                            <img src="img/ad_icon03.png" alt="">
                         </div>
                         <h2>정말 뜻깊은 작업이었습니다!</h2>
                         <h3>
@@ -2314,7 +2365,7 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="/img/ad_icon01.png" alt="">
+                            <img src="img/ad_icon01.png" alt="">
                         </div>
                         <h2>정말 뜻깊은 작업이었습니다!</h2>
                         <h3>
@@ -2326,7 +2377,7 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="/img/ad_icon01.png" alt="">
+                            <img src="img/ad_icon01.png" alt="">
                         </div>
                         <h2>정말 뜻깊은 작업이었습니다!</h2>
                         <h3>
@@ -2338,7 +2389,7 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="/img/ad_icon02.png" alt="">
+                            <img src="img/ad_icon02.png" alt="">
                         </div>
                         <h2>내년작업도 it잡스에서 할래요!</h2>
                         <h3>
@@ -2350,7 +2401,7 @@
                 <div class="swiper-slide">
                     <div class="no_flex">
                         <div class="icon">
-                            <img src="/img/ad_icon03.png" alt="">
+                            <img src="img/ad_icon03.png" alt="">
                         </div>
                         <h2>정말 뜻깊은 작업이었습니다!</h2>
                         <h3>
@@ -2392,12 +2443,12 @@
             <div class="wrap">
                 <article>
                     <a href="#">
-                        <img src="/img/notice_option01.png" alt="">
+                        <img src="img/notice_option01.png" alt="">
                     </a>
                 </article>
                 <article>
                     <a href="#">
-                        <img src="/img/notice_option02.png" alt="">
+                        <img src="img/notice_option02.png" alt="">
                     </a>
                 </article>
                 <article>
@@ -2465,41 +2516,38 @@
             <div class="swiper-banner">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="/img/banner_img01.png" alt="">
+                        <img src="img/banner_img01.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="/img/banner_img02.png" alt="">
+                        <img src="img/banner_img02.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="/img/banner_img03.png" alt="">
+                        <img src="img/banner_img03.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="/img/banner_img04.png" alt="">
+                        <img src="img/banner_img04.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="/img/banner_img05.png" alt="">
+                        <img src="img/banner_img05.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="/img/banner_img01.png" alt="">
+                        <img src="img/banner_img01.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="/img/banner_img02.png" alt="">
+                        <img src="img/banner_img02.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="/img/banner_img03.png" alt="">
+                        <img src="img/banner_img03.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="/img/banner_img04.png" alt="">
+                        <img src="img/banner_img04.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="/img/banner_img05.png" alt="">
+                        <img src="img/banner_img05.png" alt="">
                     </div>
                 </div>
                 <!-- Add Pagination -->
             </div>
-
-            <!-- Swiper JS -->
-            <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
             <!-- Initialize Swiper -->
             <script>
@@ -2518,8 +2566,218 @@
         </div>
     </div>
 
-    <div id="footer_info">
+    <div id="footer">
+        <div class="footer_top">
+            <div class="inner">
+                <ul>
+                    <li>
+                        <a href="#">회사소개</a>
+                    </li>
+                    <li>
+                        <a href="#"> 프로젝트 문의</a>
+                    </li>
+                    <li>
+                        <a href="#"> 프리랜서 문의</a>
+                    </li>
+                    <li>
+                        <a href="#">인재채용</a>
+                    </li>
+                    <li>
+                        <a href="#">이용약관 </a>
+                    </li>
+                    <li>
+                        <a href="#">개인정보처리방침 </a>
+                    </li>
+                    <li>
+                        <a href="#">고객센터</a>
+                    </li>
+                </ul>
+    
+                <div class="site_map">
+                    <select name="" id="">
+                        <option value="">SITE MAP</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer_inner">
+            <div class="inner">
+                <div class="wrap">
+                    <article>
+                        <div class="f_logo">
+                            <img src="img/f_logo.png" alt="">
+                        </div>
+                        <address>
+                            주식회사 케이엘큐브 <br>
+                            대표이사: 박대표 ㅣ 개인정보보호책임 : 유영복 <br>
+                            사업자등록번호: 100-11-22203 <br>
+                            통신판매업신고: 제2020-서울강남-01211 호 1577-1472 ㅣ support@jobsin.biz <br>
+                            호스팅 사업자: Amazon Web Service(AWS)
+                        </address>
+                    </article>
+                    <article class="right">
+                        <h2>IT위프 SNS 채널</h2>
+                        <ul class="sns">
+                            <li>
+                                <a href="#">
+                                    <img src="img/f_sns01.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/f_sns02.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/f_sns03.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/f_sns04.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="phone">
+                            <img src="img/f_pon.png" alt=""> 02-3211-0114
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer_bottom">
+            <div class="inner">
+                <p>
+                    위프는 통신판매중개자이며 통신판매의 당사자가 아닙니다. <br> 따라서 개별 판매자가 등록하여 판매한 모든 상품에 대한 거래 정보 및 거래에 대한 책임은 각 판매자가 부담하고, 이에
+                    대하여 위프인은 일체 책임지지 않습니다.
+                </p>
+                <p class="copy">
+                    Copyright © 2020 Jons In. Inc. All rights reserved.
+                </p>
+            </div>
+        </div>
     </div>
+    
+    <!-- 회사주소 찾기 팝업 -->
+    <div id="adress_pop" class="overlay">
+        <div class="popup">
+            <a href="#none" class="close">×</a>
+            <h2>주소찾기</h2>
+            <div class="info">
+                <div class="fle">
+                    <div class="lef">
+                        <div class="wrap">
+                            <dl class="w50">
+                                <dt>시도</dt>
+                                <dd>
+                                    <select name="" id="">
+                                        <option value="">선택</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                            <dl class="w50">
+                                <dt>시군구</dt>
+                                <dd>
+                                    <select name="" id="">
+                                        <option value="">선택</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>주소</dt>
+                                <dd>
+                                    <select name="" id="">
+                                        <option value="">선택</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                        </div>
+                        <p class="tit">
+                            * 찾으시는 시도와 시군구를 선택 후, 주소를 검색하세요.
+                        </p>
+                        <p class="txt">
+                            예)테헤란로, 삼성동, 송암빌딩, 반포 자이아파트
+                        </p>
+                        <div class="btn_wrap">
+                            <a href="#" class="btn">취소</a><a href="#" class="btn on">저장</a>
+                        </div>
+                    </div>
+                    <div class="ref">
+                        <input type="button" value="검색" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 회사주소 찾기 팝업 -->
+    <!-- 아이디 찾기 -->
+    <div id="find_id" class="overlay">
+        <div class="popup">
+            <ul class="find_id">
+                <li>
+                    <a href="#">프리랜서 회원</a>
+                </li>
+                <li>
+                    <a href="#">아웃소싱 회원</a>
+                </li>
+                <li>
+                    <a href="#">클라이언트 회원</a>
+                </li>
+            </ul>
+            <a href="#none" class="close">×</a>
+            <h2>아이디 찾기</h2>
+            
+    
+            <div class="info">
+                <div class="fle">
+                    <div class="lef">
+                        <div class="wrap">
+                            <dl class="w50">
+                                <dt>시도</dt>
+                                <dd>
+                                    <select name="" id="">
+                                        <option value="">선택</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                            <dl class="w50">
+                                <dt>시군구</dt>
+                                <dd>
+                                    <select name="" id="">
+                                        <option value="">선택</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>주소</dt>
+                                <dd>
+                                    <select name="" id="">
+                                        <option value="">선택</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                        </div>
+                        <p class="tit">
+                            * 찾으시는 시도와 시군구를 선택 후, 주소를 검색하세요.
+                        </p>
+                        <p class="txt">
+                            예)테헤란로, 삼성동, 송암빌딩, 반포 자이아파트
+                        </p>
+                        <div class="btn_wrap">
+                            <a href="#" class="btn">취소</a><a href="#" class="btn on">저장</a>
+                        </div>
+                    </div>
+                    <div class="ref">
+                        <input type="button" value="검색" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 아이디 찾기 -->
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script>
