@@ -1,3 +1,4 @@
+s
 .overlay div.popup h2 {
       padding-bottom: 19px;
       border-bottom: 1px solid #dbdbdb;
@@ -88,6 +89,62 @@ div#freelance_form.overlay {
       }
 }
 // 프리랜서 찜
+
+
+//POPUP006_프로필등록안내팝업
+div#saveProfile.overlay {
+      div.popup {
+            padding: 0;
+            width: 638px;
+            max-width: none!important;
+        div.top {
+            background: #f8a03c;
+            color: white;
+            padding: 50px 35px 30px 35px;
+            box-sizing: border-box;
+          h2 {
+                font-weight: bold;
+                color: #ffffff;
+          }
+          p {
+            font: {
+                  weight: 400;
+                  size: 16px;
+                  letter-spacing: -0.5px;
+            }
+            padding-top: 20px;
+          }
+        }
+    
+        div.info {
+          p.tit {
+                  text-align: center;
+                  font-size: 24px;
+            span {
+                  font-weight: bold;
+            }
+          }
+    
+          ul {
+            display: flex;
+            flex-wrap: wrap;
+            li {
+              a {
+                  border: 2px solid #ddd;
+                  padding: 20px 50px;
+                  border-radius: 10px;
+                img {
+    
+                }
+                &:hover {border: 2px solid #f8a03c;}
+              }
+            }
+          }
+        }
+      }
+    }
+//POPUP006_프로필등록안내팝업
+
 
 // 공지사항 팝업
 div#adress_pop.overlay div.popup div.info div.fle div.lef {
@@ -215,3 +272,4 @@ div#adress_pop.overlay div.popup div.info div.fle div.ref input {
       font-weight: bold;
 }
 // 공지사항 팝업
+
