@@ -9,26 +9,26 @@
     <meta property="og:title" content="위프">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
-    <meta property="og:image" content="../img/logo.png">
-    <meta property="og:image:type" content="../image/png">
+    <meta property="og:image" content="/img/logo.png">
+    <meta property="og:image:type" content="/image/png">
     <meta property="og:image:width" content="173">
     <meta property="og:image:height" content="65">
     <meta property="og:description" content="">
 
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/swiper.min.css">
     <link rel="stylesheet" href="https://unpkg.com/simplebar@5.2.0/dist/simplebar.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../css/_popup.css">
+    <link rel="stylesheet" href="/css/_popup.css">
 
     <script src="https://kit.fontawesome.com/334d6efb93.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="../js/slick.min.js"></script>
-    <script type="text/javascript" src="../js/swiper.min.js"></script>
-    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="/js/slick.min.js"></script>
+    <script type="text/javascript" src="/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
     <script type="text/javascript" src="https://unpkg.com/simplebar@5.2.0/dist/simplebar.min.js"></script>
 </head>
 
@@ -44,7 +44,7 @@
                     <li><a href="#freelance_form">POPUP002_프로젝트찜_1</a></li>
                     <li><a href="#freelance_form_comple">POPUP002_프로젝트찜_2</a></li>
                     <li><a href="#saveProfile">POPUP006_프로필등록안내팝업</a></li>
-                    <li><a href="#">5_02menu_02myrewards_01_popup</a></li>
+                    <li><a href="#checkProject">POPUP007_프로젝트지원정보확인</a></li>
                     <li><a href="javascript:layerPop('#rewards2_pop');">6_02menu_02myrewards_02_popup</a></li>
                     <li><a href="javascript:layerPop('#rewards3_pop');">7_02menu_02myrewards_03_popup</a></li>
                     <li><a href="javascript:layerPop('#coupon_pop');">8_02menu_03mycoupon_02_popup</a></li>
@@ -110,6 +110,7 @@
         </div>
         <!-- 주소찾기 팝업 -->
 
+
         <!-- 프리랜서 찜 -->
         <div id="freelance_form" class="overlay">
             <div class="popup">
@@ -122,7 +123,7 @@
                     <li>
                         <div class="lef">
                             <p>
-                                <img src="../img/fre_pop_file.png" alt="파일 이미지">
+                                <img src="/img/fre_pop_file.png" alt="파일 이미지">
                                 기본폴더에 찜하기
                             </p>
                         </div>
@@ -132,10 +133,13 @@
                             </a>
                         </div>
                     </li>
+                    <li class="goSaveProfile">
+
+                    </li>
                     <!-- <li>
                         <div class="lef">
                             <p>
-                                <img src="../img/fre_pop_file.png" alt="파일 이미지">
+                                <img src="/img/fre_pop_file.png" alt="파일 이미지">
                                 프로젝트별 찜하기
                             </p>
                         </div>
@@ -153,6 +157,7 @@
         </div>
         <!-- 프리랜서 찜 -->
 
+
         <!-- 프로젝트 지원 정보  확인 -->
         <div id="projectInfo" class="overlay">
             <div class="popup">
@@ -165,7 +170,7 @@
                     <li>
                         <div class="lef">
                             <p>
-                                <img src="../img/fre_pop_file.png" alt="파일 이미지">
+                                <img src="/img/fre_pop_file.png" alt="파일 이미지">
                                 기본폴더에 찜하기
                             </p>
                         </div>
@@ -178,7 +183,7 @@
                     <li>
                         <div class="lef">
                             <p>
-                                <img src="../img/fre_pop_file.png" alt="파일 이미지">
+                                <img src="/img/fre_pop_file.png" alt="파일 이미지">
                                 프로젝트별 찜하기
                             </p>
                         </div>
@@ -195,6 +200,7 @@
             </div>
         </div>
         <!-- 프로젝트 지원 정보  확인 -->
+
 
         <!-- 프리랜서 찜 완료 -->
         <div id="freelance_form_comple" class="overlay">
@@ -218,6 +224,7 @@
         </div>
         <!-- 프리랜서 찜 완료-->
 
+
         <!-- POPUP006_프로필등록안내팝업 -->
         <div id="saveProfile" class="overlay">
             <div class="popup">
@@ -236,35 +243,101 @@
                     <ul>
                         <li>
                             <a href="#">
-                                <img src="../img/profile_pllu_icon.png" alt="더보기 아이콘">
-                                가입정보 등록하기
+                                <img src="/img/profile_pllu_icon.png" alt="더보기 아이콘">
+                                가입정보 등록하기   
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="../img/profile_pllu_icon.png" alt="더보기 아이콘">
-                                가입정보 등록하기
+                                <img src="/img/profile_pllu_icon.png" alt="더보기 아이콘">
+                                경력정보 등록하기
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="../img/profile_pllu_icon.png" alt="더보기 아이콘">
-                                가입정보 등록하기
+                                <img src="/img/profile_pllu_icon.png" alt="더보기 아이콘">
+                                기술정보 등록하기
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="../img/profile_pllu_icon.png" alt="더보기 아이콘">
-                                가입정보 등록하기
+                                <img src="/img/profile_pllu_icon.png" alt="더보기 아이콘">
+                                포트폴리오 등록하기
                             </a>
                         </li>
                     </ul>
+                    <a href="" class="goBtn">프로필등록 바로가기</a>
                 </div>
             </div>
         </div>
         <!-- POPUP006_프로필등록안내팝업 -->
 
+        
+        <!-- POPUP007_프로젝트지원정보확인 -->
+        <div id="checkProject" class="overlay">
+            <div class="popup">
+                <a href="#none" class="close">×</a>
+                <div class="top">
+                    <h2>프로젝트 지원 정보 확인</h2>
+                </div>
+                <ul class="inputInfo">
+                    <li class="infoName">
+                        <h3 class="emTit">성명</h3>
+                        <span class="emTit">홍길동</span>
+                    </li>
+                    <li>
+                        <h3 class="emTit">휴대폰번호</h3>
+                        <input type="text" class="inputSty phone" placeholder="010-2222-3333">
+                    </li>
+                    <li>
+                        <h3 class="emTit">이메일</h3>
+                        <input type="email" class="inputSty email" placeholder="abab@naver.com"> 
+                    </li>
+                    <li>
+                        <h3 class="emTit">경력년수</h3>
+                        <input type="number" class="inputSty exDate" placeholder="10">년
+                        <input type="number" class="inputSty exDate" placeholder="12">개월
+                    </li>
+                    <li>
+                        <h3 class="emTit">업무가능일</h3>
+                        <input type="date" class="inputSty goProjectDate" placeholder="2020-05-05">
+                    </li>
+                    <li>
+                        <h3 class="emTit">KOSA 보유</h3>
+                        <input type="radio" name="kosa" id="kosaY" value="y">
+                        <label for="kosaY">있음</label>  
+                        <input type="radio" name="kosa" id="kosaN" value="n">
+                        <label for="kosaN">없음</label>  
+                    </li>
+                    <li>
+                        <h3 class="emTit">프로젝트 월 보수 지정</h3>
+                        <input type="number" class="inputSty price" placeholder="5,000,000">원
+                        <input type="number" class="inputSty price" placeholder="6,000,000">원
+                    </li>
+                    <li>
+                        <h3 class="emTit">남기는 글</h3>
+                        <textarea name="" id="" cols="30" rows="10">
 
+                        </textarea>
+                    </li>
+                </ul>
+                <p class="notice">
+                    ※ 개인정보(연락처, 메일 주소) 등은 메일을 남길 경우 필터링 됩니다. 
+                </p>
+                <p class="notice">
+                    ※ 프로필을 최신으로 업데이트 하시면 빠른 진행에 도움이 됩니다. 
+                </p>
+                <ul class="btn_wrap">
+                    <li>
+                        <a href="#" class="btn01 on">스크랩 인재보기</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn01">확인</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- POPUP007_프로젝트지원정보확인 -->
     </div>
     <!--END Wrap-->
 </body>

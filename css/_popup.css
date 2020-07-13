@@ -1,4 +1,3 @@
-s
 .overlay div.popup h2 {
   padding-bottom: 19px;
   border-bottom: 1px solid #dbdbdb; }
@@ -17,7 +16,7 @@ div#freelance_form_comple.overlay div.infos {
   div#freelance_form_comple.overlay div.infos h2 {
     font-size: 32px;
     line-height: 40px;
-    color: #333333;
+    color: #333;
     font-weight: 300;
     border: none; }
     div#freelance_form_comple.overlay div.infos h2 b {
@@ -55,33 +54,115 @@ div#saveProfile.overlay div.popup {
   padding: 0;
   width: 638px;
   max-width: none !important; }
+  div#saveProfile.overlay div.popup a.close {
+    color: #fff; }
   div#saveProfile.overlay div.popup div.top {
     background: #f8a03c;
-    color: white;
+    color: #fff;
     padding: 50px 35px 30px 35px;
     box-sizing: border-box; }
     div#saveProfile.overlay div.popup div.top h2 {
       font-weight: bold;
-      color: #ffffff; }
+      color: #fff;
+      border-bottom: none; }
     div#saveProfile.overlay div.popup div.top p {
       font-weight: 400;
       font-size: 16px;
       font-letter-spacing: -0.5px;
       padding-top: 20px; }
-  div#saveProfile.overlay div.popup div.info p.tit {
+  div#saveProfile.overlay div.popup div.info {
+    text-align: center; }
+    div#saveProfile.overlay div.popup div.info p.tit {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 55px;
+      margin-bottom: 30px; }
+      div#saveProfile.overlay div.popup div.info p.tit span {
+        font-weight: bold; }
+    div#saveProfile.overlay div.popup div.info ul {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+      div#saveProfile.overlay div.popup div.info ul li {
+        display: inline-block;
+        width: 40%; }
+        div#saveProfile.overlay div.popup div.info ul li a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 2px solid #ddd;
+          padding: 20px 35px;
+          border-radius: 10px;
+          color: #333;
+          margin: 5px; }
+          div#saveProfile.overlay div.popup div.info ul li a img {
+            margin-right: 5px; }
+          div#saveProfile.overlay div.popup div.info ul li a:hover {
+            border: 2px solid #f8a03c; }
+  div#saveProfile.overlay div.popup .goBtn {
     text-align: center;
-    font-size: 24px; }
-    div#saveProfile.overlay div.popup div.info p.tit span {
-      font-weight: bold; }
-  div#saveProfile.overlay div.popup div.info ul {
-    display: flex;
-    flex-wrap: wrap; }
-    div#saveProfile.overlay div.popup div.info ul li a {
-      border: 2px solid #ddd;
-      padding: 20px 50px;
-      border-radius: 10px; }
-      div#saveProfile.overlay div.popup div.info ul li a:hover {
-        border: 2px solid #f8a03c; }
+    width: 35%;
+    padding: 20px 35px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 45px; }
+
+div#checkProject.overlay {
+  min-width: 600px; }
+  div#checkProject.overlay .top h2 {
+    border-bottom: 1px solid #333; }
+  div#checkProject.overlay input {
+    opacity: 1;
+    display: none; }
+    div#checkProject.overlay input:checked + label {
+      background: url(/img/bg_radio_gender_on.png) no-repeat;
+      opacity: 1;
+      padding-left: 15px;
+      vertical-align: middle;
+      font-size: 14px;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background-position: left center;
+      margin-right: 5px;
+      display: inline-block; }
+  div#checkProject.overlay label {
+    background: url(/img/bg_radio_gender_off.png) no-repeat;
+    opacity: 1;
+    padding-left: 15px;
+    vertical-align: middle;
+    font-size: 14px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-position: left center;
+    margin-right: 5px;
+    display: inline-block; }
+    div#checkProject.overlay label input,
+    div#checkProject.overlay label label {
+      opacity: 1; }
+  div#checkProject.overlay .inputInfo li {
+    padding: 15px 0; }
+  div#checkProject.overlay .inputInfo .infoName {
+    border-bottom: 1px solid #ddd; }
+    div#checkProject.overlay .inputInfo .infoName .emTit {
+      display: inline-block; }
+  div#checkProject.overlay .inputInfo .emTit {
+    font-size: 16px;
+    font-weight: bold; }
+  div#checkProject.overlay .inputInfo .inputSty {
+    display: block;
+    padding: 15px;
+    border: 1px solid #ddd; }
+  div#checkProject.overlay .inputInfo .exDdate {
+    display: inline-block; }
 
 div#adress_pop.overlay div.popup div.info div.fle div.lef {
   width: 80%; }
