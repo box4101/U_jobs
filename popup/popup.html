@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
-
-<head style="overflow-y:hidden;">
+<head>
     <title>위프</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=1.0">
@@ -10,18 +9,16 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
     <meta property="og:image" content="../img/logo.png">
-    <meta property="og:image:type" content="../image/png">
+    <meta property="og:image:type" content="/image/png">
     <meta property="og:image:width" content="173">
     <meta property="og:image:height" content="65">
     <meta property="og:description" content="">
 
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/main.css"/>
     <link rel="stylesheet" href="../css/swiper.min.css">
     <link rel="stylesheet" href="https://unpkg.com/simplebar@5.2.0/dist/simplebar.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../css/_popup.css">
 
     <script src="https://kit.fontawesome.com/334d6efb93.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
@@ -46,12 +43,10 @@
                     <li><a href="#freelance_form_comple">POPUP002_프로젝트찜_2</a></li>
                     <li><a href="#saveProfile">POPUP006_프로필등록안내팝업</a></li>
                     <li><a href="#checkProject">POPUP007_프로젝트지원정보확인</a></li>
-                    <li><a href="javascript:layerPop('#rewards2_pop');">6_02menu_02myrewards_02_popup</a></li>
-                    <li><a href="javascript:layerPop('#rewards3_pop');">7_02menu_02myrewards_03_popup</a></li>
-                    <li><a href="javascript:layerPop('#coupon_pop');">8_02menu_03mycoupon_02_popup</a></li>
-                    <li><a href="javascript:layerPop('#store_pop');">9_02menu_07store_popup</a></li>
-                    <li><a href="javascript:layerPop('#login_pop');">10_04login_02_popup</a></li>
-                    <li><a href="javascript:layerPop('#login_re_pop');">11_04login_03_popup</a></li>
+                    <li><a href="#recentProject01">POPUP004_최근본프로젝트팝업 01</a></li>
+                    <li><a href="#recentProject02">POPUP004_최근본프로젝트팝업 02</a></li>
+                   
+                    <li><a href="#recentSearch">POPUP005_최근 검색한 조건 팝업</a></li>
                 </ul>
             </div>
         </div>
@@ -112,7 +107,7 @@
         <!-- 주소찾기 팝업 -->
 
 
-        <!-- 프리랜서 찜 -->
+        <!-- 프리랜서 찜 수정-->
         <div id="freelance_form" class="overlay">
             <div class="popup">
                 <a href="#none" class="close">×</a>
@@ -120,24 +115,19 @@
                     프리랜서 찜
                     <p class="info">기본 폴더와 프로젝트별 폴더 중 원하는 위치에 프리랜서를 찜할 수 있습니다.</p>
                 </h2>
-                <ul class="info">
+                <ul class="free">
                     <li>
-                        <div class="lef">
-                            <p>
-                                <img src="../img/fre_pop_file.png" alt="파일 이미지">
-                                기본폴더에 찜하기
-                            </p>
-                        </div>
-                        <div class="ref">
-                            <a href="#" class="btn01 on">
-                                프리랜서 찜하기
-                            </a>
-                        </div>
+                        <a href="#" class="btn01">
+                            <img src="../img/fre_pop_file.png" alt="파일 이미지">&nbsp;기본폴더에 찜하기
+                        </a>
                     </li>
+                    <li>
+                        <a href="#" class="btn01 on">프리랜서 찜하기</a>
+                    </li>
+                    <!--
                     <li class="goSaveProfile">
-
                     </li>
-                    <!-- <li>
+                     <li>
                         <div class="lef">
                             <p>
                                 <img src="../img/fre_pop_file.png" alt="파일 이미지">
@@ -296,30 +286,29 @@
                     </li>
                     <li>
                         <h3 class="emTit">경력년수</h3>
-                        <input type="number" class="inputSty exDate" placeholder="10">년
-                        <input type="number" class="inputSty exDate" placeholder="12">개월
+                        <input type="number" class="inputSty exDate" placeholder="10"> 
+                        &nbsp;년
+                        <input type="number" class="inputSty exDate" placeholder="12">&nbsp;개월
                     </li>
                     <li>
                         <h3 class="emTit">업무가능일</h3>
                         <input type="date" class="inputSty goProjectDate" placeholder="2020-05-05">
                     </li>
-                    <li>
+                    <li class="kosaBox">
                         <h3 class="emTit">KOSA 보유</h3>
-                        <input type="radio" name="kosa" id="kosaY" value="y">
+                        <input type="radio" name="kosa" id="kosaY">
                         <label for="kosaY">있음</label>  
-                        <input type="radio" name="kosa" id="kosaN" value="n">
+                        <input type="radio" name="kosa" id="kosaN">
                         <label for="kosaN">없음</label>  
                     </li>
                     <li>
                         <h3 class="emTit">프로젝트 월 보수 지정</h3>
-                        <input type="number" class="inputSty price" placeholder="5,000,000">원
-                        <input type="number" class="inputSty price" placeholder="6,000,000">원
+                        <input type="number" class="inputSty price" placeholder="5,000,000">&nbsp;원 ~
+                        <input type="number" class="inputSty price" placeholder="6,000,000">&nbsp;원
                     </li>
                     <li>
                         <h3 class="emTit">남기는 글</h3>
-                        <textarea name="" id="" cols="30" rows="10">
-
-                        </textarea>
+                        <textarea name="" id="" class="msg"></textarea>
                     </li>
                 </ul>
                 <p class="notice">
@@ -330,15 +319,605 @@
                 </p>
                 <ul class="btn_wrap">
                     <li>
-                        <a href="#" class="btn01 on">스크랩 인재보기</a>
+                        <a href="#" class="btn01">취소하기</a>
                     </li>
                     <li>
-                        <a href="#" class="btn01">확인</a>
+                        <a href="#" class="btn01 on">지원하기</a>
                     </li>
                 </ul>
             </div>
         </div>
         <!-- POPUP007_프로젝트지원정보확인 -->
+
+        
+        <!-- POPUP004_최근본프로젝트팝업 001 -->
+        <div id="recentProject01" class="overlay recentProject">
+            <div class="popup">
+                <a href="#none" class="close">×</a>
+                <div class="top">
+                    <h2>최근 본 프로젝트
+                        <p class="info">최근 7일간 본 프로젝트의 정보입니다. </p>
+                    </h2>    
+                </div>
+                <ul class="recentPjList">
+                    <li class="allChoose">
+                        <input type="checkbox" name="" id="chBoxAll">
+                        <label for="chBoxAll">선택 
+                            <span class="chNum">0</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="chBox1">
+                        <label for="chBox1">
+                            <span class="chName">홍OO</span> 
+                            <span class="chAge">남 41세</span>
+                            <span class="exDate"><span>&nbsp; &#124; &nbsp;</span>경력 12년 3개월</span> 
+                            <p class="jobType">
+                                CTO, Architect, PM, 게임 개발, 글로벌 포털, 모바일 / 웹 시스템 개발  
+                            </p>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="chBox2">
+                        <label for="chBox2">
+                            <span class="chName">강OO</span> 
+                            <span class="chAge">남 41세</span>
+                            <span class="exDate"><span>&nbsp; &#124; &nbsp;</span>경력 12년 3개월</span> 
+                            <p class="jobType">
+                                CTO, Architect, PM, 게임 개발, 글로벌 포털, 모바일 / 웹 시스템 개발  
+                            </p>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="chBox3">
+                        <label for="chBox3">
+                            <span class="chName">김OO</span> 
+                            <span class="chAge">남 41세</span>
+                            <span class="exDate"><span>&nbsp; &#124; &nbsp;</span>경력 12년 3개월</span> 
+                            <p class="jobType">
+                                CTO, Architect, PM, 게임 개발, 글로벌 포털, 모바일 / 웹 시스템 개발  
+                            </p>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="chBox4">
+                        <label for="chBox4">
+                            <span class="chName">오OO</span> 
+                            <span class="chAge">남 41세</span>
+                            <span class="exDate"><span>&nbsp; &#124; &nbsp;</span>경력 12년 3개월</span> 
+                            <p class="jobType">
+                                CTO, Architect, PM, 게임 개발, 글로벌 포털, 모바일 / 웹 시스템 개발
+                            </p>
+                        </label>
+                    </li>
+                </ul>
+                <a href="#" class="showAllBtn">
+                    <span class="countListNum">4명</span> 전체보기
+                </a>
+                <div class="paging">
+                    <span>
+                        <a href="#.">
+                            <img src="../img/btn_page_first.png" alt="처음으로">
+                        </a>
+                    </span>
+                        <span>
+                            <a href="#.">
+                                <img src="../img/btn_page_pre.png" alt="이전으로">
+                            </a>
+                        </span>
+                        <span class="on">1</span>
+                        <span>
+                            <a href="">2</a>
+                        </span>
+                        <span>
+                            <a href="">3</a>
+                        </span>
+                        <span>
+                            <a href="">4</a>
+                        </span>
+                        <span>
+                            <a href="">5</a>
+                        </span>
+                        <span class="next">
+                            <a href=""><img src="../img/btn_page_next.png" alt="다음으로"></a>
+                        </span>
+                        <span>
+                            <a href="#."><img src="../img/btn_page_last.png" alt="마지막으로"></a>
+                        </span>
+                </div>
+            </div>
+        </div>
+        <!-- POPUP004_최근본프로젝트팝업 001 -->
+
+        <!-- POPUP004_최근본프로젝트팝업 002 -->
+        <div id="recentProject02" class="overlay recentProject">
+            <div class="popup">
+                <a href="#none" class="close">×</a>
+                <div class="top">
+                    <h2>최근 본 프로젝트
+                        <p class="info">최근 7일간 본 프로젝트의 정보입니다.</p>
+                    </h2>    
+                </div>
+                <ul class="recentPjList">
+                    <li class="allChoose">
+                        <input type="checkbox" name="" id="chBoxAll">
+                        <label for="chBoxAll">선택 
+                            <span class="chNum">0</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="chBox1">
+                        <label for="chBox1">
+                            <span class="jobType">
+                            [외주] 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </span>
+                            <p class="pDuration">
+                                <span class="chPrice">예상금액</span><span class="exDate"><span>&nbsp; &#124; &nbsp;</span>예상기간 30일</span>
+                            </p>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="chBox2">
+                        <label for="chBox2">
+                            <span class="jobType">
+                            [외주] 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </span>
+                            <p class="pDuration">
+                                <span class="chPrice">예상금액</span><span class="exDate"><span>&nbsp; &#124; &nbsp;</span>예상기간 30일</span>
+                            </p>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="chBox3">
+                        <label for="chBox3">
+                            <span class="jobType">
+                            [외주] 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </span>
+                            <p class="pDuration">
+                                <span class="chPrice">예상금액</span><span class="exDate"><span>&nbsp; &#124; &nbsp;</span>예상기간 30일</span>
+                            </p>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="chBox4">
+                        <label for="chBox4">
+                            <span class="jobType">
+                            [외주] 오프라인 매장 주문 플랫폼 Admin Front-end 개발
+                            </span>
+                            <p class="pDuration">
+                                <span class="chPrice">예상금액</span><span class="exDate"><span>&nbsp; &#124; &nbsp;</span>예상기간 30일</span>
+                            </p>
+                        </label>
+                    </li>
+                </ul>
+                <a href="#" class="showAllBtn">
+                    <span class="countListNum">4명</span> 전체보기
+                </a>
+                <div class="paging">
+                    <span>
+                        <a href="#.">
+                            <img src="../img/btn_page_first.png" alt="처음으로">
+                        </a>
+                    </span>
+                        <span>
+                            <a href="#.">
+                                <img src="../img/btn_page_pre.png" alt="이전으로">
+                            </a>
+                        </span>
+                        <span class="on">1</span>
+                        <span>
+                            <a href="">2</a>
+                        </span>
+                        <span>
+                            <a href="">3</a>
+                        </span>
+                        <span>
+                            <a href="">4</a>
+                        </span>
+                        <span>
+                            <a href="">5</a>
+                        </span>
+                        <span class="next">
+                            <a href=""><img src="../img/btn_page_next.png" alt="다음으로"></a>
+                        </span>
+                        <span>
+                            <a href="#."><img src="../img/btn_page_last.png" alt="마지막으로"></a>
+                        </span>
+                </div>
+            </div>
+        </div>
+        <!-- POPUP004_최근본프로젝트팝업 002-->
+
+         <!-- POPUP005_최근 검색한 조건 팝업 -->
+         <div id="recentSearch" class="overlay">
+            <div class="popup">
+                <a href="#none" class="close">×</a>
+                <div class="top">
+                    <h2>최근 검색한 조건 
+                        <p class="info">가장 최근 검색한 1개의 조건이 최대 1주간 제공됩니다.</p>
+                    </h2>    
+                </div>
+                <ul class="recentSearchMenu">
+                    <li class="on">웹사이트 운영</li>
+                    <li>베타테스트</li>
+                    <li>컨텐츠에디터</li>
+                    <li>카페·블로그관리</li>
+                </ul>
+
+                <!--페이지1-->
+                <ul class="recentPjList on">
+                    <li>
+                        <h3 class="smTit">저장한 조건
+                            <span>저장한 30개의 조건이 최대 1년간 제공됩니다.</span>
+                        </h3>
+                    </li>
+                    <!-- 전체선택 -->
+                    <li class="allChoose">
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBoxAll">
+                            <label for="chBoxAll">선택<span class="chNum"> 0</span></label>
+                        </div>
+                        <p class="date">일자</p>
+                    </li>
+                    <!-- 전체선택 -->
+
+                    <!-- 리스트 -->
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                <span>웹사이트운영</span>
+                                <span>&nbsp;베타테스트</span>           
+                                <span>&nbsp;컨텐츠에디터</span>
+                                <span>&nbsp;카페·블로그 관리</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                    <span>&nbsp;제안·컨설팅</span>          
+                                    <span>&nbsp;UI설계 스토리보드</span>         
+                                    <span>&nbsp;웹기획 l PM</span>         
+                                    <span>&nbsp;모바일기획</span>
+                                    <span>&nbsp;웹PD</span>
+                                    <span>&nbsp;웹서비스기획</span>          
+                                    <span>&nbsp;DBA</span>         
+                                    <span>&nbsp;MySQL</span>         
+                                    <span>&nbsp;Oracle</span>
+                                    <span>&nbsp;데이터마이닝</span>
+                                    <span>&nbsp;OCP</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                <span>웹사이트운영</span>
+                                <span>&nbsp;베타테스트</span>           
+                                <span>&nbsp;컨텐츠에디터</span>
+                                <span>&nbsp;카페·블로그 관리</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                    <span>&nbsp;제안·컨설팅</span>          
+                                    <span>&nbsp;UI설계 스토리보드</span>         
+                                    <span>&nbsp;웹기획 l PM</span>         
+                                    <span>&nbsp;모바일기획</span>
+                                    <span>&nbsp;웹PD</span>
+                                    <span>&nbsp;웹서비스기획</span>          
+                                    <span>&nbsp;DBA</span>         
+                                    <span>&nbsp;MySQL</span>         
+                                    <span>&nbsp;Oracle</span>
+                                    <span>&nbsp;데이터마이닝</span>
+                                    <span>&nbsp;OCP</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <!-- 리스트 -->
+                </ul> 
+                
+                
+                <!--페이지2-->
+                <ul class="recentPjList">
+                    <li>
+                        <h3 class="smTit">저장한 조건
+                            <span>저장한 30개의 조건이 최대 1년간 제공됩니다.</span>
+                        </h3>
+                    </li>
+
+                    <!-- 전체선택 -->
+                    <li class="allChoose">
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBoxAll">
+                            <label for="chBoxAll">선택<span class="chNum"> 0</span></label>
+                        </div>
+                        <p class="date">일자</p>
+                    </li>
+                    <!-- 전체선택 -->
+
+                    <!-- 리스트 -->
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                <span>웹사이트운영</span>
+                                <span>&nbsp;베타테스트</span>           
+                                <span>&nbsp;컨텐츠에디터</span>
+                                <span>&nbsp;카페·블로그 관리</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                    <span>&nbsp;제안·컨설팅</span>          
+                                    <span>&nbsp;UI설계 스토리보드</span>         
+                                    <span>&nbsp;웹기획 l PM</span>         
+                                    <span>&nbsp;모바일기획</span>
+                                    <span>&nbsp;웹PD</span>
+                                    <span>&nbsp;웹서비스기획</span>          
+                                    <span>&nbsp;DBA</span>         
+                                    <span>&nbsp;MySQL</span>         
+                                    <span>&nbsp;Oracle</span>
+                                    <span>&nbsp;데이터마이닝</span>
+                                    <span>&nbsp;OCP</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                <span>웹사이트운영</span>
+                                <span>&nbsp;베타테스트</span>           
+                                <span>&nbsp;컨텐츠에디터</span>
+                                <span>&nbsp;카페·블로그 관리</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                    <span>&nbsp;제안·컨설팅</span>          
+                                    <span>&nbsp;UI설계 스토리보드</span>         
+                                    <span>&nbsp;웹기획 l PM</span>         
+                                    <span>&nbsp;모바일기획</span>
+                                    <span>&nbsp;웹PD</span>
+                                    <span>&nbsp;웹서비스기획</span>          
+                                    <span>&nbsp;DBA</span>         
+                                    <span>&nbsp;MySQL</span>         
+                                    <span>&nbsp;Oracle</span>
+                                    <span>&nbsp;데이터마이닝</span>
+                                    <span>&nbsp;OCP</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <!-- 리스트 -->
+                </ul>  
+
+                <!--페이지3-->
+                <ul class="recentPjList">
+                    <li>
+                        <h3 class="smTit">저장한 조건
+                            <span>저장한 30개의 조건이 최대 1년간 제공됩니다.</span>
+                        </h3>
+                    </li>
+
+
+                    <!-- 전체선택 -->
+                    <li class="allChoose">
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBoxAll">
+                            <label for="chBoxAll">선택<span class="chNum"> 0</span></label>
+                        </div>
+                        <p class="date">일자</p>
+                    </li>
+                    <!-- 전체선택 -->
+
+                    <!-- 리스트 -->
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                <span>웹사이트운영</span>
+                                <span>&nbsp;베타테스트</span>           
+                                <span>&nbsp;컨텐츠에디터</span>
+                                <span>&nbsp;카페·블로그 관리</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                    <span>&nbsp;제안·컨설팅</span>          
+                                    <span>&nbsp;UI설계 스토리보드</span>         
+                                    <span>&nbsp;웹기획 l PM</span>         
+                                    <span>&nbsp;모바일기획</span>
+                                    <span>&nbsp;웹PD</span>
+                                    <span>&nbsp;웹서비스기획</span>          
+                                    <span>&nbsp;DBA</span>         
+                                    <span>&nbsp;MySQL</span>         
+                                    <span>&nbsp;Oracle</span>
+                                    <span>&nbsp;데이터마이닝</span>
+                                    <span>&nbsp;OCP</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                <span>웹사이트운영</span>
+                                <span>&nbsp;베타테스트</span>           
+                                <span>&nbsp;컨텐츠에디터</span>
+                                <span>&nbsp;카페·블로그 관리</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                    <span>&nbsp;제안·컨설팅</span>          
+                                    <span>&nbsp;UI설계 스토리보드</span>         
+                                    <span>&nbsp;웹기획 l PM</span>         
+                                    <span>&nbsp;모바일기획</span>
+                                    <span>&nbsp;웹PD</span>
+                                    <span>&nbsp;웹서비스기획</span>          
+                                    <span>&nbsp;DBA</span>         
+                                    <span>&nbsp;MySQL</span>         
+                                    <span>&nbsp;Oracle</span>
+                                    <span>&nbsp;데이터마이닝</span>
+                                    <span>&nbsp;OCP</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <!-- 리스트 -->
+                </ul>  
+                
+                <!--페이지4-->
+                <ul class="recentPjList">
+                    <li>
+                        <h3 class="smTit">저장한 조건
+                            <span>저장한 30개의 조건이 최대 1년간 제공됩니다.</span>
+                        </h3>
+                    </li>
+
+                    <!-- 전체선택 -->
+                    <li class="allChoose">
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBoxAll">
+                            <label for="chBoxAll">선택<span class="chNum"> 0</span></label>
+                        </div>
+                        <p class="date">일자</p>
+                    </li>
+                    <!-- 전체선택 -->
+
+                    <!-- 리스트 -->
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                <span>웹사이트운영</span>
+                                <span>&nbsp;베타테스트</span>           
+                                <span>&nbsp;컨텐츠에디터</span>
+                                <span>&nbsp;카페·블로그 관리</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                    <span>&nbsp;제안·컨설팅</span>          
+                                    <span>&nbsp;UI설계 스토리보드</span>         
+                                    <span>&nbsp;웹기획 l PM</span>         
+                                    <span>&nbsp;모바일기획</span>
+                                    <span>&nbsp;웹PD</span>
+                                    <span>&nbsp;웹서비스기획</span>          
+                                    <span>&nbsp;DBA</span>         
+                                    <span>&nbsp;MySQL</span>         
+                                    <span>&nbsp;Oracle</span>
+                                    <span>&nbsp;데이터마이닝</span>
+                                    <span>&nbsp;OCP</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                <span>웹사이트운영</span>
+                                <span>&nbsp;베타테스트</span>           
+                                <span>&nbsp;컨텐츠에디터</span>
+                                <span>&nbsp;카페·블로그 관리</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <li>
+                        <div class="recentBoxRow">
+                            <input type="checkbox" name="" id="chBox1">
+                            <label for="chBox1" class="jobTypeList">
+                                    <span>&nbsp;제안·컨설팅</span>          
+                                    <span>&nbsp;UI설계 스토리보드</span>         
+                                    <span>&nbsp;웹기획 l PM</span>         
+                                    <span>&nbsp;모바일기획</span>
+                                    <span>&nbsp;웹PD</span>
+                                    <span>&nbsp;웹서비스기획</span>          
+                                    <span>&nbsp;DBA</span>         
+                                    <span>&nbsp;MySQL</span>         
+                                    <span>&nbsp;Oracle</span>
+                                    <span>&nbsp;데이터마이닝</span>
+                                    <span>&nbsp;OCP</span>
+                            </label>
+                        </div>
+                        <p class="date">2020.05.17</p>
+                    </li>
+                    <!-- 리스트 -->
+                </ul>  
+
+
+                
+                <!-- paging Btn-->
+                <div class="paging">
+                    <span>
+                        <a href="#.">
+                            <img src="../img/btn_page_first.png" alt="처음으로">
+                        </a>
+                    </span>
+                        <span>
+                            <a href="#.">
+                                <img src="../img/btn_page_pre.png" alt="이전으로">
+                            </a>
+                        </span>
+                        <span class="on">1</span>
+                        <span>
+                            <a href="">2</a>
+                        </span>
+                        <span>
+                            <a href="">3</a>
+                        </span>
+                        <span>
+                            <a href="">4</a>
+                        </span>
+                        <span>
+                            <a href="">5</a>
+                        </span>
+                        <span class="next">
+                            <a href=""><img src="../img/btn_page_next.png" alt="다음으로"></a>
+                        </span>
+                        <span>
+                            <a href="#."><img src="../img/btn_page_last.png" alt="마지막으로"></a>
+                        </span>
+                </div>
+            </div>
+        </div>
+        <!-- POPUP005_최근 검색한 조건 팝업 -->
     </div>
     <!--END Wrap-->
 </body>

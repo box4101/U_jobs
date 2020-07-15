@@ -1,5 +1,6 @@
 $black: #333;
 $mainColor: #f8a03c;
+
 .overlay div.popup h2 {
       padding-bottom: 19px;
       border-bottom: 1px solid #dbdbdb;
@@ -52,38 +53,17 @@ div#freelance_form_comple.overlay {
 // 프리랜서 찜
 div#freelance_form.overlay {
       div.popup {
-            ul.info {
+            h2 {
+                  border-bottom: 1px solid $black;
+            }
+            ul.free {
                   opacity: 1;
                   li {
-                        > div {
-                              //flex: 1;
-                        }
-                        //display: flex;
-                        //justify-content: space-between;
-                        padding: 32px 0;
+                        padding: 15px 0;
                         box-sizing: border-box;
-                        //border-bottom: 1px solid #dbdbdb;
-                        //align-items: center;
-                        div.lef {
-                              text-align: center;
-                              line-height: 51px;
-                              margin-bottom: 20px;
-                              p {
-                                    //display: flex;
-                                    //align-items: center;
-                                    display: inline-block;
-                                    font-size: 18px;
-                                    cursor: pointer;
-                                    img {
-                                          display: inline-block;
-                                          margin-right: 10px;
-                                    }
-                              }
-                        }
-
-                        div.ref {
-                              opacity: 1;
-                              text-align: center;
+                        text-align: center;
+                        & .btn01 {
+                              border: none;
                         }
                   }
             }
@@ -176,6 +156,10 @@ div#saveProfile.overlay {
 //POPUP007_프로젝트지원정보확인
 div#checkProject.overlay {
       min-width: 600px;
+      & .popup {     
+            max-height: 500px;
+            overflow-y: scroll;
+      }
       .top {
             h2 {border-bottom: 1px solid $black;}
       }
@@ -221,31 +205,227 @@ div#checkProject.overlay {
         }
       .inputInfo {
             li {
-                  padding: 15px 0;
+                  box-sizing: border-box;
             }
            .infoName {
-                 .emTit {display: inline-block;}
+                 .emTit {
+                       display: inline-block;
+                       margin-right: 100px;
+                       box-sizing: border-box;
+                  }
                  border-bottom: 1px solid #ddd;
            }
            .emTit {
-                 font:{
+                  padding: 15px 0px;
+                 font: {
                        size: 16px;
                        weight: bold;
                  }
            }
            .inputSty {
                   display: block;
+                  //margin: 10px 0px;
                   padding: 15px;
+                  box-sizing: border-box;
                   border: 1px solid #ddd;
+                  width: 100%;
            } //input style 지정
-           .exDdate {
-                  display: inline-block;
+           .kosaBox {
+                  .emTit {
+                        display: inline-block;
+                        margin-right: 50px;
+                  }
+                  label {
+                        margin-right: 20px;
+                        cursor: pointer;
+                  }
+            }
+           .exDate {
+                 width: 40%;
+                 display: inline-block;
+                 &:last-child {margin-left: 30px; }
            }
-           .goProjectDate {}
-           .price {}
+           .price {
+                  width: 40%;
+                  display: inline-block;
+                  &:last-child {margin-left: 0px; }
+           }
+           .msg {
+                  width: 100%;
+                  box-sizing: border-box;
+                  height: 150px;
+                  resize: none;
+                  margin-bottom: 15px;
+           }
       }
+      .notice {font-size: 14px;}
+      ul.btn_wrap {
+            margin-top: 20px;
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            li {
+                  margin-left: 20px;
+                  &:first-child {margin-left: 0px;}
+                  a.btn01 {
+                        width: 150px;
+                        &.on {
+                              border: 1px solid $mainColor;
+                              background:$mainColor;
+                        }
+                  }
+            }
+      }    
 }
 //POPUP007_프로젝트지원정보확인
+
+//POPUP004_최근본프로젝트팝업 001, 
+//POPUP004_최근본프로젝트팝업 002
+.recentProject {
+      .popup {
+            min-width: 600px;
+      }
+      .top {
+            h2 {border-bottom: 1px solid $black;}
+      }
+      .recentPjList {
+            & input {display: inline-block; }
+            & li {
+                  padding: 15px;
+                  box-sizing: border-box;
+                  border-bottom: 1px solid #ddd;
+                  line-height: 25px;
+                        .chName {color: $black; }
+                        .chAge {color: #a9a9a9;}
+                        .chPrice {color: #a9a9a9;}
+                        .exDate {
+                              color: $mainColor; 
+                              & span {color: #ddd; font-size: 14px;}
+                        }
+                        .jobType {color: #666; text-indent: 25px;}
+                        span.jobType {color: $black;}
+                        .pDuration {text-indent: 25px;}
+            }
+            & .allChoose {
+                  background: #f5f5f5;
+                  padding: 15px 0px; box-sizing: border-box;
+                  text-indent: 15px;
+                  & .chNum {
+                        color: $mainColor;
+                  }
+            }
+      }
+      .showAllBtn {
+            text-align: center;
+            margin: 20px 0;
+            color: #666;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            float: right;
+            & .countListNum{color: $mainColor;}
+      }
+      .paging { clear: both;}
+}
+//POPUP004_최근본프로젝트팝업 001
+//POPUP004_최근본프로젝트팝업 002
+
+//POPUP005_최근 검색한 조건 팝업 
+#recentSearch {
+      .popup {
+            min-width: 800px;
+      }
+      .top {
+            h2 {border-bottom: none;}
+      }
+      .recentSearchMenu {
+            width: 100%;
+            display: flex;
+            margin: 30px 0;
+            li {
+                  color: #ddd;
+                  flex: 1;
+                  text-align: center;
+                  border: 1px solid #ddd;
+                  border-collapse: collapse;
+                  padding: 15px 0; box-sizing: border-box;
+
+                  &.on {
+                        background: $black; 
+                        color: #fff;
+                        border: 1px solid $black;
+                  }
+            }
+      }
+      .smTit {
+            font: {
+                  size: 18px;
+                  weight: normal;
+            }
+            & span {color: #666; padding-left: 10px; box-sizing: border-box; font-size: 14px;}
+      }
+      .recentPjList {
+            display: none;
+
+            &.on {
+                  display: block;
+            }
+
+
+            & input {display: inline-block; }
+            & li {
+                  padding: 20px 15px;
+                  box-sizing: border-box;
+                  border-bottom: 1px solid #ddd;
+                  line-height: 25px;
+                  display: flex;
+                  align-items: center;
+                  .recentBoxRow{
+                        flex: 4;
+                        .jobTypeList {
+                              & span:first-child::before {
+                                    content: "";
+                              }
+                              & span::before {
+                                    content: "\2223";
+                              }
+                              & p {
+                                    & span {
+                                          display: inline-block;
+                                    }
+                              }
+                        }
+                  }
+                  .date {
+                        flex: 1;
+                        text-align: center;
+                  }
+            }
+            & .allChoose {
+                  background: #f5f5f5;
+                  padding: 15px; box-sizing: border-box;
+                  & .chNum {
+                        color: $mainColor;
+                  }
+            }
+      }
+      .showAllBtn {
+            text-align: center;
+            margin: 20px 0;
+            color: #666;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            float: right;
+            & .countListNum{color: $mainColor;}
+      }
+      .paging { clear: both;}
+}
+//POPUP005_최근 검색한 조건 팝업 
+
+
 
 // 공지사항 팝업
 div#adress_pop.overlay div.popup div.info div.fle div.lef {
